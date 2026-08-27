@@ -1,0 +1,97 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The 1967 case of 'Snippy' the horse in Colorado's San Luis Valley is considered one of the first widely-publicized animal mutilation cases, often linked to UFO folklore. What was Snippy's actual given name?",
+      "choices": [
+        "Lady",
+        "Duchess",
+        "Star",
+        "Misty"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Mutilation of \"Snippy\" the horse",
+        "url": "https://en.wikipedia.org/wiki/Mutilation_of_%22Snippy%22_the_horse"
+      },
+      "explanation": "The horse was actually named Lady, but became famously known by her nickname 'Snippy' after her mysterious death and mutilation in 1967, which helped spark the modern animal mutilation phenomenon."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The article discusses controversies surrounding the word 'niggardly,' which sounds similar to a racial slur but has no etymological connection to it. In 1999, a Washington D.C. official resigned after using this word during a staff meeting—what was his position?",
+      "choices": [
+        "Mayor of Washington D.C.",
+        "Ombudsman for the Mayor",
+        "Chief of Police",
+        "City Council President"
+      ],
+      "answerIndex": 1,
+      "article": {
+        "title": "Controversies about the word niggardly",
+        "url": "https://en.wikipedia.org/wiki/Controversies_about_the_word_niggardly"
+      },
+      "explanation": "David Howard, an ombudsman for the Mayor of Washington D.C., resigned in 1999 after using the word 'niggardly' in reference to budget funds, which was misinterpreted by some as a racial slur despite the word having no etymological connection to it."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Alaska Mental Health Enabling Act",
+        "Montana Psychiatric Assistance Act",
+        "Oregon Behavioral Health Facilitation Act",
+        "Wyoming Mental Wellness Provision Act",
+        "Nevada Mental Health Support Enactment",
+        "Colorado Psychological Services Empowerment Act"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Alaska Mental Health Enabling Act",
+        "url": "https://en.wikipedia.org/wiki/Alaska_Mental_Health_Enabling_Act"
+      },
+      "explanation": "This 1956 U.S. federal law granted Alaska one million acres of federal land to fund mental health facilities, sparking controversy over land use and federal overreach."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Psychological wellbeing of Buddha",
+        "Mental health of Jesus",
+        "Emotional stability of Muhammad",
+        "Psychiatric evaluation of Moses",
+        "Neurological condition of Confucius",
+        "Cognitive analysis of Socrates"
+      ],
+      "answerIndex": 1,
+      "article": {
+        "title": "Mental health of Jesus",
+        "url": "https://en.wikipedia.org/wiki/Mental_health_of_Jesus"
+      },
+      "explanation": "The article discusses various psychological and psychiatric analyses that have been proposed by scholars regarding the mental state of Jesus, including claims of psychosis, and the critiques of such analyses."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Luxe Sands Festival",
+        "Mirage Music Retreat",
+        "Fyre Festival",
+        "Paradiso Beach Gala",
+        "Elysium Isle Experience",
+        "Azure Coast Soiree"
+      ],
+      "answerIndex": 2,
+      "article": {
+        "title": "Fyre Festival",
+        "url": "https://en.wikipedia.org/wiki/Fyre_Festival"
+      },
+      "explanation": "Fyre Festival was a fraudulent luxury music festival in the Bahamas in 2017 that collapsed into chaos, leaving attendees without the promised accommodations, food, or performances."
+    }
+  ]
+}
