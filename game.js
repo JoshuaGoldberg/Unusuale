@@ -1,38 +1,5 @@
 'use strict';
 
-/*
- * Unusuale game engine.
- *
- * The engine knows nothing about individual puzzles. It loads
- * puzzles/<YYYY-MM-DD>.json and walks the `questions` array, handing each
- * question to the handler registered for its `type`.
- *
- * To add a round type, add one entry to QUESTION_TYPES:
- *
- *   render(question, mount, onInput) -> { getResponse }
- *       Build the input widget inside `mount`. Call onInput() whenever the
- *       player's input changes. getResponse() returns the player's answer, or
- *       null if they haven't answered yet (which keeps Submit disabled).
- *
- *   check(question, response) -> { score, answerText, note? }
- *       score is a point value from 0 up to the type's maxScore, so a type
- *       can award partial credit. answerText is the correct answer, shown
- *       in the reveal.
- *
- *   maxScore
- *       the number of points a perfect answer is worth for this type.
- *
- *   reveal(question, response, card) -> undefined, optional
- *       Called once after scoring, so a type can do extra DOM work in the
- *       reveal state (e.g. marking the correct region on a map). Every
- *       type's widget is locked automatically at this point (inputs get
- *       `disabled`; anything else should key off the card's `.locked`
- *       class, which disables pointer events on `.continent-shape`).
- *
- * Fields shared by every type -- id, type, prompt, article, explanation -- are
- * handled here, so a new type only implements its widget and its scoring.
- */
-
 var STORAGE_PREFIX = 'unusuale:v1:';
 
 // The continent map picker loads assets/continents.svg on first use and
@@ -58,7 +25,7 @@ function normalizeAnswerText(s) {
   return String(s).trim().toLowerCase().replace(/\s+/g, ' ');
 }
 
-// Iterative Levenshtein (edit) distance -- how many single-character
+// Iterative Levenshtein (edit) distance: how many single-character
 // insertions/deletions/substitutions turn `a` into `b`.
 function editDistance(a, b) {
   if (a === b) return 0;
@@ -81,7 +48,7 @@ function editDistance(a, b) {
 
 // A guess counts as correct if it's an exact match (after trimming/casing)
 // or close enough to one of the accepted answers to be a plain misspelling
-// rather than a different answer -- allow zero slack for very short
+// rather than a different answer, allow zero slack for very short
 // answers, where a single typo usually changes the word entirely.
 function isCloseEnough(guess, target) {
   if (guess === target) return true;
@@ -175,15 +142,6 @@ var QUESTION_TYPES = {
       var off = Math.abs(response - question.answer);
       if (off === 0) return { score: 500, answerText: answerText };
 
-      // Points fall off a bell curve keyed on how far off the guess was, as
-      // a percentage of the guess itself -- not the answer -- so the curve
-      // doesn't swing harsher or more lenient just because the correct
-      // answer happens to be a large or small number. `tolerance` (if
-      // given, in the question's own units) sets the curve's width, still
-      // scaled against the answer's magnitude since that's the scale the
-      // puzzle author had in mind: twice as wide as its one-standard-
-      // deviation point, so a guess off by exactly `tolerance` still
-      // scores ~441/500 rather than dropping off sharply.
       var answerMagnitude = Math.abs(question.answer) || 1;
       var guessMagnitude = Math.abs(response) || 1;
       var percentOff = off / guessMagnitude;
