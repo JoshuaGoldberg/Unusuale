@@ -139,14 +139,19 @@ var QUESTION_TYPES = {
       var off = Math.abs(response - question.answer);
       if (off === 0) return { score: 500, answerText: answerText };
 
-      // Points fall off a bell curve keyed on how far off the guess was,
-      // as a percentage of the correct answer. `tolerance` (if given, in
-      // the question's own units) sets the curve's width -- twice as wide
-      // as its one-standard-deviation point, so a guess off by exactly
-      // `tolerance` still scores ~441/500 rather than dropping off sharply.
-      var magnitude = Math.abs(question.answer) || 1;
-      var percentOff = off / magnitude;
-      var sigma = ((question.tolerance || magnitude * 0.1) / magnitude) * 2;
+      // Points fall off a bell curve keyed on how far off the guess was, as
+      // a percentage of the guess itself -- not the answer -- so the curve
+      // doesn't swing harsher or more lenient just because the correct
+      // answer happens to be a large or small number. `tolerance` (if
+      // given, in the question's own units) sets the curve's width, still
+      // scaled against the answer's magnitude since that's the scale the
+      // puzzle author had in mind: twice as wide as its one-standard-
+      // deviation point, so a guess off by exactly `tolerance` still
+      // scores ~441/500 rather than dropping off sharply.
+      var answerMagnitude = Math.abs(question.answer) || 1;
+      var guessMagnitude = Math.abs(response) || 1;
+      var percentOff = off / guessMagnitude;
+      var sigma = ((question.tolerance || answerMagnitude * 0.1) / answerMagnitude) * 2;
       var score = Math.round(500 * Math.exp(-0.5 * Math.pow(percentOff / sigma, 2)));
 
       return { score: score, answerText: answerText, note: 'Off by ' + off + '.' };
