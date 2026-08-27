@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "The Great Pigeon Uprising of 1932",
+        "Emu War",
+        "Operation Turkey Trot",
+        "The Kangaroo Rebellion",
+        "Battle of the Flightless Birds",
+        "The Ostrich Insurrection"
+      ],
+      "answerIndex": 1,
+      "article": {
+        "title": "Emu War",
+        "url": "https://en.wikipedia.org/wiki/Emu_War"
+      },
+      "explanation": "The Emu War was a 1932 wildlife management military operation in Australia aimed at culling emus that were damaging crops, which ultimately proved largely unsuccessful."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "The Great Kangaroo Uprising",
+        "The Great Emu War",
+        "The Ostrich Rebellion of 1932",
+        "The Battle of the Flightless Birds",
+        "Operation Feathered Fury",
+        "The Cassowary Conflict"
+      ],
+      "answerIndex": 1,
+      "article": {
+        "title": "Emu War",
+        "url": "https://en.wikipedia.org/wiki/Emu_War"
+      },
+      "explanation": "In 1932, the Australian military was deployed to cull emus in Western Australia after they caused agricultural damage, but the campaign was largely unsuccessful."
+    }
+  ]
+}
