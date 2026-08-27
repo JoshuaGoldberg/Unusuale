@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "The Eiffel Tower was the tallest man-made structure in the world for 41 years after its completion. How many meters tall is the Eiffel Tower (including antennas)?",
+      "answer": 330,
+      "tolerance": 5,
+      "unit": "meters",
+      "article": {
+        "title": "Eiffel Tower",
+        "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+      },
+      "explanation": "The Eiffel Tower stands at 330 meters (1,083 ft) tall, including its antennas, making it one of the most recognizable structures in the world since its completion in 1889."
+    }
+  ]
+}
