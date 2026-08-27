@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Death by coconut",
+        "The Great Emu War",
+        "Exploding whale",
+        "Battle of the Bulge Cheese",
+        "The Cheese Rolling Incident of 1897",
+        "The Toaster Rebellion"
+      ],
+      "answerIndex": 2,
+      "article": {
+        "title": "Exploding whale",
+        "url": "https://en.wikipedia.org/wiki/Exploding_whale"
+      },
+      "explanation": "In 1970, officials in Oregon used dynamite to dispose of a beached whale carcass, resulting in a famously chaotic explosion that scattered whale debris over a wide area."
+    }
+  ]
+}
