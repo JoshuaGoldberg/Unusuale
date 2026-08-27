@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Pitch Drop Experiment, running since 1927, is housed at which university?",
+      "choices": [
+        "The University of Queensland",
+        "The University of Melbourne",
+        "The Australian National University",
+        "The University of Sydney"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Pitch drop experiment",
+        "url": "https://en.wikipedia.org/wiki/Pitch_drop_experiment"
+      },
+      "explanation": "It sits in the foyer of the physics building in Brisbane, demonstrating that pitch, which shatters like glass when struck, is in fact a very slow-moving liquid."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "How many drops of pitch have fallen since the experiment began?",
+      "answer": 9,
+      "tolerance": 2,
+      "unit": "drops",
+      "article": {
+        "title": "Pitch drop experiment",
+        "url": "https://en.wikipedia.org/wiki/Pitch_drop_experiment"
+      },
+      "explanation": "The ninth drop fell in April 2014. No one has ever witnessed a drop fall in person."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "In 1518, a dancing plague seized the citizens of which city, who danced for weeks without rest?",
+      "choices": ["Basel", "Strasbourg", "Cologne", "Antwerp"],
+      "answerIndex": 1,
+      "article": {
+        "title": "Dancing plague of 1518",
+        "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518"
+      },
+      "explanation": "It began with one woman dancing in the street. Within a month, dozens had joined her, and the authorities responded by hiring musicians to accompany them."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The self-declared Principality of Sealand occupies a former wartime installation of what kind?",
+      "choices": [
+        "A lighthouse",
+        "A submarine pen",
+        "An anti-aircraft sea fort",
+        "A decommissioned oil rig"
+      ],
+      "answerIndex": 2,
+      "article": {
+        "title": "Principality of Sealand",
+        "url": "https://en.wikipedia.org/wiki/Principality_of_Sealand"
+      },
+      "explanation": "Roughs Tower, built off the coast of Suffolk during the Second World War, was occupied in 1967 and declared a sovereign state."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "In what year did a wave of molasses flood the streets of Boston?",
+      "answer": 1919,
+      "tolerance": 5,
+      "article": {
+        "title": "Great Molasses Flood",
+        "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+      },
+      "explanation": "A storage tank in the North End burst, releasing over two million gallons of molasses at an estimated 35 miles per hour. Twenty-one people died."
+    }
+  ]
+}
