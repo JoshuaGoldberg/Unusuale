@@ -563,7 +563,7 @@ function start() {
   state.date = date;
   document.getElementById('puzzle-date').textContent = formatDate(date);
 
-  fetch('puzzles/' + date + '.json')
+  fetch('puzzles/' + date + '.json', { cache: 'no-store' })
     .then(function (response) {
       if (!response.ok) throw new Error('HTTP ' + response.status);
       return response.json();
