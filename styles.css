@@ -242,6 +242,14 @@ p {
   color: var(--muted);
 }
 
+.text-input input {
+  width: 100%;
+  max-width: 24rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--border);
+  font: inherit;
+}
+
 .continent-map-wrap {
   margin: 0 0 1rem;
   text-align: center;

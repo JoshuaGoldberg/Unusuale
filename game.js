@@ -54,6 +54,42 @@ function loadContinentMap() {
   return continentMapPromise;
 }
 
+function normalizeAnswerText(s) {
+  return String(s).trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+// Iterative Levenshtein (edit) distance -- how many single-character
+// insertions/deletions/substitutions turn `a` into `b`.
+function editDistance(a, b) {
+  if (a === b) return 0;
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+
+  var prev = [];
+  for (var j = 0; j <= b.length; j++) prev[j] = j;
+
+  for (var i = 1; i <= a.length; i++) {
+    var curr = [i];
+    for (var k = 1; k <= b.length; k++) {
+      var cost = a[i - 1] === b[k - 1] ? 0 : 1;
+      curr[k] = Math.min(prev[k] + 1, curr[k - 1] + 1, prev[k - 1] + cost);
+    }
+    prev = curr;
+  }
+  return prev[b.length];
+}
+
+// A guess counts as correct if it's an exact match (after trimming/casing)
+// or close enough to one of the accepted answers to be a plain misspelling
+// rather than a different answer -- allow zero slack for very short
+// answers, where a single typo usually changes the word entirely.
+function isCloseEnough(guess, target) {
+  if (guess === target) return true;
+  if (target.length <= 3) return false;
+  var allowed = Math.max(1, Math.floor(target.length * 0.25));
+  return editDistance(guess, target) <= allowed;
+}
+
 var QUESTION_TYPES = {
   multiple: {
     render: function (question, mount, onInput) {
@@ -217,7 +253,7 @@ var QUESTION_TYPES = {
 
     check: function (question, response) {
       return {
-        score: response === question.answer ? 100 : 0,
+        score: response === question.answer ? 250 : 0,
         answerText: question.answer
       };
     },
@@ -228,6 +264,47 @@ var QUESTION_TYPES = {
     },
 
     maxScore: 250
+  },
+
+  text: {
+    render: function (question, mount, onInput) {
+      var wrap = document.createElement('p');
+      wrap.className = 'text-input';
+
+      var input = document.createElement('input');
+      input.type = 'text';
+      input.autocomplete = 'off';
+      input.autocapitalize = 'off';
+      input.spellcheck = false;
+      input.setAttribute('aria-label', question.prompt);
+      input.addEventListener('input', onInput);
+      wrap.appendChild(input);
+
+      mount.appendChild(wrap);
+
+      return {
+        getResponse: function () {
+          var value = input.value.trim();
+          return value === '' ? null : value;
+        }
+      };
+    },
+
+    check: function (question, response) {
+      var guess = normalizeAnswerText(response);
+      var candidates = [question.answer].concat(question.answers || []);
+
+      var matched = candidates.some(function (candidate) {
+        return isCloseEnough(guess, normalizeAnswerText(candidate));
+      });
+
+      return {
+        score: matched ? 500 : 0,
+        answerText: question.answer
+      };
+    },
+
+    maxScore: 500
   }
 };
 
