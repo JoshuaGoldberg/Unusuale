@@ -242,6 +242,55 @@ p {
   color: var(--muted);
 }
 
+.continent-map-wrap {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.continent-map {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.continent-shape {
+  fill: var(--border-light);
+  stroke: var(--bg);
+  stroke-width: 1;
+  cursor: pointer;
+  outline: none;
+  transition: fill 0.15s ease;
+}
+
+.continent-shape:hover {
+  fill: var(--border);
+}
+
+.continent-shape:focus-visible {
+  filter: drop-shadow(0 0 2px var(--link)) drop-shadow(0 0 2px var(--link));
+}
+
+.continent-shape.selected {
+  fill: var(--link);
+}
+
+.continent-shape.correct {
+  fill: #14866d;
+}
+
+.question.locked .continent-shape {
+  cursor: default;
+  pointer-events: none;
+}
+
+.continent-caption {
+  margin: 0.4rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
 .button {
   font: inherit;
   padding: 0.4rem 1rem;
@@ -268,6 +317,18 @@ p {
   background: var(--surface);
   padding: 0.6rem 0.9rem;
   margin: 1rem 0;
+  animation: feedback-slide-in 0.3s ease-out;
+}
+
+@keyframes feedback-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .feedback.right { border-left-color: #14866d; }

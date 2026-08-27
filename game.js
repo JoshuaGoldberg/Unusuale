@@ -22,11 +22,37 @@
  *   maxScore
  *       the number of points a perfect answer is worth for this type.
  *
+ *   reveal(question, response, card) -> undefined, optional
+ *       Called once after scoring, so a type can do extra DOM work in the
+ *       reveal state (e.g. marking the correct region on a map). Every
+ *       type's widget is locked automatically at this point (inputs get
+ *       `disabled`; anything else should key off the card's `.locked`
+ *       class, which disables pointer events on `.continent-shape`).
+ *
  * Fields shared by every type -- id, type, prompt, article, explanation -- are
  * handled here, so a new type only implements its widget and its scoring.
  */
 
 var STORAGE_PREFIX = 'unusuale:v1:';
+
+// The continent map picker loads assets/continents.svg on first use and
+// caches the parsed template -- see loadContinentMap() below.
+var CONTINENT_MAP_URL = 'assets/continents.svg';
+var continentMapPromise = null;
+
+function loadContinentMap() {
+  if (!continentMapPromise) {
+    continentMapPromise = fetch(CONTINENT_MAP_URL)
+      .then(function (response) {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.text();
+      })
+      .then(function (text) {
+        return new DOMParser().parseFromString(text, 'image/svg+xml').documentElement;
+      });
+  }
+  return continentMapPromise;
+}
 
 var QUESTION_TYPES = {
   multiple: {
@@ -115,17 +141,88 @@ var QUESTION_TYPES = {
 
       // Points fall off a bell curve keyed on how far off the guess was,
       // as a percentage of the correct answer. `tolerance` (if given, in
-      // the question's own units) sets the curve's one-standard-deviation
-      // width; a guess that's off by exactly `tolerance` scores ~303/500.
+      // the question's own units) sets the curve's width -- twice as wide
+      // as its one-standard-deviation point, so a guess off by exactly
+      // `tolerance` still scores ~441/500 rather than dropping off sharply.
       var magnitude = Math.abs(question.answer) || 1;
       var percentOff = off / magnitude;
-      var sigma = (question.tolerance || magnitude * 0.1) / magnitude;
+      var sigma = ((question.tolerance || magnitude * 0.1) / magnitude) * 2;
       var score = Math.round(500 * Math.exp(-0.5 * Math.pow(percentOff / sigma, 2)));
 
       return { score: score, answerText: answerText, note: 'Off by ' + off + '.' };
     },
 
     maxScore: 500
+  },
+
+  continent: {
+    render: function (question, mount, onInput) {
+      var wrap = document.createElement('div');
+      wrap.className = 'continent-map-wrap';
+
+      var caption = document.createElement('p');
+      caption.className = 'continent-caption';
+      caption.textContent = 'Loading map…';
+      wrap.appendChild(caption);
+      mount.appendChild(wrap);
+
+      var selected = null;
+
+      loadContinentMap().then(function (template) {
+        var svg = template.cloneNode(true);
+        svg.removeAttribute('width');
+        svg.removeAttribute('height');
+        svg.classList.add('continent-map');
+        svg.setAttribute('role', 'group');
+        svg.setAttribute('aria-label', 'World map, pick a continent');
+
+        svg.querySelectorAll('.continent-shape').forEach(function (shape) {
+          var name = shape.getAttribute('data-continent');
+
+          var select = function () {
+            selected = name;
+            svg.querySelectorAll('.continent-shape').forEach(function (node) {
+              node.classList.toggle('selected', node === shape);
+            });
+            caption.textContent = 'Selected: ' + name;
+            onInput();
+          };
+
+          shape.addEventListener('click', select);
+          shape.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              select();
+            }
+          });
+        });
+
+        wrap.insertBefore(svg, caption);
+        caption.textContent = 'Click a continent.';
+      }, function () {
+        caption.textContent = 'The map failed to load.';
+      });
+
+      return {
+        getResponse: function () {
+          return selected;
+        }
+      };
+    },
+
+    check: function (question, response) {
+      return {
+        score: response === question.answer ? 100 : 0,
+        answerText: question.answer
+      };
+    },
+
+    reveal: function (question, response, card) {
+      var correct = card.querySelector('.continent-shape[data-continent="' + question.answer + '"]');
+      if (correct) correct.classList.add('correct');
+    },
+
+    maxScore: 250
   }
 };
 
@@ -296,11 +393,18 @@ function renderQuestion() {
 function revealAnswer(question, response, card, submit) {
   submit.remove();
 
+  card.classList.add('locked');
   card.querySelectorAll('input').forEach(function (input) { input.disabled = true; });
+  card.querySelectorAll('.continent-shape').forEach(function (shape) {
+    shape.setAttribute('tabindex', '-1');
+  });
 
   var result = scoreOf(question, response);
   var outcome = classify(result);
   var box = element('div', 'feedback ' + outcome);
+
+  var handler = QUESTION_TYPES[question.type];
+  if (handler && handler.reveal) handler.reveal(question, response, card);
 
   var verdict = outcome === 'right' ? 'Correct.' : outcome === 'partial' ? 'Almost.' : 'Not quite.';
   box.appendChild(element('p', 'verdict', verdict + (result.note ? ' ' + result.note : '')));
