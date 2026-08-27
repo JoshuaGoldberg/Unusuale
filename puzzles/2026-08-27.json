@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Monkey selfie copyright dispute",
+        "The Great Emu War of Australia",
+        "Dolphin trademark infringement case",
+        "Parrot inheritance lawsuit",
+        "Elephant patent controversy",
+        "Squirrel property rights debate"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Monkey selfie copyright dispute",
+        "url": "https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute"
+      },
+      "explanation": "A legal dispute arose over the copyright ownership of selfie photographs taken by a macaque monkey using a photographer's camera, ultimately ruling that animals cannot hold copyrights."
+    },
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "The Great Emu War Treaty",
+        "Monkey selfie copyright dispute",
+        "The Sentient Toaster Rebellion",
+        "Squirrel Nutkin Trademark Case",
+        "The Penguin Passport Incident",
+        "Dolphin Diplomatic Immunity Act"
+      ],
+      "answerIndex": 1,
+      "article": {
+        "title": "Monkey selfie copyright dispute",
+        "url": "https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute"
+      },
+      "explanation": "A legal dispute arose over the copyright status of selfies taken by a macaque monkey using a photographer's camera, with courts ultimately ruling that animals cannot hold copyrights."
+    }
+  ]
+}
