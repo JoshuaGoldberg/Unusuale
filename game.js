@@ -191,6 +191,11 @@ var QUESTION_TYPES = {
           shape.addEventListener('keydown', function (event) {
             if (event.key === 'Enter' || event.key === ' ') {
               event.preventDefault();
+              // Selecting a continent already responds to Enter on its own;
+              // stop it here so the page-wide Enter-to-submit handler below
+              // doesn't also fire and submit before the player can review
+              // their pick.
+              event.stopPropagation();
               select();
             }
           });
@@ -412,7 +417,7 @@ function renderQuestion() {
   card.appendChild(widgetHost);
   mount.appendChild(card);
 
-  var submit = element('button', 'button', 'Submit');
+  var submit = element('button', 'button primary-action', 'Submit');
   submit.type = 'button';
   submit.disabled = true;
   mount.appendChild(submit);
@@ -478,7 +483,7 @@ function revealAnswer(question, response, card, submit) {
 }
 
 function nextButton(label) {
-  var button = element('button', 'button', label);
+  var button = element('button', 'button primary-action', label);
   button.type = 'button';
   button.addEventListener('click', function () {
     state.index += 1;
@@ -555,6 +560,18 @@ function renderError(message) {
   back.appendChild(link);
   mount.appendChild(back);
 }
+
+// Enter triggers whichever primary action is currently active -- Submit
+// while answering, Next round/See results/Skip once revealed. Continent
+// shapes handle their own Enter (see stopPropagation above) so this only
+// ever sees the keystroke when nothing on the map absorbed it first.
+document.addEventListener('keydown', function (event) {
+  if (event.key !== 'Enter' || event.repeat) return;
+  var action = mount.querySelector('.primary-action:not(:disabled)');
+  if (!action) return;
+  event.preventDefault();
+  action.click();
+});
 
 /* ---------- boot ---------- */
 
