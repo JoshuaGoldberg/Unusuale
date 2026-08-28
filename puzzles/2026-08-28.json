@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "prompt": "Soldiers have occasionally been trained to use the bicycle for military purposes, as described in the Wikipedia article on Bicycle infantry. During the Japanese Malayan Campaign in World War II, British troops reportedly mistook the clattering noise of enemy bicycle chains for the sound of what approaching armored vehicles?",
+      "answer": "Tanks",
+      "hint": "5 letters; heavy armored vehicles that move on tracks",
+      "article": {
+        "title": "Bicycle infantry",
+        "url": "https://en.wikipedia.org/wiki/Bicycle_infantry"
+      },
+      "explanation": "During the rapid Japanese advance through Malaya, bicycle infantry allowed troops to move quickly through jungle terrain. The distinctive clattering sound of their bicycle chains was reportedly mistaken by British forces for the sound of approaching tanks, adding to the psychological impact of the invasion."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis British light entertainment television program featured singers and dancers, many performing in blackface, showcasing minstrel, country and pop songs. It aired on BBC television for two decades before being cancelled amid growing controversy over its racial depictions.",
+      "choices": [
+        "Opportunity Knocks",
+        "The Black and White Minstrel Show",
+        "The Good Old Days",
+        "Sunday Night at the London Palladium"
+      ],
+      "hint": "The correct answer is not a talent competition show and is not associated with the London Palladium theatre.",
+      "answerIndex": 1,
+      "article": {
+        "title": "The Black and White Minstrel Show",
+        "url": "https://en.wikipedia.org/wiki/The_Black_and_White_Minstrel_Show"
+      },
+      "explanation": "The article describes The Black and White Minstrel Show, a BBC variety program that ran from 1958 to 1978, known for its blackface performances and eventual cancellation due to changing social attitudes toward race."
+    },
+    {
+      "id": "q3",
+      "type": "number",
+      "prompt": "The term 'fluffy bunny' is a controversial epithet in Wicca used to mock practitioners seen as superficial. In what year did this derogatory nickname first begin circulating within Pagan online communities?",
+      "answer": 1994,
+      "tolerance": 2,
+      "unit": "",
+      "hint": "It emerged sometime after 1990, in the early days of internet Pagan forums.",
+      "article": {
+        "title": "Fluffy bunny (Wicca)",
+        "url": "https://en.wikipedia.org/wiki/Fluffy_bunny_(Wicca)"
+      },
+      "explanation": "The term 'fluffy bunny' originated in the early-to-mid 1990s within online Pagan and Wiccan communities as a way to criticize practitioners viewed as shallow or uninformed about the tradition's deeper history and practices."
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "La Princesse, a 15-metre (50 ft) mechanical spider that stomped about Liverpool in 2008, was famously heavy for its size. How many tonnes did this giant spider weigh?",
+      "answer": 37,
+      "tolerance": 3,
+      "unit": "tonnes",
+      "hint": "It weighed more than 28 tonnes.",
+      "article": {
+        "title": "La Princesse",
+        "url": "https://en.wikipedia.org/wiki/La_Princesse"
+      },
+      "explanation": "La Princesse, the giant mechanical spider created by French company La Machine, weighed 37 tonnes and stood 15 metres tall as it wandered through Liverpool's streets in 2008 as part of the city's European Capital of Culture celebrations."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual park dedicated to a famous musician?",
+      "choices": [
+        "Bob Dylan Square",
+        "Freddie Mercury Plaza",
+        "John Lennon Park",
+        "Jim Morrison Garden"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the park named after the Queen frontman, nor the one honoring the American singer-songwriter behind 'Like a Rolling Stone.'",
+      "article": {
+        "title": "John Lennon Park",
+        "url": "https://en.wikipedia.org/wiki/John_Lennon_Park"
+      },
+      "explanation": "Located in Havana, Cuba, a country that once banned his music as a Western cultural import, this park features a statue of John Lennon that is often missing its glasses due to repeated theft or vandalism, prompting officials to station a guard nearby who can provide a pair upon request."
+    },
+    {
+      "id": "q6",
+      "type": "number",
+      "prompt": "During the infamous 1989 World Cup qualifier at the Maracanã, Chilean goalkeeper Roberto Rojas, desperate to help his team qualify for the 1990 World Cup, cut himself with a hidden razor blade to fake an injury from a flare thrown by Brazilian fans. In what minute of the match did this staged incident occur?",
+      "answer": 67,
+      "tolerance": 8,
+      "unit": "minutes",
+      "hint": "It happened sometime after the 50th minute of the match.",
+      "article": {
+        "title": "El Maracanazo",
+        "url": "https://en.wikipedia.org/wiki/El_Maracanazo"
+      },
+      "explanation": "In the 67th minute of the match, with Brazil leading 1-0, a flare was thrown near Roberto Rojas, who then used a razor blade concealed in his glove to cut his forehead, faking an injury to have the match abandoned in Chile's favor. The plot was exposed and Chile was banned from the 1994 World Cup qualifiers."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual legal case involving a complaint about the lack of gemütlichkeit during a Swiss Christmas holiday?",
+      "choices": [
+        "Whitfield v Riviera Excursions Ltd",
+        "Thompson v Continental Tours Ltd",
+        "Jarvis v Swans Tours Ltd",
+        "Baldwin v Alpine Holidays Ltd"
+      ],
+      "answerIndex": 2,
+      "hint": "The case does not involve 'Riviera Excursions Ltd' or 'Continental Tours Ltd' as defendants.",
+      "article": {
+        "title": "Jarvis v Swans Tours Ltd",
+        "url": "https://en.wikipedia.org/wiki/Jarvis_v_Swans_Tours_Ltd"
+      },
+      "explanation": "The case established that damages for breach of contract in English law can include compensation for disappointment and loss of enjoyment, after a man's Swiss Christmas holiday failed to live up to its advertised cozy atmosphere (gemütlichkeit)."
+    },
+    {
+      "id": "q8",
+      "type": "text",
+      "prompt": "In a 2018 friendly match against Slovakia, Denmark had to field a team of amateur and futsal players due to a dispute with the players' union. What sport, played on a smaller indoor court, did many of these substitute players normally compete in?",
+      "answer": "Futsal",
+      "hint": "6 letters. This is a variant of football played indoors on a hard court with a smaller ball.",
+      "article": {
+        "title": "2018 Slovakia v Denmark football match",
+        "url": "https://en.wikipedia.org/wiki/2018_Slovakia_v_Denmark_football_match"
+      },
+      "explanation": "Due to a labor dispute between the Danish Football Union and the players' union, Denmark's regular national team players boycotted the match, forcing the team to field a squad largely made up of amateur and futsal players."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Charles Paul Narcisse Moreau was a French colonel who also published multiple mathematics papers and set the record for the worst performance in an international chess tournament. How many games did he lose without a single win or draw in this record-setting tournament?",
+      "choices": [
+        "26",
+        "18",
+        "22",
+        "14"
+      ],
+      "hint": "It wasn't 18 or 14; the number is on the higher end of the choices.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Charles Paul Narcisse Moreau",
+        "url": "https://en.wikipedia.org/wiki/Charles_Paul_Narcisse_Moreau"
+      },
+      "explanation": "Moreau lost all 22 of his games at the Monte Carlo 1903 chess tournament, setting the record for the worst performance in an international chess tournament."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual musical instrument, one that's an instrument in Newfoundland but an insult everywhere else?",
+      "choices": [
+        "Junk harp",
+        "Washboard fiddle",
+        "Ugly stick",
+        "Spoon banjo"
+      ],
+      "answerIndex": 2,
+      "hint": "The real instrument's name is not 'Junk harp' or 'Spoon banjo', those are made up.",
+      "article": {
+        "title": "Ugly stick",
+        "url": "https://en.wikipedia.org/wiki/Ugly_stick"
+      },
+      "explanation": "The ugly stick is a traditional Newfoundland percussion instrument made from household items like a broom handle and bottle caps."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
