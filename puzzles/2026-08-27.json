@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual sorting algorithm?",
+      "choices": [
+        "Spaghetti sort",
+        "Pancake stack sort",
+        "Noodle bubble sort",
+        "Linguine merge sort"
+      ],
+      "answerIndex": 0,
+      "hint": "The correct answer is a physical, analog sorting method that uses uncooked pasta strands cut to represent values, not a variation of a standard comparison-based sorting algorithm like bubble or merge sort.",
+      "article": {
+        "title": "Spaghetti sort",
+        "url": "https://en.wikipedia.org/wiki/Spaghetti_sort"
+      },
+      "explanation": "Spaghetti sort is a linear-time, analog sorting algorithm that uses the physical lengths of spaghetti rods to sort numbers by simply standing them up and letting the tallest ones be identified first."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Hannes Þór Halldórsson, the Icelandic national team goalkeeper, famously saved a penalty kick from which legendary player during the 2018 FIFA World Cup?",
+      "choices": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Neymar",
+        "Luka Modrić"
+      ],
+      "hint": "The player who missed this penalty is Argentine and is widely considered one of the greatest footballers of all time, often compared to Cristiano Ronaldo.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Hannes Þór Halldórsson",
+        "url": "https://en.wikipedia.org/wiki/Hannes_%C3%9E%C3%B3r_Halld%C3%B3rsson"
+      },
+      "explanation": "Hannes Þór Halldórsson saved a penalty kick from Lionel Messi during Iceland's match against Argentina in the 2018 FIFA World Cup, a historic moment for Icelandic football."
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "prompt": "On the show 'Last Week Tonight,' John Oliver paid the city of Danbury, Connecticut to rename its sewer plant after him as a joke about Emmy campaigning — how much money did he donate to secure the naming rights?",
+      "answer": "$55,000",
+      "hint": "7 characters including a dollar sign; the amount was donated to a charity supporting clean water access.",
+      "article": {
+        "title": "John Oliver Memorial Sewer Plant",
+        "url": "https://en.wikipedia.org/wiki/John_Oliver_Memorial_Sewer_Plant"
+      },
+      "explanation": "John Oliver donated $55,000 to the city of Danbury, Connecticut, in exchange for renaming its sewer plant after him, as part of a comedic segment mocking Emmy campaign tactics. The donation money was given to a charity focused on clean water access."
+    }
+  ]
+}
