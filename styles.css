@@ -169,6 +169,15 @@ p {
 
 /* ---------- Game ---------- */
 
+/* Text is set via textContent, so a literal newline in a prompt, choice,
+   hint, or explanation is real text, not markup -- but the default
+   white-space (normal) collapses it into a space like any other run of
+   whitespace. pre-line keeps line breaks (and still wraps normally) so
+   multi-line puzzle content actually shows on separate lines. */
+#game {
+  white-space: pre-line;
+}
+
 .progress {
   color: var(--muted);
   font-size: 0.75rem;
