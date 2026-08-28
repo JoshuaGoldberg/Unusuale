@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "One of these enzymes is a real biochemical speedster, capable of slashing a reaction time from 78 million years down to just 18 milliseconds. Which one deserves the trophy for the most extreme catalysis in nature?",
+      "choices": [
+        "Thermostable Luciferase Synthase",
+        "Orotidine 5′-phosphate decarboxylase",
+        "Rapidase Phosphokinetin",
+        "Chronozyme Beta-Oxidase"
+      ],
+      "answerIndex": 1,
+      "hint": "The real enzyme's name refers to a specific nucleotide modification process, not a made-up 'speed' or 'time' themed term.",
+      "article": {
+        "title": "Orotidine 5′-phosphate decarboxylase",
+        "url": "https://en.wikipedia.org/wiki/Orotidine_5%E2%80%B2-phosphate_decarboxylase"
+      },
+      "explanation": "Orotidine 5′-phosphate decarboxylase is an enzyme involved in pyrimidine biosynthesis that holds the record for the greatest rate enhancement known in enzymatic catalysis."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article are we describing? Bonus points if you already know the creators behind Hong Kong 97 apparently couldn't resist a follow-up act.\nA strategy game created by the same people responsible for Hong Kong 97 where you play as Shoko Asahara and the end goal is to carry out the Tokyo subway sarin gas attack. Often mistakenly believed to have been created by Asahara's cult themselves as propaganda.",
+      "choices": [
+        "The Story of Kamikuishiki Village",
+        "Aum Shinrikyo: The Final War",
+        "Subway Simulator: Tokyo 1995",
+        "97: Guardian of the Cult"
+      ],
+      "hint": "The real title references a specific village in Japan, not a date, subway system, or the cult's name directly.",
+      "answerIndex": 0,
+      "article": {
+        "title": "The Story of Kamikuishiki Village",
+        "url": "https://en.wikipedia.org/wiki/The_Story_of_Kamikuishiki_Village"
+      },
+      "explanation": "The correct answer is 'The Story of Kamikuishiki Village,' a bizarre and controversial video game made by the same developers behind the infamous Hong Kong 97, casting players as cult leader Shoko Asahara working toward the 1995 Tokyo subway sarin attack. Despite its shocking premise, it was not created by Aum Shinrikyo as propaganda, though that misconception persists."
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "Sikh underwear made history in more ways than one: In what year did Guru Gobind Singh institute the Kachera as one of the Five Ks upon founding the Khalsa?",
+      "answer": 1699,
+      "tolerance": 0,
+      "unit": "",
+      "hint": "Look between the ranges 1650 and 1750",
+      "article": {
+        "title": "Kachera",
+        "url": "https://en.wikipedia.org/wiki/Kachera"
+      },
+      "explanation": "The article states that the Kachera became mandatory for baptized Sikhs in 1699, when Guru Gobind Singh established the Khalsa and instituted the Five Ks."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "U Thant Island is a tiny landmass in New York's East River—just 2,000 square feet, yet packed with surprisingly deep history. What was this artificial island originally created from?",
+      "choices": [
+        "Rock excavated during subway tunnel construction",
+        "Debris from the construction of the Brooklyn Bridge",
+        "Ballast dumped from 19th-century cargo ships",
+        "Landfill from the construction of the United Nations headquarters"
+      ],
+      "hint": "The island's formation is tied to underground infrastructure work in NYC, not to bridges or ships—think of what needs to be dug out to build something below the surface.",
+      "answerIndex": 0,
+      "article": {
+        "title": "U Thant Island",
+        "url": "https://en.wikipedia.org/wiki/U_Thant_Island"
+      },
+      "explanation": "U Thant Island was formed from rock excavated during the construction of a subway tunnel, and later became known for its connection to the UN and its use as a bird sanctuary."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Forget cockfighting with roosters — some flatworms take the phrase quite literally. Which article describes this fittingly named practice?\nA literal, figurative variety of cockfighting between some species of flatworm, in which two hermaphroditic worms duel with their penises to determine who will play the role of male inseminator rather than the more costly female egg-bearer.",
+      "choices": [
+        "Penis fencing",
+        "Traumatic insemination",
+        "Hermaphroditic dueling",
+        "Sexual conflict"
+      ],
+      "hint": "The correct term directly names the body part involved and uses a sporting metaphor for combat — think swords, not stingers or wounds.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Penis fencing",
+        "url": "https://en.wikipedia.org/wiki/Penis_fencing"
+      },
+      "explanation": "The correct answer is 'Penis fencing,' a mating behavior observed in some flatworm species where two hermaphroditic individuals joust with their penises to avoid being the one that must bear the resulting eggs."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a Christmas attraction so bad it single-handedly ruined the holidays for Hampshire in 2008?",
+      "choices": [
+        "Lapland New Forest",
+        "Santa's Frost Kingdom",
+        "Winterland Fantasy Grove",
+        "Snowdrop Yuletide Park"
+      ],
+      "answerIndex": 0,
+      "hint": "The real attraction's name directly references its real-world location, an actual national park in southern England — not a whimsical, made-up wonderland title.",
+      "article": {
+        "title": "Lapland New Forest",
+        "url": "https://en.wikipedia.org/wiki/Lapland_New_Forest"
+      },
+      "explanation": "Lapland New Forest was a fraudulent Christmas theme park in Hampshire in 2008 that was shut down after visitors complained it was nothing like its promised winter wonderland."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which article describes ambitious (and often controversial) plans to launch giant billboards into space, turning the night sky into prime advertising real estate?\nProposals have included inflatable orbital displays visible from Earth, though many faced criticism over light pollution and were ultimately banned or never realized.",
+      "choices": [
+        "Space advertising",
+        "Orbital debris mitigation",
+        "Skywriting",
+        "Satellite broadcasting"
+      ],
+      "hint": "The correct answer is not about cleaning up space junk, nor is it about writing messages using airplane smoke trails or broadcasting TV signals.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Space advertising",
+        "url": "https://en.wikipedia.org/wiki/Space_advertising"
+      },
+      "explanation": "The article 'Space advertising' discusses concepts and proposals for placing advertisements in outer space, including giant orbital billboards meant to be visible from Earth, many of which raised concerns about light pollution and were never launched."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "In this incident, which the Wikipedia summary bluntly describes as 'Speaks for itself,' George H. W. Bush vomited on Japanese Prime Minister Kiichi Miyazawa at a 1992 state dinner and then briefly lost consciousness. For about how many minutes was Bush unconscious?",
+      "answer": 10,
+      "tolerance": 3,
+      "unit": "minutes",
+      "hint": "Look between 6 and 14 minutes.",
+      "article": {
+        "title": "George H. W. Bush vomiting incident",
+        "url": "https://en.wikipedia.org/wiki/George_H._W._Bush_vomiting_incident"
+      },
+      "explanation": "During the state dinner in Tokyo on January 8, 1992, Bush vomited into the lap of Prime Minister Miyazawa and fainted, remaining unconscious for approximately 10 minutes before recovering."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "In the 2026 US Senate election in Alaska, incumbent Senator Dan Sullivan faces competition from Democrat Mary Peltola and a political outsider who happens to share his exact name. What is the name of this same-named challenger running against Senator Dan Sullivan?",
+      "answer": "Dan Sullivan",
+      "hint": "3 words, 11 letters total (not counting spaces) - it's literally identical to the incumbent senator's name",
+      "article": {
+        "title": "2026 United States Senate election in Alaska",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
+      },
+      "explanation": "The article notes the unusual coincidence that incumbent Senator Dan Sullivan will face a political outsider also named Dan Sullivan, in addition to Democrat Mary Peltola, making for a rather confusing ballot."
+    }
+  ]
+}
