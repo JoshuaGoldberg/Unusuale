@@ -301,9 +301,9 @@ function loadSaved(date) {
   }
 }
 
-function save(date, responses) {
+function save(date, responses, hintsUsed) {
   try {
-    window.localStorage.setItem(STORAGE_PREFIX + date, JSON.stringify({ responses: responses }));
+    window.localStorage.setItem(STORAGE_PREFIX + date, JSON.stringify({ responses: responses, hintsUsed: hintsUsed }));
   } catch (err) {
     /* Private browsing, quota, etc. The game still plays; it just won't persist. */
   }
@@ -321,7 +321,7 @@ function element(tag, className, text) {
 var mount = document.getElementById('game');
 var scoreTracker = document.getElementById('score-tracker');
 var scoreValue = document.getElementById('score-value');
-var state = { date: null, puzzle: null, index: 0, responses: [] };
+var state = { date: null, puzzle: null, index: 0, responses: [], hintsUsed: [] };
 var displayedScore = 0;
 var scoreAnimFrame = null;
 
@@ -363,26 +363,32 @@ function animateScoreTo(target) {
   scoreAnimFrame = requestAnimationFrame(step);
 }
 
-function scoreOf(question, response) {
+function scoreOf(question, response, hintUsed) {
   var handler = QUESTION_TYPES[question.type];
   var maxScore = handler ? handler.maxScore : 0;
   if (!handler || response === null || response === undefined) {
-    return { score: 0, maxScore: maxScore, answerText: '' };
+    return { score: 0, maxScore: maxScore, answerText: '', outcome: 'wrong' };
   }
   var result = handler.check(question, response);
   result.maxScore = maxScore;
+  // Outcome (right/partial/wrong) reflects whether the answer itself was
+  // correct, computed before the hint penalty -- getting it right after
+  // using a hint is still "Correct.", just worth half the points.
+  result.outcome = !maxScore || result.score <= 0 ? 'wrong'
+    : result.score >= maxScore ? 'right' : 'partial';
+  if (hintUsed) {
+    result.score = Math.round(result.score * 0.5);
+  }
   return result;
 }
 
 function classify(result) {
-  if (!result.maxScore || result.score <= 0) return 'wrong';
-  if (result.score >= result.maxScore) return 'right';
-  return 'partial';
+  return result.outcome;
 }
 
 function totalScore() {
   return state.puzzle.questions.reduce(function (sum, question, i) {
-    return sum + scoreOf(question, state.responses[i]).score;
+    return sum + scoreOf(question, state.responses[i], state.hintsUsed[i]).score;
   }, 0);
 }
 
@@ -422,6 +428,19 @@ function renderQuestion() {
   submit.disabled = true;
   mount.appendChild(submit);
 
+  var hintUsed = false;
+
+  if (question.hint) {
+    var hintButton = element('button', 'button hint-button', 'Show hint (half credit)');
+    hintButton.type = 'button';
+    hintButton.addEventListener('click', function () {
+      hintUsed = true;
+      hintButton.disabled = true;
+      card.appendChild(element('p', 'hint-reveal', question.hint));
+    });
+    mount.appendChild(hintButton);
+  }
+
   var widget = handler.render(question, widgetHost, function () {
     submit.disabled = widget.getResponse() === null;
   });
@@ -430,12 +449,13 @@ function renderQuestion() {
     var response = widget.getResponse();
     if (response === null) return;
     state.responses[state.index] = response;
-    save(state.date, state.responses);
-    revealAnswer(question, response, card, submit);
+    state.hintsUsed[state.index] = hintUsed;
+    save(state.date, state.responses, state.hintsUsed);
+    revealAnswer(question, response, card, submit, hintUsed);
   });
 }
 
-function revealAnswer(question, response, card, submit) {
+function revealAnswer(question, response, card, submit, hintUsed) {
   submit.remove();
 
   card.classList.add('locked');
@@ -443,8 +463,9 @@ function revealAnswer(question, response, card, submit) {
   card.querySelectorAll('.continent-shape').forEach(function (shape) {
     shape.setAttribute('tabindex', '-1');
   });
+  mount.querySelectorAll('.hint-button').forEach(function (button) { button.remove(); });
 
-  var result = scoreOf(question, response);
+  var result = scoreOf(question, response, hintUsed);
   var outcome = classify(result);
   var box = element('div', 'feedback ' + outcome);
 
@@ -453,7 +474,7 @@ function revealAnswer(question, response, card, submit) {
 
   var verdict = outcome === 'right' ? 'Correct.' : outcome === 'partial' ? 'Almost.' : 'Not quite.';
   box.appendChild(element('p', 'verdict', verdict + (result.note ? ' ' + result.note : '')));
-  box.appendChild(element('p', 'points', '+' + result.score + ' points'));
+  box.appendChild(element('p', 'points', '+' + result.score + ' points' + (hintUsed ? ' (half credit, hint used)' : '')));
 
   animateScoreTo(totalScore());
 
@@ -498,7 +519,7 @@ function nextButton(label) {
 
 function shareText() {
   var grid = state.puzzle.questions.map(function (question, i) {
-    var result = scoreOf(question, state.responses[i]);
+    var result = scoreOf(question, state.responses[i], state.hintsUsed[i]);
     var outcome = classify(result);
     return outcome === 'right' ? '🟩' : outcome === 'partial' ? '🟨' : '⬜';
   }).join('');
@@ -516,7 +537,7 @@ function renderResults() {
 
   var summary = element('ol', 'summary');
   state.puzzle.questions.forEach(function (question, i) {
-    var result = scoreOf(question, state.responses[i]);
+    var result = scoreOf(question, state.responses[i], state.hintsUsed[i]);
     var item = element('li', classify(result));
     item.appendChild(element('span', 'summary-prompt', question.prompt));
     if (result.answerText) {
@@ -597,6 +618,9 @@ function start() {
       var saved = loadSaved(date);
       if (saved && Array.isArray(saved.responses)) {
         state.responses = saved.responses.slice(0, puzzle.questions.length);
+        state.hintsUsed = Array.isArray(saved.hintsUsed)
+          ? saved.hintsUsed.slice(0, puzzle.questions.length)
+          : [];
         state.index = state.responses.length;
       }
 

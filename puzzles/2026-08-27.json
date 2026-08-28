@@ -14,7 +14,12 @@
         "Wonderworld Amusement Park (Tianjin)",
         "Enchanted Kingdom Amusement Park (Xi'an)"
       ],
+<<<<<<< Updated upstream
       "answerIndex": 1,
+=======
+      "answerIndex": 0,
+      "hint": "Her real name was plain and traditional, nothing like the ominous nickname she became known by.",
+>>>>>>> Stashed changes
       "article": {
         "title": "Wonderland Amusement Park (Beijing)",
         "url": "https://en.wikipedia.org/wiki/Wonderland_Amusement_Park_(Beijing)"
@@ -32,6 +37,7 @@
         "Leonard Susskind"
       ],
       "answerIndex": 1,
+      "hint": "He wasn't the mayor himself — his job was to field citizen complaints and act as a go-between for the mayor's office.",
       "article": {
         "title": "Bubble of nothing",
         "url": "https://en.wikipedia.org/wiki/Bubble_of_nothing"
@@ -49,6 +55,7 @@
         "Osaka and Nagasaki"
       ],
       "answerIndex": 0,
+      "hint": "The real one was a 1950s U.S. federal law, passed back when the state it names wasn't even a state yet.",
       "article": {
         "title": "Tsutomu Yamaguchi",
         "url": "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi"
@@ -57,9 +64,24 @@
     },
     {
       "id": "q4",
+<<<<<<< Updated upstream
       "type": "text",
       "prompt": "In the article about the historical 'One-armed versus one-legged cricket' matches played by disabled war veterans, at which famous London cricket ground were these novelty matches held?",
       "answer": "Lord's",
+=======
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Psychological wellbeing of Buddha",
+        "Mental health of Jesus",
+        "Emotional stability of Muhammad",
+        "Psychiatric evaluation of Moses",
+        "Neurological condition of Confucius",
+        "Cognitive analysis of Socrates"
+      ],
+      "answerIndex": 1,
+      "hint": "The real article covers a religious figure whose life and reported visions have drawn centuries of psychological and theological debate.",
+>>>>>>> Stashed changes
       "article": {
         "title": "One-armed versus one-legged cricket",
         "url": "https://en.wikipedia.org/wiki/One-armed_versus_one-legged_cricket"
@@ -68,9 +90,24 @@
     },
     {
       "id": "q5",
+<<<<<<< Updated upstream
       "type": "text",
       "prompt": "In the Scottish Highland divination practice of Taghairm, which sometimes involved roasting live cats on a spit to summon a great supernatural cat, how many consecutive days and nights was this ritual said to last?",
       "answer": "four",
+=======
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Luxe Sands Festival",
+        "Mirage Music Retreat",
+        "Fyre Festival",
+        "Paradiso Beach Gala",
+        "Elysium Isle Experience",
+        "Azure Coast Soiree"
+      ],
+      "answerIndex": 2,
+      "hint": "The real one is a 2017 event now infamous for cheese sandwiches, disaster-relief tents, and stranded influencers.",
+>>>>>>> Stashed changes
       "article": {
         "title": "Taghairm",
         "url": "https://en.wikipedia.org/wiki/Taghairm"
