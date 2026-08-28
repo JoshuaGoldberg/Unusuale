@@ -1,87 +1,151 @@
 {
   "date": "2026-08-28",
-  "title": "Puzzle No. 1",
+  "title": "Puzzle No. 2",
   "questions": [
     {
       "id": "q1",
       "type": "number",
-      "prompt": "In Taiwan's 'Kuai Kuai culture,' green packages of the Kuai Kuai snack are placed on machinery for good luck, a tradition rooted in the snack brand's history. In what year was the Kuai Kuai snack brand founded?",
-      "answer": 1968,
-      "tolerance": 0,
+      "prompt": "Coochy coo! Trout tickling, the old-fashioned technique of catching fish by hand, was first described in print in a fishing treatise attributed to Dame Juliana Berners. In what year was this treatise published?",
+      "answer": 1496,
+      "tolerance": 5,
       "unit": "",
+      "hint": "It was published sometime between 1480 and 1540.",
       "article": {
-        "title": "Kuai Kuai culture",
-        "url": "https://en.wikipedia.org/wiki/Kuai_Kuai_culture"
+        "title": "Trout tickling",
+        "url": "https://en.wikipedia.org/wiki/Trout_tickling"
       },
-      "explanation": "The Kuai Kuai snack brand, whose packages are placed on machines in Taiwan for good luck, was founded in 1968."
+      "explanation": "The article notes that trout tickling was first documented in 'A Treatyse of Fysshynge wyth an Angle,' published in 1496."
     },
     {
       "id": "q2",
-      "type": "number",
-      "prompt": "The Great Disappointment refers to the failed prediction by William Miller and his followers that Jesus Christ would return to Earth on a specific date in 1844. On what day of October did this predicted event fail to occur?",
-      "answer": 22,
-      "tolerance": 0,
-      "unit": "",
+      "type": "multiple",
+      "prompt": "Victorian England was home to many strange tales, but one mysterious figure was actually reported to have existed during that era. Which of the following is the real legendary character?",
+      "choices": [
+        "The Leaping Phantom of Yorkshire",
+        "The Midnight Stalker of Whitechapel",
+        "Spring-heeled Jack",
+        "The Shadow Walker of London"
+      ],
+      "answerIndex": 2,
+      "hint": "Two of these choices reference locations, Whitechapel and Yorkshire, that are not associated with this legend's most famous sightings.",
       "article": {
-        "title": "Great Disappointment",
-        "url": "https://en.wikipedia.org/wiki/Great_Disappointment"
+        "title": "Spring-heeled Jack",
+        "url": "https://en.wikipedia.org/wiki/Spring-heeled_Jack"
       },
-      "explanation": "The Millerites believed Jesus Christ would return on October 22, 1844, based on Samuel S. Snow's calculations. When this did not happen, it became known as the Great Disappointment."
+      "explanation": "Spring-heeled Jack was a mysterious, supposedly supernatural figure reported in various parts of England, particularly London, during the Victorian era, known for his ability to make extraordinary leaps."
     },
     {
       "id": "q3",
-      "type": "multiple",
-      "prompt": "Which of the following is a real unusual article?",
-      "choices": [
-        "Crime in Antarctica",
-        "Traffic Laws of the Moon",
-        "Postal Service of the Sahara Desert",
-        "Underwater Traffic Violations",
-        "Volcanic Tourism Regulations",
-        "Airspace Disputes Over the North Pole"
-      ],
-      "answerIndex": 0,
+      "type": "number",
+      "prompt": "The article on supernumerary nipples (a condition in which a person has an extra nipple, thought to affect about 1 in 18 people) describes a classification system for these extra nipples. Into how many distinct types does the Kajava classification system divide supernumerary nipples?",
+      "answer": 8,
+      "tolerance": 0,
+      "unit": "types",
+      "hint": "The number is between 5 and 10.",
       "article": {
-        "title": "Crime in Antarctica",
-        "url": "https://en.wikipedia.org/wiki/Crime_in_Antarctica"
+        "title": "Supernumerary nipple",
+        "url": "https://en.wikipedia.org/wiki/Supernumerary_nipple"
       },
-      "explanation": "Despite having no native population, Antarctica has experienced a small number of crimes, complicated by the continent's unique jurisdictional status under the Antarctic Treaty System."
+      "explanation": "The article notes that supernumerary nipples are classified according to the Kajava classification system, which divides them into eight distinct types based on the tissue structures present."
     },
     {
       "id": "q4",
-      "type": "multiple",
-      "prompt": "The Acme Corporation is a fictional company best known for supplying outlandish products to Wile E. Coyote in Looney Tunes cartoons. What does the name 'Acme' derive from in Greek?",
-      "choices": [
-        "A word meaning 'the peak' or 'the best'",
-        "The initials of the show's creator",
-        "A term for 'trickery'",
-        "An acronym for 'American Company Manufacturing Everything'"
-      ],
-      "answerIndex": 0,
+      "type": "number",
+      "prompt": "Only in the United Kingdom would you find a large roundabout with six mini-roundabouts, like the Magic Roundabout in Hemel Hempstead. In what year was this unusual junction constructed?",
+      "answer": 1973,
+      "tolerance": 2,
+      "unit": "",
+      "hint": "It was built in the early 1970s, sometime before 1976.",
       "article": {
-        "title": "Acme Corporation",
-        "url": "https://en.wikipedia.org/wiki/Acme_Corporation"
+        "title": "Magic Roundabout (Hemel Hempstead)",
+        "url": "https://en.wikipedia.org/wiki/Magic_Roundabout_(Hemel_Hempstead)"
       },
-      "explanation": "The name 'Acme' comes from the Greek word 'akme,' meaning 'the peak' or 'zenith,' reflecting its use by businesses to imply top-tier quality (and to appear first in alphabetical listings)."
+      "explanation": "The Magic Roundabout in Hemel Hempstead, consisting of a large roundabout surrounded by six mini-roundabouts, was constructed in 1973."
     },
     {
       "id": "q5",
+      "type": "text",
+      "prompt": "In Switzerland, a certain cultural-linguistic divide between the German-speaking and French-speaking regions is named after a popular potato dish associated with German-speaking Swiss cuisine. What is the name of this dish?",
+      "answer": "Rösti",
+      "hint": "5 letters; a fried, grated potato dish similar to hash browns, often eaten in Swiss-German cuisine.",
+      "article": {
+        "title": "Röstigraben",
+        "url": "https://en.wikipedia.org/wiki/R%C3%B6stigraben"
+      },
+      "explanation": "The term Röstigraben is named after Rösti, a fried grated potato dish commonly associated with German-speaking Switzerland, symbolizing the cultural divide between German and French-speaking regions of the country."
+    },
+    {
+      "id": "q6",
       "type": "multiple",
-      "prompt": "Which of the following is a real unusual article?",
+      "prompt": "Lioconcha hieroglyphica is a type of clam with a shell covered in hieroglyph-like markings. To which family of saltwater clams does this species belong?",
       "choices": [
-        "Jo Cameron",
-        "Amelia Trask",
-        "Fiona Marlowe",
-        "Helen Prescott",
-        "Nadia Kirov",
-        "Diane Whitfield"
+        "Veneridae",
+        "Cardiidae",
+        "Mytilidae",
+        "Pectinidae"
       ],
+      "hint": "It is not a mussel family (Mytilidae) or a scallop family (Pectinidae).",
       "answerIndex": 0,
       "article": {
-        "title": "Jo Cameron",
-        "url": "https://en.wikipedia.org/wiki/Jo_Cameron"
+        "title": "Lioconcha hieroglyphica",
+        "url": "https://en.wikipedia.org/wiki/Lioconcha_hieroglyphica"
       },
-      "explanation": "Jo Cameron is a Scottish woman found to feel virtually no pain or anxiety due to a rare genetic mutation."
+      "explanation": "Lioconcha hieroglyphica belongs to the family Veneridae, a group commonly known as venus clams."
+    },
+    {
+      "id": "q7",
+      "type": "text",
+      "prompt": "Nothing, Forever is a procedurally generated show that parodies Seinfeld using AI-generated dialogue and animation. What kind of prerecorded audio cue is used to simulate audience reactions during its AI-generated stand-up segments?",
+      "answer": "laugh track",
+      "hint": "Two words, 10 letters total; it's the recorded sound of an audience finding something funny, often used in sitcoms.",
+      "article": {
+        "title": "Nothing, Forever",
+        "url": "https://en.wikipedia.org/wiki/Nothing,_Forever"
+      },
+      "explanation": "The show uses a laugh track to mimic the studio audience reactions typical of traditional sitcoms like Seinfeld, adding to its parody effect."
+    },
+    {
+      "id": "q8",
+      "type": "number",
+      "prompt": "The Wikipedia article on Artificial intelligence in spirituality, which touches on people who think AI has supernatural powers, describes the Mindar android robot priest unveiled at Kodaiji Temple in Kyoto, Japan. In what year was Mindar unveiled?",
+      "answer": 2019,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "It was unveiled sometime between 2016 and 2023.",
+      "article": {
+        "title": "Artificial intelligence in spirituality",
+        "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_spirituality"
+      },
+      "explanation": "The article notes that Mindar, an android robot designed to resemble the Buddhist deity Kannon, was unveiled at Kodaiji Temple in Kyoto, Japan, in 2019."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "According to Wikipedia, the 2015 hip-hop remix album 'Meow the Jewels' by Run the Jewels replaced every sound from the original album with noises made by what common household pet?",
+      "answer": "Cats",
+      "hint": "4 letters, 1 word; a popular household pet known for purring and meowing.",
+      "article": {
+        "title": "Meow the Jewels",
+        "url": "https://en.wikipedia.org/wiki/Meow_the_Jewels"
+      },
+      "explanation": "Meow the Jewels is a novelty remix album by Run the Jewels in which every sound on the original Run the Jewels 2 album was replaced with cat noises, funded through a charity Kickstarter campaign."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "Trump Burger is a Texas restaurant chain known for its pro-Trump branding, but ironically, its owner was arrested in 2025 by what U.S. federal agency responsible for immigration enforcement?",
+      "answer": "ICE",
+      "hint": "1 word, 3 letters — an abbreviation for the federal agency that handles immigration and customs enforcement",
+      "article": {
+        "title": "Trump Burger",
+        "url": "https://en.wikipedia.org/wiki/Trump_Burger"
+      },
+      "explanation": "Despite the restaurant's strong pro-Trump identity, its owner was arrested by U.S. Immigration and Customs Enforcement (ICE) in 2025, a notable irony given the chain's branding."
     }
-  ]
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
 }

@@ -446,3 +446,30 @@ ul.choices li {
   color: var(--muted);
   font-size: 0.75rem;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 65%;
+  margin-left: -65px;
+  margin-bottom: 0.2em;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

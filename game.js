@@ -96,12 +96,12 @@ var QUESTION_TYPES = {
 
     check: function (question, response) {
       return {
-        score: response === question.answerIndex ? 100 : 0,
+        score: response === question.answerIndex ? 500 : 0,
         answerText: question.choices[question.answerIndex]
       };
     },
 
-    maxScore: 100
+    maxScore: 500
   },
 
   number: {
@@ -262,11 +262,11 @@ var QUESTION_TYPES = {
       });
 
       return {
-        score: matched ? 500 : 0,
+        score: matched ? 100 : 0,
         answerText: question.answer
       };
     },
-    maxScore: 500
+    maxScore: 100
   }
 };
 
@@ -430,12 +430,15 @@ function renderQuestion() {
   var hintUsed = false;
 
   if (question.hint) {
-    var hintButton = element('button', 'button hint-button', 'Reveal Hint');
+    var hintButton = element('button', 'button hint-button tooltip', 'Reveal Hint');
+    var tooltiptext = element('span', 'tooltiptext hint-reveal', 'Receive a helpful hint at the cost of half credit for this round.');
+    hintButton.appendChild(tooltiptext);
     hintButton.type = 'button';
     hintButton.addEventListener('click', function () {
       hintUsed = true;
       hintButton.disabled = true;
       card.appendChild(element('p', 'hint-reveal', question.hint));
+      tooltiptext.remove();
     });
     mount.appendChild(hintButton);
   }
