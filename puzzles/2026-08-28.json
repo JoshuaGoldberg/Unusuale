@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "prompt": "Whamageddon is a festive music challenge where participants try to avoid hearing a certain Christmas song throughout the holiday season, perfect if you're not a fan of George Michael. What is the title of the song players must avoid?",
+      "answer": "Last Christmas",
+      "hint": "13 letters (including space); it's a Wham! song about heartbreak that's released every Christmas.",
+      "article": {
+        "title": "Whamageddon",
+        "url": "https://en.wikipedia.org/wiki/Whamageddon"
+      },
+      "explanation": "The challenge is named after the band Wham!, and participants 'lose' the game the moment they hear their song 'Last Christmas' played, whether on the radio, in a store, or elsewhere, during the Christmas season."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis theory, attributed to an American economist in 1926, suggests a correlation between skirt lengths and stock market performance, with shorter hemlines linked to economic prosperity and longer hemlines associated with economic downturns.",
+      "choices": [
+        "Lipstick Index",
+        "Hemline Index",
+        "Men's Underwear Index",
+        "Super Bowl Indicator"
+      ],
+      "hint": "The correct answer has nothing to do with cosmetics purchases or men's clothing, and it does not involve predicting outcomes based on sports events.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Hemline index",
+        "url": "https://en.wikipedia.org/wiki/Hemline_index"
+      },
+      "explanation": "The Hemline Index is a theory proposed by economist George Taylor in 1926, suggesting that skirt lengths rise during times of economic prosperity and fall during economic downturns, reflecting stock market trends."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The Candiru is a small parasitic Amazonian catfish infamous for barbed fish allegedly attracted to, lodged in, and extracted from human penises. Which Brazilian urologist claimed in 1997 to have surgically removed a candiru from a man's urethra, a case that later drew significant scientific skepticism?",
+      "choices": [
+        "Dr. Carlos Silva",
+        "Dr. Anoar Samad",
+        "Dr. Eugene Willis",
+        "Dr. Ricardo Souza"
+      ],
+      "hint": "It was not Dr. Eugene Willis or Dr. Ricardo Souza.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Candiru (fish)",
+        "url": "https://en.wikipedia.org/wiki/Candiru_(fish)"
+      },
+      "explanation": "Dr. Anoar Samad, a Brazilian urologist, claimed in 1997 to have performed a procedure to remove a candiru from a man's urethra, a widely publicized case that was later questioned by researchers who doubted its authenticity."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Revelations of a vast right-wing conspiracy, or just a glitch? Which of the following is a real unusual Wikipedia article about a strange computer bug?",
+      "choices": [
+        "Clinton ate the pie",
+        "Reagan lost the keys",
+        "Bush hid the facts",
+        "Obama saved the cats"
+      ],
+      "answerIndex": 2,
+      "hint": "The real article has nothing to do with Clinton or Obama, it involves a different president entirely.",
+      "article": {
+        "title": "Bush hid the facts",
+        "url": "https://en.wikipedia.org/wiki/Bush_hid_the_facts"
+      },
+      "explanation": "The phrase refers to a bug in early versions of Windows where typing this exact sentence into Notepad and saving it would cause the text to be misinterpreted as Unicode due to a byte order mark detection flaw."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Danish children's series 'John Dillermand' follows a man who gets into all sorts of family-friendly trouble due to his elongated penis. In what year did this show first premiere on Danish television?",
+      "choices": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "hint": "It was not 2019 or 2022.",
+      "answerIndex": 2,
+      "article": {
+        "title": "John Dillermand",
+        "url": "https://en.wikipedia.org/wiki/John_Dillermand"
+      },
+      "explanation": "John Dillermand premiered in 2021 on DR Ultra, a Danish public broadcaster channel for children, and quickly drew international attention for its unusual premise."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nAfter a 2005 natural disaster, thousands of abandoned, mold infested appliances lined the streets of a major American city. Residents and artists began decorating these sealed, duct taped objects with graffiti, political commentary, and humor before they were collected as debris.",
+      "choices": [
+        "Katrina refrigerator",
+        "New Orleans levee failure",
+        "Superdome shelter",
+        "Lower Ninth Ward"
+      ],
+      "hint": "The correct answer is not related to housing shelters or a specific neighborhood district.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Katrina refrigerator",
+        "url": "https://en.wikipedia.org/wiki/Katrina_refrigerator"
+      },
+      "explanation": "The article describes 'Katrina refrigerators,' the abandoned and mold filled refrigerators left on the streets of New Orleans after Hurricane Katrina in 2005, many of which were sealed with duct tape and decorated with graffiti or messages by residents before disposal."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "An Australian breakdancer whose less-than-smooth moves took the Olympics by storm, Rachael Gunn (known as 'Raygun') holds an academic position at which university?",
+      "choices": [
+        "University of Sydney",
+        "Macquarie University",
+        "University of Melbourne",
+        "University of New South Wales"
+      ],
+      "hint": "It's not the University of Sydney or the University of Melbourne.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Rachael Gunn",
+        "url": "https://en.wikipedia.org/wiki/Rachael_Gunn"
+      },
+      "explanation": "Rachael Gunn is a senior lecturer at Macquarie University, specializing in cultural studies, alongside her breakdancing career."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "Ninja Golf, an Atari 7800 game whose unusual tagline is 'Hole in your enemies!', combines golf with which other action genre of gameplay?",
+      "answer": "Beat 'em up",
+      "hint": "8 letters (as 'beatemup'); think of a genre where you fight enemies by punching and kicking your way through levels.",
+      "article": {
+        "title": "Ninja Golf",
+        "url": "https://en.wikipedia.org/wiki/Ninja_Golf"
+      },
+      "explanation": "Ninja Golf is a unique hybrid game that blends traditional golf mechanics with side-scrolling beat 'em up combat, requiring players to fight off enemies like snakes and sumo wrestlers between golf holes."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "You know how x3 is called 'x cubed'? Well, x8 is called something far stranger. Which of the following is the real, unusual Wikipedia article for this term?",
+      "choices": [
+        "Cubizenzicube",
+        "Octozenzicubic",
+        "Zenzizenzizenzic",
+        "Quadricubizenz"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not 'Cubizenzicube' or 'Quadricubizenz'; the real term is built by repeating a single root word three times in a row.",
+      "article": {
+        "title": "Zenzizenzizenzic",
+        "url": "https://en.wikipedia.org/wiki/Zenzizenzizenzic"
+      },
+      "explanation": "Zenzizenzizenzic is an obsolete English mathematical term for the eighth power of a number, derived by combining 'zenzic' (square) three times."
+    }
+  ]
+}
