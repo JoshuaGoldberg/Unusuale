@@ -431,7 +431,7 @@ function renderQuestion() {
   var hintUsed = false;
 
   if (question.hint) {
-    var hintButton = element('button', 'button hint-button', 'Show hint (half credit)');
+    var hintButton = element('button', 'button hint-button', 'Reveal Hint');
     hintButton.type = 'button';
     hintButton.addEventListener('click', function () {
       hintUsed = true;
