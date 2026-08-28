@@ -4,155 +4,159 @@
   "questions": [
     {
       "id": "q1",
-      "type": "number",
-      "prompt": "If you're in Yellowstone National Park, Christmas comes but twice a year — referring to a notable August snowstorm that blanketed the park in snow reminiscent of the winter holiday. How many inches of snow fell during this 'Christmas in August' event?",
-      "answer": 4,
-      "tolerance": 1,
-      "unit": "inches",
-      "hint": "Look between the ranges of 3 and 5.5 inches",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nA period in some Amish communities during which adolescents are given greater freedom and may experience the wider world before deciding whether to be baptized into the church.",
+      "choices": [
+        "Rumspringa",
+        "Bar Mitzvah",
+        "Vision quest",
+        "Quinceañera"
+      ],
+      "hint": "This term originates from Pennsylvania Dutch and is specifically associated with a Christian Anabaptist community known for simple living and limited use of modern technology.",
+      "answerIndex": 0,
       "article": {
-        "title": "Christmas in August (Yellowstone)",
-        "url": "https://en.wikipedia.org/wiki/Christmas_in_August_(Yellowstone)"
+        "title": "Rumspringa",
+        "url": "https://en.wikipedia.org/wiki/Rumspringa"
       },
-      "explanation": "The article describes an August snowfall event in Yellowstone National Park where approximately 4 inches of snow accumulated, giving rise to the nickname 'Christmas in August' due to the unseasonal wintry scene."
+      "explanation": "Rumspringa is a rite of passage in some Amish communities during which teenagers are given more freedom to explore life outside their strict community before committing to baptism and church membership."
     },
     {
       "id": "q2",
-      "type": "number",
-      "prompt": "Dirty Dick, born Nathaniel Bentley, was an English merchant who started his life at the upper crust and finished it at the crumbs, famously leaving his shop and a wedding breakfast to rot after his fiancée died right before their wedding. In what year did she die, causing him to abandon cleanliness for the rest of his life?",
-      "answer": 1765,
-      "tolerance": 3,
-      "unit": "",
-      "hint": "Look between the years 1745 and 1785.",
+      "type": "text",
+      "prompt": "Teddy bears: they're cute, they're cuddly, they're… blasphemous? In this 2007 Sudanese case, a British teacher was arrested after letting her class name a teddy bear after this religious figure. Who was the teddy bear named after?",
+      "answer": "Muhammad",
+      "hint": "8 letters; this is considered the founder and central prophet of Islam.",
       "article": {
-        "title": "Dirty Dick",
-        "url": "https://en.wikipedia.org/wiki/Dirty_Dick"
+        "title": "Sudanese teddy bear blasphemy case",
+        "url": "https://en.wikipedia.org/wiki/Sudanese_teddy_bear_blasphemy_case"
       },
-      "explanation": "Nathaniel Bentley's fiancée died in 1765, on the eve of their wedding. Devastated, he shut the room where the wedding breakfast was laid out and never cleaned his shop again, earning him the nickname 'Dirty Dick'."
+      "explanation": "British teacher Gillian Gibbons allowed her young students to name a class teddy bear 'Muhammad' in 2007, which led to her arrest and conviction in Sudan on charges of insulting religion, sparking international controversy."
     },
     {
       "id": "q3",
       "type": "multiple",
-      "prompt": "Which Wikipedia article does this describe? A landlocked country with a significant commercial fleet. This maritime fleet was established primarily during wartime to ensure the transport of essential goods when other trade routes became unreliable, and it continues to operate as a registered fleet under this nation's flag despite the country having no direct access to the sea.",
+      "prompt": "Which Wikipedia article does this describe?\nThis list article documents individuals throughout history who disguised their gender identity through clothing during times of war, often to enlist in the military, escape danger, or serve as spies, spanning conflicts from early modern wars through the World Wars.",
       "choices": [
-        "Merchant Marine of Switzerland",
-        "Merchant Marine of Austria",
-        "Merchant Marine of Bolivia",
-        "Merchant Marine of Mongolia"
+        "Wartime cross-dressers",
+        "Women warriors in literature and culture",
+        "Female soldiers in the American Civil War",
+        "History of military disguise"
       ],
-      "hint": "The correct country is a highly developed, wealthy European nation known for banking and neutrality, not a South American or East Asian nation.",
+      "hint": "The correct title is a direct, literal two-word description combining a time period with a type of clothing behavior, not a broader thematic or single-conflict title.",
       "answerIndex": 0,
       "article": {
-        "title": "Merchant Marine of Switzerland",
-        "url": "https://en.wikipedia.org/wiki/Merchant_Marine_of_Switzerland"
+        "title": "Wartime cross-dressers",
+        "url": "https://en.wikipedia.org/wiki/Wartime_cross-dressers"
       },
-      "explanation": "Switzerland, despite being landlocked, maintains a merchant marine fleet that was established mainly during World War II to secure the import of essential goods, and it continues to exist today under Swiss maritime law."
+      "explanation": "The article 'Wartime cross-dressers' is a list documenting people who cross-dressed during wars, often to enlist in armies, evade capture, or conduct espionage while concealing their gender."
     },
     {
       "id": "q4",
       "type": "text",
-      "prompt": "The Omegaverse genre, which explores the premise 'What if humans had alphas, too?', originated as a subgenre of fan fiction within which television show's fandom?",
-      "answer": "Supernatural",
-      "hint": "12 letters; this long-running American fantasy horror TV series follows two brothers who hunt demons and monsters.",
+      "prompt": "If only we were all a jump, whistle & fart away from prosperity! Roland the Farter earned his land in Hemingstone, Suffolk by performing this exact trio of actions every Christmas for King Henry II. Name the three actions he had to perform (in order).",
+      "answer": "a jump, a whistle, and a fart",
+      "hint": "3 actions, roughly 20 letters total - think acrobatics, music, and a bodily function.",
       "article": {
-        "title": "Omegaverse",
-        "url": "https://en.wikipedia.org/wiki/Omegaverse"
+        "title": "Roland the Farter",
+        "url": "https://en.wikipedia.org/wiki/Roland_the_Farter"
       },
-      "explanation": "The Omegaverse genre originated in fan fiction communities surrounding the TV series Supernatural, where writers began exploring a fictional universe featuring alpha, beta, and omega dynamics among humans, inspired loosely by wolf pack social structures."
+      "explanation": "Roland the Farter held land at Hemingstone in Suffolk in exchange for performing 'unum saltum et siffletum et unam bumbulum' (a jump, a whistle, and a fart) each Christmas Day for King Henry II."
     },
     {
       "id": "q5",
       "type": "text",
-      "prompt": "The Hopi time controversy describes a long-lived academic debate about the concept of time in the Hopi language, originally sparked by linguist Benjamin Lee Whorf's claims. Which linguist published a major 1983 study challenging Whorf's assertion that Hopi had no words or grammatical forms referring to time?",
-      "answer": "Ekkehart Malotki",
-      "hint": "15 letters (first name + last name); this German-American linguist wrote a detailed book titled 'Hopi Time' presenting counter-evidence to Whorf's claims.",
+      "prompt": "Dublin once had its own version of Nelson's Column, which stood as a symbol of British imperialism until Irish republicans blew it up, inspiring several celebratory folk songs. In what year was Nelson's Pillar destroyed?",
+      "answer": "1966",
+      "hint": "4 digits; this happened on the eve of the 50th anniversary of a famous Irish rebellion against British rule.",
       "article": {
-        "title": "Hopi time controversy",
-        "url": "https://en.wikipedia.org/wiki/Hopi_time_controversy"
+        "title": "Nelson's Pillar",
+        "url": "https://en.wikipedia.org/wiki/Nelson%27s_Pillar"
       },
-      "explanation": "Ekkehart Malotki challenged Benjamin Lee Whorf's famous claim that the Hopi language lacked any grammatical concept of time. In his 1983 book 'Hopi Time,' Malotki provided extensive linguistic evidence showing that Hopi does in fact have complex ways of expressing tense, time, and temporal relationships, contradicting Whorf's earlier assertions and reigniting debate about linguistic relativity."
+      "explanation": "Nelson's Pillar was destroyed by a bomb planted by Irish republicans on 8 March 1966, just before the 50th anniversary of the Easter Rising, and the event later inspired several folk songs celebrating its destruction."
     },
     {
       "id": "q6",
-      "type": "number",
-      "prompt": "Mount Athos is an autonomous polity in Greece home to 20 monasteries, notable for being the only political subdivision in the world where women (and female animals) are prohibited from entering. What is the exact height, in meters, of Mount Athos's peak?",
-      "answer": 2033,
-      "tolerance": 20,
-      "unit": "meters",
-      "hint": "Look between the ranges of 1525 and 2540.",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis Japanese national highway, located in Aomori Prefecture, is famous for containing a section that is actually a stone staircase, making it one of the only national routes in Japan that pedestrians must climb on foot rather than drive.",
+      "choices": [
+        "Japan National Route 339",
+        "Japan National Route 458",
+        "Japan National Route 289",
+        "Japan National Route 152"
+      ],
+      "hint": "The correct route is located in the Tohoku region, specifically Aomori Prefecture, and its number is a repeating digit.",
+      "answerIndex": 0,
       "article": {
-        "title": "Mount Athos",
-        "url": "https://en.wikipedia.org/wiki/Mount_Athos"
+        "title": "Japan National Route 339",
+        "url": "https://en.wikipedia.org/wiki/Japan_National_Route_339"
       },
-      "explanation": "The article notes that the peak of Mount Athos rises to 2,033 meters (6,670 ft) above sea level."
+      "explanation": "Japan National Route 339 runs through Aomori Prefecture and is notable for including the Kunimi-toge Stairway, a stone staircase section that makes it impassable by vehicle, an unusual feature for a national highway."
     },
     {
       "id": "q7",
       "type": "multiple",
-      "prompt": "The fossil plant genus Nicolia was originally misidentified in 1888 as the jaw fragments of a dinosaur called Aachenosaurus. What type of organism was Nicolia actually determined to be?",
+      "prompt": "Which medical condition does the following describe?\nA rare skin disorder in infants characterized by symmetric, circumferential folds or creases of excess skin, typically appearing on the arms and legs, resembling the stacked rings of a famous tire company mascot.",
       "choices": [
-        "A fern",
-        "A mollusk shell",
-        "A plant (fossil twig/leaf material)",
-        "A marine sponge"
+        "Michelin tire baby syndrome",
+        "Cutis verticis gyrata",
+        "Congenital fibrosis of the extraocular muscles",
+        "Restrictive dermopathy"
       ],
-      "hint": "It's not an animal at all — the mistake was corrected once scientists realized the 'jaw fragments' were actually made of preserved organic material with no bone structure or animal cellular composition.",
-      "answerIndex": 2,
+      "hint": "The correct answer involves visible skin folds on the limbs, not a condition primarily affecting the scalp or eye muscles.",
+      "answerIndex": 0,
       "article": {
-        "title": "Nicolia (plant)",
-        "url": "https://en.wikipedia.org/wiki/Nicolia_(plant)"
+        "title": "Michelin tire baby syndrome",
+        "url": "https://en.wikipedia.org/wiki/Michelin_tire_baby_syndrome"
       },
-      "explanation": "Nicolia is actually a genus of fossil plant. It was initially mistaken for dinosaur jaw fragments and named Aachenosaurus, but later analysis revealed the fossils were plant material, not animal bone."
+      "explanation": "Michelin tire baby syndrome is named for its resemblance to the stacked tire rings of the Michelin Man mascot, caused by symmetric circumferential skin folds on the limbs of affected infants."
     },
     {
       "id": "q8",
       "type": "multiple",
-      "prompt": "Which of the following is a real unusual article? One painting almost sold for a record price until its owner, Steve Wynn, accidentally poked a hole through the canvas — it later sold for a different record price altogether.",
+      "prompt": "The Goat Puzzle asks how long a rope must be so a goat tied to the edge of a circular field can graze exactly half the field's area, an amusing case of goats' contributions to gaming not always being positive. What is unusual about the mathematical solution to this classic puzzle?",
       "choices": [
-        "Le Miroir (Picasso)",
-        "La Nuit (Picasso)",
-        "Le Rêve (Picasso)",
-        "L'Illusion (Picasso)"
+        "It has no closed-form solution and must be solved numerically",
+        "It has infinitely many valid rope lengths",
+        "It was proven mathematically impossible",
+        "It only works if the field is square, not circular"
       ],
-      "answerIndex": 2,
-      "hint": "The real painting's title refers to an altered state of mind, not a physical object or a time of day.",
+      "hint": "The puzzle definitely has a solution, and it involves only one circular field, so you can rule out the answers claiming impossibility or a square field.",
+      "answerIndex": 0,
       "article": {
-        "title": "Le Rêve (Picasso)",
-        "url": "https://en.wikipedia.org/wiki/Le_R%C3%AAve_(Picasso)"
+        "title": "The Goat Puzzle",
+        "url": "https://en.wikipedia.org/wiki/The_Goat_Puzzle"
       },
-      "explanation": "Le Rêve is a 1932 Pablo Picasso painting whose sale was famously delayed after owner Steve Wynn accidentally put his elbow through it, though it was later sold for a record-breaking price."
+      "explanation": "The Goat Puzzle leads to a transcendental equation involving trigonometric functions, meaning it cannot be solved algebraically in closed form and instead requires numerical approximation methods."
     },
     {
       "id": "q9",
-      "type": "number",
-      "prompt": "The Wikipedia article on Antarctic English humorously notes it is 'Not spoken by penguins.' In what year was Bernadette Hince's book 'The Antarctic Dictionary: A Complete Guide to Antarctic English,' the definitive reference on this dialect, published?",
-      "answer": 2000,
-      "tolerance": 0,
-      "unit": "",
-      "hint": "Look between the years 1990 and 2010",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nThis house of worship, located in the Afghan capital, served one of the last remnants of a once-thriving Jewish community in the country, and became internationally known due to its association with a man once dubbed the last Jew in the nation.",
+      "choices": [
+        "Kabul synagogue",
+        "Bukhara synagogue",
+        "Herat synagogue",
+        "Tehran Jewish Quarter"
+      ],
+      "hint": "The correct answer is located in the capital city of a country in Central/South Asia, not in Iran or Uzbekistan.",
+      "answerIndex": 0,
       "article": {
-        "title": "Antarctic English",
-        "url": "https://en.wikipedia.org/wiki/Antarctic_English"
+        "title": "Kabul synagogue",
+        "url": "https://en.wikipedia.org/wiki/Kabul_synagogue"
       },
-      "explanation": "The article references Bernadette Hince's 'The Antarctic Dictionary: A Complete Guide to Antarctic English,' which was published in 2000 and serves as the key documentation of Antarctic English vocabulary."
+      "explanation": "The Kabul synagogue, also known as the Yu Aw synagogue, is located in Kabul, Afghanistan, and was one of the last active symbols of Afghanistan's once-vibrant Jewish community, gaining media attention through its caretaker Zablon Simintov."
     },
     {
       "id": "q10",
-      "type": "multiple",
-      "prompt": "Which of the following is a real, unusual video game article? Hint: who knew that putting an old man playing a banjo on the box of an unrelated game would make for effective marketing?",
-      "choices": [
-        "Banjo Cascade (video game)",
-        "Phalanx (video game)",
-        "Old Man's Overture (video game)",
-        "Strumline (video game)"
-      ],
-      "answerIndex": 1,
-      "hint": "The correct title is a single word referring to a tight military formation, not a phrase involving banjos or music directly.",
+      "type": "text",
+      "prompt": "You've got to really care about white supremacy to talk for 24 hours straight. In his attempt to block the Civil Rights Act of 1957, how many hours and minutes did Strom Thurmond speak, setting the record for the longest solo filibuster in U.S. Senate history?",
+      "answer": "24 hours and 18 minutes",
+      "hint": "Answer format: [number] hours and [number] minutes. Hint: The first number is a common number tied to a full day, and the second is just under 20.",
       "article": {
-        "title": "Phalanx (video game)",
-        "url": "https://en.wikipedia.org/wiki/Phalanx_(video_game)"
+        "title": "Strom Thurmond filibuster of the Civil Rights Act of 1957",
+        "url": "https://en.wikipedia.org/wiki/Strom_Thurmond_filibuster_of_the_Civil_Rights_Act_of_1957"
       },
-      "explanation": "Phalanx is a horizontally scrolling shoot 'em up video game whose North American box art famously featured an old man playing a banjo, unrelated to the game's actual content, yet it became a memorable marketing choice."
+      "explanation": "Strom Thurmond spoke for 24 hours and 18 minutes straight in an attempt to block the Civil Rights Act of 1957, making it the longest single-person filibuster in the history of the U.S. Senate. Despite his efforts, the bill still passed."
     }
   ]
 }
