@@ -1,0 +1,170 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "The Kalakuta Republic was a compound housing Fela Kuti, his family, band musicians and recording studio, which he declared independent and used to criticize the Nigerian military junta of the 1970s. They responded by raiding it with over a thousand soldiers, setting it alight, and throwing Fela's mother out of the window. How old was Fela's mother, Funmilayo Ransome-Kuti, when she died from injuries sustained in that raid?",
+      "answer": 77,
+      "tolerance": 2,
+      "unit": "years old",
+      "hint": "She was older than 58 when she passed away.",
+      "article": {
+        "title": "Kalakuta Republic",
+        "url": "https://en.wikipedia.org/wiki/Kalakuta_Republic"
+      },
+      "explanation": "Funmilayo Ransome-Kuti, Fela Kuti's mother, was thrown from a window during the 1977 military raid on the Kalakuta Republic and later died from her injuries at age 77."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article? One of these Scottish lighthouses is tied to a chilling true mystery, when its keepers vanished without a trace in 1900.",
+      "choices": [
+        "North Rona Lighthouse",
+        "Flannan Isles Lighthouse",
+        "Sule Skerry Lighthouse",
+        "Eilean Glas Lighthouse"
+      ],
+      "answerIndex": 1,
+      "hint": "The real lighthouse shares its name with the very island group it stands on, which rules out two of these choices named after entirely different islands.",
+      "article": {
+        "title": "Flannan Isles Lighthouse",
+        "url": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+      },
+      "explanation": "Located on Eilean Mor, this lighthouse west of Scotland is famous for the unexplained disappearance of its three keepers in 1900."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nA viral internet video from 2004 featuring a young man lip-syncing and dancing in front of his webcam to a Romanian pop song. The video became one of the earliest examples of a viral video, launching before YouTube even existed, and its star later appeared on various television shows because of the fame it brought him.",
+      "choices": [
+        "Charlie Bit My Finger",
+        "Numa Numa (video)",
+        "Chocolate Rain",
+        "Leave Britney Alone"
+      ],
+      "hint": "The correct answer is not about a British baby biting his brother's finger, and it does not involve a song performed by the video's own creator (unlike one of these options where the artist sang an original song).",
+      "answerIndex": 1,
+      "article": {
+        "title": "Numa Numa (video)",
+        "url": "https://en.wikipedia.org/wiki/Numa_Numa_(video)"
+      },
+      "explanation": "The article describes the 'Numa Numa' video, uploaded in 2004 by Gary Brolsma, in which he lip-syncs and dances to the song 'Dragostea Din Tei' by the Romanian band O-Zone. It became one of the first viral videos on the internet."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\n\nA Pakistani immigrant fish seller in England became an internet sensation after a video of him singing a catchy sales chant at his market stall went viral, leading to a recording contract and a chart-topping novelty single.",
+      "choices": [
+        "One Pound Fish Man",
+        "The Diamond Geezer",
+        "Chicken Connoisseur",
+        "Compare the Meerkat"
+      ],
+      "hint": "The correct answer involves someone who became famous for selling food at a market using a memorable chant, not for comedy sketches, insurance advertising, or online food reviews.",
+      "answerIndex": 0,
+      "article": {
+        "title": "One Pound Fish Man",
+        "url": "https://en.wikipedia.org/wiki/One_Pound_Fish_Man"
+      },
+      "explanation": "The article is about Muhammad Shahid Nazir, known as the 'One Pound Fish Man,' a Pakistani immigrant who worked at a fish stall in Queen's Market, London, and became a viral sensation for his catchy sales chant, eventually leading to a record deal and a UK chart single."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nA medieval European festival celebrated on January 14, commemorating the biblical flight into Egypt, in which a donkey was led into a church as part of the celebration, sometimes accompanied by satirical or parodic liturgical elements.",
+      "choices": [
+        "Feast of Fools",
+        "Feast of the Ass",
+        "Feast of the Circumcision",
+        "Feast of the Holy Innocents"
+      ],
+      "hint": "The correct answer directly involves an animal being brought into a church, which rules out two of the choices that focus purely on liturgical or calendar events without any animal involved.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Feast of the Ass",
+        "url": "https://en.wikipedia.org/wiki/Feast_of_the_Ass"
+      },
+      "explanation": "The Feast of the Ass was a medieval Christian festival held on January 14 that commemorated the Flight into Egypt by having a donkey led into church, often accompanied by parody and comic elements within the liturgy."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "If Google Maps ever told you 'this journey is impossible with the modes you have selected,' it might be because you tried to drive through this real, roadless stretch of rainforest. Which of the following is a real unusual article?",
+      "choices": [
+        "Chocó Corridor",
+        "Darién Gap",
+        "Isthmus Divide",
+        "Atrato Break"
+      ],
+      "answerIndex": 1,
+      "hint": "The real place lies between two countries in the Americas and is the only natural break in the Pan-American Highway, unlike two of these invented names.",
+      "article": {
+        "title": "Darién Gap",
+        "url": "https://en.wikipedia.org/wiki/Dari%C3%A9n_Gap"
+      },
+      "explanation": "The Darién Gap is a large, roadless swath of rainforest and swampland between Panama and Colombia that forms the only break in the Pan-American Highway."
+    },
+    {
+      "id": "q7",
+      "type": "number",
+      "prompt": "You know when you have a word on the tip of your tongue but you just can't remember it? It's that, but with every word. This was the case for Paul Broca's famous patient, nicknamed 'Tan' because it was the only word he could utter. At what age did this patient die, prompting the autopsy that helped identify the brain region now known as Broca's area?",
+      "answer": 51,
+      "tolerance": 3,
+      "unit": "years old",
+      "hint": "He lived to be older than 38.",
+      "article": {
+        "title": "Expressive aphasia",
+        "url": "https://en.wikipedia.org/wiki/Expressive_aphasia"
+      },
+      "explanation": "Paul Broca's patient Louis Victor Leborgne, nicknamed 'Tan' because it was the only word he could say, died at age 51. The autopsy revealed damage to a specific area of his left frontal lobe, which became known as Broca's area, linking it to expressive aphasia."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which article is being described?\nThis song appears on a 1985 album and was written by a new wave band's frontman, reportedly inspired by his observations of his bandmate's newborn daughter.",
+      "choices": [
+        "Once in a Lifetime",
+        "Stay Up Late",
+        "This Must Be the Place",
+        "Road to Nowhere"
+      ],
+      "hint": "The correct song is not one of the band's most famous hits, and it was not written about the singer's own child.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Stay Up Late",
+        "url": "https://en.wikipedia.org/wiki/Stay_Up_Late"
+      },
+      "explanation": "The song is 'Stay Up Late' by Talking Heads, from their 1985 album 'Little Creatures.' It was written by David Byrne, inspired by drummer Chris Frantz and bassist Tina Weymouth's newborn daughter."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "In an alternate dimension where they never broke up, the Beatles supposedly released 'Everyday Chemistry,' an AI-generated album created using OpenAI's Jukebox technology. In what year was this fictional album's audio actually generated and released online?",
+      "answer": 2021,
+      "tolerance": 0,
+      "unit": "",
+      "hint": "It was created sometime after 2015, using a machine learning tool developed by OpenAI.",
+      "article": {
+        "title": "Everyday Chemistry",
+        "url": "https://en.wikipedia.org/wiki/Everyday_Chemistry"
+      },
+      "explanation": "The article notes that 'Everyday Chemistry' was generated in 2021 using OpenAI's Jukebox AI model, imagining what a Beatles album might have sounded like had the band never split up."
+    },
+    {
+      "id": "q10",
+      "type": "number",
+      "prompt": "The five-second rule holds that food dropped on the floor is safe to eat only if it's picked up within five seconds. In a 2003 study by Jillian Clarke at the University of Illinois that examined this belief, what percentage of women surveyed said they were familiar with the five-second rule?",
+      "answer": 70,
+      "tolerance": 5,
+      "unit": "percent",
+      "hint": "More than half of the women surveyed knew of it, but fewer than three quarters did.",
+      "article": {
+        "title": "Five-second rule",
+        "url": "https://en.wikipedia.org/wiki/Five-second_rule"
+      },
+      "explanation": "Clarke's survey found that 70% of women and 56% of men were familiar with the five-second rule, with women more likely to eat dropped food, especially sweets."
+    }
+  ]
+}
