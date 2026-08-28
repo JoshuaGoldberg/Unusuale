@@ -580,7 +580,11 @@ function start() {
   state.date = date;
   document.getElementById('puzzle-date').textContent = formatDate(date);
 
-  fetch('puzzles/' + date + '.json', { cache: 'no-store' })
+  // `cache: 'no-store'` only stops the browser's own cache; GitHub Pages'
+  // CDN can still serve a stale copy of the same URL for a few minutes
+  // after a push. A cache-busting query param makes every load a distinct
+  // URL, so it can't hit any cached copy at all, browser or CDN.
+  fetch('puzzles/' + date + '.json?t=' + Date.now(), { cache: 'no-store' })
     .then(function (response) {
       if (!response.ok) throw new Error('HTTP ' + response.status);
       return response.json();
