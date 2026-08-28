@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis topic concerns a long-running style debate about whether a particular term related to global computer networking should be written with an initial capital letter or in lowercase, with major style guides and news organizations differing in their conventions over time.",
+      "choices": [
+        "Capitalization of Internet",
+        "Capitalization in English",
+        "AP Stylebook",
+        "World Wide Web"
+      ],
+      "hint": "The answer is not a general style guide, and it is not about the Web itself.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Capitalization of Internet",
+        "url": "https://en.wikipedia.org/wiki/Capitalization_of_Internet"
+      },
+      "explanation": "The article discusses the ongoing debate and shifting conventions regarding whether to capitalize 'Internet' as a proper noun or use the lowercase 'internet', tracing how various publications and style guides have changed their preferred usage over time."
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "prompt": "A cultural and linguistic divide in Switzerland between German- and French-speaking regions is named after a well-known potato dish. What is the name of this dish?",
+      "answer": "Rösti",
+      "hint": "5 letters, 1 word; a Swiss-German potato dish that is fried into a crispy patty, similar to hash browns.",
+      "article": {
+        "title": "Röstigraben",
+        "url": "https://en.wikipedia.org/wiki/R%C3%B6stigraben"
+      },
+      "explanation": "The Röstigraben is named after Rösti, a popular Swiss-German dish made of grated and fried potatoes, symbolizing the cultural and linguistic divide between German-speaking and French-speaking Switzerland."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The deep-sea fish Bathymicrops brevianalis has a scientific species name derived from a specific physical feature. What does 'brevianalis' actually mean in reference to this fish?",
+      "choices": [
+        "Short anal fin",
+        "Short whiskers",
+        "Short tail",
+        "Short snout"
+      ],
+      "hint": "It's not related to the fish's sensory organs (whiskers) or its snout.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Shortarse feelerfish",
+        "url": "https://en.wikipedia.org/wiki/Shortarse_feelerfish"
+      },
+      "explanation": "Bathymicrops brevianalis is named for its unusually short anal fin, with 'brevianalis' literally translating to 'short anal' in reference to this feature."
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "prompt": "The 'cop slide' in Boston's City Hall Plaza playground went viral after a video showed a police officer flying out of it upside down at an abnormally high speed. What material did the city reportedly consider or use on the slide to slow riders down and make it safer?",
+      "answer": "Sand",
+      "hint": "One word, 4 letters; it's a gritty substance often found at beaches, sometimes used to add friction and reduce sliding speed.",
+      "article": {
+        "title": "Cop slide",
+        "url": "https://en.wikipedia.org/wiki/Cop_slide"
+      },
+      "explanation": "According to the article, after the slide gained notoriety for being unusually fast and causing riders to fly off it, the city considered adding sand to the slide's surface to increase friction and slow it down for safety reasons."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "In the 1999 online match that Garry Kasparov called 'the greatest game in the history of chess,' his opponent (the World Team) suffered from flame wars, poor chess software, and accusations of ballot stuffing. Which young player served as one of four official advisors guiding the World Team's votes on each move?",
+      "choices": [
+        "Judit Polgar",
+        "Alexandra Kosteniuk",
+        "Irina Krush",
+        "Magnus Carlsen"
+      ],
+      "hint": "Magnus Carlsen was only about 8 years old in 1999, and Judit Polgar was already an established elite grandmaster not involved in this event, so you can rule those two out.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Kasparov versus the World",
+        "url": "https://en.wikipedia.org/wiki/Kasparov_versus_the_World"
+      },
+      "explanation": "Irina Krush, along with Elisabeth Pähtz, Florin Felecan, and Etienne Bacrot, served as the four young advisors who helped guide the World Team's move choices during the match."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Nim Chimpsky was a chimpanzee named punningly for linguist Noam Chomsky and used in long-running studies of animal language acquisition. Which university led the project that raised Nim and taught him sign language?",
+      "choices": [
+        "Columbia University",
+        "Harvard University",
+        "Yale University",
+        "Stanford University"
+      ],
+      "hint": "It's not Harvard and it's not Stanford.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Nim Chimpsky",
+        "url": "https://en.wikipedia.org/wiki/Nim_Chimpsky"
+      },
+      "explanation": "The project, led by psychologist Herbert Terrace, was conducted at Columbia University, where Nim was taught American Sign Language."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual superstition claiming that composers are fated to die shortly after finishing a certain symphony in their output?",
+      "choices": [
+        "Curse of the Opus",
+        "Ninth Symphony Syndrome",
+        "Curse of the ninth",
+        "Composer's Final Note"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'Curse of the Opus' or 'Composer's Final Note', these are fabricated terms with no historical basis.",
+      "article": {
+        "title": "Curse of the ninth",
+        "url": "https://en.wikipedia.org/wiki/Curse_of_the_ninth"
+      },
+      "explanation": "The curse of the ninth is a superstition suggesting that composers, starting with Beethoven, are fated to die shortly after completing their ninth symphony."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual Cyrillic letter that looks exactly the same as the Latin letter S, making it the ultimate weapon in IDN homograph attacks?",
+      "choices": [
+        "Dje",
+        "Tshe",
+        "Dze",
+        "Shcha"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not 'Dje' or 'Shcha', both of which have distinct shapes that don't resemble any Latin letter.",
+      "article": {
+        "title": "Dze",
+        "url": "https://en.wikipedia.org/wiki/Dze"
+      },
+      "explanation": "Dze is a letter of the Cyrillic script that in its lowercase form is visually identical to the Latin letter S, creating potential security risks in domain names."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "An otherwise unnamed island off the coast of Maine was informally dubbed after a famous rapper because it had 'rope-swinging, blueberries, and other stuff' that rapper would enjoy. Who is this rapper?",
+      "choices": [
+        "Busta Rhymes",
+        "Snoop Dogg",
+        "Ludacris",
+        "Method Man"
+      ],
+      "hint": "The rapper's stage name is part of the island's nickname, and it is not Snoop Dogg or Method Man.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Busta Rhymes Island",
+        "url": "https://en.wikipedia.org/wiki/Busta_Rhymes_Island"
+      },
+      "explanation": "The island was informally named 'Busta Rhymes Island' after the rapper Busta Rhymes because it offered rope-swinging, blueberries, and other things he might enjoy."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "E-Prime is a form of English that eliminates all forms of the verb 'to be'. Because auxiliary 'to be' verbs are also banned, what grammatical voice, often formed with words like 'was' or 'is', becomes impossible to use in E-Prime?",
+      "answer": "Passive voice",
+      "hint": "2 words, 12 letters total (7 + 5). This voice usually places the object before the subject in a sentence (e.g., 'The ball was thrown').",
+      "article": {
+        "title": "E-Prime",
+        "url": "https://en.wikipedia.org/wiki/E-Prime"
+      },
+      "explanation": "Since passive voice constructions rely on forms of 'to be' (such as 'was thrown' or 'is being done'), E-Prime writers cannot use passive voice and must rewrite sentences in active voice instead."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
