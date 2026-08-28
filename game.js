@@ -266,7 +266,6 @@ var QUESTION_TYPES = {
         answerText: question.answer
       };
     },
-
     maxScore: 100
   }
 };
