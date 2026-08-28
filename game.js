@@ -101,7 +101,7 @@ var QUESTION_TYPES = {
       };
     },
 
-    maxScore: 500
+    maxScore: 100
   },
 
   number: {
@@ -226,7 +226,7 @@ var QUESTION_TYPES = {
       if (correct) correct.classList.add('correct');
     },
 
-    maxScore: 400
+    maxScore: 250
   },
 
   text: {
@@ -266,7 +266,7 @@ var QUESTION_TYPES = {
         answerText: question.answer
       };
     },
-    maxScore: 100
+    maxScore: 500
   }
 };
 
@@ -344,7 +344,7 @@ function animateScoreTo(target) {
     scoreTracker.classList.add('pulse');
   }
 
-  var duration = s going to be spaghetti600;
+  var duration = 600;
   var startTime = null;
 
   function step(timestamp) {
