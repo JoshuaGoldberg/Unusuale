@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "If you're in Yellowstone National Park, Christmas comes but twice a year — referring to a notable August snowstorm that blanketed the park in snow reminiscent of the winter holiday. How many inches of snow fell during this 'Christmas in August' event?",
+      "answer": 4,
+      "tolerance": 1,
+      "unit": "inches",
+      "hint": "Look between the ranges of 3 and 5.5 inches",
+      "article": {
+        "title": "Christmas in August (Yellowstone)",
+        "url": "https://en.wikipedia.org/wiki/Christmas_in_August_(Yellowstone)"
+      },
+      "explanation": "The article describes an August snowfall event in Yellowstone National Park where approximately 4 inches of snow accumulated, giving rise to the nickname 'Christmas in August' due to the unseasonal wintry scene."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "Dirty Dick, born Nathaniel Bentley, was an English merchant who started his life at the upper crust and finished it at the crumbs, famously leaving his shop and a wedding breakfast to rot after his fiancée died right before their wedding. In what year did she die, causing him to abandon cleanliness for the rest of his life?",
+      "answer": 1765,
+      "tolerance": 3,
+      "unit": "",
+      "hint": "Look between the years 1745 and 1785.",
+      "article": {
+        "title": "Dirty Dick",
+        "url": "https://en.wikipedia.org/wiki/Dirty_Dick"
+      },
+      "explanation": "Nathaniel Bentley's fiancée died in 1765, on the eve of their wedding. Devastated, he shut the room where the wedding breakfast was laid out and never cleaned his shop again, earning him the nickname 'Dirty Dick'."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe? A landlocked country with a significant commercial fleet. This maritime fleet was established primarily during wartime to ensure the transport of essential goods when other trade routes became unreliable, and it continues to operate as a registered fleet under this nation's flag despite the country having no direct access to the sea.",
+      "choices": [
+        "Merchant Marine of Switzerland",
+        "Merchant Marine of Austria",
+        "Merchant Marine of Bolivia",
+        "Merchant Marine of Mongolia"
+      ],
+      "hint": "The correct country is a highly developed, wealthy European nation known for banking and neutrality, not a South American or East Asian nation.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Merchant Marine of Switzerland",
+        "url": "https://en.wikipedia.org/wiki/Merchant_Marine_of_Switzerland"
+      },
+      "explanation": "Switzerland, despite being landlocked, maintains a merchant marine fleet that was established mainly during World War II to secure the import of essential goods, and it continues to exist today under Swiss maritime law."
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "prompt": "The Omegaverse genre, which explores the premise 'What if humans had alphas, too?', originated as a subgenre of fan fiction within which television show's fandom?",
+      "answer": "Supernatural",
+      "hint": "12 letters; this long-running American fantasy horror TV series follows two brothers who hunt demons and monsters.",
+      "article": {
+        "title": "Omegaverse",
+        "url": "https://en.wikipedia.org/wiki/Omegaverse"
+      },
+      "explanation": "The Omegaverse genre originated in fan fiction communities surrounding the TV series Supernatural, where writers began exploring a fictional universe featuring alpha, beta, and omega dynamics among humans, inspired loosely by wolf pack social structures."
+    },
+    {
+      "id": "q5",
+      "type": "text",
+      "prompt": "The Hopi time controversy describes a long-lived academic debate about the concept of time in the Hopi language, originally sparked by linguist Benjamin Lee Whorf's claims. Which linguist published a major 1983 study challenging Whorf's assertion that Hopi had no words or grammatical forms referring to time?",
+      "answer": "Ekkehart Malotki",
+      "hint": "15 letters (first name + last name); this German-American linguist wrote a detailed book titled 'Hopi Time' presenting counter-evidence to Whorf's claims.",
+      "article": {
+        "title": "Hopi time controversy",
+        "url": "https://en.wikipedia.org/wiki/Hopi_time_controversy"
+      },
+      "explanation": "Ekkehart Malotki challenged Benjamin Lee Whorf's famous claim that the Hopi language lacked any grammatical concept of time. In his 1983 book 'Hopi Time,' Malotki provided extensive linguistic evidence showing that Hopi does in fact have complex ways of expressing tense, time, and temporal relationships, contradicting Whorf's earlier assertions and reigniting debate about linguistic relativity."
+    },
+    {
+      "id": "q6",
+      "type": "number",
+      "prompt": "Mount Athos is an autonomous polity in Greece home to 20 monasteries, notable for being the only political subdivision in the world where women (and female animals) are prohibited from entering. What is the exact height, in meters, of Mount Athos's peak?",
+      "answer": 2033,
+      "tolerance": 20,
+      "unit": "meters",
+      "hint": "Look between the ranges of 1525 and 2540.",
+      "article": {
+        "title": "Mount Athos",
+        "url": "https://en.wikipedia.org/wiki/Mount_Athos"
+      },
+      "explanation": "The article notes that the peak of Mount Athos rises to 2,033 meters (6,670 ft) above sea level."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The fossil plant genus Nicolia was originally misidentified in 1888 as the jaw fragments of a dinosaur called Aachenosaurus. What type of organism was Nicolia actually determined to be?",
+      "choices": [
+        "A fern",
+        "A mollusk shell",
+        "A plant (fossil twig/leaf material)",
+        "A marine sponge"
+      ],
+      "hint": "It's not an animal at all — the mistake was corrected once scientists realized the 'jaw fragments' were actually made of preserved organic material with no bone structure or animal cellular composition.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Nicolia (plant)",
+        "url": "https://en.wikipedia.org/wiki/Nicolia_(plant)"
+      },
+      "explanation": "Nicolia is actually a genus of fossil plant. It was initially mistaken for dinosaur jaw fragments and named Aachenosaurus, but later analysis revealed the fossils were plant material, not animal bone."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article? One painting almost sold for a record price until its owner, Steve Wynn, accidentally poked a hole through the canvas — it later sold for a different record price altogether.",
+      "choices": [
+        "Le Miroir (Picasso)",
+        "La Nuit (Picasso)",
+        "Le Rêve (Picasso)",
+        "L'Illusion (Picasso)"
+      ],
+      "answerIndex": 2,
+      "hint": "The real painting's title refers to an altered state of mind, not a physical object or a time of day.",
+      "article": {
+        "title": "Le Rêve (Picasso)",
+        "url": "https://en.wikipedia.org/wiki/Le_R%C3%AAve_(Picasso)"
+      },
+      "explanation": "Le Rêve is a 1932 Pablo Picasso painting whose sale was famously delayed after owner Steve Wynn accidentally put his elbow through it, though it was later sold for a record-breaking price."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "The Wikipedia article on Antarctic English humorously notes it is 'Not spoken by penguins.' In what year was Bernadette Hince's book 'The Antarctic Dictionary: A Complete Guide to Antarctic English,' the definitive reference on this dialect, published?",
+      "answer": 2000,
+      "tolerance": 0,
+      "unit": "",
+      "hint": "Look between the years 1990 and 2010",
+      "article": {
+        "title": "Antarctic English",
+        "url": "https://en.wikipedia.org/wiki/Antarctic_English"
+      },
+      "explanation": "The article references Bernadette Hince's 'The Antarctic Dictionary: A Complete Guide to Antarctic English,' which was published in 2000 and serves as the key documentation of Antarctic English vocabulary."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual video game article? Hint: who knew that putting an old man playing a banjo on the box of an unrelated game would make for effective marketing?",
+      "choices": [
+        "Banjo Cascade (video game)",
+        "Phalanx (video game)",
+        "Old Man's Overture (video game)",
+        "Strumline (video game)"
+      ],
+      "answerIndex": 1,
+      "hint": "The correct title is a single word referring to a tight military formation, not a phrase involving banjos or music directly.",
+      "article": {
+        "title": "Phalanx (video game)",
+        "url": "https://en.wikipedia.org/wiki/Phalanx_(video_game)"
+      },
+      "explanation": "Phalanx is a horizontally scrolling shoot 'em up video game whose North American box art famously featured an old man playing a banjo, unrelated to the game's actual content, yet it became a memorable marketing choice."
+    }
+  ]
+}
