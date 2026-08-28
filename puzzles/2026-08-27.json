@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article 'List of animals awarded human credentials' describes several animals getting so-called diplomas from diploma mills to expose fraudulent institutions. What type of animal was 'Colby Nolan,' who received an MBA from a diploma mill in 2004 as part of a Pennsylvania Attorney General investigation?",
+      "choices": [
+        "Dog",
+        "Cat",
+        "Parrot",
+        "Horse"
+      ],
+      "hint": "The animal was a common household pet, not a farm animal or bird.",
+      "answerIndex": 2,
+      "article": {
+        "title": "List of animals awarded human credentials",
+        "url": "https://en.wikipedia.org/wiki/List_of_animals_awarded_human_credentials"
+      },
+      "explanation": "Colby Nolan was a cat who was awarded an MBA from Trinity Southern University, a diploma mill, as part of an investigation by the Pennsylvania Attorney General's office to expose the fraudulent nature of the institution."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The Wikipedia article on this isekai series, once described as 'proof that the isekai genre either is or isn't out of ideas, depending on whom you ask,' follows a man reincarnated as a vending machine trapped in a dungeon. What name does the protagonist go by as a vending machine?",
+      "choices": [
+        "Dispenser",
+        "Vendo",
+        "Boxxo",
+        "Hanbaiki"
+      ],
+      "hint": "The name isn't a literal Japanese word for vending machine, and it isn't a generic English term for one either.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
+        "url": "https://en.wikipedia.org/wiki/Reborn_as_a_Vending_Machine,_I_Now_Wander_the_Dungeon"
+      },
+      "explanation": "The protagonist, reincarnated as a vending machine in a dungeon, is known by the nickname 'Boxxo.'"
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "Haruka No. 2 was a Japanese racehorse whose loud, wheezing breathing during races earned it the nickname 'nasal congestion's final boss.' What common term for horses with this noisy breathing condition, caused by a paralyzed larynx, is often used in racing?",
+      "answer": "Roarer",
+      "hint": "6 letters; it's the informal name for horses with laryngeal hemiplegia, so called because of the sound they make when breathing hard.",
+      "article": {
+        "title": "Haruka No. 2",
+        "url": "https://en.wikipedia.org/wiki/Haruka_No._2"
+      },
+      "explanation": "Haruka No. 2 suffered from a respiratory condition that caused it to make loud wheezing noises while racing, a condition informally known as being a 'roarer,' which contributed to its internet fame and the nickname 'nasal congestion's final boss.'"
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "That's a mouthful! Good thing it has a much shorter name: silicosis. How many letters make up the full name Pneumonoultramicroscopicsilicovolcanoconiosis, one of the longest words in the English language?",
+      "answer": 45,
+      "tolerance": 2,
+      "unit": "letters",
+      "hint": "It has more than 34 letters",
+      "article": {
+        "title": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "url": "https://en.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis"
+      },
+      "explanation": "The word Pneumonoultramicroscopicsilicovolcanoconiosis contains 45 letters, making it one of the longest words in the English language. It refers to a lung disease more commonly known as silicosis."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "In the dystopian novel Tender Is the Flesh, a virus makes all animal meat unsafe to eat, so instead of going vegan, society legalizes cannibalism and human meat farms. In what year did this novel win the Premio Clarín de Novela award?",
+      "answer": 2017,
+      "tolerance": 0,
+      "unit": "",
+      "hint": "It was sometime after 2013.",
+      "article": {
+        "title": "Tender Is the Flesh",
+        "url": "https://en.wikipedia.org/wiki/Tender_Is_the_Flesh"
+      },
+      "explanation": "The novel, written by Agustina Bazterrica, won the Premio Clarín de Novela in 2017 before being translated into English in 2020."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis street, located in a German town, is recognized by Guinness World Records as the narrowest street in the world, with a width ranging from just 31 cm to 50 cm at its tightest and widest points.",
+      "choices": [
+        "Spreuerhofstraße",
+        "Getreidegasse",
+        "Rue du Chat-qui-Pêche",
+        "Parliament Street"
+      ],
+      "hint": "The correct answer is located in Germany and holds an official world record for its extreme narrowness, unlike the other options which are known for different reasons such as historical significance or scenic charm.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Spreuerhofstraße",
+        "url": "https://en.wikipedia.org/wiki/Spreuerhofstra%C3%9Fe"
+      },
+      "explanation": "The article describes Spreuerhofstraße, a street in Reutlingen, Germany, officially recognized as the narrowest street in the world, with widths ranging from 31 cm to 50 cm."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual reality show that claimed to search for America's next singing sensation, but was secretly a competition to find the worst singers in the country?",
+      "choices": [
+        "Off-Key America",
+        "Talentless USA",
+        "Superstar USA",
+        "America's Worst Voice"
+      ],
+      "answerIndex": 2,
+      "hint": "The real show's title mimics a legitimate singing competition format, tricking contestants into thinking they were being praised for real talent.",
+      "article": {
+        "title": "Superstar USA",
+        "url": "https://en.wikipedia.org/wiki/Superstar_USA"
+      },
+      "explanation": "Superstar USA was a reality TV show that deceived contestants into believing they were competing for genuine singing talent, when in fact producers were searching for the worst singers in America."
+    },
+    {
+      "id": "q8",
+      "type": "text",
+      "prompt": "The Expanding Earth theory, which claims the Earth is growing, was notably championed in the 20th century by an Australian geologist. Who was this prominent proponent?",
+      "answer": "Carey",
+      "hint": "5 letters. His full name was Samuel Warren ___, and he was a geologist who supported this now discredited theory.",
+      "article": {
+        "title": "Expanding Earth",
+        "url": "https://en.wikipedia.org/wiki/Expanding_Earth"
+      },
+      "explanation": "S. Warren Carey was an Australian geologist who was one of the most prominent supporters of the Expanding Earth theory, arguing that the size of the Earth has been increasing over geological time."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "The Wikipedia article on cute aggression describes the unusual phenomenon of why people want to squeeze cute things without harm. In a 2018 EEG study by Katherine Stavropoulos exploring this urge, how many participants were included in the study?",
+      "answer": 54,
+      "tolerance": 5,
+      "unit": "participants",
+      "hint": "More than 40 participants took part.",
+      "article": {
+        "title": "Cute aggression",
+        "url": "https://en.wikipedia.org/wiki/Cute_aggression"
+      },
+      "explanation": "The article notes that Katherine Stavropoulos conducted a 2018 EEG study with 54 participants to examine neural responses associated with cute aggression, the desire to squeeze or pinch cute things without wanting to cause them harm."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nA 2024 protest album featuring over 1,000 musicians that consists entirely of silent recordings, created to oppose proposed changes to UK copyright law that would allow AI companies to use copyrighted material without permission.",
+      "choices": [
+        "Silence for Sale",
+        "Is This What We Want?",
+        "Sound of Silence Protest",
+        "Quiet Resistance"
+      ],
+      "hint": "The correct title is phrased as a question and does not contain the words 'silence' or 'protest' directly.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Is This What We Want?",
+        "url": "https://en.wikipedia.org/wiki/Is_This_What_We_Want%3F"
+      },
+      "explanation": "Is This What We Want? is a 2024 protest album by over 1,000 musicians consisting of silent tracks recorded in their own studios and performance spaces, released to protest proposed UK government changes to copyright law that would let AI firms train on copyrighted works without compensation."
+    }
+  ]
+}
