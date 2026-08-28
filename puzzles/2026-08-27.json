@@ -1,0 +1,82 @@
+{
+  "date": "2026-08-27",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Richard Chase, known as the 'Vampire of Sacramento' for a series of murders in 1977-1978 driven by his delusion that he needed blood to survive, died in prison in 1980. How did he die?",
+      "choices": [
+        "He was stabbed by a fellow inmate",
+        "He overdosed on antidepressants he had been hoarding",
+        "He was executed by lethal injection",
+        "He died of natural causes"
+      ],
+      "hint": "He was never executed, and prison records show his death was not the result of violence from another inmate.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Richard Chase",
+        "url": "https://en.wikipedia.org/wiki/Richard_Chase"
+      },
+      "explanation": "Richard Chase died by suicide in his cell on December 26, 1980, after overdosing on antidepressant pills he had secretly saved up over time."
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "prompt": "Texas State Highway 165 is a short highway located in Bosque County, Texas — approximately how many miles long is this route?",
+      "answer": "20 miles",
+      "hint": "The answer is a number followed by 'miles' — it's a short rural highway, roughly the distance of a 30-40 minute drive.",
+      "article": {
+        "title": "Texas State Highway 165",
+        "url": "https://en.wikipedia.org/wiki/Texas_State_Highway_165"
+      },
+      "explanation": "Texas State Highway 165 is a relatively short state highway that runs through Bosque County, Texas, connecting small communities over a distance of about 20 miles."
+    },
+    {
+      "id": "q3",
+      "type": "number",
+      "prompt": "In the phenomenon known as chicken hypnotism (tonic immobility), a chicken can be induced into a trance-like immobile state by holding its head down against a surface. According to the Wikipedia article, for how many minutes can a chicken remain in this immobile state?",
+      "answer": 30,
+      "tolerance": 5,
+      "unit": "minutes",
+      "hint": "Look between the ranges of 22 and 38 minutes.",
+      "article": {
+        "title": "Chicken hypnotism",
+        "url": "https://en.wikipedia.org/wiki/Chicken_hypnotism"
+      },
+      "explanation": "The article describes that once induced into tonic immobility, a chicken can remain motionless for up to 30 minutes."
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "Hallstatt (China) is a full-scale replica of the Austrian village of Hallstatt, built in Boluo County, Guangdong province. In what year did this replica officially open to the public?",
+      "answer": 2012,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "Look between the ranges 2009 and 2015.",
+      "article": {
+        "title": "Hallstatt (China)",
+        "url": "https://en.wikipedia.org/wiki/Hallstatt_(China)"
+      },
+      "explanation": "The Chinese replica of the Austrian UNESCO World Heritage village of Hallstatt, built by China Minmetals Corporation in Boluo County, Guangdong, was officially opened to the public in June 2012."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "NBACentel was a short-lived subscription television venture in the 1980s created by the NBA and Centel Corporation to broadcast games directly to fans. In what year was this venture launched?",
+      "choices": [
+        "1983",
+        "1985",
+        "1988",
+        "1991"
+      ],
+      "hint": "The venture was launched during the mid-1980s, not in the early or late portion of the decade.",
+      "answerIndex": 1,
+      "article": {
+        "title": "NBACentel",
+        "url": "https://en.wikipedia.org/wiki/NBACentel"
+      },
+      "explanation": "NBACentel was launched in 1985 as a joint venture between the NBA and Centel Corporation to offer subscription broadcasts of NBA games, but it was discontinued shortly after due to poor subscription numbers."
+    }
+  ]
+}
