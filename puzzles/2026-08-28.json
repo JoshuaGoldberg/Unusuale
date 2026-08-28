@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Predating the American television series by some decades, one British political party hosts an evening of entertainment where participants sing rude songs poking fun at politicians past and present, both within the party and in general politics. Which of the following is this real unusual tradition?",
+      "choices": [
+        "Roast Night (UK politics)",
+        "Jest Assembly (UK politics)",
+        "Glee Club (UK politics)",
+        "Satire Social (UK politics)"
+      ],
+      "answerIndex": 2,
+      "hint": "Eliminate 'Roast Night' and 'Satire Social', these are invented names with no basis in real UK political tradition.",
+      "article": {
+        "title": "Glee Club (UK politics)",
+        "url": "https://en.wikipedia.org/wiki/Glee_Club_(UK_politics)"
+      },
+      "explanation": "The Glee Club is a long-running Liberal Democrat tradition, predating the American TV show of a similar name, where party members sing humorous and often irreverent songs mocking politicians and political events."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "That Simpsons episode about antifreeze in the wine was based on a true story: in 1985, some Austrian winemakers added a sweet-tasting compound found in antifreeze to their wine to mimic the richness of expensive late-harvest vintages. What was this chemical called?",
+      "choices": [
+        "Ethylene glycol",
+        "Propylene glycol",
+        "Methanol",
+        "Diethylene glycol"
+      ],
+      "hint": "It's not methanol, which is a totally different toxic alcohol, and it's not propylene glycol, which is actually considered safe for food use.",
+      "answerIndex": 3,
+      "article": {
+        "title": "1985 Austrian diethylene glycol wine scandal",
+        "url": "https://en.wikipedia.org/wiki/1985_Austrian_diethylene_glycol_wine_scandal"
+      },
+      "explanation": "The scandal involved winemakers adding diethylene glycol, a sweet-tasting compound also used in antifreeze, to cheap wines to make them seem richer and more expensive, mimicking the qualities of late-harvest wines."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about an 80,000-year-old quaking aspen colony believed to be one of the oldest and heaviest organisms on the planet?",
+      "choices": [
+        "Methuselah (tree)",
+        "Old Tjikko",
+        "Pando (tree)",
+        "The Senator (tree)"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the famous bristlecone pine known as Methuselah, and it's not Old Tjikko, the Norway spruce in Sweden.",
+      "article": {
+        "title": "Pando (tree)",
+        "url": "https://en.wikipedia.org/wiki/Pando_(tree)"
+      },
+      "explanation": "Pando is a massive clonal colony of a single male quaking aspen, estimated to be around 80,000 years old and one of the oldest and heaviest known organisms on Earth."
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "prompt": "When it's literally raining cats and dogs, science usually points elsewhere: according to the Wikipedia article on the 'Rain of animals' phenomenon, what type of weather event is most commonly credited with sucking up small animals like fish and frogs before they fall from the sky?",
+      "answer": "waterspout",
+      "hint": "10 letters, one word; a rotating column of air and water over a body of water, similar to a tornado.",
+      "article": {
+        "title": "Rain of animals",
+        "url": "https://en.wikipedia.org/wiki/Rain_of_animals"
+      },
+      "explanation": "The article explains that waterspouts are the leading scientific explanation for animal rain, as they can lift small, lightweight animals such as fish and frogs from bodies of water and carry them for some distance before depositing them on land."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual sport that was popular in 17th and 18th century Europe, involving flinging small animals as high into the air as possible using slings?",
+      "choices": [
+        "Squirrel hurling",
+        "Ferret flinging",
+        "Fox tossing",
+        "Badger vaulting"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not 'Squirrel hurling' or 'Badger vaulting', those are not real historical sports.",
+      "article": {
+        "title": "Fox tossing",
+        "url": "https://en.wikipedia.org/wiki/Fox_tossing"
+      },
+      "explanation": "Fox tossing was a blood sport among European nobility that involved using slings to launch foxes and other animals into the air, often resulting in their death."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article is being described?\nAccording to legend, if these birds ever leave a certain historic fortress, the kingdom and the fortress will fall. Kept for centuries at this London landmark, they are cared for by a dedicated keeper and their wings are clipped to prevent them from flying away.",
+      "choices": [
+        "The Crown Jewels of the United Kingdom",
+        "Beefeaters of the Tower of London",
+        "Ravens of the Tower of London",
+        "The White Tower"
+      ],
+      "hint": "The answer is not about jewels or guards, and it is not about a specific building structure.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Ravens of the Tower of London",
+        "url": "https://en.wikipedia.org/wiki/Ravens_of_the_Tower_of_London"
+      },
+      "explanation": "The article describes the Ravens of the Tower of London, birds tied to a legend that the kingdom will fall if they ever leave, and who are cared for by the Tower's Ravenmaster."
+    },
+    {
+      "id": "q7",
+      "type": "text",
+      "prompt": "Aoshima, Ehime is a small Japanese island famous for having a population of these animals that outnumber humans by a ratio of roughly 6:1, what animal is it?",
+      "answer": "Cats",
+      "hint": "4 letters, these popular pets are known for meowing and are often kept for pest control on fishing islands",
+      "article": {
+        "title": "Aoshima, Ehime",
+        "url": "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
+      },
+      "explanation": "Aoshima is one of several 'cat islands' in Japan where the feline population greatly exceeds the human population, drawing tourists who want to visit and feed the cats."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "The Hằng Nga Guesthouse, often called Vietnam's most fantastical building, was designed by an architect who was also the daughter of a notable political figure. Who was this architect?",
+      "choices": [
+        "Đặng Việt Nga",
+        "Ngô Viết Thụ",
+        "Nguyễn Văn Linh",
+        "Vũ Đình Cương"
+      ],
+      "hint": "The correct answer is not Ngô Viết Thụ or Vũ Đình Cương.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Hằng Nga Guesthouse",
+        "url": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse"
+      },
+      "explanation": "The Hằng Nga Guesthouse, also known as the 'Crazy House,' was designed by architect Đặng Việt Nga, daughter of former Vietnamese leader Trường Chinh."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis confection was developed for U.S. soldiers during World War II, designed to withstand high temperatures and provide emergency sustenance. It was intentionally made bland so troops would not be tempted to eat it as a snack, with instructions requesting it taste only slightly better than a boiled potato. Hershey's was the primary manufacturer of these rations.",
+      "choices": [
+        "K-ration",
+        "Military chocolate (United States)",
+        "C-ration",
+        "MRE (Meal, Ready-to-Eat)"
+      ],
+      "hint": "The correct answer is not the canned C-ration, nor is it the MRE (Meal, Ready-to-Eat); it refers to a chocolate-based product rather than a full packaged meal.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Military chocolate (United States)",
+        "url": "https://en.wikipedia.org/wiki/Military_chocolate_(United_States)"
+      },
+      "explanation": "The article describes Military chocolate (United States), specialized chocolate bars like the D ration and Tropical Bar developed for U.S. soldiers, designed to survive heat and be deliberately unappetizing so they would only be eaten in emergencies."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nThis is a small international group of Haredi Jews known for their strict opposition to Zionism and the State of Israel. Founded in Jerusalem in 1938, members believe that Jewish self-rule cannot be reestablished until the coming of the Messiah, and they have been known to participate in demonstrations alongside Palestinian and other anti-Israel groups.",
+      "choices": [
+        "Satmar",
+        "Agudath Israel of America",
+        "Neturei Karta",
+        "Chabad-Lubavitch"
+      ],
+      "hint": "It is not the Hasidic movement famous for global outreach centers, nor the American Orthodox political organization.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Neturei Karta",
+        "url": "https://en.wikipedia.org/wiki/Neturei_Karta"
+      },
+      "explanation": "The article describes Neturei Karta, a Haredi Jewish group founded in 1938 in Jerusalem that opposes Zionism and the existence of the State of Israel, believing Jewish sovereignty should only be restored by the Messiah."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
