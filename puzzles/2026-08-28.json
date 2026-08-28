@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real category of jokes told based on ethnic or regional stereotypes?",
+      "choices": [
+        "Newfie joke",
+        "Blonde joke",
+        "Sardarji joke",
+        "Aggie joke"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the joke category associated with Canadians from Newfoundland, nor the one mocking Texas A&M students.",
+      "article": {
+        "title": "Sardarji joke",
+        "url": "https://en.wikipedia.org/wiki/Sardarji_joke"
+      },
+      "explanation": "Sardarji jokes are a popular genre of jokes in India that rely on stereotypes about Sikhs."
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "prompt": "In the Wikipedia article on Phallophobia, which is defined as the fear of the penis, what Greek word meaning 'fear' forms the second half of the term?",
+      "answer": "Phobos",
+      "hint": "6 letters. This Greek root is common to many phobia names and means 'fear' or 'dread'.",
+      "article": {
+        "title": "Phallophobia",
+        "url": "https://en.wikipedia.org/wiki/Phallophobia"
+      },
+      "explanation": "The term 'phallophobia' derives from the Greek words 'phallos' (penis) and 'phobos' (fear), reflecting its definition as an intense fear of the penis."
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "Henry Gunther is remembered as the last man to die in World War I, and quite possibly the dumbest, since he was killed charging German machine guns mere seconds before the Armistice officially took effect. What nationality of heritage did Gunther have, which some historians believe motivated him to prove his loyalty by charging the enemy?",
+      "answer": "German",
+      "hint": "6 letters; it's the same nationality as the soldiers he was charging when he died.",
+      "article": {
+        "title": "Henry Gunther",
+        "url": "https://en.wikipedia.org/wiki/Henry_Gunther"
+      },
+      "explanation": "Henry Gunther was of German descent, and some historians suggest that after being demoted for criticizing army conditions in a letter, he charged a German position moments before the Armistice to prove his loyalty and courage as an American soldier."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "This unusual sandwich is one warmed, hollowed-out loaf of bread filled with a jar each of creamy peanut butter and grape jelly, and a pound of bacon, reportedly a favorite of Elvis. At which restaurant was the Fool's Gold Loaf created?",
+      "choices": [
+        "The Colorado Mine Company",
+        "The Peabody Hotel",
+        "Graceland Diner",
+        "The Brown Derby"
+      ],
+      "hint": "It's not the Peabody Hotel or the Brown Derby, both of which are famous restaurants unrelated to this Denver creation.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Fool's Gold Loaf",
+        "url": "https://en.wikipedia.org/wiki/Fool%27s_Gold_Loaf"
+      },
+      "explanation": "The Fool's Gold Loaf was created by the Colorado Mine Company restaurant in Denver, Colorado, and reportedly became one of Elvis Presley's favorite indulgences."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual film about a lesbian bounty hunter who saves her ex-girlfriend from creatures known as Straight White Maliens?",
+      "choices": [
+        "Galactic Drag Queen Rebellion",
+        "Sapphic Starship Rescue",
+        "Lesbian Space Princess",
+        "Intergalactic Wife Squad"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct title does not contain the words 'Rebellion' or 'Squad'.",
+      "article": {
+        "title": "Lesbian Space Princess",
+        "url": "https://en.wikipedia.org/wiki/Lesbian_Space_Princess"
+      },
+      "explanation": "Lesbian Space Princess is an animated film about a princess who embarks on a galaxy-spanning rescue mission to save her ex-girlfriend from alien captors."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The criterion of embarrassment is a method historians use to evaluate ancient texts, based on the idea that you know it's true because it's too embarrassing for anyone to have made it up. According to this article, which event in Jesus's life is often cited as historically credible under this criterion because it would have been awkward for early Christians to invent?",
+      "choices": [
+        "His resurrection",
+        "His baptism by John the Baptist",
+        "His transfiguration",
+        "His walking on water"
+      ],
+      "hint": "It's not one of the miracle stories, it's an event that would have implied someone else had authority over Jesus.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Criterion of embarrassment",
+        "url": "https://en.wikipedia.org/wiki/Criterion_of_embarrassment"
+      },
+      "explanation": "Jesus's baptism by John the Baptist is often cited as a strong candidate for historicity under the criterion of embarrassment, since it could suggest John held a position of authority over Jesus, something early Christians would likely not have wanted to invent."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "According to Norse legend described in the Blood Eagle article, the 'wings' of this brutal execution were actually the victim's lungs pulled out through his back. Which Northumbrian king was said to have been killed this way by the sons of Ragnar Lodbrok?",
+      "choices": [
+        "Æthelred",
+        "Ælla",
+        "Edmund",
+        "Alfred"
+      ],
+      "hint": "It was not Alfred or Edmund, both of whom are remembered for other reasons in Anglo-Saxon history.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Blood eagle",
+        "url": "https://en.wikipedia.org/wiki/Blood_eagle"
+      },
+      "explanation": "Legend holds that King Ælla of Northumbria was executed by the sons of Ragnar Lodbrok using the blood eagle method, in which his ribs were cut open and his lungs pulled out to resemble wings."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual belief about eating food that falls on the floor, sometimes called the idea that dropped food is safe to eat only if picked up within five seconds?",
+      "choices": [
+        "Three-bite rule",
+        "Ten-second tumble rule",
+        "Five-second rule",
+        "Two-minute floor rule"
+      ],
+      "answerIndex": 2,
+      "hint": "The real rule isn't measured in minutes and has nothing to do with counting bites, so you can rule out the 'Three-bite rule' and the 'Two-minute floor rule'.",
+      "article": {
+        "title": "Five-second rule",
+        "url": "https://en.wikipedia.org/wiki/Five-second_rule"
+      },
+      "explanation": "The five-second rule is a popular but scientifically unsupported belief that food dropped on the floor remains safe to eat if it's picked up within five seconds."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "Turns out time travel is embedded into The Lord of the Rings in several different ways. According to the Wikipedia article 'Time in Tolkien's fiction,' what is the name of Tolkien's unfinished time-travel novel that he began before writing 'The Notion Club Papers'?",
+      "answer": "The Lost Road",
+      "hint": "8 letters and 4 letters (two words); this unfinished work links a father and son across different eras, including a journey toward the legend of Númenor.",
+      "article": {
+        "title": "Time in Tolkien's fiction",
+        "url": "https://en.wikipedia.org/wiki/Time_in_Tolkien%27s_fiction"
+      },
+      "explanation": "The article notes that Tolkien explored time travel through unfinished works like 'The Lost Road,' which he wrote before 'The Notion Club Papers,' both exploring time-slip narratives connecting modern characters to Middle-earth's ancient past."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "In the U.S. Tax Court case Batman v. Commissioner, a man named Batman claimed his teenage son was his business partner to get a tax benefit, but the Commissioner wasn't having any of it. What type of tax benefit was Batman trying to claim by naming his son a partner?",
+      "choices": [
+        "A charitable donation deduction",
+        "A capital gains exemption",
+        "Income-splitting to lower his tax bracket",
+        "A home office deduction"
+      ],
+      "hint": "It wasn't related to donations or property, it involved how his income was taxed.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Batman v. Commissioner",
+        "url": "https://en.wikipedia.org/wiki/Batman_v._Commissioner"
+      },
+      "explanation": "Batman attempted to name his teenage son as a business partner in order to split income between them and reduce his overall tax liability, but the Commissioner and the court rejected this arrangement."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
