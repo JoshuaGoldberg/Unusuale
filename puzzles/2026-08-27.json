@@ -5,93 +5,77 @@
     {
       "id": "q1",
       "type": "multiple",
-      "prompt": "The 1967 case of 'Snippy' the horse in Colorado's San Luis Valley is considered one of the first widely-publicized animal mutilation cases, often linked to UFO folklore. What was Snippy's actual given name?",
+      "prompt": "Which of the following is a real unusual article?",
       "choices": [
-        "Lady",
-        "Duchess",
-        "Star",
-        "Misty"
+        "Fantasy Kingdom Amusement Park (Shanghai)",
+        "Wonderland Amusement Park (Beijing)",
+        "Dreamland Amusement Park (Guangzhou)",
+        "Paradise World Amusement Park (Chengdu)",
+        "Wonderworld Amusement Park (Tianjin)",
+        "Enchanted Kingdom Amusement Park (Xi'an)"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "article": {
-        "title": "Mutilation of \"Snippy\" the horse",
-        "url": "https://en.wikipedia.org/wiki/Mutilation_of_%22Snippy%22_the_horse"
+        "title": "Wonderland Amusement Park (Beijing)",
+        "url": "https://en.wikipedia.org/wiki/Wonderland_Amusement_Park_(Beijing)"
       },
-      "explanation": "The horse was actually named Lady, but became famously known by her nickname 'Snippy' after her mysterious death and mutilation in 1967, which helped spark the modern animal mutilation phenomenon."
+      "explanation": "Wonderland Amusement Park is an abandoned, never-completed theme park on the outskirts of Beijing that was left derelict after funding and land disputes halted construction in the 1990s."
     },
     {
       "id": "q2",
       "type": "multiple",
-      "prompt": "The article discusses controversies surrounding the word 'niggardly,' which sounds similar to a racial slur but has no etymological connection to it. In 1999, a Washington D.C. official resigned after using this word during a staff meeting—what was his position?",
+      "prompt": "In the Wikipedia article on the 'Bubble of nothing,' a hypothetical instability in string theory and Kaluza-Klein spacetimes, which physicist first proposed this concept in a 1982 paper?",
       "choices": [
-        "Mayor of Washington D.C.",
-        "Ombudsman for the Mayor",
-        "Chief of Police",
-        "City Council President"
+        "Stephen Hawking",
+        "Edward Witten",
+        "Alan Guth",
+        "Leonard Susskind"
       ],
       "answerIndex": 1,
       "article": {
-        "title": "Controversies about the word niggardly",
-        "url": "https://en.wikipedia.org/wiki/Controversies_about_the_word_niggardly"
+        "title": "Bubble of nothing",
+        "url": "https://en.wikipedia.org/wiki/Bubble_of_nothing"
       },
-      "explanation": "David Howard, an ombudsman for the Mayor of Washington D.C., resigned in 1999 after using the word 'niggardly' in reference to budget funds, which was misinterpreted by some as a racial slur despite the word having no etymological connection to it."
+      "explanation": "Edward Witten introduced the concept of a 'bubble of nothing' in his 1982 paper on the instability of the Kaluza-Klein vacuum."
     },
     {
       "id": "q3",
       "type": "multiple",
-      "prompt": "Which of the following is a real unusual article?",
+      "prompt": "Tsutomu Yamaguchi is the only person officially recognized by the Japanese government as a survivor of both atomic bombings in World War II. Which two cities did he survive the bombings of?",
       "choices": [
-        "Alaska Mental Health Enabling Act",
-        "Montana Psychiatric Assistance Act",
-        "Oregon Behavioral Health Facilitation Act",
-        "Wyoming Mental Wellness Provision Act",
-        "Nevada Mental Health Support Enactment",
-        "Colorado Psychological Services Empowerment Act"
+        "Hiroshima and Nagasaki",
+        "Tokyo and Hiroshima",
+        "Nagasaki and Kokura",
+        "Osaka and Nagasaki"
       ],
       "answerIndex": 0,
       "article": {
-        "title": "Alaska Mental Health Enabling Act",
-        "url": "https://en.wikipedia.org/wiki/Alaska_Mental_Health_Enabling_Act"
+        "title": "Tsutomu Yamaguchi",
+        "url": "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi"
       },
-      "explanation": "This 1956 U.S. federal law granted Alaska one million acres of federal land to fund mental health facilities, sparking controversy over land use and federal overreach."
+      "explanation": "Yamaguchi was in Hiroshima on a business trip when the first atomic bomb was dropped on August 6, 1945, and then returned home to Nagasaki just in time to survive the second bombing on August 9, 1945."
     },
     {
       "id": "q4",
-      "type": "multiple",
-      "prompt": "Which of the following is a real unusual article?",
-      "choices": [
-        "Psychological wellbeing of Buddha",
-        "Mental health of Jesus",
-        "Emotional stability of Muhammad",
-        "Psychiatric evaluation of Moses",
-        "Neurological condition of Confucius",
-        "Cognitive analysis of Socrates"
-      ],
-      "answerIndex": 1,
+      "type": "text",
+      "prompt": "In the article about the historical 'One-armed versus one-legged cricket' matches played by disabled war veterans, at which famous London cricket ground were these novelty matches held?",
+      "answer": "Lord's",
       "article": {
-        "title": "Mental health of Jesus",
-        "url": "https://en.wikipedia.org/wiki/Mental_health_of_Jesus"
+        "title": "One-armed versus one-legged cricket",
+        "url": "https://en.wikipedia.org/wiki/One-armed_versus_one-legged_cricket"
       },
-      "explanation": "The article discusses various psychological and psychiatric analyses that have been proposed by scholars regarding the mental state of Jesus, including claims of psychosis, and the critiques of such analyses."
+      "explanation": "The article describes how matches between teams of one-armed and one-legged men, often military veterans, were played as novelty exhibition games at Lord's Cricket Ground in London during the 19th century."
     },
     {
       "id": "q5",
-      "type": "multiple",
-      "prompt": "Which of the following is a real unusual article?",
-      "choices": [
-        "Luxe Sands Festival",
-        "Mirage Music Retreat",
-        "Fyre Festival",
-        "Paradiso Beach Gala",
-        "Elysium Isle Experience",
-        "Azure Coast Soiree"
-      ],
-      "answerIndex": 2,
+      "type": "text",
+      "prompt": "In the Scottish Highland divination practice of Taghairm, which sometimes involved roasting live cats on a spit to summon a great supernatural cat, how many consecutive days and nights was this ritual said to last?",
+      "answer": "four",
       "article": {
-        "title": "Fyre Festival",
-        "url": "https://en.wikipedia.org/wiki/Fyre_Festival"
+        "title": "Taghairm",
+        "url": "https://en.wikipedia.org/wiki/Taghairm"
       },
-      "explanation": "Fyre Festival was a fraudulent luxury music festival in the Bahamas in 2017 that collapsed into chaos, leaving attendees without the promised accommodations, food, or performances."
+      "explanation": "According to the article, the cat-roasting version of the Taghairm ritual was reputed to continue for four days and nights without pause in order to summon a large demonic cat that would grant wishes."
     }
   ]
 }

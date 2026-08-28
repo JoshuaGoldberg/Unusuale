@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "In Taiwan's 'Kuai Kuai culture,' green packages of the Kuai Kuai snack are placed on machinery for good luck, a tradition rooted in the snack brand's history. In what year was the Kuai Kuai snack brand founded?",
+      "answer": 1968,
+      "tolerance": 0,
+      "unit": "",
+      "article": {
+        "title": "Kuai Kuai culture",
+        "url": "https://en.wikipedia.org/wiki/Kuai_Kuai_culture"
+      },
+      "explanation": "The Kuai Kuai snack brand, whose packages are placed on machines in Taiwan for good luck, was founded in 1968."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "The Great Disappointment refers to the failed prediction by William Miller and his followers that Jesus Christ would return to Earth on a specific date in 1844. On what day of October did this predicted event fail to occur?",
+      "answer": 22,
+      "tolerance": 0,
+      "unit": "",
+      "article": {
+        "title": "Great Disappointment",
+        "url": "https://en.wikipedia.org/wiki/Great_Disappointment"
+      },
+      "explanation": "The Millerites believed Jesus Christ would return on October 22, 1844, based on Samuel S. Snow's calculations. When this did not happen, it became known as the Great Disappointment."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Crime in Antarctica",
+        "Traffic Laws of the Moon",
+        "Postal Service of the Sahara Desert",
+        "Underwater Traffic Violations",
+        "Volcanic Tourism Regulations",
+        "Airspace Disputes Over the North Pole"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Crime in Antarctica",
+        "url": "https://en.wikipedia.org/wiki/Crime_in_Antarctica"
+      },
+      "explanation": "Despite having no native population, Antarctica has experienced a small number of crimes, complicated by the continent's unique jurisdictional status under the Antarctic Treaty System."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Acme Corporation is a fictional company best known for supplying outlandish products to Wile E. Coyote in Looney Tunes cartoons. What does the name 'Acme' derive from in Greek?",
+      "choices": [
+        "A word meaning 'the peak' or 'the best'",
+        "The initials of the show's creator",
+        "A term for 'trickery'",
+        "An acronym for 'American Company Manufacturing Everything'"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Acme Corporation",
+        "url": "https://en.wikipedia.org/wiki/Acme_Corporation"
+      },
+      "explanation": "The name 'Acme' comes from the Greek word 'akme,' meaning 'the peak' or 'zenith,' reflecting its use by businesses to imply top-tier quality (and to appear first in alphabetical listings)."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "Jo Cameron",
+        "Amelia Trask",
+        "Fiona Marlowe",
+        "Helen Prescott",
+        "Nadia Kirov",
+        "Diane Whitfield"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Jo Cameron",
+        "url": "https://en.wikipedia.org/wiki/Jo_Cameron"
+      },
+      "explanation": "Jo Cameron is a Scottish woman found to feel virtually no pain or anxiety due to a rare genetic mutation."
+    }
+  ]
+}
