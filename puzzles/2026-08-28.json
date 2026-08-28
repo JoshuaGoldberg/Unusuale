@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 1",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "The National Mustard Museum, a quirky museum dedicated to all things mustard, was founded by Barry Levenson after a personal event inspired him. In what year was the National Mustard Museum founded?",
+      "answer": 1992,
+      "tolerance": 0,
+      "unit": "",
+      "article": {
+        "title": "National Mustard Museum",
+        "url": "https://en.wikipedia.org/wiki/National_Mustard_Museum"
+      },
+      "explanation": "The National Mustard Museum was founded in 1992 by Barry Levenson, reportedly after the Boston Red Sox lost the 1986 World Series, prompting him to find solace in collecting mustard."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "A harmonica gun is a type of firearm named for its resemblance to a musical instrument due to its sliding mechanism holding multiple cartridges in a row. What household item does the sliding breech block of a harmonica gun resemble, giving the weapon its name?",
+      "choices": [
+        "A harmonica",
+        "An accordion",
+        "A xylophone",
+        "A typewriter"
+      ],
+      "answerIndex": 0,
+      "article": {
+        "title": "Harmonica gun",
+        "url": "https://en.wikipedia.org/wiki/Harmonica_gun"
+      },
+      "explanation": "The harmonica gun gets its name because its sliding breech block, which holds a row of cartridges, resembles a harmonica in shape and function."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "In the Wikipedia article 'Prostitution among animals,' researchers observed that female Adélie penguins would mate with males outside their pair bond in exchange for what valuable resource used in nest-building?",
+      "choices": [
+        "Fish",
+        "Feathers",
+        "Stones",
+        "Krill"
+      ],
+      "answerIndex": 2,
+      "article": {
+        "title": "Prostitution among animals",
+        "url": "https://en.wikipedia.org/wiki/Prostitution_among_animals"
+      },
+      "explanation": "Studies of Adélie penguins found that unpaired females would sometimes mate with males in order to receive stones, which are essential for building nests to protect eggs."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article?",
+      "choices": [
+        "List of marketing mishaps",
+        "Corporate naming failure",
+        "Brand blunder",
+        "Advertising catastrophe",
+        "Trademark misstep",
+        "Product labeling error"
+      ],
+      "answerIndex": 2,
+      "article": {
+        "title": "Brand blunder",
+        "url": "https://en.wikipedia.org/wiki/Brand_blunder"
+      },
+      "explanation": "A brand blunder refers to a mistake made by a company in the branding or marketing of a product, often due to cultural insensitivity or translation errors, which can harm the brand's reputation."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "In the Loveday of 1458, a public reconciliation ceremony arranged by King Henry VI to ease tensions between the Yorkist and Lancastrian factions after the First Battle of St Albans, how many marks was the Duke of York ordered to pay in compensation to the family of the slain Duke of Somerset?",
+      "answer": 5000,
+      "tolerance": 0,
+      "unit": "marks",
+      "article": {
+        "title": "Loveday (1458)",
+        "url": "https://en.wikipedia.org/wiki/Loveday_(1458)"
+      },
+      "explanation": "As part of the settlement reached during the Loveday, the Duke of York was required to pay 5,000 marks in compensation to the family of the Duke of Somerset, who had been killed at the First Battle of St Albans."
+    }
+  ]
+}
