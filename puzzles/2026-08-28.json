@@ -1,0 +1,183 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "number",
+      "prompt": "Overtoun Bridge is a 50-foot-high bridge that dogs keep jumping off, located in Scotland. In what year was this bridge built?",
+      "answer": 1895,
+      "tolerance": 2,
+      "unit": "",
+      "hint": "It was constructed sometime between 1885 and 1899, during the late Victorian era.",
+      "article": {
+        "title": "Overtoun Bridge",
+        "url": "https://en.wikipedia.org/wiki/Overtoun_Bridge"
+      },
+      "explanation": "Overtoun Bridge was built in 1895 and spans the Overtoun Burn near Dumbarton, Scotland."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "The film Zyzzyx Road is infamous for its box office failure: it had a budget of $1.2 million but made only 30 bucks. It makes sense in context. How many total tickets sold in the US led to that 30 dollar total?",
+      "answer": 6,
+      "tolerance": 2,
+      "unit": "tickets",
+      "hint": "The number of tickets sold was somewhere between 4 and 10.",
+      "article": {
+        "title": "Zyzzyx Road",
+        "url": "https://en.wikipedia.org/wiki/Zyzzyx_Road"
+      },
+      "explanation": "Zyzzyx Road famously earned only $30 at the US box office, which at a ticket price of $5 equates to about 6 tickets sold, making it one of the biggest box office bombs in film history relative to its $1.2 million budget."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nIn 1905, flocks of sheep across parts of Wales, including Cardiganshire and Carmarthenshire, were reported to have become suddenly and inexplicably agitated during the night, running wildly, breaking through fences, and in some cases drowning in rivers. The strange event coincided with the Welsh religious revival of the period and has never been fully explained, with theories ranging from natural causes to supernatural ones.",
+      "choices": [
+        "The Great Sheep Panic",
+        "The Welsh Religious Revival of 1904",
+        "The Mystery of the Beast of Bodmin Moor",
+        "The Angel of Mons Incident"
+      ],
+      "hint": "The correct answer is not about a religious movement or a legendary creature sighting in England; it specifically involves livestock behaving strangely in Wales.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Great Sheep Panic",
+        "url": "https://en.wikipedia.org/wiki/Great_Sheep_Panic"
+      },
+      "explanation": "The article describes the Great Sheep Panic of 1905 in Wales, a mysterious event where sheep across multiple counties became inexplicably frightened and fled in the night, an occurrence still unexplained today."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real phobia, defined as the fear of the penis?",
+      "choices": [
+        "Chrometophobia",
+        "Dendrophobia",
+        "Phallophobia",
+        "Ombrophobia"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the fear of money, and it's not the fear of trees.",
+      "article": {
+        "title": "Phallophobia",
+        "url": "https://en.wikipedia.org/wiki/Phallophobia"
+      },
+      "explanation": "Phallophobia is an intense and irrational fear of the penis."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual parliamentary constituency? One rotten borough had almost entirely fallen into the sea over two centuries before it was finally abolished, and it should not be confused with another place of the same name.",
+      "choices": [
+        "Ravensworth (constituency)",
+        "Dunwich (constituency)",
+        "Fenmarsh (constituency)",
+        "Bramcote (constituency)"
+      ],
+      "answerIndex": 1,
+      "hint": "The real answer is a coastal town, so you can eliminate Ravensworth and Bramcote, which were historically inland areas.",
+      "article": {
+        "title": "Dunwich (constituency)",
+        "url": "https://en.wikipedia.org/wiki/Dunwich_(constituency)"
+      },
+      "explanation": "Dunwich was a rotten borough in Suffolk that continued to send two MPs to Parliament even after most of the town had eroded into the sea, until it was abolished in 1832."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The pyrophone, an instrument that makes music with explosions, was invented in the 19th century by a scientist from which country?",
+      "choices": [
+        "Germany",
+        "France",
+        "Italy",
+        "Austria"
+      ],
+      "hint": "It was not Germany or Austria; the inventor, Georges Frédéric Eugène Kastner, was known for his work in a country famous for the Eiffel Tower.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Pyrophone",
+        "url": "https://en.wikipedia.org/wiki/Pyrophone"
+      },
+      "explanation": "The pyrophone was invented by Georges Frédéric Eugène Kastner, a French scientist, who used controlled explosions (often from gas or hydrogen) inside glass tubes to produce musical tones."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Diet of Worms was an imperial diet that just happened to be held in the city of Worms, not a trial about Martin Luther eating too many worms. After Luther refused to recant his views at this 1521 diet, he was secretly whisked away for his own protection and hidden at which castle?",
+      "choices": [
+        "Marburg Castle",
+        "Wartburg Castle",
+        "Nuremberg Castle",
+        "Wittenberg Castle"
+      ],
+      "hint": "It's not the castle linked to a famous 1529 religious debate, nor the one where Luther had posted his 95 Theses.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Diet of Worms",
+        "url": "https://en.wikipedia.org/wiki/Diet_of_Worms"
+      },
+      "explanation": "After the Diet of Worms, Frederick the Wise arranged for Luther to be secretly taken into protective custody, staging a fake kidnapping, and hid him at Wartburg Castle to protect him from the consequences of the Edict of Worms."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "In 2004, Marvin Heemeyer, embittered after a zoning dispute over a concrete plant, armored a bulldozer and went on a rampage, proving why it's a bad idea to put the guy next door out of business if he has a ten-ton armor-plated bulldozer in his garage. How many buildings did he destroy in Granby, Colorado before the machine got stuck?",
+      "choices": [
+        "7",
+        "13",
+        "22",
+        "5"
+      ],
+      "hint": "It was not the smallest number (5) or the largest number (22) in this list.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Marvin Heemeyer",
+        "url": "https://en.wikipedia.org/wiki/Marvin_Heemeyer"
+      },
+      "explanation": "Marvin Heemeyer destroyed 13 buildings in Granby, Colorado with his armored bulldozer, nicknamed 'Killdozer,' before it became stuck and he took his own life."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Cleckheaton Central railway station holds an unusual distinction as the only train station in history to be stolen. After closing, what happened to the station building that led to this claim?",
+      "choices": [
+        "It was dismantled brick by brick and later found being rebuilt as a private house",
+        "It was loaded onto a train and driven away overnight",
+        "It was sold at auction to a museum in another country",
+        "It was demolished and its bricks used to build a local pub"
+      ],
+      "hint": "It was not sold to a museum abroad, nor was it moved by train.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Cleckheaton Central railway station",
+        "url": "https://en.wikipedia.org/wiki/Cleckheaton_Central_railway_station"
+      },
+      "explanation": "After the station closed, thieves dismantled the building brick by brick, and it was later discovered being reconstructed as a private residence, earning it the reputation of being the only train station ever stolen."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which UFO religion does the following describe?\nAn American new religious movement founded in the early 1970s by two leaders who taught that a spacecraft trailing a passing comet would carry believers to a higher level of existence, resulting in a mass suicide of 39 members in 1997.",
+      "choices": [
+        "Raëlism",
+        "Heaven's Gate",
+        "Aetherius Society",
+        "Unarius Academy of Science"
+      ],
+      "hint": "The correct answer is not the French movement founded by a former race car driver, and it is not the California based group that emphasizes past life therapy and interplanetary confederations.",
+      "answerIndex": 1,
+      "article": {
+        "title": "List of UFO religions",
+        "url": "https://en.wikipedia.org/wiki/List_of_UFO_religions"
+      },
+      "explanation": "The description matches Heaven's Gate, a UFO religious group led by Marshall Applewhite and Bonnie Nettles, infamous for the 1997 mass suicide tied to the belief that a UFO was following the Hale-Bopp comet."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
