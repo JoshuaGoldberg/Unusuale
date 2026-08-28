@@ -4,63 +4,63 @@
   "questions": [
     {
       "id": "q1",
-      "type": "number",
-      "prompt": "Coochy coo! Trout tickling, the old-fashioned technique of catching fish by hand, was first described in print in a fishing treatise attributed to Dame Juliana Berners. In what year was this treatise published?",
-      "answer": 1496,
-      "tolerance": 5,
-      "unit": "",
-      "hint": "It was published sometime between 1480 and 1540.",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis topic concerns a long-running style debate about whether a particular term related to global computer networking should be written with an initial capital letter or in lowercase, with major style guides and news organizations differing in their conventions over time.",
+      "choices": [
+        "Capitalization of Internet",
+        "Capitalization in English",
+        "AP Stylebook",
+        "World Wide Web"
+      ],
+      "hint": "The answer is not a general style guide, and it is not about the Web itself.",
+      "answerIndex": 0,
       "article": {
-        "title": "Trout tickling",
-        "url": "https://en.wikipedia.org/wiki/Trout_tickling"
+        "title": "Capitalization of Internet",
+        "url": "https://en.wikipedia.org/wiki/Capitalization_of_Internet"
       },
-      "explanation": "The article notes that trout tickling was first documented in 'A Treatyse of Fysshynge wyth an Angle,' published in 1496."
+      "explanation": "The article discusses the ongoing debate and shifting conventions regarding whether to capitalize 'Internet' as a proper noun or use the lowercase 'internet', tracing how various publications and style guides have changed their preferred usage over time."
     },
     {
       "id": "q2",
-      "type": "multiple",
-      "prompt": "Victorian England was home to many strange tales, but one mysterious figure was actually reported to have existed during that era. Which of the following is the real legendary character?",
-      "choices": [
-        "The Leaping Phantom of Yorkshire",
-        "The Midnight Stalker of Whitechapel",
-        "Spring-heeled Jack",
-        "The Shadow Walker of London"
-      ],
-      "answerIndex": 2,
-      "hint": "Two of these choices reference locations, Whitechapel and Yorkshire, that are not associated with this legend's most famous sightings.",
+      "type": "text",
+      "prompt": "A cultural and linguistic divide in Switzerland between German- and French-speaking regions is named after a well-known potato dish. What is the name of this dish?",
+      "answer": "Rösti",
+      "hint": "5 letters, 1 word; a Swiss-German potato dish that is fried into a crispy patty, similar to hash browns.",
       "article": {
-        "title": "Spring-heeled Jack",
-        "url": "https://en.wikipedia.org/wiki/Spring-heeled_Jack"
+        "title": "Röstigraben",
+        "url": "https://en.wikipedia.org/wiki/R%C3%B6stigraben"
       },
-      "explanation": "Spring-heeled Jack was a mysterious, supposedly supernatural figure reported in various parts of England, particularly London, during the Victorian era, known for his ability to make extraordinary leaps."
+      "explanation": "The Röstigraben is named after Rösti, a popular Swiss-German dish made of grated and fried potatoes, symbolizing the cultural and linguistic divide between German-speaking and French-speaking Switzerland."
     },
     {
       "id": "q3",
-      "type": "number",
-      "prompt": "The article on supernumerary nipples (a condition in which a person has an extra nipple, thought to affect about 1 in 18 people) describes a classification system for these extra nipples. Into how many distinct types does the Kajava classification system divide supernumerary nipples?",
-      "answer": 8,
-      "tolerance": 0,
-      "unit": "types",
-      "hint": "The number is between 5 and 10.",
+      "type": "multiple",
+      "prompt": "The deep-sea fish Bathymicrops brevianalis has a scientific species name derived from a specific physical feature. What does 'brevianalis' actually mean in reference to this fish?",
+      "choices": [
+        "Short anal fin",
+        "Short whiskers",
+        "Short tail",
+        "Short snout"
+      ],
+      "hint": "It's not related to the fish's sensory organs (whiskers) or its snout.",
+      "answerIndex": 0,
       "article": {
-        "title": "Supernumerary nipple",
-        "url": "https://en.wikipedia.org/wiki/Supernumerary_nipple"
+        "title": "Shortarse feelerfish",
+        "url": "https://en.wikipedia.org/wiki/Shortarse_feelerfish"
       },
-      "explanation": "The article notes that supernumerary nipples are classified according to the Kajava classification system, which divides them into eight distinct types based on the tissue structures present."
+      "explanation": "Bathymicrops brevianalis is named for its unusually short anal fin, with 'brevianalis' literally translating to 'short anal' in reference to this feature."
     },
     {
       "id": "q4",
-      "type": "number",
-      "prompt": "Only in the United Kingdom would you find a large roundabout with six mini-roundabouts, like the Magic Roundabout in Hemel Hempstead. In what year was this unusual junction constructed?",
-      "answer": 1973,
-      "tolerance": 2,
-      "unit": "",
-      "hint": "It was built in the early 1970s, sometime before 1976.",
+      "type": "text",
+      "prompt": "The 'cop slide' in Boston's City Hall Plaza playground went viral after a video showed a police officer flying out of it upside down at an abnormally high speed. What material did the city reportedly consider or use on the slide to slow riders down and make it safer?",
+      "answer": "Sand",
+      "hint": "One word, 4 letters; it's a gritty substance often found at beaches, sometimes used to add friction and reduce sliding speed.",
       "article": {
-        "title": "Magic Roundabout (Hemel Hempstead)",
-        "url": "https://en.wikipedia.org/wiki/Magic_Roundabout_(Hemel_Hempstead)"
+        "title": "Cop slide",
+        "url": "https://en.wikipedia.org/wiki/Cop_slide"
       },
-      "explanation": "The Magic Roundabout in Hemel Hempstead, consisting of a large roundabout surrounded by six mini-roundabouts, was constructed in 1973."
+      "explanation": "According to the article, after the slide gained notoriety for being unusually fast and causing riders to fly off it, the city considered adding sand to the slide's surface to increase friction and slow it down for safety reasons."
     },
     {
       "id": "q5",
@@ -77,70 +77,104 @@
     {
       "id": "q6",
       "type": "multiple",
-      "prompt": "Lioconcha hieroglyphica is a type of clam with a shell covered in hieroglyph-like markings. To which family of saltwater clams does this species belong?",
+      "prompt": "In the 1999 online match that Garry Kasparov called 'the greatest game in the history of chess,' his opponent (the World Team) suffered from flame wars, poor chess software, and accusations of ballot stuffing. Which young player served as one of four official advisors guiding the World Team's votes on each move?",
       "choices": [
-        "Veneridae",
-        "Cardiidae",
-        "Mytilidae",
-        "Pectinidae"
+        "Judit Polgar",
+        "Alexandra Kosteniuk",
+        "Irina Krush",
+        "Magnus Carlsen"
       ],
-      "hint": "It is not a mussel family (Mytilidae) or a scallop family (Pectinidae).",
+      "hint": "Magnus Carlsen was only about 8 years old in 1999, and Judit Polgar was already an established elite grandmaster not involved in this event, so you can rule those two out.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Kasparov versus the World",
+        "url": "https://en.wikipedia.org/wiki/Kasparov_versus_the_World"
+      },
+      "explanation": "Irina Krush, along with Elisabeth Pähtz, Florin Felecan, and Etienne Bacrot, served as the four young advisors who helped guide the World Team's move choices during the match."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Nim Chimpsky was a chimpanzee named punningly for linguist Noam Chomsky and used in long-running studies of animal language acquisition. Which university led the project that raised Nim and taught him sign language?",
+      "choices": [
+        "Columbia University",
+        "Harvard University",
+        "Yale University",
+        "Stanford University"
+      ],
+      "hint": "It's not Harvard and it's not Stanford.",
       "answerIndex": 0,
       "article": {
-        "title": "Lioconcha hieroglyphica",
-        "url": "https://en.wikipedia.org/wiki/Lioconcha_hieroglyphica"
+        "title": "Nim Chimpsky",
+        "url": "https://en.wikipedia.org/wiki/Nim_Chimpsky"
       },
-      "explanation": "Lioconcha hieroglyphica belongs to the family Veneridae, a group commonly known as venus clams."
+      "explanation": "The project, led by psychologist Herbert Terrace, was conducted at Columbia University, where Nim was taught American Sign Language."
     },
     {
       "id": "q7",
-      "type": "text",
-      "prompt": "Nothing, Forever is a procedurally generated show that parodies Seinfeld using AI-generated dialogue and animation. What kind of prerecorded audio cue is used to simulate audience reactions during its AI-generated stand-up segments?",
-      "answer": "laugh track",
-      "hint": "Two words, 10 letters total; it's the recorded sound of an audience finding something funny, often used in sitcoms.",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual superstition claiming that composers are fated to die shortly after finishing a certain symphony in their output?",
+      "choices": [
+        "Curse of the Opus",
+        "Ninth Symphony Syndrome",
+        "Curse of the ninth",
+        "Composer's Final Note"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'Curse of the Opus' or 'Composer's Final Note', these are fabricated terms with no historical basis.",
       "article": {
-        "title": "Nothing, Forever",
-        "url": "https://en.wikipedia.org/wiki/Nothing,_Forever"
+        "title": "Curse of the ninth",
+        "url": "https://en.wikipedia.org/wiki/Curse_of_the_ninth"
       },
-      "explanation": "The show uses a laugh track to mimic the studio audience reactions typical of traditional sitcoms like Seinfeld, adding to its parody effect."
+      "explanation": "The curse of the ninth is a superstition suggesting that composers, starting with Beethoven, are fated to die shortly after completing their ninth symphony."
     },
     {
       "id": "q8",
-      "type": "number",
-      "prompt": "The Wikipedia article on Artificial intelligence in spirituality, which touches on people who think AI has supernatural powers, describes the Mindar android robot priest unveiled at Kodaiji Temple in Kyoto, Japan. In what year was Mindar unveiled?",
-      "answer": 2019,
-      "tolerance": 1,
-      "unit": "",
-      "hint": "It was unveiled sometime between 2016 and 2023.",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual Cyrillic letter that looks exactly the same as the Latin letter S, making it the ultimate weapon in IDN homograph attacks?",
+      "choices": [
+        "Dje",
+        "Tshe",
+        "Dze",
+        "Shcha"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not 'Dje' or 'Shcha', both of which have distinct shapes that don't resemble any Latin letter.",
       "article": {
-        "title": "Artificial intelligence in spirituality",
-        "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_spirituality"
+        "title": "Dze",
+        "url": "https://en.wikipedia.org/wiki/Dze"
       },
-      "explanation": "The article notes that Mindar, an android robot designed to resemble the Buddhist deity Kannon, was unveiled at Kodaiji Temple in Kyoto, Japan, in 2019."
+      "explanation": "Dze is a letter of the Cyrillic script that in its lowercase form is visually identical to the Latin letter S, creating potential security risks in domain names."
     },
     {
       "id": "q9",
-      "type": "text",
-      "prompt": "According to Wikipedia, the 2015 hip-hop remix album 'Meow the Jewels' by Run the Jewels replaced every sound from the original album with noises made by what common household pet?",
-      "answer": "Cats",
-      "hint": "4 letters, 1 word; a popular household pet known for purring and meowing.",
+      "type": "multiple",
+      "prompt": "An otherwise unnamed island off the coast of Maine was informally dubbed after a famous rapper because it had 'rope-swinging, blueberries, and other stuff' that rapper would enjoy. Who is this rapper?",
+      "choices": [
+        "Busta Rhymes",
+        "Snoop Dogg",
+        "Ludacris",
+        "Method Man"
+      ],
+      "hint": "The rapper's stage name is part of the island's nickname, and it is not Snoop Dogg or Method Man.",
+      "answerIndex": 0,
       "article": {
-        "title": "Meow the Jewels",
-        "url": "https://en.wikipedia.org/wiki/Meow_the_Jewels"
+        "title": "Busta Rhymes Island",
+        "url": "https://en.wikipedia.org/wiki/Busta_Rhymes_Island"
       },
-      "explanation": "Meow the Jewels is a novelty remix album by Run the Jewels in which every sound on the original Run the Jewels 2 album was replaced with cat noises, funded through a charity Kickstarter campaign."
+      "explanation": "The island was informally named 'Busta Rhymes Island' after the rapper Busta Rhymes because it offered rope-swinging, blueberries, and other things he might enjoy."
     },
     {
       "id": "q10",
       "type": "text",
-      "prompt": "Trump Burger is a Texas restaurant chain known for its pro-Trump branding, but ironically, its owner was arrested in 2025 by what U.S. federal agency responsible for immigration enforcement?",
-      "answer": "ICE",
-      "hint": "1 word, 3 letters — an abbreviation for the federal agency that handles immigration and customs enforcement",
+      "prompt": "E-Prime is a form of English that eliminates all forms of the verb 'to be'. Because auxiliary 'to be' verbs are also banned, what grammatical voice, often formed with words like 'was' or 'is', becomes impossible to use in E-Prime?",
+      "answer": "Passive voice",
+      "hint": "2 words, 12 letters total (7 + 5). This voice usually places the object before the subject in a sentence (e.g., 'The ball was thrown').",
       "article": {
-        "title": "Trump Burger",
-        "url": "https://en.wikipedia.org/wiki/Trump_Burger"
+        "title": "E-Prime",
+        "url": "https://en.wikipedia.org/wiki/E-Prime"
       },
-      "explanation": "Despite the restaurant's strong pro-Trump identity, its owner was arrested by U.S. Immigration and Customs Enforcement (ICE) in 2025, a notable irony given the chain's branding."
+      "explanation": "Since passive voice constructions rely on forms of 'to be' (such as 'was thrown' or 'is being done'), E-Prime writers cannot use passive voice and must rewrite sentences in active voice instead."
     }
   ],
   "_debug": {

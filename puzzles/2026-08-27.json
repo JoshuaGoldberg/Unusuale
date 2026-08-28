@@ -3,160 +3,150 @@
   "title": "Puzzle No. 1",
   "questions": [
     {
-      "id": "q1",
-      "type": "multiple",
-      "prompt": "The Wikipedia article 'List of animals awarded human credentials' describes several animals getting so-called diplomas from diploma mills to expose fraudulent institutions. What type of animal was 'Colby Nolan,' who received an MBA from a diploma mill in 2004 as part of a Pennsylvania Attorney General investigation?",
-      "choices": [
-        "Dog",
-        "Cat",
-        "Parrot",
-        "Horse"
-      ],
-      "hint": "The animal was a common household pet, not a farm animal or bird.",
-      "answerIndex": 2,
-      "article": {
-        "title": "List of animals awarded human credentials",
-        "url": "https://en.wikipedia.org/wiki/List_of_animals_awarded_human_credentials"
-      },
-      "explanation": "Colby Nolan was a cat who was awarded an MBA from Trinity Southern University, a diploma mill, as part of an investigation by the Pennsylvania Attorney General's office to expose the fraudulent nature of the institution."
-    },
-    {
       "id": "q2",
       "type": "multiple",
-      "prompt": "The Wikipedia article on this isekai series, once described as 'proof that the isekai genre either is or isn't out of ideas, depending on whom you ask,' follows a man reincarnated as a vending machine trapped in a dungeon. What name does the protagonist go by as a vending machine?",
+      "prompt": "Hjönk! Which of the following is a real unusual article about a bizarre fashion statement?",
       "choices": [
-        "Dispenser",
-        "Vendo",
-        "Boxxo",
-        "Hanbaiki"
+        "Peacock Gown",
+        "Ostrich Suit",
+        "Swan Dress",
+        "Flamingo Cloak"
       ],
-      "hint": "The name isn't a literal Japanese word for vending machine, and it isn't a generic English term for one either.",
       "answerIndex": 2,
+      "hint": "The real article was worn at the Oscars and does not involve an ostrich or a flamingo.",
       "article": {
-        "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
-        "url": "https://en.wikipedia.org/wiki/Reborn_as_a_Vending_Machine,_I_Now_Wander_the_Dungeon"
+        "title": "Swan dress",
+        "url": "https://en.wikipedia.org/wiki/Swan_dress"
       },
-      "explanation": "The protagonist, reincarnated as a vending machine in a dungeon, is known by the nickname 'Boxxo.'"
+      "explanation": "The swan dress was a famously eccentric outfit worn by Icelandic singer Björk to the 2001 Academy Awards, designed to resemble a swan wrapped around her body."
     },
     {
       "id": "q3",
-      "type": "text",
-      "prompt": "Haruka No. 2 was a Japanese racehorse whose loud, wheezing breathing during races earned it the nickname 'nasal congestion's final boss.' What common term for horses with this noisy breathing condition, caused by a paralyzed larynx, is often used in racing?",
-      "answer": "Roarer",
-      "hint": "6 letters; it's the informal name for horses with laryngeal hemiplegia, so called because of the sound they make when breathing hard.",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a page that paradoxically says something while claiming to say nothing, the self-refuting meta-reference that is 'This page intentionally left blank'?",
+      "choices": [
+        "Intentionally missing chapter",
+        "Deliberately unnumbered page",
+        "Intentionally blank page",
+        "Purposefully empty appendix"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not about a missing chapter or an unnumbered page, those are fabricated concepts.",
       "article": {
-        "title": "Haruka No. 2",
-        "url": "https://en.wikipedia.org/wiki/Haruka_No._2"
+        "title": "Intentionally blank page",
+        "url": "https://en.wikipedia.org/wiki/Intentionally_blank_page"
       },
-      "explanation": "Haruka No. 2 suffered from a respiratory condition that caused it to make loud wheezing noises while racing, a condition informally known as being a 'roarer,' which contributed to its internet fame and the nickname 'nasal congestion's final boss.'"
+      "explanation": "An intentionally blank page is a page that is devoid of content, often marked with a notice stating it is intentionally left blank, creating a self-refuting contradiction."
     },
     {
       "id": "q4",
-      "type": "number",
-      "prompt": "That's a mouthful! Good thing it has a much shorter name: silicosis. How many letters make up the full name Pneumonoultramicroscopicsilicovolcanoconiosis, one of the longest words in the English language?",
-      "answer": 45,
-      "tolerance": 2,
-      "unit": "letters",
-      "hint": "It has more than 34 letters",
+      "type": "text",
+      "prompt": "Target fixation is defined as becoming so fixated on an object you are trying to avoid that you end up colliding with it. According to the Wikipedia article, what is the recommended countermeasure taught to pilots and motorcyclists to avoid this, look where you want to what?",
+      "answer": "go",
+      "hint": "2 letters. It's the opposite of looking at the hazard itself, you should look toward your intended path or direction.",
       "article": {
-        "title": "Pneumonoultramicroscopicsilicovolcanoconiosis",
-        "url": "https://en.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis"
+        "title": "Target fixation",
+        "url": "https://en.wikipedia.org/wiki/Target_fixation"
       },
-      "explanation": "The word Pneumonoultramicroscopicsilicovolcanoconiosis contains 45 letters, making it one of the longest words in the English language. It refers to a lung disease more commonly known as silicosis."
+      "explanation": "The article explains that to counteract target fixation, pilots and riders are trained to focus their attention on where they want to go rather than on the obstacle or hazard they are trying to avoid, since fixating on the danger increases the likelihood of steering toward it."
     },
     {
       "id": "q5",
-      "type": "number",
-      "prompt": "In the dystopian novel Tender Is the Flesh, a virus makes all animal meat unsafe to eat, so instead of going vegan, society legalizes cannibalism and human meat farms. In what year did this novel win the Premio Clarín de Novela award?",
-      "answer": 2017,
-      "tolerance": 0,
-      "unit": "",
-      "hint": "It was sometime after 2013.",
+      "type": "multiple",
+      "prompt": "The Principality of Sealand is a micronation located 6 miles (9.7 km) off the coast of Suffolk, England whose population rarely exceeds ten. In 1978, a group attempted to take over Sealand by force while its founder was away, but what happened to the invaders?",
+      "choices": [
+        "They were captured and held as prisoners of war until diplomatic negotiations freed them",
+        "They successfully overthrew Sealand and ruled it for several months",
+        "They were rescued by the British Navy and returned to Germany",
+        "They drowned attempting to escape by boat"
+      ],
+      "hint": "It was not a successful takeover, and no one drowned trying to escape.",
+      "answerIndex": 0,
       "article": {
-        "title": "Tender Is the Flesh",
-        "url": "https://en.wikipedia.org/wiki/Tender_Is_the_Flesh"
+        "title": "Principality of Sealand",
+        "url": "https://en.wikipedia.org/wiki/Principality_of_Sealand"
       },
-      "explanation": "The novel, written by Agustina Bazterrica, won the Premio Clarín de Novela in 2017 before being translated into English in 2020."
+      "explanation": "In 1978, while Sealand's founder Paddy Roy Bates was away, a group led by Alexander Achenbach attempted a coup and took his son hostage. Bates retook the fort and held the invaders as prisoners of war, treating the incident as an act of war against Sealand, until Germany intervened diplomatically to secure their release."
     },
     {
       "id": "q6",
       "type": "multiple",
-      "prompt": "Which article does the following describe?\nThis street, located in a German town, is recognized by Guinness World Records as the narrowest street in the world, with a width ranging from just 31 cm to 50 cm at its tightest and widest points.",
+      "prompt": "Which article does the following describe?\nThis 2018 documentary film follows a Spanish political leader behind the scenes during a tumultuous election campaign period, offering an intimate look at the strategy and struggles involved in seeking to retain power.",
       "choices": [
-        "Spreuerhofstraße",
-        "Getreidegasse",
-        "Rue du Chat-qui-Pêche",
-        "Parliament Street"
+        "Puedo prometer y prometo",
+        "El Rey",
+        "15 años y un día",
+        "Zona hostil"
       ],
-      "hint": "The correct answer is located in Germany and holds an official world record for its extreme narrowness, unlike the other options which are known for different reasons such as historical significance or scenic charm.",
-      "answerIndex": 2,
+      "hint": "The correct answer is a documentary, not a fictional narrative film, and it focuses specifically on real footage of a sitting Spanish prime minister's campaign rather than a dramatized or fictional political story.",
+      "answerIndex": 0,
       "article": {
-        "title": "Spreuerhofstraße",
-        "url": "https://en.wikipedia.org/wiki/Spreuerhofstra%C3%9Fe"
+        "title": "Puedo prometer y prometo",
+        "url": "https://en.wikipedia.org/wiki/Puedo_prometer_y_prometo"
       },
-      "explanation": "The article describes Spreuerhofstraße, a street in Reutlingen, Germany, officially recognized as the narrowest street in the world, with widths ranging from 31 cm to 50 cm."
+      "explanation": "The article describes 'Puedo prometer y prometo', a 2018 Spanish documentary film that chronicles Mariano Rajoy's political campaign during Spain's 2015-2016 general elections."
     },
     {
       "id": "q7",
-      "type": "multiple",
-      "prompt": "Which of the following is a real unusual reality show that claimed to search for America's next singing sensation, but was secretly a competition to find the worst singers in the country?",
-      "choices": [
-        "Off-Key America",
-        "Talentless USA",
-        "Superstar USA",
-        "America's Worst Voice"
-      ],
-      "answerIndex": 2,
-      "hint": "The real show's title mimics a legitimate singing competition format, tricking contestants into thinking they were being praised for real talent.",
+      "type": "number",
+      "prompt": "The Exorcist Steps, a set of steps on 36th Street most famous for having the character of Father Karras fall to his death after being possessed, are a real staircase in Georgetown, Washington D.C. How many individual steps make up this stairway?",
+      "answer": 75,
+      "tolerance": 3,
+      "unit": "steps",
+      "hint": "It's more than 55 steps.",
       "article": {
-        "title": "Superstar USA",
-        "url": "https://en.wikipedia.org/wiki/Superstar_USA"
+        "title": "Exorcist steps",
+        "url": "https://en.wikipedia.org/wiki/Exorcist_steps"
       },
-      "explanation": "Superstar USA was a reality TV show that deceived contestants into believing they were competing for genuine singing talent, when in fact producers were searching for the worst singers in America."
+      "explanation": "The Exorcist Steps, located on 36th Street NW in Georgetown, consist of 75 concrete steps and became famous after being featured in the 1973 film The Exorcist."
     },
     {
       "id": "q8",
-      "type": "text",
-      "prompt": "The Expanding Earth theory, which claims the Earth is growing, was notably championed in the 20th century by an Australian geologist. Who was this prominent proponent?",
-      "answer": "Carey",
-      "hint": "5 letters. His full name was Samuel Warren ___, and he was a geologist who supported this now discredited theory.",
+      "type": "multiple",
+      "prompt": "In some countries, clinging to the outside of a moving train is considered as respectable and practical as drying one's hair in most parts of the world. Which of the following is a real unusual article?",
+      "choices": [
+        "Tram gliding",
+        "Roof riding",
+        "Train surfing",
+        "Car top diving"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct activity has nothing to do with trams or car roofs, it involves riding on the outside of a moving train.",
       "article": {
-        "title": "Expanding Earth",
-        "url": "https://en.wikipedia.org/wiki/Expanding_Earth"
+        "title": "Train surfing",
+        "url": "https://en.wikipedia.org/wiki/Train_surfing"
       },
-      "explanation": "S. Warren Carey was an Australian geologist who was one of the most prominent supporters of the Expanding Earth theory, arguing that the size of the Earth has been increasing over geological time."
+      "explanation": "Train surfing is the dangerous practice of riding on the outside of a moving train, often for thrill or as a form of transportation in some regions."
     },
     {
       "id": "q9",
-      "type": "number",
-      "prompt": "The Wikipedia article on cute aggression describes the unusual phenomenon of why people want to squeeze cute things without harm. In a 2018 EEG study by Katherine Stavropoulos exploring this urge, how many participants were included in the study?",
-      "answer": 54,
-      "tolerance": 5,
-      "unit": "participants",
-      "hint": "More than 40 participants took part.",
+      "type": "multiple",
+      "prompt": "Long before YouTube Rewind 2018: Everyone Controls Rewind became one of the most disliked videos on the platform, New York City held a much more prestigious distinction, according to the Wikipedia article on New York (state). What was it?",
+      "choices": [
+        "The first capital of the United States under the Constitution",
+        "The site of the first American stock exchange",
+        "The location of the first U.S. federal courthouse",
+        "The first city to host the United Nations headquarters"
+      ],
+      "hint": "It was not related to the stock exchange or the federal courthouse; think about a governmental milestone tied to George Washington's inauguration.",
+      "answerIndex": 0,
       "article": {
-        "title": "Cute aggression",
-        "url": "https://en.wikipedia.org/wiki/Cute_aggression"
+        "title": "New York (state)",
+        "url": "https://en.wikipedia.org/wiki/New_York_(state)"
       },
-      "explanation": "The article notes that Katherine Stavropoulos conducted a 2018 EEG study with 54 participants to examine neural responses associated with cute aggression, the desire to squeeze or pinch cute things without wanting to cause them harm."
+      "explanation": "New York City served as the first capital of the United States under the Constitution, where George Washington was inaugurated as the first U.S. president in 1789."
     },
     {
       "id": "q10",
-      "type": "multiple",
-      "prompt": "Which Wikipedia article does this describe?\nA 2024 protest album featuring over 1,000 musicians that consists entirely of silent recordings, created to oppose proposed changes to UK copyright law that would allow AI companies to use copyrighted material without permission.",
-      "choices": [
-        "Silence for Sale",
-        "Is This What We Want?",
-        "Sound of Silence Protest",
-        "Quiet Resistance"
-      ],
-      "hint": "The correct title is phrased as a question and does not contain the words 'silence' or 'protest' directly.",
-      "answerIndex": 1,
+      "type": "text",
+      "prompt": "Bats with white noses: sounds cute, is horrifying. This white fuzz seen on hibernating bats is actually caused by a cold-loving fungus. What is the genus name of this fungus that causes white-nose syndrome?",
+      "answer": "Pseudogymnoascus",
+      "hint": "17 letters. This fungus genus name was changed from 'Geomyces' after further research, and it thrives in cold, humid cave environments.",
       "article": {
-        "title": "Is This What We Want?",
-        "url": "https://en.wikipedia.org/wiki/Is_This_What_We_Want%3F"
+        "title": "White-nose syndrome",
+        "url": "https://en.wikipedia.org/wiki/White-nose_syndrome"
       },
-      "explanation": "Is This What We Want? is a 2024 protest album by over 1,000 musicians consisting of silent tracks recorded in their own studios and performance spaces, released to protest proposed UK government changes to copyright law that would let AI firms train on copyrighted works without compensation."
+      "explanation": "White-nose syndrome is caused by the fungus Pseudogymnoascus destructans, which grows on the muzzles, ears, and wings of hibernating bats, giving them a white, fuzzy appearance while causing often fatal damage to their skin and disrupting their hibernation."
     }
   ]
 }
