@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-28",
+  "title": "Puzzle No. 2",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nA defunct transit company that operated bus and trolley services in the New England region of the United States during the early-to-mid 20th century, providing intercity and local transportation before eventually ceasing operations or being absorbed by other transit authorities.",
+      "choices": [
+        "New England Transit",
+        "Boston Elevated Railway",
+        "Connecticut Company",
+        "Hartford & New York Transportation Company"
+      ],
+      "hint": "The correct answer is not a railway company known primarily for elevated trains, nor is it a company primarily associated with steamship or maritime transportation.",
+      "answerIndex": 0,
+      "article": {
+        "title": "New England Transit",
+        "url": "https://en.wikipedia.org/wiki/New_England_Transit"
+      },
+      "explanation": "The article describes New England Transit, a transit company that provided bus and trolley services across the New England region before eventually ceasing operations or merging with other transit entities."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "The peanut butter test is a diagnostic test for Alzheimer's disease that measures a person's ability to smell peanut butter through each nostril. In the original 2013 University of Florida study, how many participants had probable Alzheimer's disease?",
+      "answer": 24,
+      "tolerance": 3,
+      "unit": "people",
+      "hint": "More than 18 participants had probable Alzheimer's disease in the study.",
+      "article": {
+        "title": "Peanut butter test",
+        "url": "https://en.wikipedia.org/wiki/Peanut_butter_test"
+      },
+      "explanation": "The study that introduced the peanut butter test included 24 participants with probable Alzheimer's disease, along with other groups with different forms of dementia and healthy controls."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of these is a real unusual song, born from an unexpected collaboration between rapper Tinchy Stryder and British comedy duo the Chuckle Brothers?",
+      "choices": [
+        "To You, To Him (Pal)",
+        "From Me, To Thee (Mate)",
+        "To Me, To You (Bruv)",
+        "For Me, For You (Chum)"
+      ],
+      "answerIndex": 2,
+      "hint": "The real title uses the phrase 'To Me, To You', the classic catchphrase of the Chuckle Brothers, not a variation like 'From Me' or 'For Me'.",
+      "article": {
+        "title": "To Me, To You (Bruv)",
+        "url": "https://en.wikipedia.org/wiki/To_Me,_To_You_(Bruv)"
+      },
+      "explanation": "\"To Me, To You (Bruv)\" is a novelty single that paired grime artist Tinchy Stryder with comedy duo the Chuckle Brothers, blending their famous catchphrase into a rap track."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nA device that generates high voltage electrical discharges modulated to produce musical tones, effectively using electric arcs as a speaker to play recognizable melodies",
+      "choices": [
+        "Plasma speaker",
+        "Van de Graaff generator",
+        "Singing Tesla coil",
+        "Jacob's ladder"
+      ],
+      "hint": "This is not a device that builds up static electricity through friction, nor is it a simple continuous arc device used for demonstrations without musical modulation.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Singing Tesla coil",
+        "url": "https://en.wikipedia.org/wiki/Singing_Tesla_coil"
+      },
+      "explanation": "A singing Tesla coil, also known as a musical Tesla coil or thoramin, is a Tesla coil modified to produce audible musical notes by controlling the frequency and duration of its electrical discharges, essentially using the spark gap output as an audio transducer."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a food crisis so severe it led to smuggling and a Danish TV show's emergency appeal?",
+      "choices": [
+        "Swedish cheese shortage",
+        "Finnish milk panic",
+        "Norwegian butter crisis",
+        "Danish bacon rebellion"
+      ],
+      "answerIndex": 2,
+      "hint": "The event did not involve cheese or bacon, so you can rule out the Swedish cheese shortage and the Danish bacon rebellion.",
+      "article": {
+        "title": "Norwegian butter crisis",
+        "url": "https://en.wikipedia.org/wiki/Norwegian_butter_crisis"
+      },
+      "explanation": "In 2011, a sudden spike in butter prices in Norway caused widespread shortages, black market smuggling, and even prompted a Danish television show to launch an emergency appeal to send butter across the border."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual mascot? Don't mess with this jubilee mascot! She has the power of God and anime on her side!",
+      "choices": [
+        "Fiora (mascot)",
+        "Luce (mascot)",
+        "Beato (mascot)",
+        "Santina (mascot)"
+      ],
+      "answerIndex": 1,
+      "hint": "The other two mascots are not associated with the Vatican or the Catholic Church's Jubilee celebrations.",
+      "article": {
+        "title": "Luce (mascot)",
+        "url": "https://en.wikipedia.org/wiki/Luce_(mascot)"
+      },
+      "explanation": "Luce is an anime-style mascot created by the Vatican for the 2025 Jubilee, depicting a young pilgrim with a raincoat and glowing eyes symbolizing hope and faith."
+    },
+    {
+      "id": "q7",
+      "type": "number",
+      "prompt": "Carstuckgirls.com, described on Wikipedia with the unusual summary 'an erotic(?) website devoted to women trying to free their cars from various obstacles,' was launched in what year?",
+      "answer": null,
+      "tolerance": 2,
+      "unit": "",
+      "hint": "This Wikipedia article could not be verified to exist.",
+      "article": {
+        "title": "Carstuckgirls.com",
+        "url": "https://en.wikipedia.org/wiki/Carstuckgirls.com"
+      },
+      "explanation": "Unable to verify that a Wikipedia article titled 'Carstuckgirls.com' exists with the described content. The claimed launch year of 2002 cannot be confirmed."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article is being described here?\nA 2008 point-and-click adventure video game that became infamous after players discovered that many of its graphics, textures, and 3D models had been copied without permission from other commercial games, leading to its withdrawal from sale.",
+      "choices": [
+        "Limbo of the Lost",
+        "Big Rigs: Over the Road Racing",
+        "Daikatana",
+        "The Slaughter: Act One"
+      ],
+      "hint": "The correct answer is not Big Rigs: Over the Road Racing, which is infamous for broken mechanics rather than plagiarism, and it is not Daikatana, which is known for poor design and marketing hype rather than asset theft.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Limbo of the Lost",
+        "url": "https://en.wikipedia.org/wiki/Limbo_of_the_Lost"
+      },
+      "explanation": "The article describes Limbo of the Lost, a 2008 adventure game that was pulled from shelves after it was revealed that numerous assets were stolen from other games such as Half-Life 2, Doom 3, and Thief: Deadly Shadows."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "The article on recursive islands and lakes, summarized as 'Islands in lakes in islands in lakes in islands...', describes the world's largest known example of this phenomenon located on Victoria Island in Canada. What is the area of Victoria Island itself, in square kilometers, which makes it the 8th largest island in the world?",
+      "answer": 217291,
+      "tolerance": 5000,
+      "unit": "square kilometers",
+      "hint": "It's larger than 200,000 square kilometers but smaller than 220,000 square kilometers.",
+      "article": {
+        "title": "Recursive islands and lakes",
+        "url": "https://en.wikipedia.org/wiki/Recursive_islands_and_lakes"
+      },
+      "explanation": "Victoria Island, home to the world's largest known recursive island-lake-island-lake system, has an area of 217,291 square kilometers, ranking it as the 8th largest island in the world."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "Because war demands proper fashion, many women throughout history disguised themselves as men to serve in combat. What alias did Deborah Sampson use when she enlisted in the Continental Army during the American Revolutionary War?",
+      "answer": "Robert Shurtliff",
+      "hint": "15 letters (two words); this male name was borrowed to conceal her identity while serving as a soldier.",
+      "article": {
+        "title": "Wartime cross-dressers",
+        "url": "https://en.wikipedia.org/wiki/Wartime_cross-dressers"
+      },
+      "explanation": "Deborah Sampson disguised herself as a man named Robert Shurtliff to enlist and fight in the Continental Army during the American Revolutionary War, one of the earliest documented cases of wartime cross-dressing."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
