@@ -503,3 +503,7 @@ ul.choices li {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.copy-button {
+  margin-left: 0.5rem;
+}

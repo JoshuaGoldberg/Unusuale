@@ -511,6 +511,8 @@ function nextButton(label) {
   button.addEventListener('click', function () {
     state.index += 1;
     if (state.index >= state.puzzle.questions.length) {
+      var scoreTracker = document.getElementById('score-tracker');
+      scoreTracker.style.display = 'none';
       renderResults();
     } else {
       renderQuestion();
@@ -552,7 +554,7 @@ function renderResults() {
   var share = element('pre', 'share', shareText());
   mount.appendChild(share);
 
-  var copy = element('button', 'button', 'Copy result');
+  var copy = element('button', 'button copy-button', 'Copy result');
   copy.type = 'button';
   copy.addEventListener('click', function () {
     var done = function () { copy.textContent = 'Copied'; };
@@ -564,6 +566,7 @@ function renderResults() {
       copy.textContent = 'Copy failed';
     }
   });
+  
   mount.appendChild(copy);
 
   var footer = element('p', 'results-footer');
@@ -630,6 +633,8 @@ function start() {
 
       if (state.index >= puzzle.questions.length) {
         renderResults();
+        var scoreTracker = document.getElementById('score-tracker');
+        scoreTracker.style.display = 'none';
       } else {
         renderQuestion();
       }
