@@ -27,10 +27,11 @@
     </main>
   </div>
 
-  <footer class="site-footer">
-    <p>This page was last edited on 27 August 2026.</p>
-  </footer>
-
-  <script src="game.js?v=2"></script>
+  <!-- Load order matters: game.js uses helpers from util.js and the
+       handlers in question-types.js. -->
+  <script src="util.js?v=1"></script>
+  <script src="question-types.js?v=1"></script>
+  <script src="game.js?v=3"></script>
+  <script src="footer.js?v=1"></script>
 </body>
 </html>
