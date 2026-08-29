@@ -1,0 +1,191 @@
+{
+  "date": "2026-08-29",
+  "title": "Puzzle No. 3",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article on the trope 'You kids get off my lawn!' notes a related exclamation, 'I'm gonna call your parents, you kids!' What generational stereotype does this phrase and its associated trope primarily represent?",
+      "choices": [
+        "A grumpy old person annoyed by young people trespassing or making noise",
+        "A strict teacher scolding students for misbehavior",
+        "A parent disciplining their own children at home",
+        "A police officer warning teenagers about curfew violations"
+      ],
+      "hint": "The correct answer does not involve official authority figures such as teachers or police officers enforcing rules on students or teenagers.",
+      "answerIndex": 0,
+      "article": {
+        "title": "You kids get off my lawn!",
+        "url": "https://en.wikipedia.org/wiki/You_kids_get_off_my_lawn!"
+      },
+      "explanation": "The phrase represents the stereotype of a cantankerous older person who is irritated by young people encroaching on their property, symbolizing generational conflict and grumpiness associated with aging."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis was a hoax Wikipedia article that falsely presented a fictional creature or concept as if it were legitimate, misleading readers with fabricated details styled to resemble genuine scientific or historical information before it was identified and removed.",
+      "choices": [
+        "Punk ferox",
+        "Ferox Punk Rebellion",
+        "The Great Emu War",
+        "Bicholim Conflict"
+      ],
+      "hint": "The correct answer is not named 'Ferox Punk Rebellion', and it is not about a real conflict between Australia and emus.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Punk ferox",
+        "url": "https://en.wikipedia.org/wiki/Punk_ferox"
+      },
+      "explanation": "Punk ferox was a hoax article on Wikipedia that presented false or fabricated information as though it were factual, eventually being identified as a hoax and removed."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis was an alternate or working title associated with a comedy film sequel starring Kevin James as a bumbling mall security guard, released in 2015, following up on a hit comedy from 2009.",
+      "choices": [
+        "'Til Death Do Us Blart",
+        "Grown Ups 3",
+        "Zookeeper 2",
+        "Paul Blart: Beach Cop"
+      ],
+      "hint": "The correct answer is not about zoo animals or a group of friends reuniting, but it does belong to a franchise centered on a mall security guard.",
+      "answerIndex": 0,
+      "article": {
+        "title": "'Til Death Do Us Blart",
+        "url": "https://en.wikipedia.org/wiki/%27Til_Death_Do_Us_Blart"
+      },
+      "explanation": "'Til Death Do Us Blart was a working title used during the development of Paul Blart: Mall Cop 2, a 2015 comedy sequel starring Kevin James reprising his role as mall security guard Paul Blart."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nThis Hindu temple in Rajasthan, India is famous for the thousands of black rats that live and are revered within its complex. Devotees believe these creatures house the reincarnated souls of the goddess's family members, and spotting a rare white rat is considered especially auspicious.",
+      "choices": [
+        "Golden Temple",
+        "Karni Mata Temple",
+        "Meenakshi Temple",
+        "Lotus Temple"
+      ],
+      "hint": "The correct answer is not associated with Sikhism and is not located in Delhi.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Karni Mata Temple",
+        "url": "https://en.wikipedia.org/wiki/Karni_Mata_Temple"
+      },
+      "explanation": "The Karni Mata Temple, located in Deshnoke near Bikaner, Rajasthan, is famously known as the 'Temple of Rats' due to the thousands of rats that are worshipped and cared for within its premises."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a meme's protagonist who sued its creator?",
+      "choices": [
+        "Disaster Girl",
+        "Overly Attached Girlfriend",
+        "Techno Viking",
+        "Success Kid"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not a young girl or a young kid photographed as a child, so you can rule out two of these choices right away.",
+      "article": {
+        "title": "Techno Viking",
+        "url": "https://en.wikipedia.org/wiki/Techno_Viking"
+      },
+      "explanation": "The Techno Viking meme, based on footage of a shirtless man dancing at a parade, led the man to sue the video's creator over unauthorized use of his likeness."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis indigenous man was believed to be the sole survivor of his tribe, living in isolation in the Brazilian Amazon for about 26 years. He was known for digging deep holes, possibly used to trap animals or hide in. He was found dead in his hammock in August 2022, apparently of natural causes.",
+      "choices": [
+        "Man of the Hole",
+        "Sentinelese people",
+        "Ishi (Native American)",
+        "The Last of the Tribe"
+      ],
+      "hint": "The correct answer is not a group or tribe name, and it is not a documentary film title.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Man of the Hole",
+        "url": "https://en.wikipedia.org/wiki/Man_of_the_Hole"
+      },
+      "explanation": "The 'Man of the Hole' was an indigenous man believed to be the last member of an uncontacted tribe in Brazil, known for digging deep holes and living alone in the Amazon until his death in 2022."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This issue arises because many computer systems store time as a signed 32-bit integer counting seconds since an epoch in January 1970, meaning the value will overflow at a specific date and time in the near future, causing potential date and time errors similar to an earlier well-known computer bug.",
+      "choices": [
+        "Millennium Bug",
+        "Year 2038 Problem",
+        "Unix Time",
+        "Leap Second"
+      ],
+      "hint": "The correct answer is not about a general millennium related computer bug, nor about the periodic adjustment of a leap second.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Year 2038 problem",
+        "url": "https://en.wikipedia.org/wiki/Year_2038_problem"
+      },
+      "explanation": "The Year 2038 problem refers to the limitation of systems that store time as a signed 32-bit integer counting seconds since 1 January 1970, which will overflow at 03:14:07 UTC on 19 January 2038, potentially causing date and time calculation errors."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "John Cage's 4′33″, described by some as 'The world's greatest musical composition,' consists entirely of silence lasting exactly 4 minutes and 33 seconds (273 seconds). What scientific concept is this number said to symbolically reference?",
+      "choices": [
+        "The speed of light in a vacuum",
+        "The boiling point of water",
+        "Absolute zero temperature",
+        "The year Cage was born"
+      ],
+      "hint": "It's not related to light speed or water's boiling point, those are unrelated physical constants to this piece's symbolism.",
+      "answerIndex": 2,
+      "article": {
+        "title": "4′33″",
+        "url": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3"
+      },
+      "explanation": "The piece's duration, 273 seconds, is often linked to absolute zero (-273.15°C), the theoretical temperature at which molecular motion stops, echoing the piece's theme of silence and stillness."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis paradox arises from the observation that a statement like 'all X are black' is logically equivalent to 'all non-black things are not X', meaning that observing something like a green apple would technically count as confirming evidence for the original claim about X's color.",
+      "choices": [
+        "Ship of Theseus",
+        "Sorites Paradox",
+        "Raven Paradox",
+        "Zeno's Paradoxes"
+      ],
+      "hint": "It's not about a gradual change in identity (like a ship having its parts replaced) or about vague boundaries (like a heap of sand).",
+      "answerIndex": 2,
+      "article": {
+        "title": "Raven paradox",
+        "url": "https://en.wikipedia.org/wiki/Raven_paradox"
+      },
+      "explanation": "The Raven Paradox, also known as Hempel's paradox, illustrates a problem in inductive logic where the statement 'all ravens are black' is logically equivalent to 'all non-black things are non-ravens.' This means that observing any non-black, non-raven object (like a green apple) technically provides confirming evidence for the claim that all ravens are black, which seems counterintuitive."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "There's a little known way to score points in American football left over from rugby, so obscure that even Bill Belichick wouldn't call one in Super Bowl LI. Which of the following is that real unusual scoring method?",
+      "choices": [
+        "Free catch conversion",
+        "Rouge kick rule",
+        "Fair catch kick",
+        "Delayed fair catch"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'Rouge kick rule' or 'Delayed fair catch', those terms don't correspond to any real NFL scoring method.",
+      "article": {
+        "title": "Fair catch kick",
+        "url": "https://en.wikipedia.org/wiki/Fair_catch_kick"
+      },
+      "explanation": "A fair catch kick is a rarely used rule allowing a team to attempt a free kick field goal after a fair catch, a holdover from football's rugby origins."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
