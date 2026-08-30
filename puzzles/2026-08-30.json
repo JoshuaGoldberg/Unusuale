@@ -1,0 +1,181 @@
+{
+  "date": "2026-08-30",
+  "title": "Puzzle No. 4",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "There are many who still believe a certain celebrity never really died—which of these is a real Wikipedia article about a celebrity death conspiracy theory?",
+      "choices": [
+        "Marilyn Monroe survival conspiracy theories",
+        "Jim Morrison faked death theories",
+        "Elvis Presley death conspiracy theories",
+        "Michael Jackson resurrection theories"
+      ],
+      "answerIndex": 2,
+      "hint": "The real article is not about Marilyn Monroe or Michael Jackson.",
+      "article": {
+        "title": "Elvis Presley death conspiracy theories",
+        "url": "https://en.wikipedia.org/wiki/Elvis_Presley_death_conspiracy_theories"
+      },
+      "explanation": "Despite overwhelming evidence of his 1977 death, some fans and theorists claim Elvis Presley faked his death or is still alive, a belief that persists to this day."
+    },
+    {
+      "id": "q2",
+      "type": "number",
+      "prompt": "The Wikipedia article opens with the tongue-in-cheek line 'What do you mean, \"who\"? You know him! He's your favorite Simpsons character!' about the obscure character Graggle Simpson. According to the article, in which season of The Simpsons did Graggle first appear?",
+      "answer": 12,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "Somewhere between the show's early classic era and its later long-running seasons, closer to the middle of the show's first fifteen years.",
+      "article": {
+        "title": "Graggle Simpson",
+        "url": "https://en.wikipedia.org/wiki/Graggle_Simpson"
+      },
+      "explanation": "The article states that Graggle Simpson, a minor background character, made his first appearance during Season 12 of The Simpsons."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nIn physics, the derivatives of position with respect to time beyond velocity and acceleration are given specific names. The third derivative is called jerk (or jolt), which measures the rate of change of acceleration. The fourth, fifth, and sixth derivatives are less commonly used but have been informally named snap (or jounce), crackle, and pop, following the naming convention of the popular cereal mascots.",
+      "choices": [
+        "Jerk (physics)",
+        "Fourth, fifth, and sixth derivatives of position",
+        "Kinematics",
+        "Equations of motion"
+      ],
+      "hint": "The correct answer is not a general article about motion or equations.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Fourth, fifth, and sixth derivatives of position",
+        "url": "https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position"
+      },
+      "explanation": "The article discusses the higher order derivatives of position beyond jerk, namely snap (jounce), crackle, and pop, which describe the fourth, fifth, and sixth derivatives of an object's position with respect to time."
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "prompt": "The electroencephalophone, a musical instrument controlled by brainwaves, requires the user to close their eyes to produce which type of brainwave that generates the instrument's tone?",
+      "answer": "Alpha",
+      "hint": "5 letters, 1 word. This brainwave is associated with relaxed, closed-eye states.",
+      "article": {
+        "title": "Electroencephalophone",
+        "url": "https://en.wikipedia.org/wiki/Electroencephalophone"
+      },
+      "explanation": "The electroencephalophone works by detecting alpha waves, which are brainwaves that become prominent when a person closes their eyes and relaxes, and converting them into audible tones."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Long Boi was an exceptionally tall duck that lived on the University of York campus before disappearing in 2024. About how tall was he estimated to be?",
+      "choices": [
+        "30 cm",
+        "45 cm",
+        "60 cm",
+        "90 cm"
+      ],
+      "hint": "He was taller than an average duck (about 30 cm) but shorter than a small child (about 90 cm).",
+      "answerIndex": 2,
+      "article": {
+        "title": "Long Boi",
+        "url": "https://en.wikipedia.org/wiki/Long_Boi"
+      },
+      "explanation": "Long Boi was estimated to be around 60 cm tall, making him unusually tall for a duck and a local celebrity at the University of York before he vanished in 2024."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about how a group of Australians brought worldwide fame to a modest Belarusian football club?",
+      "choices": [
+        "FC Baranovichi",
+        "FC Mogilev Dynamo",
+        "FC Slutsk",
+        "FC Vitebsk United"
+      ],
+      "answerIndex": 2,
+      "hint": "The real club's name does not include 'Dynamo' or 'United' in its title, unlike two of these options.",
+      "article": {
+        "title": "FC Slutsk",
+        "url": "https://en.wikipedia.org/wiki/FC_Slutsk"
+      },
+      "explanation": "FC Slutsk is a Belarusian football club that unexpectedly gained international attention after Australian fans humorously embraced its name."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis vulgar American English phrase suggests that life is unfair and bad things can happen to anyone without reason, often used as a philosophical shrug in the face of misfortune. It gained widespread popularity through bumper stickers and pop culture in the 1970s and 1980s.",
+      "choices": [
+        "C'est la vie",
+        "Shit happens",
+        "Murphy's Law",
+        "Que sera, sera"
+      ],
+      "hint": "The correct answer is a vulgar English slang phrase, not a French expression or a musical lyric.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Shit happens",
+        "url": "https://en.wikipedia.org/wiki/Shit_happens"
+      },
+      "explanation": "The phrase 'Shit happens' is a vulgar American English expression meaning that bad things occur randomly and are simply part of life, popularized in the 1970s and 1980s through bumper stickers and merchandise."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Masabumi Hosono was the only Japanese survivor of the Titanic sinking, but he wasn't welcomed home after the disaster. What actually happened to him in Japan after his rescue?",
+      "choices": [
+        "He was celebrated as a national hero",
+        "He was awarded a medal by the Emperor",
+        "He was branded a coward and lost his job",
+        "He emigrated permanently to the United States"
+      ],
+      "hint": "His survival did not bring him any fame or official honors from the Japanese government.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Masabumi Hosono",
+        "url": "https://en.wikipedia.org/wiki/Masabumi_Hosono"
+      },
+      "explanation": "After surviving the Titanic, Hosono was criticized in the Japanese press for not dying alongside other passengers, was labeled a coward, and even lost his government job for a time, since his survival was seen as dishonorable by the standards of the era."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis website, created and maintained by an eccentric self-taught theorist, promoted a bizarre cosmology claiming that each day actually consists of four simultaneous 24-hour periods, and that mainstream education and religion were part of a conspiracy to suppress this truth.",
+      "choices": [
+        "Time Cube",
+        "Flat Earth Society",
+        "Time Cube Nation",
+        "Church of the SubGenius"
+      ],
+      "hint": "The correct answer is not affiliated with any organized religious parody group, and it is not primarily about the shape of the Earth.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Time Cube",
+        "url": "https://en.wikipedia.org/wiki/Time_Cube"
+      },
+      "explanation": "The article describes Time Cube, a website created by Gene Ray that presented an unconventional and widely mocked theory about time, cosmology, and society, becoming a notable example of internet-era pseudoscience and outsider thought."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real toothpaste brand that was formerly known as 'Darkie,' a racist name, before being rebranded and originating from Taiwan?",
+      "choices": [
+        "Whitesmile",
+        "Brightex",
+        "Darlie",
+        "Toothgleam"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'Whitesmile' or 'Toothgleam,' as these are not real historical toothpaste brands with a controversial naming history.",
+      "article": {
+        "title": "Darlie",
+        "url": "https://en.wikipedia.org/wiki/Darlie"
+      },
+      "explanation": "Darlie is a Taiwanese toothpaste brand that was originally named 'Darkie' and featured a blackface logo, before being renamed in the 1980s due to its racist connotations."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
