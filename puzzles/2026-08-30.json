@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-30",
+  "title": "Puzzle No. 4",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a fictional village created for a British children's television programme in the early 1990s, which later became the basis for real-life theme park attractions in several UK seaside towns. The theme parks, launched with much fanfare and involving a well-known television presenter, quickly became infamous flops, with most closing within a few years due to poor attendance and financial losses, becoming a byword for a failed commercial venture in Britain.",
+      "choices": [
+        "Frontierland",
+        "Crinkley Bottom",
+        "Camelot Theme Park",
+        "American Adventure"
+      ],
+      "hint": "The correct answer is not Frontierland, which was a real theme park in Morecambe, and it is not Camelot Theme Park, which was based on Arthurian legend rather than a TV show.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Crinkley Bottom",
+        "url": "https://en.wikipedia.org/wiki/Crinkley_Bottom"
+      },
+      "explanation": "Crinkley Bottom was a fictional village featured in Noel Edmonds' children's TV shows, which was later turned into real theme parks. These parks became notorious for their commercial failure and rapid closures, symbolizing a disastrous business venture in British popular culture."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is this article located?\nRabbit Hash is a small unincorporated community known for its well preserved historic general store that has served as a hub for the town since the 1800s. The community has gained international attention for its unique tradition of electing dogs as honorary mayor, a practice that has drawn visitors and media coverage from around the world. Rabbit Hash sits along the banks of a major river and is recognized as a historic district.",
+      "answer": "North America",
+      "hint": "This location is not in Africa, not in Asia, and not in Oceania.",
+      "article": {
+        "title": "Rabbit Hash, Kentucky",
+        "url": "https://en.wikipedia.org/wiki/Rabbit_Hash,_Kentucky"
+      },
+      "explanation": "Rabbit Hash is an unincorporated community located in Boone County, Kentucky, in the United States, which is part of North America."
+    },
+    {
+      "id": "q3",
+      "type": "continent",
+      "prompt": "Where in the world is this temple located?\nThe Karni Mata Temple is a famous Hindu temple dedicated to the goddess Karni Mata, renowned for the thousands of black rats that live and are revered within its complex. Devotees consider these rats sacred and believe they are reincarnated relatives of the goddess, and the temple attracts visitors from around the world who come to witness this unique religious practice.",
+      "answer": "Asia",
+      "hint": "This continent is not in Africa, Europe, or the Americas. It is home to the world's most populous countries and a wide range of religious traditions.",
+      "article": {
+        "title": "Karni Mata Temple",
+        "url": "https://en.wikipedia.org/wiki/Karni_Mata_Temple"
+      },
+      "explanation": "The Karni Mata Temple is located in Deshnoke, a town in the Rajasthan state of India, which is on the continent of Asia."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article discusses various proposed and historical punctuation marks intended to indicate that a sentence should be understood as ironic or sarcastic. It traces attempts dating back to the 16th century, including a mark proposed by an English printer in the 1580s, as well as later inventions such as a French poet's late 19th century symbol and modern digital-age proposals like a specific keyboard-friendly mark or dedicated symbol meant to signal sarcasm in text, none of which have achieved widespread standard use.",
+      "choices": [
+        "Irony punctuation",
+        "Interrobang",
+        "Scare quotes",
+        "Emoticon history"
+      ],
+      "hint": "The correct answer is not about a single symbol combining a question mark and exclamation point, and it is not about quotation marks used to express skepticism.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Irony punctuation",
+        "url": "https://en.wikipedia.org/wiki/Irony_punctuation"
+      },
+      "explanation": "The article 'Irony punctuation' covers the history of various marks proposed to denote irony or sarcasm in written text, from a 16th century percontation point to modern symbols like the SarcMark, none of which gained mainstream adoption."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "The Jamaica national bobsleigh team, the real life inspiration for the film Cool Runnings, stunned the world at the 1994 Winter Olympics in Lillehammer by finishing ahead of the United States in the four-man event. What place did they finish overall?",
+      "answer": 14,
+      "tolerance": 1,
+      "unit": "place",
+      "hint": "Somewhere between 10th and 20th place.",
+      "article": {
+        "title": "Jamaica national bobsleigh team",
+        "url": "https://en.wikipedia.org/wiki/Jamaica_national_bobsleigh_team"
+      },
+      "explanation": "At the 1994 Winter Olympics, Jamaica's four-man bobsled team finished 14th, surprising many by beating more established teams including the United States."
+    },
+    {
+      "id": "q6",
+      "type": "number",
+      "prompt": "The Wikipedia article on Embryo space colonization, a proposal for colonizing space using embryos raised by robots, discusses sending frozen human embryos to our nearest neighboring star system. How many light-years away is Alpha Centauri, the star system often cited as a target destination?",
+      "answer": 4.37,
+      "tolerance": 0.5,
+      "unit": "light-years",
+      "hint": "It's less than 10 light-years away, but more than 2.",
+      "article": {
+        "title": "Embryo space colonization",
+        "url": "https://en.wikipedia.org/wiki/Embryo_space_colonization"
+      },
+      "explanation": "The article notes that Alpha Centauri, located 4.37 light-years from Earth, is frequently mentioned as a potential destination for embryo space colonization missions due to its relative proximity."
+    },
+    {
+      "id": "q7",
+      "type": "text",
+      "prompt": "In the cult 1972 film Pink Flamingos, notorious for its deliberately disgusting content and ending with the protagonist eating dog feces, what breed of dog's droppings did Divine actually consume on camera?",
+      "answer": "Poodle",
+      "hint": "One word, 6 letters; this small, curly-haired dog breed is often seen as a fancy pet.",
+      "article": {
+        "title": "Pink Flamingos",
+        "url": "https://en.wikipedia.org/wiki/Pink_Flamingos"
+      },
+      "explanation": "In the film's infamous closing scene, Divine's character eats real feces from a poodle that had followed the film crew, cementing the movie's reputation for shock value."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Weird how much this happens: this list of prematurely reported obituaries includes a famous case where a French newspaper mistakenly published this inventor's obituary instead of his brother's, condemning him as a 'merchant of death' and reportedly inspiring him to create a prize for peace. Who was he?",
+      "choices": [
+        "Thomas Edison",
+        "Alfred Nobel",
+        "Guglielmo Marconi",
+        "Samuel Colt"
+      ],
+      "hint": "It's not Thomas Edison or Guglielmo Marconi.",
+      "answerIndex": 1,
+      "article": {
+        "title": "List of prematurely reported obituaries",
+        "url": "https://en.wikipedia.org/wiki/List_of_prematurely_reported_obituaries"
+      },
+      "explanation": "Alfred Nobel was mistakenly reported dead by a French newspaper (which actually meant to report his brother Ludvig's death), calling him the 'merchant of death.' This shocking premature obituary is said to have influenced Nobel to establish the Nobel Prizes to secure a better legacy."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "Vampire numbers are integers with real bite; some even have multiple pairs of fangs, formed by multiplying two smaller numbers with the same digits rearranged. What is the smallest vampire number, formed as 21 × 60?",
+      "answer": 1260,
+      "tolerance": 0,
+      "unit": "",
+      "hint": "It's a four-digit number between 1000 and 2000.",
+      "article": {
+        "title": "Vampire number",
+        "url": "https://en.wikipedia.org/wiki/Vampire_number"
+      },
+      "explanation": "The smallest vampire number is 1260, since 1260 = 21 × 60, and the digits of 21 and 60 together form a rearrangement of the digits of 1260."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Did you know that? One of these unusual phrases actually became a famous Wikipedia article title. Which one is the real article?",
+      "choices": [
+        "There is no poverty in China",
+        "There is no crime in North Korea",
+        "There is no sex in the USSR",
+        "There is no rain in the Sahara"
+      ],
+      "answerIndex": 2,
+      "hint": "The real phrase was not about weather patterns or crime statistics, it was a statement made during a live television broadcast about social topics.",
+      "article": {
+        "title": "There is no sex in the USSR",
+        "url": "https://en.wikipedia.org/wiki/There_is_no_sex_in_the_USSR"
+      },
+      "explanation": "The phrase originated from a 1986 televised Soviet-American discussion where a Soviet participant famously claimed there was no sex in the USSR, a statement that became emblematic of Soviet-era attitudes toward openly discussing sexuality."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
