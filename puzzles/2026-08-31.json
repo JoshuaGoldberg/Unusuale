@@ -1,0 +1,155 @@
+{
+  "date": "2026-08-31",
+  "title": "Puzzle No. 5",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "prompt": "The K Foundation, an art duo formerly known for their music career, famously burned one million pounds in cash as a bizarre artistic statement. On which remote Scottish island did this money-burning event take place?",
+      "answer": "Jura",
+      "hint": "1 word, 4 letters; this rugged island in the Inner Hebrides is also known for its whisky distillery and its connection to George Orwell, who wrote '1984' there.",
+      "article": {
+        "title": "K Foundation Burn a Million Quid",
+        "url": "https://en.wikipedia.org/wiki/K_Foundation_Burn_a_Million_Quid"
+      },
+      "explanation": "The K Foundation, formed by Bill Drummond and Jimmy Cauty (formerly of The KLF), burned one million pounds in a disused boathouse on the Isle of Jura in Scotland on 23 August 1994, as a controversial and much-debated act of conceptual art."
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "prompt": "The novel 'The Coming Race' was written by Edward Bulwer-Lytton, famous for the 'dark and stormy night' opening line, and it introduced Vril as an all-powerful energy source, later fueling rumors of secret societies, an underground master race, and even Nazi UFOs. A popular brand of beef extract drink got part of its name from 'Vril' combined with a Latin word for cattle. What is this brand called?",
+      "answer": "Bovril",
+      "hint": "6 letters, 1 word. It's a savory beef extract spread/drink still sold today, whose name blends a Latin term for cattle with 'Vril'.",
+      "article": {
+        "title": "Vril",
+        "url": "https://en.wikipedia.org/wiki/Vril"
+      },
+      "explanation": "The name 'Bovril' combines the Latin word 'bos/bovis' (ox/cattle) with 'Vril,' the fictional life-energy force from Edward Bulwer-Lytton's 1871 novel 'The Coming Race,' which also inspired later occult and conspiracy theories about secret societies and Nazi UFOs."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The 'Shaggy defense' article describes an internet meme based on a strategy of denying involvement in wrongdoing despite evidence. What 2000 song by the musician Shaggy inspired this meme's name?",
+      "choices": [
+        "Boombastic",
+        "It Wasn't Me",
+        "Angel",
+        "Strength of a Woman"
+      ],
+      "hint": "It's not 'Boombastic' or 'Strength of a Woman'.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Shaggy defense",
+        "url": "https://en.wikipedia.org/wiki/Shaggy_defense"
+      },
+      "explanation": "The meme takes its name from Shaggy's 2000 hit song 'It Wasn't Me,' in which the singer advises denying any wrongdoing even when caught red-handed."
+    },
+    {
+      "id": "q4",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nGiraffe Manor is a small luxury boutique hotel famous for its resident herd of Rothschild's giraffes, which are known to poke their long necks through the windows to greet guests during breakfast. The manor, built in the 1930s, sits on several acres of indigenous forest and operates in conjunction with a giraffe conservation and breeding program. It has become a major tourist attraction and social media sensation due to the surreal experience of dining alongside these gentle giants.",
+      "answer": "Africa",
+      "hint": "The location is not in Europe, not in North America, and not in Asia.",
+      "article": {
+        "title": "Giraffe Manor",
+        "url": "https://en.wikipedia.org/wiki/Giraffe_Manor"
+      },
+      "explanation": "Giraffe Manor is located in Nairobi, Kenya, on the African continent."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Kamuning Footbridge is a pedestrian overpass that allows people to cross over a set of railway tracks near a station named Kamuning. The bridge serves commuters who need to safely traverse the tracks, connecting different sides of the surrounding urban area. It is a relatively small piece of transit infrastructure, but it plays an important role in local pedestrian safety near the rail line.",
+      "answer": "Asia",
+      "hint": "This bridge is not located in Africa, Europe, or North America.",
+      "article": {
+        "title": "Kamuning Footbridge",
+        "url": "https://en.wikipedia.org/wiki/Kamuning_Footbridge"
+      },
+      "explanation": "The Kamuning Footbridge is located in Quezon City, Philippines, in Asia, where it crosses over railway tracks near Kamuning Station."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a bridge that has been crashed into by so many trucks that the government spent millions on prevention measures, none of which worked?",
+      "choices": [
+        "Fairview Street Overpass",
+        "Montague Street Bridge",
+        "Harrington Avenue Underpass",
+        "Kensington Road Crossing"
+      ],
+      "answerIndex": 1,
+      "hint": "The real bridge is not called an overpass or a crossing.",
+      "article": {
+        "title": "Montague Street Bridge",
+        "url": "https://en.wikipedia.org/wiki/Montague_Street_Bridge"
+      },
+      "explanation": "The Montague Street Bridge in Melbourne is infamous for being repeatedly struck by trucks too tall to pass under it, despite costly government efforts to prevent such collisions."
+    },
+    {
+      "id": "q7",
+      "type": "text",
+      "prompt": "The Phaistos Disc is famous for its undeciphered logograms stamped into its clay surface; what shape are the mysterious symbols arranged in on both sides of the disc?",
+      "answer": "Spiral",
+      "hint": "6 letters, 1 word; think of a curve that winds around a central point, like a coil.",
+      "article": {
+        "title": "Phaistos Disc",
+        "url": "https://en.wikipedia.org/wiki/Phaistos_Disc"
+      },
+      "explanation": "The symbols on the Phaistos Disc are stamped in a spiral pattern on both sides, and the script remains undeciphered to this day."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis subject concerns a notorious 18th-century London haunting that became a public sensation in 1762. Strange knocking and scratching sounds reported in a house were attributed to the spirit of a woman who had died under suspicious circumstances, with the ghost allegedly accusing her common-law husband of poisoning her. The case attracted enormous public attention, drawing crowds, satirists, and prominent figures of the day, including the writer and lexicographer Samuel Johnson, who took part in an investigation to determine whether the events were genuine. The affair was eventually exposed as a hoax orchestrated by the family living in the house, leading to criminal prosecution.",
+      "choices": [
+        "The Cock Lane ghost",
+        "The Enfield Poltergeist",
+        "The Amityville Haunting",
+        "The Bell Witch"
+      ],
+      "hint": "The correct answer is not associated with the United States; both the Amityville Haunting and the Bell Witch are American cases, not this one.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Cock Lane ghost",
+        "url": "https://en.wikipedia.org/wiki/Cock_Lane_ghost"
+      },
+      "explanation": "The Cock Lane ghost was a supposed haunting in London in 1762 involving strange knockings attributed to the spirit of Fanny Lynes, who was said to have been poisoned by William Kent. It became a huge public sensation, investigated by figures including Samuel Johnson, before being revealed as a hoax perpetrated by Richard Parsons and his family."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "The Vatican City national football team's squad makes up more than 2 percent of the entire national population, drawing players from various Vatican institutions. What is the name of the elite military corps responsible for protecting the Pope, whose members are among those eligible to play for the team?",
+      "answer": "Swiss Guard",
+      "hint": "11 letters (two words); this Swiss ceremonial and security force protects the Pope and Vatican City.",
+      "article": {
+        "title": "Vatican City national football team",
+        "url": "https://en.wikipedia.org/wiki/Vatican_City_national_football_team"
+      },
+      "explanation": "Because Vatican City has such a tiny population, its national football team's roster is filled by citizens who serve the Vatican in various roles, including members of the Swiss Guard, the Pope's protective military corps."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Internet was once titillated over a Bowser-Peach fusion born from a fan-made Rule 63 transformation. Which of the following is the real unusual article describing this phenomenon?",
+      "choices": [
+        "Waluigette",
+        "Mariolina",
+        "Bowsette",
+        "Koopalette"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'Waluigette' or 'Koopalette', as those are not real internet phenomena tied to a specific Mario villain's transformation.",
+      "article": {
+        "title": "Bowsette",
+        "url": "https://en.wikipedia.org/wiki/Bowsette"
+      },
+      "explanation": "Bowsette is a fan-created character that emerged in 2018 from a comic imagining Bowser transformed into a female version of himself resembling Princess Peach, which quickly became a viral internet phenomenon."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
