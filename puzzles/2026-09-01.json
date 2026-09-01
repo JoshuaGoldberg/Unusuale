@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-01",
+  "title": "Puzzle No. 6",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Fenelon Place Elevator in Dubuque, Iowa, a town of around 60,000 people, is billed as the shortest, steepest railroad in the world. Why did local businessman J.K. Graves originally have it built in 1882?",
+      "choices": [
+        "To transport coal from the bluff to his factory",
+        "To let him get home quickly for lunch and a midday nap",
+        "To carry tourists up to a scenic overlook for profit",
+        "To move goods between his two downtown stores"
+      ],
+      "hint": "It was not built for hauling coal, and it wasn't originally intended as a tourist attraction.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Fenelon Place Elevator",
+        "url": "https://en.wikipedia.org/wiki/Fenelon_Place_Elevator"
+      },
+      "explanation": "J.K. Graves had the elevator built so he could quickly travel from his downtown office to his bluff-top home for lunch and an afternoon nap, since the horse-drawn carriage route took too long."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The X League, a women's American football league, originally required uniforms of helmets, pads, garter belts, bras, and panties. In 2013 it was renamed to reflect a shift toward more modest sportswear. What was this league renamed to in 2013?",
+      "choices": [
+        "Extreme Football League",
+        "Legends Football League",
+        "National Women's Football League",
+        "United Gridiron Alliance"
+      ],
+      "hint": "It's not the Extreme Football League (that name came later, in 2020) or the National Women's Football League (a separate organization).",
+      "answerIndex": 1,
+      "article": {
+        "title": "X League (women's football)",
+        "url": "https://en.wikipedia.org/wiki/X_League_(women%27s_football)"
+      },
+      "explanation": "The league was renamed the Legends Football League in 2013, moving away from its original lingerie-based uniforms toward more modest performance sportswear. It was later renamed the Extreme Football League in 2020."
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "According to the Wikipedia article on screw-propelled vehicles, these vehicles use rotating helical drums instead of wheels or tracks, making them especially effective at crossing a certain kind of soft, wet, low-lying terrain where conventional vehicles would get stuck. What one-word term describes this type of terrain?",
+      "answer": "swamp",
+      "hint": "5 letters, 1 word; it's a wet, boggy area often filled with mud and standing water.",
+      "article": {
+        "title": "Screw-propelled vehicle",
+        "url": "https://en.wikipedia.org/wiki/Screw-propelled_vehicle"
+      },
+      "explanation": "Screw-propelled vehicles use large helical screws (like Archimedes' screws) instead of wheels or tracks, allowing them to move efficiently across soft or unstable terrain such as swamps, mud, snow, and ice, and even providing some buoyancy on water."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Darlie, a toothpaste brand from Taiwan, was formerly known as 'Darkie' and featured a racist logo. Which company acquired a stake in the brand and prompted a rebranding in 1989?",
+      "choices": [
+        "Procter & Gamble",
+        "Colgate-Palmolive",
+        "Unilever",
+        "Johnson & Johnson"
+      ],
+      "hint": "It's not Procter & Gamble or Johnson & Johnson.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Darlie",
+        "url": "https://en.wikipedia.org/wiki/Darlie"
+      },
+      "explanation": "Colgate-Palmolive acquired a 50% stake in Hawley & Hazel, the company producing the toothpaste, which led to the brand being renamed from 'Darkie' to 'Darlie' in 1989 due to the racist imagery associated with the original name and logo."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nA euphemism for a program of systematic torture methods, including waterboarding, stress positions, and sleep deprivation, used by government agencies primarily on detainees suspected of terrorism following the September 11 attacks. The techniques were later widely condemned as torture under international law.",
+      "choices": [
+        "Guantanamo Bay detention camp",
+        "Enhanced interrogation techniques",
+        "Central Intelligence Agency",
+        "War on Terror"
+      ],
+      "hint": "The correct answer is not a broad government agency or a specific detention facility, but rather refers to a set of specific coercive methods and the terminology used to describe them.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Enhanced interrogation techniques",
+        "url": "https://en.wikipedia.org/wiki/Enhanced_interrogation_techniques"
+      },
+      "explanation": "The article describes 'Enhanced interrogation techniques,' a euphemism used by the CIA and U.S. government for torture methods such as waterboarding, stress positions, and sleep deprivation, employed during interrogations of terrorism suspects after 9/11."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Cock ale is a historical English drink made by steeping a bag stuffed with a parboiled, skinned, and gutted chicken in ale along with other ingredients. Around which century did this unusual beverage originate?",
+      "choices": [
+        "15th century",
+        "17th century",
+        "19th century",
+        "13th century"
+      ],
+      "hint": "It was not the earliest or latest century listed, narrow it down to either the 15th or 17th century.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Cock ale",
+        "url": "https://en.wikipedia.org/wiki/Cock_ale"
+      },
+      "explanation": "Cock ale originated in 17th century England, where a parboiled, skinned, and gutted chicken was stuffed into a bag and steeped in ale along with fruits and spices."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Icelandic band Sigur Rós released an untitled album, known as ( ), featuring songs sung entirely in an invented, non-existent language. What is this made-up language called?",
+      "choices": [
+        "Vonlenska",
+        "Elvish",
+        "Klingon",
+        "Simlish"
+      ],
+      "hint": "It's not Elvish or Klingon, those are languages from other fictional universes, and it's not Simlish, which is used in video games.",
+      "answerIndex": 0,
+      "article": {
+        "title": "( ) (album)",
+        "url": "https://en.wikipedia.org/wiki/(_)_(album)"
+      },
+      "explanation": "The language, sometimes called 'Hopelandic' in English, is known in Icelandic as 'Vonlenska,' and it consists of vocal sounds without real linguistic meaning, used purely for their musical texture."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Ew... The Wikipedia article on Eating Mucus describes a Canadian biochemist who hypothesized that this habit might actually benefit your health in a surprising way. What did he suggest eating mucus could act like?",
+      "choices": [
+        "A natural vaccine that trains the immune system",
+        "A probiotic that improves gut bacteria",
+        "A painkiller that reduces headaches",
+        "A sleep aid that improves rest"
+      ],
+      "hint": "It's not related to sleep or pain relief—think instead about how the body might respond to germs in an unusual way.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Eating mucus",
+        "url": "https://en.wikipedia.org/wiki/Eating_mucus"
+      },
+      "explanation": "Biochemist Scott Napper hypothesized that eating mucus could expose the immune system to trapped pathogens, potentially acting like a natural vaccine and helping build immunity."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "USGlobal Airways is an active airline that holds a certificate but has never operated a single commercial flight. In what year was this unusual airline founded?",
+      "choices": [
+        "1989",
+        "1995",
+        "2001",
+        "1983"
+      ],
+      "hint": "It was not founded in the 1980s decade's opening years, and it was founded before the 1990s ended.",
+      "answerIndex": 0,
+      "article": {
+        "title": "USGlobal Airways",
+        "url": "https://en.wikipedia.org/wiki/USGlobal_Airways"
+      },
+      "explanation": "USGlobal Airways was founded in 1989 and, despite being an active, certificated airline, has never operated a commercial flight."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a fear of the penis?",
+      "choices": [
+        "Genitopotamophobia",
+        "Phallophobia",
+        "Andrometraphobia",
+        "Phallocryptophobia"
+      ],
+      "answerIndex": 1,
+      "hint": "Eliminate 'Genitopotamophobia' and 'Phallocryptophobia', as these are not real recognized phobia terms.",
+      "article": {
+        "title": "Phallophobia",
+        "url": "https://en.wikipedia.org/wiki/Phallophobia"
+      },
+      "explanation": "Phallophobia is the fear of the penis."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
