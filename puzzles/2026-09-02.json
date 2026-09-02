@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-02",
+  "title": "Puzzle No. 7",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual aircraft, nicknamed the 'vomit comet' because a lack of gravity is not good for the stomach?",
+      "choices": [
+        "Anti-gravity propulsion aircraft",
+        "Suborbital training glider",
+        "Reduced-gravity aircraft",
+        "Zero-inertia flight simulator"
+      ],
+      "answerIndex": 2,
+      "hint": "The real aircraft does not actually cancel gravity or use suborbital flight; it flies parabolic arcs within Earth's atmosphere, so you can rule out the 'Anti-gravity propulsion aircraft' and 'Suborbital training glider'.",
+      "article": {
+        "title": "Reduced-gravity aircraft",
+        "url": "https://en.wikipedia.org/wiki/Reduced-gravity_aircraft"
+      },
+      "explanation": "A reduced-gravity aircraft flies in parabolic arcs to briefly simulate weightlessness for astronaut training and scientific research, earning it the nickname 'vomit comet' due to the nausea it often causes."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real Wikipedia article about the largest abandoned amusement park in Asia?",
+      "choices": [
+        "Dreamland Fantasy Park (Shanghai)",
+        "Paradise Kingdom (Tokyo)",
+        "Wonderland Amusement Park (Beijing)",
+        "Enchanted Valley Park (Seoul)"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not located in Shanghai or Seoul, those parks are fictional.",
+      "article": {
+        "title": "Wonderland Amusement Park (Beijing)",
+        "url": "https://en.wikipedia.org/wiki/Wonderland_Amusement_Park_(Beijing)"
+      },
+      "explanation": "Wonderland Amusement Park was a planned amusement park near Beijing that was abandoned mid-construction in the 1990s due to funding disputes, leaving it as the largest abandoned amusement park in Asia."
+    },
+    {
+      "id": "q3",
+      "type": "number",
+      "prompt": "Null Island is an \"island\" located at exactly 0°N and 0°E, but it's actually a fictitious landmass added to a mapping dataset to help with geocoding errors. How many square kilometers is this fictitious island, according to the Natural Earth dataset?",
+      "answer": 1,
+      "tolerance": 0,
+      "unit": "square kilometers",
+      "hint": "It's somewhere between 0.5 and 3 square kilometers.",
+      "article": {
+        "title": "Null Island",
+        "url": "https://en.wikipedia.org/wiki/Null_Island"
+      },
+      "explanation": "The Natural Earth mapping dataset added a fictitious 1 square kilometer landmass at 0°N, 0°E called Null Island, so that geocoding errors placing coordinates at the origin point would land on 'land' rather than open ocean, making such errors easier to detect."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "In the Dutch TV special 'De Grote Donorshow,' an apparently terminally ill woman offered her kidney to one of three lucky patients live on TV, only for it to be revealed as a hoax to raise awareness about a real issue. What was that issue?",
+      "choices": [
+        "The lack of available organ donors in the Netherlands",
+        "The high cost of healthcare in the Netherlands",
+        "The mistreatment of terminally ill patients in hospitals",
+        "The unethical practices of reality television producers"
+      ],
+      "hint": "It was not about the cost of healthcare or the ethics of the television industry.",
+      "answerIndex": 0,
+      "article": {
+        "title": "De Grote Donorshow",
+        "url": "https://en.wikipedia.org/wiki/De_Grote_Donorshow"
+      },
+      "explanation": "The show was a hoax created by Dutch broadcaster BNN to draw public attention to the shortage of organ donors in the Netherlands, sparking major controversy before the truth was revealed."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Hanged, drawn and quartered was a brutal punishment for high treason in England, used from medieval times into the early modern period. Who was the last person to suffer this full execution, in 1782?",
+      "choices": [
+        "Guy Fawkes",
+        "David Tyrie",
+        "William Wallace",
+        "Thomas More"
+      ],
+      "hint": "It was not the famous Gunpowder Plot conspirator nor the Scottish rebel leader executed centuries earlier.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Hanged, drawn and quartered",
+        "url": "https://en.wikipedia.org/wiki/Hanged,_drawn_and_quartered"
+      },
+      "explanation": "David Tyrie, executed in 1782 for spying for France, was the last person in England to be fully hanged, drawn and quartered."
+    },
+    {
+      "id": "q6",
+      "type": "number",
+      "prompt": "Count Bobby, Austria's favourite possibly-autistic aristocrat, is a comic character created for Viennese cabaret. In what year did this iconic figure first appear on stage?",
+      "answer": 1910,
+      "tolerance": 5,
+      "unit": "",
+      "hint": "It happened sometime between the late 1890s and just before World War I began.",
+      "article": {
+        "title": "Count Bobby",
+        "url": "https://en.wikipedia.org/wiki/Count_Bobby"
+      },
+      "explanation": "The article notes that Count Bobby first appeared as a cabaret character around 1910, created by Fritz Grünbaum and Karl Farkas."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis internet myth claims a founding father grew and smoked a certain plant, spreading widely through pro-legalization circles and social media despite lacking credible historical evidence. Fabricated quotes attributed to this president have circulated for years, even though he only grew the plant for its fiber, which was a common industrial crop at the time.",
+      "choices": [
+        "George Washington's Cherry Tree Myth",
+        "Thomas Jefferson hemp smoking hoax",
+        "Benjamin Franklin's Kite Experiment Myth",
+        "Abraham Lincoln's Log Cabin Legend"
+      ],
+      "hint": "The correct answer does not involve a cherry tree or a log cabin.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Thomas Jefferson hemp smoking hoax",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson_hemp_smoking_hoax"
+      },
+      "explanation": "The article describes a popular internet hoax claiming that Thomas Jefferson smoked hemp or cannabis, often accompanied by fabricated quotes. While Jefferson did grow hemp, it was for industrial fiber purposes, not for smoking, and there is no credible historical evidence supporting the hoax's claims."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual physics-based puzzle video game with a strange food-related premise?",
+      "choices": [
+        "I Am Toast",
+        "You Are Butter",
+        "I Am Bread",
+        "Being Bagel"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not 'You Are Butter' or 'Being Bagel', those games do not exist.",
+      "article": {
+        "title": "I Am Bread",
+        "url": "https://en.wikipedia.org/wiki/I_Am_Bread"
+      },
+      "explanation": "I Am Bread is a physics-based puzzle video game in which the player controls a slice of bread attempting to become toast."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "Miss Bumbum is an annual beauty pageant to find Brazil's best buttocks. In what year was this unique competition first founded?",
+      "answer": 2011,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "It was founded sometime between 2010 and 2015.",
+      "article": {
+        "title": "Miss Bumbum",
+        "url": "https://en.wikipedia.org/wiki/Miss_Bumbum"
+      },
+      "explanation": "The Miss Bumbum pageant was founded in 2011 by Cacau Colucci, with the first edition of the contest held shortly after."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual tree that covers approximately two acres of land by itself, making it seventy times larger than an average tree of its kind?",
+      "choices": [
+        "Banyan of Kolkata",
+        "Great Oak of Salford",
+        "Cashew of Pirangi",
+        "Baobab of Zanzibar"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is located in Brazil and is not an oak or a baobab species.",
+      "article": {
+        "title": "Cashew of Pirangi",
+        "url": "https://en.wikipedia.org/wiki/Cashew_of_Pirangi"
+      },
+      "explanation": "The Cashew of Pirangi in Brazil is considered the largest cashew tree in the world, sprawling over roughly two acres due to its unusual branch growth pattern."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
