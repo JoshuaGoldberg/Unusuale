@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-03",
+  "title": "Puzzle No. 8",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article 'List of Weird Al Yankovic polka medleys' details his tradition of turning popular songs into polka melodies. What was the title of his very first polka medley, which appeared on his 1984 album 'Weird Al' Yankovic in 3-D?",
+      "choices": [
+        "Polka Party",
+        "Polkas on 45",
+        "Bohemian Polka",
+        "Polka Your Eyes Out"
+      ],
+      "hint": "Eliminate 'Bohemian Polka', which was a tribute to a single Queen song, and 'Polka Your Eyes Out', which came from a later album in the 1990s.",
+      "answerIndex": 1,
+      "article": {
+        "title": "List of \"Weird Al\" Yankovic polka medleys",
+        "url": "https://en.wikipedia.org/wiki/List_of_%22Weird_Al%22_Yankovic_polka_medleys"
+      },
+      "explanation": "Al Yankovic's first polka medley was 'Polkas on 45', released on his 1984 album 'Weird Al' Yankovic in 3-D, starting a tradition of polka medleys on nearly every subsequent studio album."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a genuine Wikipedia article title, while the other three are made up?",
+      "choices": [
+        "Merry number",
+        "Blissful number",
+        "Happy number",
+        "Joyful number"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct term does not involve the words 'Merry' or 'Blissful', those are made up.",
+      "article": {
+        "title": "Happy number",
+        "url": "https://en.wikipedia.org/wiki/Happy_number"
+      },
+      "explanation": "A happy number is defined by a process where repeatedly summing the squares of its digits eventually leads to 1."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis biannual event occurs when the setting sun aligns with the east-west streets of a famous street grid, allowing sunlight to shine directly down the thoroughfares and illuminate buildings on both sides. It typically happens in late May and mid-July, and the term was coined by an astrophysicist in reference to a prehistoric monument known for solar alignment.",
+      "choices": [
+        "Chicago Loop Alignment",
+        "Manhattanhenge",
+        "Stonehenge",
+        "Solstice Boulevard"
+      ],
+      "hint": "It's not Stonehenge itself, and it has nothing to do with Chicago.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Manhattanhenge",
+        "url": "https://en.wikipedia.org/wiki/Manhattanhenge"
+      },
+      "explanation": "The article describes Manhattanhenge, the phenomenon where the setting sun aligns with the Manhattan street grid, occurring around May 28 and July 12, named by Neil deGrasse Tyson after Stonehenge."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nA 1999 online chess event in which a world champion faced off against a collective of players from around the globe, who voted on each move under the guidance of four young analysts. The game lasted 62 moves over several months and was ultimately won by the champion.",
+      "choices": [
+        "Deep Blue versus Kasparov",
+        "Kasparov versus the World",
+        "Kasparov versus Karpov",
+        "The Immortal Game"
+      ],
+      "hint": "The correct answer is not a match against a computer program, nor is it a historic 19th-century chess match.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Kasparov versus the World",
+        "url": "https://en.wikipedia.org/wiki/Kasparov_versus_the_World"
+      },
+      "explanation": "Kasparov versus the World was a 1999 chess event where Garry Kasparov played against a combined 'World Team' of online voters, coordinated by four young chess players including Irina Krush. Kasparov won after 62 moves in what was considered one of the most complex games in chess history."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "Pathological science is a pejorative term for scientific ideas that will simply not 'go away', long after they are given up on as wrong by the majority of scientists in the field. In what year did chemist Irving Langmuir give his famous colloquium at the Knolls Atomic Power Laboratory that coined this term?",
+      "answer": 1953,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "It was sometime between 1950 and 1959.",
+      "article": {
+        "title": "Pathological science",
+        "url": "https://en.wikipedia.org/wiki/Pathological_science"
+      },
+      "explanation": "Irving Langmuir delivered his colloquium on pathological science at the Knolls Atomic Power Laboratory on December 18, 1953, which is where the term originated."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a slasher-themed parody of a beloved cartoon, featuring a mass-murdering version of its main character, whose director later went on to work for Disney?",
+      "choices": [
+        "Kill Bill Murray: A Groundhog Day Massacre",
+        "The Simpsons Go to Hell: A Springfield Slaughter",
+        "Bring Me the Head of Charlie Brown",
+        "SpongeBob's Bloody Bikini Bottom"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not about Springfield or Bikini Bottom.",
+      "article": {
+        "title": "Bring Me the Head of Charlie Brown",
+        "url": "https://en.wikipedia.org/wiki/Bring_Me_the_Head_of_Charlie_Brown"
+      },
+      "explanation": "Bring Me the Head of Charlie Brown is a fan-made slasher parody of the Peanuts franchise depicting Charlie Brown as a murderer, created by a director who later worked for Disney."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Dictionaries occasionally publish 'ghost words' that never truly existed. Which of the following is a real ghost word that appeared in Webster's New International Dictionary from 1934 to 1939, supposedly meaning 'density'?",
+      "choices": [
+        "Phantomnation",
+        "Zzxjoanw",
+        "Dord",
+        "Cwmglaciate"
+      ],
+      "answerIndex": 2,
+      "hint": "The other two entries are known linguistic hoaxes unrelated to dictionary editing errors, one supposedly a Maori word for drum and the other a fabricated geological term.",
+      "article": {
+        "title": "Dord",
+        "url": "https://en.wikipedia.org/wiki/Dord"
+      },
+      "explanation": "Dord was a nonexistent English word meaning 'density' that mistakenly appeared in Webster's New International Dictionary due to an editing error."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "A Wikipedia article about gay pornography is featured on the site's list of unusual articles, where its entry simply notes: 'Do we need to say anything else?' According to the article, what major historical event does this essay use gay pornography imagery to explore?",
+      "choices": [
+        "The rise of capitalism",
+        "The fall of communism",
+        "The Cuban Missile Crisis",
+        "World War II"
+      ],
+      "hint": "It's not about the Cuban Missile Crisis or World War II, both of which predate the era the essay actually discusses.",
+      "answerIndex": 1,
+      "article": {
+        "title": "The Fall of Communism as Seen in Gay Pornography",
+        "url": "https://en.wikipedia.org/wiki/The_Fall_of_Communism_as_Seen_in_Gay_Pornography"
+      },
+      "explanation": "The essay, as its title suggests, uses the imagery and themes of gay pornography to reflect on the collapse of communism in Eastern Europe, and its title is so striking that Wikipedia's editors deemed the article self-explanatory enough to warrant the remark, 'Do we need to say anything else?'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "In the 1803 Gatton by-election, held in one of the UK's most notorious rotten boroughs, three candidates stood but the single opposing vote was disqualified by the returning officer, who happened to be related to the borough's owner. What was this returning officer's relationship to the borough's owner?",
+      "choices": [
+        "His brother-in-law",
+        "His son",
+        "His nephew",
+        "His cousin"
+      ],
+      "hint": "It was not a nephew or a cousin.",
+      "answerIndex": 0,
+      "article": {
+        "title": "1803 Gatton by-election",
+        "url": "https://en.wikipedia.org/wiki/1803_Gatton_by-election"
+      },
+      "explanation": "The returning officer who disqualified the single opposing vote was the brother-in-law of the borough's owner, demonstrating how futile it was to contest elections in rotten boroughs like Gatton."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "The iSmell was a computer peripheral designed to emit smells for websites and emails, later named one of the 'Worst Tech Products' by PC Magazine. What part of the human body was the device shaped like?",
+      "answer": "nose",
+      "hint": "4 letters; the facial feature you use to smell things.",
+      "article": {
+        "title": "ISmell",
+        "url": "https://en.wikipedia.org/wiki/ISmell"
+      },
+      "explanation": "The iSmell device was designed with a shape resembling a human nose, fitting its function as a smell-emitting computer peripheral, though it ultimately failed commercially and was mocked for its odd design and impracticality."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
