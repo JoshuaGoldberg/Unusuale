@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-04",
+  "title": "Puzzle No. 9",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article is being described?\nThis Irish politician and barrister legally changed his name multiple times to include references to a maritime feature and a body of water, becoming known for one of the most unusual names in Irish politics. He served as a member of Dublin City Council and was known for his campaigns on issues such as Irish sovereignty over a rock in the Atlantic Ocean.",
+      "choices": [
+        "Éamon de Valera",
+        "Tony Gregory",
+        "Seán Dublin Bay Rockall Loftus",
+        "Michael D. Higgins"
+      ],
+      "hint": "The correct answer is not a former President of Ireland.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Seán Dublin Bay Rockall Loftus",
+        "url": "https://en.wikipedia.org/wiki/Se%C3%A1n_Dublin_Bay_Rockall_Loftus"
+      },
+      "explanation": "The article describes Seán Dublin Bay Rockall Loftus, an Irish politician and barrister famous for legally adding 'Dublin Bay' and 'Rockall' to his name, reflecting his campaigns including Ireland's claim to Rockall. He served on Dublin City Council and was known for his eccentric public persona."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nArtificial background noise generated to fill silent gaps during telephone or VoIP calls, typically used alongside voice activity detection and silence suppression to prevent the impression that a call has disconnected",
+      "choices": [
+        "Comfort noise",
+        "White noise machine",
+        "Voice activity detection",
+        "Dithering"
+      ],
+      "hint": "The correct answer is not a general audio processing technique used in signal quantization, nor is it a standalone consumer device meant for relaxation or sleep aid.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Comfort noise",
+        "url": "https://en.wikipedia.org/wiki/Comfort_noise"
+      },
+      "explanation": "Comfort noise is synthetic background noise inserted into a communication channel to fill silent gaps, often used with silence suppression techniques to avoid the perception that a call has dropped."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Comic book characters have a tendency to rarely, if ever, stay dead permanently. According to a popular joke referenced in the article, which character is the exception who has never returned from death, unlike Bucky Barnes and Jason Todd who were once considered permanently dead too?",
+      "choices": [
+        "Jean Grey",
+        "Uncle Ben",
+        "Superman",
+        "Captain America"
+      ],
+      "hint": "It's not Jean Grey or Superman, both of whom are famous for repeatedly dying and coming back to life in the comics.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Comic book death",
+        "url": "https://en.wikipedia.org/wiki/Comic_book_death"
+      },
+      "explanation": "A popular joke in comic fandom states that 'no one stays dead in comics except Bucky, Jason Todd, and Uncle Ben' - but ironically, both Bucky Barnes and Jason Todd eventually returned from death, leaving Uncle Ben (Spider-Man's uncle) as the rare character whose death has truly remained permanent."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Bayside Canadian Railway was a bizarre 220-foot railway built solely to exploit a loophole in the Jones Act, but U.S. Customs and Border Protection caught on and issued a massive fine. How much was the fine?",
+      "choices": [
+        "$350 million",
+        "$50 million",
+        "$1 billion",
+        "$120 million"
+      ],
+      "hint": "The fine was neither the smallest nor the largest amount listed among the choices.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Bayside Canadian Railway",
+        "url": "https://en.wikipedia.org/wiki/Bayside_Canadian_Railway"
+      },
+      "explanation": "U.S. Customs and Border Protection fined the operators $350 million after determining the tiny railway was created purely to skirt Jones Act shipping requirements."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis is a piece of software created in 2017 that behaves like typical malicious encryption tools, but instead of demanding a monetary payment, it requires the victim to achieve a high score playing a bullet hell shooter game on a difficult setting before it will decrypt the affected files.",
+      "choices": [
+        "WannaCry",
+        "Rensenware",
+        "Petya (malware)",
+        "CryptoLocker"
+      ],
+      "hint": "The two incorrect options that can be eliminated are WannaCry and Petya, well known real world ransomware strains that demanded actual monetary payment in cryptocurrency, unlike the software described.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Rensenware",
+        "url": "https://en.wikipedia.org/wiki/Rensenware"
+      },
+      "explanation": "Rensenware was a form of ransomware created by a developer known as Tvple Eraser in 2017. Instead of demanding money, it required victims to score at least 0.2 billion points on the Lunatic difficulty of the bullet hell game TH Suzunaan (a fan-made Touhou Project game) in order to have their files decrypted."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis unusual civic design, distributed in a New York county, went viral in 2018 after voters mocked its strange, unsettling artwork on social media, with many comparing it to abstract or amateurish art rather than a typical patriotic emblem.",
+      "choices": [
+        "Ulster County \"I Voted\" sticker",
+        "New York State voter registration card",
+        "Rock the Vote campaign badge",
+        "Election Day pin design controversy"
+      ],
+      "hint": "It is not related to a national campaign badge, and it is not a government registration document.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Ulster County \"I Voted\" sticker",
+        "url": "https://en.wikipedia.org/wiki/Ulster_County_%22I_Voted%22_sticker"
+      },
+      "explanation": "The article describes the Ulster County, New York 'I Voted' sticker, which became an internet sensation in 2018 due to its bizarre and widely mocked design featuring an abstract illustration."
+    },
+    {
+      "id": "q7",
+      "type": "number",
+      "prompt": "Dishwasher salmon is exactly what it sounds like: salmon cooked using the heat from a dishwasher. In what year did this quirky cooking method go viral online after a chef's recipe resurfaced?",
+      "answer": 2015,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "It happened sometime between 2012 and 2017, closer to the later years of that range.",
+      "article": {
+        "title": "Dishwasher salmon",
+        "url": "https://en.wikipedia.org/wiki/Dishwasher_salmon"
+      },
+      "explanation": "The dishwasher salmon cooking method gained widespread internet attention in 2015 after being rediscovered and shared online, sparking renewed interest in this unconventional cooking technique."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "In the 2022 action-comedy Violent Night, whose synopsis is essentially 'Santa's gonna kick some ass,' directed by Tommy Wirkola (who'd go on to make Spermageddon), the mercenary leader played by John Leguizamo uses a callsign referencing a Charles Dickens character. What is that callsign?",
+      "choices": [
+        "Marley",
+        "Cratchit",
+        "Scrooge",
+        "Tiny Tim"
+      ],
+      "hint": "It's not the poor clerk Cratchit or his sickly son Tiny Tim, the two characters known for kindness and hardship rather than greed.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Violent Night",
+        "url": "https://en.wikipedia.org/wiki/Violent_Night"
+      },
+      "explanation": "John Leguizamo's villainous character in Violent Night goes by the callsign 'Scrooge,' a nod to the famously miserly character from Dickens' A Christmas Carol."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "According to Wikipedia, the Three Hundred and Thirty Five Years' War was a conflict between the Netherlands and the Isles of Scilly that lasted over three centuries without a single one of what being fired?",
+      "answer": "shot",
+      "hint": "4 letters; it's what you'd expect to be fired in a war, but never was.",
+      "article": {
+        "title": "Three Hundred and Thirty Five Years' War",
+        "url": "https://en.wikipedia.org/wiki/Three_Hundred_and_Thirty_Five_Years%27_War"
+      },
+      "explanation": "The war, lasting from 1651 to 1986, is famous for being entirely bloodless, with no shots ever fired between the two sides during the 335-year period before a peace treaty was formally signed."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis is a song by a Japanese idol group, released as a single, featuring lyrics about young love and nostalgia associated with sycamore trees.",
+      "choices": [
+        "Sakura no Ki ni Narou",
+        "Suzukake Nanchara",
+        "Kimi no Na wa Kibou",
+        "Aozora no Namida"
+      ],
+      "hint": "The correct answer is not about hope or crying skies; it specifically involves a tree, much like one other choice, though the type of tree differs.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Suzukake Nanchara",
+        "url": "https://en.wikipedia.org/wiki/Suzukake_Nanchara"
+      },
+      "explanation": "Suzukake Nanchara is a song by a Japanese idol group, reflecting themes of youthful romance and nostalgia tied to sycamore (suzukake) trees."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
