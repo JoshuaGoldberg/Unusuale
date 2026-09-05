@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-05",
+  "title": "Puzzle No. 10",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nThis 1969 experimental short film consists of a static shot of its director's face, and is considered a minimalist work exploring themes of identity and self-representation typical of the underground film movement.",
+      "choices": [
+        "Sleep (1963 film)",
+        "Empire (1964 film)",
+        "Self-Portrait (1969 film)",
+        "Blow Job (1964 film)"
+      ],
+      "hint": "The correct answer is not a film about a person sleeping, nor one that consists of a single continuous shot of the Empire State Building.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Self-Portrait (1969 film)",
+        "url": "https://en.wikipedia.org/wiki/Self-Portrait_(1969_film)"
+      },
+      "explanation": "The article describes Self-Portrait, a 1969 short experimental film directed by Andy Warhol, featuring a static image of his own face as a minimalist exploration of identity."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The article on the Meaning of life explores the question 'Why are we here? What's life all about?' and references a famous work of comedic science fiction that jokingly proposes a numeric answer to this ultimate question. What is that number?",
+      "choices": [
+        "7",
+        "13",
+        "42",
+        "100"
+      ],
+      "hint": "It's not a number typically associated with luck (13) or a perfect score (100).",
+      "answerIndex": 2,
+      "article": {
+        "title": "Meaning of life",
+        "url": "https://en.wikipedia.org/wiki/Meaning_of_life"
+      },
+      "explanation": "The article references Douglas Adams' 'The Hitchhiker's Guide to the Galaxy,' where the number 42 is humorously given as the answer to the ultimate question of life, the universe, and everything."
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "This British slang hairstyle, in which hair is pulled back so tightly that it stretches the skin on the face similarly to a cosmetic surgery procedure, is named after which town in South London?",
+      "answer": "Croydon",
+      "hint": "7 letters, one word; it's a town/borough in South London associated with this hairstyle stereotype.",
+      "article": {
+        "title": "Croydon facelift",
+        "url": "https://en.wikipedia.org/wiki/Croydon_facelift"
+      },
+      "explanation": "The 'Croydon facelift' hairstyle is named after the London borough of Croydon, where the tightly pulled-back hairstyle became a cultural stereotype, jokingly compared to a surgical facelift due to the skin-tightening effect it creates on the face."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "That little plastic or metal thing at the end of your shoelace has a name. Which of the following is the real term for it?",
+      "choices": [
+        "Grommet",
+        "Ferrule",
+        "Aglet",
+        "Tassel Cap"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not 'Grommet' (used for reinforcing holes in fabric) or 'Tassel Cap' (a decorative cover for tassels).",
+      "article": {
+        "title": "Aglet",
+        "url": "https://en.wikipedia.org/wiki/Aglet"
+      },
+      "explanation": "An aglet is the small plastic or metal sheath found on the end of a shoelace that keeps it from fraying and helps it pass through eyelets."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "In 2024, a brief, beautiful explosion of people who look like other people took over the internet. Which of the following is a real unusual article about this phenomenon?",
+      "choices": [
+        "2024 celebrity impersonation summit",
+        "2024 twin convention finals",
+        "2024 look-alike contests",
+        "2024 doppelganger championship series"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not a formal 'summit' or 'championship series', it's a more casual and viral trend involving public contests.",
+      "article": {
+        "title": "2024 look-alike contests",
+        "url": "https://en.wikipedia.org/wiki/2024_look-alike_contests"
+      },
+      "explanation": "In 2024, a series of viral look-alike contests emerged worldwide, where participants competed to resemble celebrities like Timothée Chalamet and Zendaya, sparking a lighthearted global trend."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a small town with a surprising living arrangement, where nearly every resident shares a single building?",
+      "choices": [
+        "Talkeetna, Alaska",
+        "Nome, Alaska",
+        "Whittier, Alaska",
+        "Utqiagvik, Alaska"
+      ],
+      "answerIndex": 2,
+      "hint": "It is not the historic gold rush town famous for the Iditarod finish line, nor the northernmost city in the United States.",
+      "article": {
+        "title": "Whittier, Alaska",
+        "url": "https://en.wikipedia.org/wiki/Whittier,_Alaska"
+      },
+      "explanation": "Whittier, Alaska is a small city where almost all of its residents live in a single building called Begich Towers."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Singing Senators was a barbershop quartet made up of four U.S. senators in the 1990s. Which member of the group later left the Republican Party to become an independent, a switch that some say contributed to the quartet's demise?",
+      "choices": [
+        "Trent Lott",
+        "Jim Jeffords",
+        "Larry Craig",
+        "John Ashcroft"
+      ],
+      "hint": "It was not the senator from Mississippi (Lott) or the senator from Missouri (Ashcroft).",
+      "answerIndex": 1,
+      "article": {
+        "title": "The Singing Senators",
+        "url": "https://en.wikipedia.org/wiki/The_Singing_Senators"
+      },
+      "explanation": "Jim Jeffords of Vermont left the Republican Party in 2001 to become an independent, a political shift that strained the group's dynamic and is often cited as a factor in its breakup."
+    },
+    {
+      "id": "q8",
+      "type": "number",
+      "prompt": "According to Japanese folklore, a household item that is kept for how many years becomes a tsukumogami, coming alive with a spirit and possibly growing a face and teeth?",
+      "answer": 100,
+      "tolerance": 0,
+      "unit": "years",
+      "hint": "It's somewhere between 60 and 150 years.",
+      "article": {
+        "title": "Tsukumogami",
+        "url": "https://en.wikipedia.org/wiki/Tsukumogami"
+      },
+      "explanation": "Japanese folklore holds that tools and household objects can become tsukumogami, gaining a spirit, once they reach 100 years of age."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "This tall, columnar cactus native to Bolivia is nicknamed 'Frauenglück,' or 'Women's Joy,' in Germany because of its suggestive shape. What is this cactus most commonly used for in horticulture?",
+      "choices": [
+        "As a source of medicinal tea",
+        "As a rootstock for grafting other cacti",
+        "As a natural hedge to keep out livestock",
+        "As an ornamental hedge along Bolivian roads"
+      ],
+      "hint": "It is not primarily used for tea or as a livestock barrier; its main use relates to helping other cacti grow.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Echinopsis lageniformis",
+        "url": "https://en.wikipedia.org/wiki/Echinopsis_lageniformis"
+      },
+      "explanation": "Echinopsis lageniformis is widely used in horticulture as a hardy rootstock onto which more delicate cactus species are grafted."
+    },
+    {
+      "id": "q10",
+      "type": "number",
+      "prompt": "Ching Cheong, a real Chinese journalist and former political prisoner (and not a slur), was convicted of espionage by a Chinese court in 2006. How many years in prison was he sentenced to serve?",
+      "answer": 5,
+      "tolerance": 0,
+      "unit": "years",
+      "hint": "The sentence was longer than 3 years but shorter than 8 years.",
+      "article": {
+        "title": "Ching Cheong",
+        "url": "https://en.wikipedia.org/wiki/Ching_Cheong"
+      },
+      "explanation": "In August 2006, a Chinese court convicted Ching Cheong of spying for Taiwan and sentenced him to five years in prison."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
