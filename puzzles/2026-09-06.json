@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-06",
+  "title": "Puzzle No. 11",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "prompt": "How democracy works in one of the most authoritarian countries in the world: In North Korean elections, voters can technically reject the single listed candidate, but doing so requires entering a separate booth to cross out the name, an action that exposes them as what kind of person to election officials?",
+      "answer": "dissident",
+      "hint": "9 letters; this word describes someone who opposes the government or ruling political system.",
+      "article": {
+        "title": "Elections in North Korea",
+        "url": "https://en.wikipedia.org/wiki/Elections_in_North_Korea"
+      },
+      "explanation": "In North Korean elections, voters are given a ballot with only one candidate. To vote yes, they simply drop it in the box, but to vote no, they must go to a separate booth to cross out the name, an action that is visible to officials and marks the voter as a dissident, discouraging any opposition votes."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a wartime cartoon in which Donald Duck won an Oscar as a Hitler-saluting Nazi?",
+      "choices": [
+        "Education for Death",
+        "Reason and Emotion",
+        "Der Fuehrer's Face",
+        "Commando Duck"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the film about Nazi schooling ('Education for Death') or the one exploring human psychology ('Reason and Emotion').",
+      "article": {
+        "title": "Der Fuehrer's Face",
+        "url": "https://en.wikipedia.org/wiki/Der_Fuehrer%27s_Face"
+      },
+      "explanation": "Der Fuehrer's Face is a 1943 Disney propaganda cartoon in which Donald Duck, trapped in a nightmarish Nazi factory, won the Academy Award for Best Animated Short Film."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nA catchphrase stereotypically associated with cranky elderly homeowners, often depicted yelling at children who wander onto their property, and widely referenced in popular culture as a symbol of curmudgeonly old age.",
+      "choices": [
+        "Grumpy Old Men (film)",
+        "You kids get off my lawn!",
+        "NIMBY",
+        "Get Off My Lawn (video game)"
+      ],
+      "hint": "The correct answer is not a movie title and is not related to zoning or land use disputes.",
+      "answerIndex": 1,
+      "article": {
+        "title": "You kids get off my lawn!",
+        "url": "https://en.wikipedia.org/wiki/You_kids_get_off_my_lawn!"
+      },
+      "explanation": "The phrase 'You kids get off my lawn!' is a stock phrase and stereotype associated with grumpy old men, often used humorously in popular culture to depict irritable elderly individuals confronting children for trespassing on their property."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "On Capitol Hill in Seattle, a mysterious soda machine offered rare drinks for decades with nobody knowing who operated it, until it disappeared in 2018 with a note reading 'Went for a walk.' In what decade did this machine reportedly begin operation?",
+      "choices": [
+        "1970s",
+        "1980s",
+        "1990s",
+        "2000s"
+      ],
+      "hint": "It was not the 1970s or the 2000s.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Capitol Hill mystery soda machine",
+        "url": "https://en.wikipedia.org/wiki/Capitol_Hill_mystery_soda_machine"
+      },
+      "explanation": "The soda machine was believed to have been in operation since the 1990s, dispensing rare and unusual sodas until it vanished in 2018."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Christo and Jeanne-Claude were a pair of 20th century artists famous for colossal environmental artworks like 1972's Valley Curtain and 2016's The Floating Piers. What unusual coincidence did the couple share regarding their births?",
+      "choices": [
+        "They were born in the same hospital",
+        "They were born on the same exact day",
+        "They were born in the same country",
+        "They were born exactly one year apart"
+      ],
+      "hint": "It was not about the hospital or the country they were born in, but rather the timing of their births.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Christo and Jeanne-Claude",
+        "url": "https://en.wikipedia.org/wiki/Christo_and_Jeanne-Claude"
+      },
+      "explanation": "Christo and Jeanne-Claude were both born on June 13, 1935, though in different countries (Bulgaria and Morocco, respectively)."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a dictator's son who acted like a real-life villain, complete with a body double, kidnappings at weddings, and a reputation for cruelty?",
+      "choices": [
+        "Qusay Hussein",
+        "Uday Hussein",
+        "Faisal al-Tikriti",
+        "Bashar al-Majid"
+      ],
+      "answerIndex": 1,
+      "hint": "The correct answer is not Qusay Hussein, who was known for a quieter military role, nor Bashar al-Majid, who is not a real historical figure.",
+      "article": {
+        "title": "Uday Hussein",
+        "url": "https://en.wikipedia.org/wiki/Uday_Hussein"
+      },
+      "explanation": "Uday Hussein, Saddam Hussein's eldest son, was infamous for his brutality, including rape and murder, and even had a body double named Latif Yahia whom he would have tortured in his place."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "A pioneering statistical resource that literally does what its title promises, though it wasn't the only random number table ever published. Which organization published 'A Million Random Digits with 100,000 Normal Deviates' in 1955?",
+      "choices": [
+        "Bell Labs",
+        "IBM",
+        "RAND Corporation",
+        "MIT Press"
+      ],
+      "hint": "It was not a computer manufacturer or a university press; it was a well known American think tank.",
+      "answerIndex": 2,
+      "article": {
+        "title": "A Million Random Digits with 100,000 Normal Deviates",
+        "url": "https://en.wikipedia.org/wiki/A_Million_Random_Digits_with_100,000_Normal_Deviates"
+      },
+      "explanation": "The book was published by the RAND Corporation in 1955, generated using an electronic roulette wheel to produce truly random digits for use in statistical and Monte Carlo methods."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Nicknamed 'Drab dark brown' and dubbed the least attractive colour according to research, which of the following is a real Pantone shade used for plain tobacco packaging?",
+      "choices": [
+        "Pantone 452 U",
+        "Pantone 291 M",
+        "Pantone 448 C",
+        "Pantone 503 B"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer has a three digit number ending in 8, which rules out the second and fourth options.",
+      "article": {
+        "title": "Pantone 448 C",
+        "url": "https://en.wikipedia.org/wiki/Pantone_448_C"
+      },
+      "explanation": "Pantone 448 C, described as 'drab dark brown,' was selected through research as the least appealing color and is now used on plain cigarette packaging to discourage smoking."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Want to panic a Unix user? Display an error that their printer is on fire. This humorous BSD Unix error message, 'lp0 on fire,' was inspired by a status code system used by which military organization to report aircraft emergencies?",
+      "choices": [
+        "NASA",
+        "Strategic Air Command",
+        "NORAD",
+        "US Navy"
+      ],
+      "hint": "It's not NASA or NORAD, those aren't the correct organization.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Lp0 on fire",
+        "url": "https://en.wikipedia.org/wiki/Lp0_on_fire"
+      },
+      "explanation": "The 'lp0 on fire' error message was inspired by a status code system used by the US Strategic Air Command, which reportedly included a real status message for aircraft being on fire."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nA surgical technique used to remove cyst-like structures resembling small clustered growths, often associated with parasitic infections such as hydatid disease, where careful excision is required to prevent rupture and spread of the cyst contents.",
+      "choices": [
+        "Grape surgery",
+        "Hydatid cyst excision",
+        "Laparoscopic cystectomy",
+        "Echinococcosis treatment"
+      ],
+      "hint": "The correct answer is not a general laparoscopic technique, nor is it a broad treatment category for a parasitic disease; it refers to a specific named procedure involving cyst removal.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Grape surgery",
+        "url": "https://en.wikipedia.org/wiki/Grape_surgery"
+      },
+      "explanation": "Grape surgery refers to a specialized surgical method for removing grape-like cystic formations, commonly linked to hydatid disease, requiring precise techniques to avoid cyst rupture and complications."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
