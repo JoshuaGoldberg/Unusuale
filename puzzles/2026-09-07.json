@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-07",
+  "title": "Puzzle No. 12",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "prompt": "The web series Lasagna Cat is known for its live-action reenactments of Garfield comic strips followed by absurd concluding pieces, including a mouse performing oral sex on Garfield, Odie committing suicide, and John Blyth Barrymore musing over a single strip for a whole hour. What is the name of the comedy collective that created this series?",
+      "answer": "Fatal Farm",
+      "hint": "9 letters (two words), this group is known for surreal internet comedy and named after a rural-sounding phrase.",
+      "article": {
+        "title": "Lasagna Cat",
+        "url": "https://en.wikipedia.org/wiki/Lasagna_Cat"
+      },
+      "explanation": "Lasagna Cat was created by the comedy group Fatal Farm, who produced the surreal live-action Garfield reenactments and their bizarre follow-up segments."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nA scandal in which some winemakers illegally added a toxic substance used in antifreeze to their wines to make cheap bottles taste sweeter and appear to be higher quality, more expensive vintages, leading to major damage to the country's wine export industry.",
+      "choices": [
+        "1985 Austrian diethylene glycol wine scandal",
+        "1986 Italian methanol wine scandal",
+        "2008 Chinese milk scandal",
+        "1996 German wine fraud case"
+      ],
+      "hint": "The correct answer did not occur in China or Germany.",
+      "answerIndex": 0,
+      "article": {
+        "title": "1985 Austrian diethylene glycol wine scandal",
+        "url": "https://en.wikipedia.org/wiki/1985_Austrian_diethylene_glycol_wine_scandal"
+      },
+      "explanation": "The 1985 Austrian diethylene glycol wine scandal involved some Austrian wine producers adding diethylene glycol to their wines to make them seem sweeter and more full bodied, mimicking the qualities of expensive late harvest wines. When discovered, it caused a severe collapse in Austria's wine export market and led to stricter wine regulations."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nThis legal dispute centered on whether a deceased celebrity's right of publicity could be passed down to heirs, ultimately ruling that such rights did not survive death under existing law at the time.",
+      "choices": [
+        "Marilyn Monroe LLC v. Milton H. Greene Archives",
+        "Charlie Chaplin right of publicity case",
+        "Lugosi v. Universal Pictures",
+        "Zacchini v. Scripps-Howard Broadcasting Co."
+      ],
+      "hint": "The correct answer is not about Bela Lugosi's estate, and it does not involve a human cannonball's televised performance.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Charlie Chaplin right of publicity case",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin_right_of_publicity_case"
+      },
+      "explanation": "The case addressed whether Charlie Chaplin's right of publicity could be inherited by his estate after his death, with courts determining that the right did not survive him under the law at that time."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "In 1930s Romania, a political movement emerged that attempted to blend fascism with libertarian socialism, possibly the only one of its kind in the world. Which of the following is the real name of this unusual movement?",
+      "choices": [
+        "Brotherhood of the New Dacia",
+        "Order of Romanian Renewal",
+        "Crusade of Romanianism",
+        "Legionary Front of National Rebirth"
+      ],
+      "answerIndex": 2,
+      "hint": "The real movement's name is not 'Brotherhood of the New Dacia' or 'Legionary Front of National Rebirth,' both of which are fabricated titles invoking common fascist-era rhetoric.",
+      "article": {
+        "title": "Crusade of Romanianism",
+        "url": "https://en.wikipedia.org/wiki/Crusade_of_Romanianism"
+      },
+      "explanation": "The Crusade of Romanianism was a 1930s Romanian political movement notable for its unusual attempt to merge fascist ideology with elements of libertarian socialism."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which topic does this Wikipedia article describe?\nA period in the North American fossil record, roughly 18 to 22 million years ago, during which fossils of felids and other similar carnivorans are notably scarce or absent, despite being common before and after this interval.",
+      "choices": [
+        "The Great Dying",
+        "Cat gap",
+        "Signor-Lipps effect",
+        "Latest Miocene faunal turnover"
+      ],
+      "hint": "It is not related to a global mass extinction event, nor is it a statistical effect explaining apparent gaps in the fossil record. It refers to a specific, localized scarcity of certain carnivorans in North America, rather than a broad, continent-wide turnover across many species.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Cat gap",
+        "url": "https://en.wikipedia.org/wiki/Cat_gap"
+      },
+      "explanation": "The 'Cat gap' refers to a period in North America's fossil record, between roughly 18.5 and 22 million years ago, when fossils of catlike carnivorans (Felidae and Nimravidae) are surprisingly rare, possibly due to environmental changes or competition from other predators like dogs and bear-dogs."
+    },
+    {
+      "id": "q6",
+      "type": "text",
+      "prompt": "Lioconcha hieroglyphica is a type of clam whose shell is covered in markings resembling ancient hieroglyphs. What family of marine bivalve mollusks does this species belong to?",
+      "answer": "Veneridae",
+      "hint": "9 letters, 1 word. This family is commonly known as venus clams.",
+      "article": {
+        "title": "Lioconcha hieroglyphica",
+        "url": "https://en.wikipedia.org/wiki/Lioconcha_hieroglyphica"
+      },
+      "explanation": "Lioconcha hieroglyphica is a species of saltwater clam belonging to the family Veneridae, a group of marine bivalve mollusks commonly known as venus clams."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis genre of Japanese art, dating back to the Edo period, depicts people engaging in flatulence contests or using flatulence as a weapon, often in a comedic or satirical manner, sometimes to mock foreign influences or societal norms.",
+      "choices": [
+        "Ukiyo-e",
+        "He-gassen",
+        "Shunga",
+        "Namahage"
+      ],
+      "hint": "It's not the traditional woodblock printing style known as Ukiyo-e, nor is it Namahage, a folklore tradition involving demon-like visitors.",
+      "answerIndex": 1,
+      "article": {
+        "title": "He-gassen",
+        "url": "https://en.wikipedia.org/wiki/He-gassen"
+      },
+      "explanation": "He-gassen, meaning 'fart battle,' is a genre of Japanese picture scrolls from the Edo period depicting humorous scenes of people using flatulence in various competitive or absurd situations, often as satire."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "The Interesting Number Paradox states that either all natural numbers are interesting or else none of them are. This idea is famously illustrated by a story involving G.H. Hardy and Srinivasa Ramanujan, where Hardy remarked that the number of the cab he had ridden in seemed 'rather a dull one,' only for Ramanujan to reveal its hidden mathematical charm. What was that number?",
+      "choices": [
+        "1089",
+        "8128",
+        "1729",
+        "142857"
+      ],
+      "hint": "It's not the cyclic number 142857, nor the perfect number 8128, and it's not 1089.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Interesting number paradox",
+        "url": "https://en.wikipedia.org/wiki/Interesting_number_paradox"
+      },
+      "explanation": "The number is 1729, known as the Hardy-Ramanujan number, which is the smallest number expressible as the sum of two cubes in two different ways (1^3 + 12^3 and 9^3 + 10^3)."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article on Pokémon and pornography discusses an internet meme claiming a certain Pokémon is the most compatible for breeding with male humans due to its egg group and water-based biology. Which Pokémon is it?",
+      "choices": [
+        "Jigglypuff",
+        "Ditto",
+        "Vaporeon",
+        "Gardevoir"
+      ],
+      "hint": "It's not Jigglypuff or Gardevoir.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Pokémon and pornography",
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_and_pornography"
+      },
+      "explanation": "The article references a popular internet meme stating that Vaporeon is the most 'compatible' Pokémon for breeding with male humans, a joke often associated with discussions of bestiality in fan communities."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "In the 1932 Emu War in Australia, soldiers armed with machine guns were sent to cull emus damaging crops, but the birds proved surprisingly resilient, leading to the famous final score of Emus 1, Australians 0. Who was the major who commanded the Australian military forces during this campaign?",
+      "choices": [
+        "G.P.W. Meredith",
+        "John Monash",
+        "Thomas Blamey",
+        "Harry Chauvel"
+      ],
+      "hint": "The correct answer is not John Monash or Harry Chauvel, both of whom were famous World War I commanders unrelated to this operation.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Emu War",
+        "url": "https://en.wikipedia.org/wiki/Emu_War"
+      },
+      "explanation": "Major G.P.W. Meredith led the Australian soldiers armed with Lewis guns against the emus, but the operation largely failed as the birds proved difficult to kill in large numbers."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
