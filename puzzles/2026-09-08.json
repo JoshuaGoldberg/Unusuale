@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-08",
+  "title": "Puzzle No. 13",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nA Colombian former model who was arrested in 2010 in connection with an international cocaine smuggling ring that used models as drug couriers, earning her the nickname \"Angel of Cocaine\" in the media.",
+      "choices": [
+        "Griselda Blanco",
+        "Angie Sanclemente Valencia",
+        "Sandra Avila Beltran",
+        "Norma Hilda Lizarraga"
+      ],
+      "hint": "The correct answer is not a woman known as a major cartel matriarch with decades-long criminal empire, nor is she primarily known by the nickname 'Queen of the Pacific.'",
+      "answerIndex": 1,
+      "article": {
+        "title": "Angie Sanclemente Valencia",
+        "url": "https://en.wikipedia.org/wiki/Angie_Sanclemente_Valencia"
+      },
+      "explanation": "The article describes Angie Sanclemente Valencia, a Colombian former beauty queen and model who was arrested in Argentina in 2010 for allegedly leading a drug trafficking ring that recruited models to smuggle cocaine internationally."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Egmont National Park in New Zealand is famous for its nearly perfect circular boundary, creating a distinct circular forest visible from above. What is the approximate radius of this circle, measured from the summit of Mount Taranaki?",
+      "choices": [
+        "9.6 km",
+        "15.2 km",
+        "5.4 km",
+        "12.8 km"
+      ],
+      "hint": "The radius is less than 12.8 km, but more than 5.4 km.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Egmont National Park",
+        "url": "https://en.wikipedia.org/wiki/Egmont_National_Park"
+      },
+      "explanation": "Egmont National Park's boundary forms a nearly perfect circle with a radius of about 9.6 km around Mount Taranaki, resulting in a striking circular forest visible against the surrounding cleared farmland."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Extravagant numbers, whose Wikipedia summary quips 'Don't take it shopping. Not very friendly with the frugal number either,' are numbers whose prime factorization needs more digits to write out than the number itself has. What is the smallest extravagant number?",
+      "choices": [
+        8,
+        6,
+        4,
+        12
+      ],
+      "hint": "It's not 8 or 12. The correct answer is smaller than both of these and has just a single digit.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Extravagant number",
+        "url": "https://en.wikipedia.org/wiki/Extravagant_number"
+      },
+      "explanation": "The smallest extravagant number is 4, since its prime factorization 2 x 2 requires two digits to write out, which is more than the single digit in 4."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual Wikipedia article about an incident during a presidential campaign speech that damaged the candidate's chances?",
+      "choices": [
+        "The Wink Heard Round the World",
+        "The Cough Incident",
+        "Dean scream",
+        "The Podium Collapse"
+      ],
+      "answerIndex": 2,
+      "hint": "It was not related to a physical stumble or malfunction, but rather a vocal outburst made during a speech.",
+      "article": {
+        "title": "Dean scream",
+        "url": "https://en.wikipedia.org/wiki/Dean_scream"
+      },
+      "explanation": "The Dean scream refers to a moment during Howard Dean's 2004 presidential campaign when an enthusiastic yell during a speech was replayed endlessly by media, damaging his candidacy."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "It's not often you see a goalscoring goalkeeper in soccer, much less one with over 100 recorded goals. Which of the following is the real unusual article about such a player?",
+      "choices": [
+        "Marcelo Vieira",
+        "Diego Fontana",
+        "Rogério Ceni",
+        "Hector Aliaga"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is a Brazilian goalkeeper who played his entire club career for one team, ruling out any names associated with multiple club transfers or non Brazilian nationalities.",
+      "article": {
+        "title": "Rogério Ceni",
+        "url": "https://en.wikipedia.org/wiki/Rog%C3%A9rio_Ceni"
+      },
+      "explanation": "Rogério Ceni was a Brazilian goalkeeper who famously scored over 100 goals during his career, mostly through free kicks and penalties for São Paulo FC."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which article does the following describe?\nThis creature of American folklore is said to inhabit the hemlock forests of Pennsylvania. It is described as an unattractive, timid animal with loose, warty skin covered in ill-fitting folds, and is said to weep constantly due to its own hideousness. Legend claims that when cornered or captured, it may dissolve entirely into a pool of tears and bubbles.",
+      "choices": [
+        "Jackalope",
+        "Squonk",
+        "Wendigo",
+        "Fearsome Critters"
+      ],
+      "hint": "The answer is not a horned rabbit-like creature and is not a malevolent spirit associated with cannibalism.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Squonk",
+        "url": "https://en.wikipedia.org/wiki/Squonk"
+      },
+      "explanation": "The Squonk is a legendary creature from Pennsylvania folklore, known for its ugly, wrinkled appearance and its habit of crying constantly, sometimes said to dissolve into tears when caught or frightened."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a Facebook group dedicated to memes about an American politician?",
+      "choices": [
+        "Ted Cruz's Zodiac Killer Confession Group",
+        "Hillary Clinton's Email Meme Collective",
+        "Bernie Sanders' Dank Meme Stash",
+        "Donald Trump's Covfefe Fan Club"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the choice referencing a conspiracy theory about a senator, nor the one about a president's famous typo.",
+      "article": {
+        "title": "Bernie Sanders' Dank Meme Stash",
+        "url": "https://en.wikipedia.org/wiki/Bernie_Sanders%27_Dank_Meme_Stash"
+      },
+      "explanation": "Bernie Sanders' Dank Meme Stash was a Facebook group dedicated to creating and sharing memes about American politician Bernie Sanders."
+    },
+    {
+      "id": "q8",
+      "type": "text",
+      "prompt": "Emojli was a now-defunct social network that started as a parody of the app Yo. On Emojli, usernames and messages could only be composed entirely of what type of character?",
+      "answer": "emoji",
+      "hint": "5 letters, small digital pictograms used to express ideas, objects, or emotions.",
+      "article": {
+        "title": "Emojli",
+        "url": "https://en.wikipedia.org/wiki/Emojli"
+      },
+      "explanation": "Emojli restricted all usernames and messages to emoji characters only, making it impossible to use standard text on the platform."
+    },
+    {
+      "id": "q9",
+      "type": "number",
+      "prompt": "A man's small piece of metal turns out to be worth more than expected: Kyle MacDonald began with a single red paperclip and kept trading up until he acquired a house. How many total trades did it take him to go from paperclip to house?",
+      "answer": 14,
+      "tolerance": 0,
+      "unit": "trades",
+      "hint": "The number of trades was somewhere between 10 and 19.",
+      "article": {
+        "title": "One red paperclip",
+        "url": "https://en.wikipedia.org/wiki/One_red_paperclip"
+      },
+      "explanation": "Kyle MacDonald conducted a series of 14 sequential trades over about a year, starting with a single red paperclip and ending with a house in Kipling, Saskatchewan."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nThis book, produced by the RAND Corporation using a random pulse generator connected to a roulette wheel apparatus, became an unlikely bestseller and received humorous reviews on Amazon for its plot and character development.",
+      "choices": [
+        "The Book of Numbers",
+        "A Million Random Digits with 100,000 Normal Deviates",
+        "The Art of Computer Programming",
+        "Statistical Tables for Biological, Agricultural and Medical Research"
+      ],
+      "hint": "The correct answer is not a scientific reference book about biology or agriculture, and it is not a multi-volume programming textbook written by a single well known computer scientist.",
+      "answerIndex": 1,
+      "article": {
+        "title": "A Million Random Digits with 100,000 Normal Deviates",
+        "url": "https://en.wikipedia.org/wiki/A_Million_Random_Digits_with_100,000_Normal_Deviates"
+      },
+      "explanation": "The article describes 'A Million Random Digits with 100,000 Normal Deviates,' a 1955 book by the RAND Corporation containing random numbers generated using a physical randomness source combined with electronic components. It was widely used for statistical sampling and simulations, and later gained internet fame for satirical Amazon reviews joking about its 'random' plot."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
