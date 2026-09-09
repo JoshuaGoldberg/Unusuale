@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-09",
+  "title": "Puzzle No. 14",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which concept skyscraper does the following describe?\nThis proposed structure, conceived by a Japanese construction company, would rise about 4,000 meters (over 13,000 feet) high, dwarfing every existing building on Earth, and was designed as a self-contained city capable of housing up to one million residents in Tokyo Bay.",
+      "choices": [
+        "Sky Mile Tower",
+        "X-Seed 4000",
+        "Shimizu Mega-City Pyramid",
+        "Ultima Tower"
+      ],
+      "hint": "The correct answer is not the pyramid-shaped Tokyo Bay proposal, nor the theoretical San Francisco tower concept.",
+      "answerIndex": 1,
+      "article": {
+        "title": "X-Seed 4000",
+        "url": "https://en.wikipedia.org/wiki/X-Seed_4000"
+      },
+      "explanation": "The X-Seed 4000 is a concept for a 4,000-meter-tall skyscraper proposed by Taisei Corporation, designed to house 500,000 to 1,000,000 people in Tokyo Bay, though it was never built due to cost and engineering challenges."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "F. D. C. Willard is the pen name of a cat who co-authored academic papers in cryogenics alongside physicist Jack H. Hetherington. What was the cat's actual first name before he became a published author under this pseudonym?",
+      "choices": [
+        "Schrödinger",
+        "Newton",
+        "Chester",
+        "Whiskers"
+      ],
+      "hint": "It's not Schrödinger or Whiskers.",
+      "answerIndex": 2,
+      "article": {
+        "title": "F. D. C. Willard",
+        "url": "https://en.wikipedia.org/wiki/F._D._C._Willard"
+      },
+      "explanation": "The cat's real name was Chester, and his pen name F. D. C. Willard stood for 'Felis Domesticus Chester Willard,' with Willard being the name of his father."
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "IKEA's famous pencils are free, unsharpened, and even used in surgery. They share their name with a type of small pencil commonly used to keep score during an outdoor sport played with clubs and holes. What is this type of pencil called?",
+      "answer": "Golf pencil",
+      "hint": "Two words, 4 and 6 letters; think of the sport where players keep score using a tiny pencil.",
+      "article": {
+        "title": "IKEA pencil",
+        "url": "https://en.wikipedia.org/wiki/IKEA_pencil"
+      },
+      "explanation": "The IKEA pencil is a small, free, unsharpened wooden pencil provided in IKEA stores for customers to jot down item numbers and measurements. Because of its short, simple design, it is often referred to as a 'golf pencil,' a term for compact pencils typically used to score golf games."
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "The baby cage was the pre-War way to get your baby some fresh air if you lived in a high-rise apartment, famously used by Eleanor Roosevelt. In what year did Emma Read file the patent for this device?",
+      "answer": 1922,
+      "tolerance": 1,
+      "unit": "",
+      "hint": "It was sometime between 1918 and 1935.",
+      "article": {
+        "title": "Baby cage",
+        "url": "https://en.wikipedia.org/wiki/Baby_cage"
+      },
+      "explanation": "Emma Read filed a patent for the baby cage in 1922, designed to give babies in apartments access to fresh air and sunlight."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does the following describe?\nHe was a Japanese naval aviator who took part in the first organized kamikaze attack in history, flying as part of the Shikishima unit during the Battle of Leyte Gulf in October 1944, contributing to the sinking of an American escort carrier.",
+      "choices": [
+        "Mitsuyasu Maeno",
+        "Takijiro Onishi",
+        "Saburo Sakai",
+        "Yukio Seguchi"
+      ],
+      "hint": "The correct answer is not the admiral who organized the kamikaze corps, and it is not the famous ace pilot known for surviving the war.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Mitsuyasu Maeno",
+        "url": "https://en.wikipedia.org/wiki/Mitsuyasu_Maeno"
+      },
+      "explanation": "Mitsuyasu Maeno was a Japanese naval pilot who participated in the first kamikaze attack, crashing his aircraft into the USS St. Lo during the Battle of Leyte Gulf in October 1944, resulting in the ship's sinking."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Sedlec Ossuary is a Christian chapel decorated by the bones of approximately 40,000 people. Who was the woodcarver responsible for arranging these bones into their current artistic form in 1870?",
+      "choices": [
+        "František Rint",
+        "Antonín Dvořák",
+        "Jan Santini Aichel",
+        "Alfons Mucha"
+      ],
+      "hint": "It was not the famous composer or the famous Art Nouveau painter associated with Czech culture.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Sedlec Ossuary",
+        "url": "https://en.wikipedia.org/wiki/Sedlec_Ossuary"
+      },
+      "explanation": "František Rint, a woodcarver, was hired in 1870 to artistically arrange the bones of roughly 40,000 people within the Sedlec Ossuary chapel."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real Wikipedia article?",
+      "choices": [
+        "Underwater timeshare communities",
+        "Antarctic property leasing",
+        "Extraterrestrial real estate",
+        "Cloud-based land ownership"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not related to leasing land in Antarctica or purchasing timeshares underwater.",
+      "article": {
+        "title": "Extraterrestrial real estate",
+        "url": "https://en.wikipedia.org/wiki/Extraterrestrial_real_estate"
+      },
+      "explanation": "Extraterrestrial real estate refers to claims of land ownership on other planets, moons, or celestial bodies, which are widely considered legally invalid under international law."
+    },
+    {
+      "id": "q8",
+      "type": "number",
+      "prompt": "The Mary Ellis grave is a peculiar burial site that ended up in the middle of a movie theater parking lot in Hempstead, New York. At what age did Mary Ellis die?",
+      "answer": 90,
+      "tolerance": 2,
+      "unit": "years old",
+      "hint": "She lived a long life for her era, somewhere between 80 and 95 years old.",
+      "article": {
+        "title": "Mary Ellis grave",
+        "url": "https://en.wikipedia.org/wiki/Mary_Ellis_grave"
+      },
+      "explanation": "Mary Ellis died in 1827 at the age of 90, and her grave remained in place even as a movie theater was later built around it, leaving her headstone standing in the middle of the parking lot."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about the only time a senior Australian rules football team kicked at least one hundred goals in a game, a match that took more than three hours to complete due to the sheer amount of time needed to retrieve the ball after all one hundred (plus three) goals?",
+      "choices": [
+        "Eaglehawk vs Kangaroo Flat (1985 BFL season)",
+        "Maryborough vs Kyneton (1978 CHFL season)",
+        "Campbells Creek vs Primrose (1990 MCDFL season)",
+        "Sandhurst vs Golden Point (1992 BFL season)"
+      ],
+      "answerIndex": 2,
+      "hint": "Eliminate any match listed under the BFL season, as this record-setting game occurred in a different league entirely.",
+      "article": {
+        "title": "Campbells Creek vs Primrose (1990 MCDFL season)",
+        "url": "https://en.wikipedia.org/wiki/Campbells_Creek_vs_Primrose_(1990_MCDFL_season)"
+      },
+      "explanation": "This match remains the only recorded instance of a senior Australian rules football team kicking at least one hundred goals in a single game, extending the match beyond three hours due to the time needed to retrieve the ball after each goal."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which major social media platform blocked hashtag searches for the eggplant emoji in 2015 due to its sexual connotations?",
+      "choices": [
+        "Twitter",
+        "Instagram",
+        "Facebook",
+        "Snapchat"
+      ],
+      "hint": "It's not Twitter or Facebook.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Eggplant emoji",
+        "url": "https://en.wikipedia.org/wiki/Eggplant_emoji"
+      },
+      "explanation": "Instagram blocked hashtag searches for the eggplant emoji in 2015 because it was widely used to imply sexual content, despite emoji being marketed as playful, non-suggestive symbols."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
