@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-10",
+  "title": "Puzzle No. 15",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual comic strip fact, where two completely unrelated comic strips in different countries debuted on the exact same day sharing the exact same name?",
+      "choices": [
+        "Calvin and Hobbes",
+        "Dennis the Menace",
+        "Garfield",
+        "Peanuts"
+      ],
+      "answerIndex": 1,
+      "hint": "It's not the strip about a philosophical tiger, nor the one about a lasagna loving cat.",
+      "article": {
+        "title": "Dennis the Menace",
+        "url": "https://en.wikipedia.org/wiki/Dennis_the_Menace"
+      },
+      "explanation": "Dennis the Menace refers to two separate comic strips, one British and one American, that coincidentally launched on the same day in March 1951 with the same title and a mischievous boy as the main character."
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "prompt": "Echinoecus pentagonus is a parasitic crab that famously lives inside the rectum of what spiny marine animal, making its home rent-controlled?",
+      "answer": "Sea urchin",
+      "hint": "9 letters, 2 words: a round, spiky-shelled echinoderm often found on ocean floors.",
+      "article": {
+        "title": "Echinoecus pentagonus",
+        "url": "https://en.wikipedia.org/wiki/Echinoecus_pentagonus"
+      },
+      "explanation": "Echinoecus pentagonus is a species of crab that lives parasitically inside the rectum of sea urchins, an unusual but stable habitat for the species."
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "prompt": "According to the Wikipedia article on Embrace's self-titled album, what is the title of the album's lead single?",
+      "answer": "Ashes",
+      "hint": "5 letters, one word; it refers to burnt remains, often associated with fire or cremation.",
+      "article": {
+        "title": "Embrace (English band Embrace album)",
+        "url": "https://en.wikipedia.org/wiki/Embrace_(English_band_Embrace_album)"
+      },
+      "explanation": "The Wikipedia article states that 'Ashes' was released as the lead single from Embrace's self-titled 2005 album, not 'Gravity,' which was actually the lead single from their earlier album 'Out of Nothing' and co-written with Chris Martin of Coldplay. The original question's premise was factually incorrect for this specific album's page."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Michael A. Aquino was a U.S. Army officer and psychological warfare specialist who also founded and served as high priest of an occult magic order. What is the name of this order he founded in 1975?",
+      "choices": [
+        "Order of the Golden Dawn",
+        "Temple of Set",
+        "Church of Satan",
+        "Ordo Templi Orientis"
+      ],
+      "hint": "It is not the Church of Satan (which he actually left to start his own group), nor is it the Order of the Golden Dawn, which predates him by decades.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Michael A. Aquino",
+        "url": "https://en.wikipedia.org/wiki/Michael_A._Aquino"
+      },
+      "explanation": "Aquino founded the Temple of Set in 1975 after leaving the Church of Satan, becoming its first high priest."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual scientific theory once proposed to explain continental drift and other geological phenomena?",
+      "choices": [
+        "Contracting Earth Theory",
+        "Shrinking Continents Theory",
+        "Expanding Earth",
+        "Rotating Core Hypothesis"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not about the Earth's continents shrinking, nor about its core rotating separately from the mantle.",
+      "article": {
+        "title": "Expanding Earth",
+        "url": "https://en.wikipedia.org/wiki/Expanding_Earth"
+      },
+      "explanation": "The Expanding Earth theory is a discredited hypothesis suggesting that the planet's continents have drifted apart because the Earth itself has been steadily increasing in size."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which Wikipedia article does this describe?\nThis topic explores various candidates for the lengthiest terms in the English language, including coined words, technical terms, and words that appear in major dictionaries. It discusses a 45 letter word for a lung disease caused by inhaling fine particles, as well as chemical names that can span hundreds of thousands of letters.",
+      "choices": [
+        "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "Longest word in English",
+        "List of English words with disputed usage",
+        "Antidisestablishmentarianism"
+      ],
+      "hint": "The correct answer is not a specific word itself, but rather a general topic about lengthy words.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Longest word in English",
+        "url": "https://en.wikipedia.org/wiki/Longest_word_in_English"
+      },
+      "explanation": "The article 'Longest word in English' discusses various candidates for the longest English word, such as 'pneumonoultramicroscopicsilicovolcanoconiosis' and the chemical name for titin, which has 189,819 letters."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is the real person who holds the record for the longest verified human lifespan, living to the age of 122?",
+      "choices": [
+        "Sarah Knauss",
+        "Kane Tanaka",
+        "Jeanne Calment",
+        "Shigechiyo Izumi"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not Sarah Knauss or Shigechiyo Izumi, as neither of them holds the verified record for the longest human lifespan.",
+      "article": {
+        "title": "Jeanne Calment",
+        "url": "https://en.wikipedia.org/wiki/Jeanne_Calment"
+      },
+      "explanation": "Jeanne Calment was a Frenchwoman recognized as having the longest verified human lifespan in recorded history, dying at age 122."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which article does this describe?\nA traditional pub game associated with the county of Kent in England, played with a bat, ball, and a mechanical device that flips the ball into the air for the batter to strike toward a target.",
+      "choices": [
+        "Skittles (game)",
+        "Bat and trap",
+        "Stoolball",
+        "Knur and spell"
+      ],
+      "hint": "It is not the game played with wooden pins knocked down by a ball, nor the northern English game involving hitting a small ball with a stick after it is released from a spring-loaded device called a 'spell'.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Bat and trap",
+        "url": "https://en.wikipedia.org/wiki/Bat_and_trap"
+      },
+      "explanation": "The article describes 'Bat and trap,' a traditional pub game from Kent, England, played with two teams of eight, a bat, a ball, and a trap device used to launch the ball for hitting toward a target."
+    },
+    {
+      "id": "q9",
+      "type": "text",
+      "prompt": "Republican marriage was a form of mass execution during the French Revolution's Reign of Terror, where a naked man and woman were bound together and submerged in the Loire River in Nantes. What term describes this method of execution?",
+      "answer": "Drowning",
+      "hint": "8 letters, 1 word. The victims died from being submerged underwater for an extended period.",
+      "article": {
+        "title": "Republican marriage",
+        "url": "https://en.wikipedia.org/wiki/Republican_marriage"
+      },
+      "explanation": "Republican marriage refers to a method of mass execution used during the Noyades of Nantes in 1793, where a naked man and woman were bound together and drowned in the Loire River."
+    },
+    {
+      "id": "q10",
+      "type": "text",
+      "prompt": "The Wikipedia article on Moe anthropomorphism notes that even a washing machine can be turned into 'the girl of your dreams' through this artistic trend. This same trend inspired a moe mascot character representing the very crowd-sourced online encyclopedia that hosts the article. What is the name of that online encyclopedia?",
+      "answer": "Wikipedia",
+      "hint": "9 letters, one word. It's the site you're reading this on, often symbolized by a cute anime girl mascot.",
+      "article": {
+        "title": "Moe anthropomorphism",
+        "url": "https://en.wikipedia.org/wiki/Moe_anthropomorphism"
+      },
+      "explanation": "The article explains that in moe anthropomorphism, even mundane objects like a washing machine can be depicted as cute characters. Wikipe-tan is a well-known example, created as a moe personification of Wikipedia itself."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
