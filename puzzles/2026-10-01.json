@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-01",
+  "title": "Puzzle No. 36",
+  "questions": [
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "This article describes a golden statue depicting a political figure in a stylized, idol-like form reminiscent of a serene religious icon often associated with Eastern spiritual traditions. The statue gained widespread attention and went viral on social media after it was displayed at a major political conference, with many comparing its appearance and seated pose to that of a well-known meditative religious figure. The image sparked both mockery and commentary across the internet due to its unusual, almost satirical design.",
+      "choices": [
+        "Trump Buddha",
+        "Golden Calf Memorial",
+        "Reagan Reliquary",
+        "The Obama Sphinx"
+      ],
+      "hint": "The Golden Calf Memorial does not depict any specific political figure, and the Reagan Reliquary involves a religious object rather than a statue of a person. The remaining two choices both involve political figures depicted as statues.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Trump Buddha",
+        "url": "https://en.wikipedia.org/wiki/Trump_Buddha"
+      },
+      "explanation": "Trump Buddha refers to the golden statue of Donald Trump that appeared at CPAC 2021, which went viral online due to its resemblance to a Buddha statue, inspiring widespread memes and commentary."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Umoja, Kenya is an entire women's-only village established in response to violence against women in Samburu tribal society. In what year was this village founded?",
+      "choices": [
+        "1990",
+        "1998",
+        "2005",
+        "1983"
+      ],
+      "hint": "It was not founded in the 1980s, and it was not founded after the year 2000.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Umoja, Kenya",
+        "url": "https://en.wikipedia.org/wiki/Umoja,_Kenya"
+      },
+      "explanation": "Umoja was founded in 1990 by a group of women who survived violence, including rape and domestic abuse, creating a safe haven free from male dominance."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis term refers to a manuscript, believed to be an early translation of a sacred religious text, that was lost under mysterious circumstances in the 1820s. A trusted associate of the text's translator borrowed the pages to show skeptical family members as proof of the ongoing translation work, but the pages subsequently disappeared and were never recovered. Their disappearance caused a major setback and crisis of faith for the translator, who believed he temporarily lost his spiritual gift as a consequence. Rather than retranslating the same material, the translator was instructed to produce a different, parallel account covering the same historical period, resulting in a permanent gap in the record as originally conceived. The identity of whoever took the pages, and their ultimate fate, remain unknown to this day.",
+      "choices": [
+        "The Lost 116 pages",
+        "The Voynich Manuscript",
+        "The Q Source",
+        "The Dead Sea Scrolls fragment 4Q175"
+      ],
+      "hint": "This is not an ancient artifact of unknown origin or a hypothetical source document for the Gospels; it involves a named translator and a real named associate from 19th century America.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Lost 116 pages",
+        "url": "https://en.wikipedia.org/wiki/Lost_116_pages"
+      },
+      "explanation": "The Lost 116 pages refer to the manuscript pages of the Book of Lehi, an early portion of Joseph Smith's translation of the Book of Mormon. Martin Harris borrowed the pages to show his wife and others, and they disappeared. Smith was told not to retranslate the same material and instead used the small plates of Nephi to cover that period, leaving the original pages' content unrecovered."
+    },
+    {
+      "id": "q6",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes Love Land, an outdoor sculpture park featuring sexually explicit statues and artwork, designed to educate newlyweds and entertain visitors. The park opened in 2004 near a major international airport and has become a popular, if controversial, tourist attraction known for its explicit erotic art, fertility-themed sculptures, and sex education exhibits.",
+      "answer": "Asia",
+      "hint": "This location is not in Africa, not in Europe, and not in North America.",
+      "article": {
+        "title": "Love Land (South Korea)",
+        "url": "https://en.wikipedia.org/wiki/Love_Land_(South_Korea)"
+      },
+      "explanation": "Love Land is located on Jeju Island, South Korea, which is part of Asia."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is the highest denomination of currency ever issued by a central bank in the United Kingdom. Rather than circulating among the public, it exists solely as an internal financial instrument. It is used to back the value of banknotes issued by commercial banks in Scotland and Northern Ireland, ensuring those notes are fully backed by Bank of England currency. Only a small number of these notes exist, held within secure vaults, and they are never seen or used by ordinary members of the public.",
+      "choices": [
+        "Bank of England £1,000,000 note",
+        "Bank of England £100,000,000 note",
+        "Bank of England £50,000 note",
+        "Bank of England Gold Standard Certificate"
+      ],
+      "hint": "The correct answer is not the £50,000 note or the Gold Standard Certificate, since those are either in general circulation or do not exist as described.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Bank of England £100,000,000 note",
+        "url": "https://en.wikipedia.org/wiki/Bank_of_England_%C2%A3100,000,000_note"
+      },
+      "explanation": "The Bank of England £100,000,000 note, nicknamed 'Titan,' is a non-circulating note used internally to back the value of banknotes issued by commercial banks in Scotland and Northern Ireland."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Have you ever wondered why slime gets such a pull on people? Which of the following is a real unusual Wikipedia article about videos designed to trigger a pleasing sensory response?",
+      "choices": [
+        "Strangely pleasing animations",
+        "Curiously calming content",
+        "Oddly satisfying videos",
+        "Mesmerizing texture clips"
+      ],
+      "answerIndex": 2,
+      "hint": "The real article is not about animations or calming content in general, it specifically focuses on sensory triggers like slime and kinetic sand.",
+      "article": {
+        "title": "Oddly satisfying videos",
+        "url": "https://en.wikipedia.org/wiki/Oddly_satisfying_videos"
+      },
+      "explanation": "Oddly satisfying videos are a genre of online video content, often featuring repetitive or soothing visuals like slime, that are designed to trigger pleasurable sensory responses in viewers."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a biography of an Indian farmer who discovered he had been declared legally dead by relatives seeking to inherit his land. He spent decades fighting the Indian bureaucracy to have himself declared alive again, even running for political office and adopting an unusual surname to draw attention to his case. He later founded an organization to help others in India who had similarly been fraudulently declared dead, uniting them in their shared struggle to prove their existence to the government.",
+      "choices": [
+        "Lal Bihari",
+        "Bhola Singh",
+        "Ram Prakash",
+        "Mohan Lal"
+      ],
+      "hint": "The correct answer is not Bhola Singh and not Ram Prakash.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Lal Bihari",
+        "url": "https://en.wikipedia.org/wiki/Lal_Bihari"
+      },
+      "explanation": "The article is about Lal Bihari, an Indian man declared legally dead by relatives who wanted his land. He fought for nearly two decades to be recognized as alive, adopted the surname 'Mritak' (meaning 'dead' in Hindi), and founded the Association of Dead People (Mritak Sangh) to help others facing the same bureaucratic nightmare."
+    },
+    {
+      "id": "q10",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nGiraffe Manor is a small, exclusive boutique hotel famous for its resident herd of endangered Rothschild giraffes, who are free to roam the surrounding grounds and often poke their long necks through the windows to greet guests during breakfast. The property has become a major tourist attraction and social media sensation, offering visitors the rare chance to hand-feed and interact closely with these gentle giants right from their hotel rooms.",
+      "answer": "Africa",
+      "hint": "This location is not in Europe, not in North America, and not in Oceania.",
+      "article": {
+        "title": "Giraffe Manor",
+        "url": "https://en.wikipedia.org/wiki/Giraffe_Manor"
+      },
+      "explanation": "Giraffe Manor is located in Nairobi, Kenya, on the African continent."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 8,
+    "successfullyParsed": 8,
+    "failedCount": 0
+  }
+}
