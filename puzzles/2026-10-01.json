@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-01",
+  "title": "Puzzle No. 36",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Mary Ellis grave is a solitary, isolated grave that stands alone in an unexpected spot, no longer surrounded by the churchyard it once belonged to, after the church itself was demolished long ago. Despite the dramatic change in its surroundings over the centuries, including the construction of a massive modern transportation hub nearby, the grave itself has been preserved and remains a curious, almost incongruous sight for travelers who happen to notice it.",
+      "answer": "Europe",
+      "hint": "This is not located in Africa, South America, or Oceania.",
+      "article": {
+        "title": "Mary Ellis grave",
+        "url": "https://en.wikipedia.org/wiki/Mary_Ellis_grave"
+      },
+      "explanation": "The Mary Ellis grave is located near Heathrow Airport in Hounslow, London, England, having survived as an isolated grave after the surrounding churchyard and church were removed."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The Indianapolis Star once called Snickers salad a dessert 'worthy of a church picnic.' What fruit is typically chopped and mixed into this Midwestern treat alongside chopped Snickers bars and whipped topping?",
+      "choices": [
+        "Bananas",
+        "Strawberries",
+        "Apples",
+        "Grapes"
+      ],
+      "hint": "It's not bananas or grapes, think of a crisp, fall fruit.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Snickers salad",
+        "url": "https://en.wikipedia.org/wiki/Snickers_salad"
+      },
+      "explanation": "Snickers salad typically combines chopped apples, chopped Snickers candy bars, and whipped topping, making it a popular dessert salad in the American Midwest."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The Gävle Goat, a giant straw Yuletide goat erected annually in Sweden and frequently targeted by arson and vandalism, was first destroyed by fire in which year?",
+      "choices": [
+        "1966",
+        "1971",
+        "1976",
+        "1982"
+      ],
+      "hint": "It was not in the 1970s, so the first burning happened either very early or quite late in the goat's history.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Gävle Goat",
+        "url": "https://en.wikipedia.org/wiki/G%C3%A4vle_goat"
+      },
+      "explanation": "The Gävle Goat was first erected in 1966 and was burned down by vandals that same year, starting a long tradition of attacks against it."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The 'Fuck Tree' is an oak tree in north London that became a popular spot for gay sex due to its unusual shape. On which famous London green space is this tree located?",
+      "choices": [
+        "Hampstead Heath",
+        "Regent's Park",
+        "Hyde Park",
+        "Clapham Common"
+      ],
+      "hint": "It is not Regent's Park or Clapham Common.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Fuck tree",
+        "url": "https://en.wikipedia.org/wiki/Fuck_tree"
+      },
+      "explanation": "The oak tree, known as the 'Fuck Tree,' is located on Hampstead Heath, a well-known area in north London historically associated with cruising."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn 2006, a man who had come to a major broadcaster's office for a job interview as an IT support technician was mistakenly led into a studio and introduced live on air as a technology expert. He was then asked serious questions about a high profile legal dispute between two companies, which he had no knowledge of. Despite his confusion, he answered the questions as best he could, and the clip of his bewildered responses went viral, making him an unexpected internet celebrity.",
+      "choices": [
+        "A man mistaken for a weather expert and interviewed live about an approaching storm",
+        "A man mistaken for a technology expert during a live television interview",
+        "A woman mistaken for a political analyst during a live radio broadcast",
+        "A man mistaken for a chef and asked to judge a live cooking competition"
+      ],
+      "hint": "The incident did not involve weather forecasting or cooking; it involved a case of mistaken identity during a live broadcast interview with a professional expert.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Guy Goma BBC interview",
+        "url": "https://en.wikipedia.org/wiki/Guy_Goma_BBC_interview"
+      },
+      "explanation": "Guy Goma, who had gone to the BBC for a job interview as an IT technician, was mistakenly brought into the studio in place of a technology expert named Guy Kewney and interviewed live on BBC News 24 about an Apple Inc. court case in 2006."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Sentinel Peak, a hill in Tucson, Arizona, is also known as 'A' Mountain because of a large letter 'A' painted on its slope. What event prompted University of Arizona students to first build the letter in 1915?",
+      "choices": [
+        "A visit from the state governor",
+        "The university's 25th anniversary",
+        "A football victory over Pomona College",
+        "The completion of a new campus building"
+      ],
+      "hint": "It was not related to a governor's visit or a new building, and it wasn't tied to an anniversary celebration.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Sentinel Peak (Arizona)",
+        "url": "https://en.wikipedia.org/wiki/Sentinel_Peak_(Arizona)"
+      },
+      "explanation": "The letter 'A' was first built in 1915 by University of Arizona students to commemorate a football victory over Pomona College, and it has been maintained and whitewashed by students ever since."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Negro League baseball team, one that borrowed its name from a local white team, but in a peculiar twist, took its name from a racial nickname rather than a mascot?",
+      "choices": [
+        "Nashville Black Vols",
+        "Memphis Black Lookouts",
+        "Atlanta Black Crackers",
+        "Charlotte Black Hornets"
+      ],
+      "answerIndex": 2,
+      "hint": "The real team was based in Georgia, not Tennessee, so you can rule out the Nashville and Memphis clubs.",
+      "article": {
+        "title": "Atlanta Black Crackers",
+        "url": "https://en.wikipedia.org/wiki/Atlanta_Black_Crackers"
+      },
+      "explanation": "The Atlanta Black Crackers were a Negro League baseball team named after the Atlanta Crackers, whose own name derived from a racial nickname for poor white Southerners."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "As of 2025, 'Steve's Lava Chicken' holds the record as the shortest song to ever chart on both the Billboard Hot 100 and the UK Singles Chart, clocking in at just 30 seconds. Who performs this tiny jingle about la-la-la-lava ch-ch-ch-chicken?",
+      "choices": [
+        "Jason Momoa",
+        "Jack Black",
+        "Danny McBride",
+        "Jennifer Coolidge"
+      ],
+      "hint": "It's not Danny McBride or Jennifer Coolidge, both of whom appear in the film but aren't known for this musical number.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Steve's Lava Chicken",
+        "url": "https://en.wikipedia.org/wiki/Steve%27s_Lava_Chicken"
+      },
+      "explanation": "The song is performed by Jack Black, who stars in A Minecraft Movie as Steve. The 30-second track became a viral hit and set a record as the shortest song to chart on both the Billboard Hot 100 and UK Singles Chart."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis was a small religious sect founded in Vietnam in the mid-20th century by a man who had studied in France before returning home to pursue a spiritual path. The founder settled on an island in the Mekong Delta, where he built an eclectic religious complex blending elements of Buddhism, Christianity, and other beliefs. He was known for eating only coconut and its byproducts for extended periods, which is how the movement got its common name. The founder also practiced long periods of silence and meditation, attracted a modest following, and became a local curiosity, even interacting with American soldiers during the Vietnam War. After the war, Vietnam's communist government suppressed the movement, and its founder died in the 1990s.",
+      "choices": [
+        "The Coconut Religion",
+        "The Banana Cult",
+        "The Rice Bowl Movement",
+        "The Lotus Path Society"
+      ],
+      "hint": "The correct answer directly references the specific fruit the founder was famous for eating almost exclusively, ruling out the choices referencing rice and lotus.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Coconut Religion",
+        "url": "https://en.wikipedia.org/wiki/Coconut_Religion"
+      },
+      "explanation": "The Coconut Religion was a syncretic Vietnamese religious sect founded by Nguyễn Thành Nam on Phoenix Island in the Mekong Delta, known for his coconut-only diet and blending of various religious traditions."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Wikipedia has an odd case of two very different pages with virtually identical titles. Which of the following is the real unusual disambiguation article hiding behind a single character?",
+      "choices": [
+        "Æ (Disambiguation)",
+        "Ø (Disambiguation)",
+        "Ö (Disambiguation)",
+        "Œ (Disambiguation)"
+      ],
+      "answerIndex": 1,
+      "hint": "It is not about a German umlaut used in words like 'schön', and it is not about the letter formed from two vowels common in French words like 'œuvre'.",
+      "article": {
+        "title": "Ø (Disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/%C3%98_(Disambiguation)"
+      },
+      "explanation": "Ø (Disambiguation) is a Wikipedia page listing the many meanings of the symbol Ø, and it exists almost identically alongside a separate article simply titled 'Ø', creating confusion between two very different pages with nearly the same name."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
