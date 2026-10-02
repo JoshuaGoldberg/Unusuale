@@ -513,6 +513,7 @@ ul.choices li {
 .card-multiplier { --card-accent: #14866d; }
 .card-skip { --card-accent: #a67c00; }
 .card-wager { --card-accent: #795cb2; }
+.card-hint { --card-accent: #c05621; }
 
 /* A wager's stake fills its corner strip on its own; there's no room for
    the type label beside it, and the purple stake says "wager" anyway. */
@@ -592,6 +593,16 @@ ul.choices li {
   font-weight: bold;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+/* A card that can't be played this round is tinted grey: solid, so it
+   stays readable, with its colour drained and its shadow gone. */
+.card.blocked {
+  --card-accent: #a2a9b1;
+  background: #eaecf0;
+  border-color: var(--border-light);
+  color: var(--muted);
+  box-shadow: none;
 }
 
 /* The card armed for this round keeps its place in the hand and is ringed
@@ -689,6 +700,7 @@ ul.choices li {
 .round-modifier.multiplier { color: #14866d; }
 .round-modifier.skip { color: #a67c00; }
 .round-modifier.wager { color: #795cb2; }
+.round-modifier.hint { color: #c05621; }
 
 /* Feedback shown after a round is answered. */
 .feedback {

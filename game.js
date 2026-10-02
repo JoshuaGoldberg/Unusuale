@@ -105,17 +105,28 @@ function cardLoss(card) {
   return wagerAmount(card && card.loss);
 }
 
-// 'multiplier' | 'skip' | 'wager' -- used for class names and the score badge.
+// A hint card makes the round's hint free: reveal it while the card is in
+// play and the round pays full credit. Only playable on a round that has a
+// hint to reveal.
+function isHintCard(card) {
+  return !!card && card.type === 'hint';
+}
+
+// 'multiplier' | 'skip' | 'wager' | 'hint' -- used for class names and the
+// score badge.
 function cardKind(card) {
-  return isSkipCard(card) ? 'skip' : isWagerCard(card) ? 'wager' : 'multiplier';
+  return isSkipCard(card) ? 'skip' : isWagerCard(card) ? 'wager'
+    : isHintCard(card) ? 'hint' : 'multiplier';
 }
 
 function cardKindLabel(card) {
-  return isSkipCard(card) ? 'Skip' : isWagerCard(card) ? 'Wager' : 'Multiplier';
+  return isSkipCard(card) ? 'Skip' : isWagerCard(card) ? 'Wager'
+    : isHintCard(card) ? 'Free hint' : 'Multiplier';
 }
 
 // The card's headline figure, as printed in its corner and beside the score.
 function cardLabel(card) {
+  if (isHintCard(card)) return 'Free hint';
   return isWagerCard(card)
     ? '+' + cardGain(card) + ' / −' + cardLoss(card)
     : formatMultiplier(cardMultiplier(card));
@@ -146,6 +157,7 @@ function cardBlurb(card) {
     return 'Side bet: a right answer earns ' + cardGain(card) +
       ' bonus points on top of the round, a wrong one costs ' + cardLoss(card) + '.';
   }
+  if (isHintCard(card)) return 'Reveal this round\'s hint without losing any points for it.';
   var factor = formatMultiplier(cardMultiplier(card));
   return isSkipCard(card)
     ? 'Skip this round without answering and bank ' + factor + ' of its points.'
@@ -163,9 +175,23 @@ function showRoundModifier(card) {
   roundModifier.textContent = card ? cardLabel(card) : '';
 }
 
+// True once this round's hint has been revealed. Reset by each new round.
+var hintRevealed = false;
+
+// True once a hint card has been spent mid-round, which closes the rest of
+// the hand until the next round. Reset by each new round.
+var handLocked = false;
+
+// A hint card is only worth playing on a round whose hint is still hidden.
+function hintCardPlayable() {
+  var question = state.puzzle && state.puzzle.questions[state.index];
+  return !!(question && question.hint) && !hintRevealed;
+}
+
 function setArmedCard(id) {
   if (!cardsPlayable) return;
   if (id !== null && roundForCard(id) >= 0) return;
+  if (id !== null && isHintCard(cardById(id)) && !hintCardPlayable()) return;
   armedCardId = id;
   renderCards();
   if (onCardChange) onCardChange();
@@ -205,14 +231,23 @@ function renderCards() {
     var spentOn = roundForCard(card.id);
     var armed = armedCardId === card.id;
     var kind = cardKind(card);
-    var factor = isWagerCard(card) ? '+' + cardGain(card) + '/−' + cardLoss(card) : cardLabel(card);
+    var factor = isWagerCard(card) ? '+' + cardGain(card) + '/−' + cardLoss(card)
+      : isHintCard(card) ? '?' : cardLabel(card);
 
     var button = element('button', 'card card-' + kind);
     button.dataset.cardId = card.id;
     button.type = 'button';
-    button.disabled = spentOn >= 0 || !cardsPlayable;
+    button.disabled = spentOn >= 0 || !cardsPlayable ||
+      (isHintCard(card) && !hintCardPlayable());
     if (armed) button.classList.add('armed');
     if (spentOn >= 0) button.classList.add('spent');
+    // Greyed out: still in hand, but barred for the open round -- the whole
+    // hand once a hint card has been spent on it, or a hint card with no
+    // hint left to make free. Between rounds nothing is playable, but the
+    // hand stays in colour rather than flashing grey after every answer.
+    var blocked = spentOn < 0 &&
+      (handLocked || (cardsPlayable && isHintCard(card) && !hintCardPlayable()));
+    if (blocked) button.classList.add('blocked');
     button.setAttribute('aria-pressed', armed ? 'true' : 'false');
 
     // Laid out like a playing card: a corner index at the top (the only part
@@ -230,9 +265,10 @@ function renderCards() {
     button.appendChild(element('span', 'card-status',
       spentOn >= 0 ? 'Played on round ' + (spentOn + 1)
         : armed ? 'Active this round'
-          : cardsPlayable ? 'Tap to play' : 'In hand'));
+          : blocked ? 'Cannot play this round'
+            : cardsPlayable ? 'Tap to play' : 'In hand'));
     button.appendChild(element('span', 'card-corner',
-      isSkipCard(card) ? '⏭' : isWagerCard(card) ? '±' : '×'));
+      isSkipCard(card) ? '⏭' : isWagerCard(card) ? '±' : isHintCard(card) ? '?' : '×'));
 
     // A spent card lies face down: the back covers the face, and carries
     // only the round it was played on.
@@ -382,6 +418,9 @@ function scoreOf(question, response, hintUsed, card) {
   var multiplier = card ? cardMultiplier(card) : 1;
   var cardMax = isWagerCard(card) ? maxScore + cardGain(card) : Math.round(maxScore * multiplier);
 
+  // With a hint card in play the hint was free, so it never costs anything.
+  if (isHintCard(card)) hintUsed = false;
+
   // A skip card never looks at the response: the round pays its fixed slice
   // whether or not the player had the faintest idea.
   if (isSkipCard(card)) {
@@ -460,6 +499,8 @@ function renderQuestion() {
   mount.textContent = '';
 
   armedCardId = null;
+  hintRevealed = false;
+  handLocked = false;
   showRoundModifier(null);
   cardsPlayable = false;
   onCardChange = null;
@@ -497,9 +538,23 @@ function renderQuestion() {
     hintButton.type = 'button';
     hintButton.addEventListener('click', function () {
       hintUsed = true;
+      hintRevealed = true;
       hintButton.disabled = true;
       card.appendChild(element('p', 'hint-reveal', question.hint));
       tooltiptext.remove();
+
+      // Revealing the hint is what spends a selected hint card: it's played
+      // on this round there and then (and flips over), and with a card now
+      // committed the rest of the hand is closed until the next round. With
+      // no hint card selected, re-rendering just greys the hint card out
+      // for the rest of the round.
+      var armed = cardById(armedCardId);
+      if (isHintCard(armed)) {
+        state.cardsPlayed[state.index] = armed.id;
+        cardsPlayable = false;
+        handLocked = true;
+      }
+      renderCards();
     });
     mount.appendChild(hintButton);
   }
@@ -512,6 +567,13 @@ function renderQuestion() {
     var answered = !!widget && widget.getResponse() !== null;
 
     showRoundModifier(armed);
+
+    // The hint button's tooltip quotes its price; a hint card waives it.
+    if (tooltiptext) {
+      tooltiptext.textContent = isHintCard(armed)
+        ? 'Free this round: your hint card covers it.'
+        : 'Receive a helpful hint at the cost of half credit for this round.';
+    }
 
     if (isSkipCard(armed)) {
       submit.textContent = 'Skip';
@@ -540,6 +602,7 @@ function renderQuestion() {
 
     armedCardId = null;
     cardsPlayable = false;
+    handLocked = false;
     onCardChange = null;
     renderCards();
 
@@ -573,7 +636,9 @@ function revealAnswer(question, response, card, submit, hintUsed, playedCard) {
   // A skip pays a flat slice, so the hint penalty never entered into it.
   var notes = [];
   // Nor does it touch a lost wager, which costs the same hint or no hint.
-  var hintCounted = outcome !== 'skipped' && !(isWagerCard(playedCard) && outcome === 'wrong');
+  // And a hint card made the hint free.
+  var hintCounted = outcome !== 'skipped' && !isHintCard(playedCard) &&
+    !(isWagerCard(playedCard) && outcome === 'wrong');
   if (hintUsed && hintCounted) notes.push('half credit, hint used');
   box.appendChild(element('p', 'points',
     formatPoints(result.score) + ' points' + (notes.length ? ' (' + notes.join('; ') + ')' : '')));
@@ -643,7 +708,8 @@ function shareText() {
     var played = cardPlayedOn(i);
     if (!played) return '⬛';
     cardCount += 1;
-    return isSkipCard(played) ? '⏭️' : isWagerCard(played) ? '🎲' : '✨';
+    return isSkipCard(played) ? '⏭️' : isWagerCard(played) ? '🎲'
+      : isHintCard(played) ? '🔍' : '✨';
   }).join('');
 
   var text = 'Unusuale ' + state.date + '\n' + grid + '  ' +
