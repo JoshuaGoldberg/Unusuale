@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-02",
+  "title": "Puzzle No. 37",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Greebles are computer generated stimuli with hilarious names used in neuroscience studies to test expertise effects in the brain. Which brain region did researchers study using Greebles to see if it responds to expertise rather than just faces?",
+      "choices": [
+        "The amygdala",
+        "The fusiform face area",
+        "The hippocampus",
+        "The visual cortex V1"
+      ],
+      "hint": "It's not the amygdala or the hippocampus, those regions are linked to emotion and memory, not visual object recognition expertise.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Greeble (psychology)",
+        "url": "https://en.wikipedia.org/wiki/Greeble_(psychology)"
+      },
+      "explanation": "Researchers used Greebles to investigate the fusiform face area (FFA), finding that it becomes active for non-face objects once a person becomes an expert at distinguishing between them, suggesting the FFA is tied to expertise rather than faces specifically."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a type of yokai (supernatural creature) from Japanese folklore said to appear in the night while people are sleeping. According to legend, this spirit moves or flips the pillow of a sleeping person, or even relocates the sleeper's entire body, often leaving them disoriented upon waking. It is sometimes associated with dreams, sleep paralysis, and other nocturnal phenomena, and appears in various regional folktales and ghost story collections across Japan.",
+      "choices": [
+        "Makuragaeshi",
+        "Kappa",
+        "Tsukumogami",
+        "Nopperabo"
+      ],
+      "hint": "The correct answer is not a water-dwelling creature known for cucumbers, nor is it a faceless ghost that terrifies travelers.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Makuragaeshi",
+        "url": "https://en.wikipedia.org/wiki/Makuragaeshi"
+      },
+      "explanation": "Makuragaeshi is a yokai in Japanese folklore believed to flip or move the pillows of sleeping people, sometimes repositioning their entire bodies, and is linked to dreams and sleep disturbances."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "There is an entire Wikipedia article devoted to running without shoes, partly because of famous moments in sports history, such as when this Ethiopian runner won the 1960 Rome Olympics marathon while running completely barefoot. Who was he?",
+      "choices": [
+        "Abebe Bikila",
+        "Haile Gebrselassie",
+        "Kenenisa Bekele",
+        "Mo Farah"
+      ],
+      "hint": "It's not Haile Gebrselassie or Mo Farah, both of whom competed in shoes and in later decades.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Barefoot running",
+        "url": "https://en.wikipedia.org/wiki/Barefoot_running"
+      },
+      "explanation": "Abebe Bikila famously won the 1960 Rome Olympics marathon running entirely barefoot, setting a world record and becoming one of the most iconic examples referenced in discussions of barefoot running."
+    },
+    {
+      "id": "q4",
+      "type": "number",
+      "prompt": "In this unusual sitcom, Hitler has his own sitcom, with his Jewish neighbors, but the show was cancelled almost immediately. How many episodes of 'Heil Honey I'm Home!' were produced in total?",
+      "answer": 8,
+      "tolerance": 1,
+      "unit": "episodes",
+      "hint": "The number is somewhere between 5 and 15, but only one episode ever aired.",
+      "article": {
+        "title": "Heil Honey I'm Home!",
+        "url": "https://en.wikipedia.org/wiki/Heil_Honey_I%27m_Home!"
+      },
+      "explanation": "Although only one episode of 'Heil Honey I'm Home!' was broadcast before cancellation, a total of eight episodes were produced for the series."
+    },
+    {
+      "id": "q5",
+      "type": "number",
+      "prompt": "Imigongo, a traditional Rwandan art made from cow dung, uses geometric patterns in a traditional color palette. How many distinct colors are traditionally used in Imigongo art?",
+      "answer": 4,
+      "tolerance": 0,
+      "unit": "colors",
+      "hint": "The number is more than 2 but fewer than 8.",
+      "article": {
+        "title": "Imigongo",
+        "url": "https://en.wikipedia.org/wiki/Imigongo"
+      },
+      "explanation": "Traditional Imigongo art uses four colors: black, white, red (or dark red), and grey, created using natural pigments combined with cow dung to form geometric designs."
+    },
+    {
+      "id": "q6",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nBanjawarn Station is a large pastoral lease that was once used for sheep and cattle grazing, but it gained international notoriety in the 1990s when it was purchased by the Japanese doomsday cult Aum Shinrikyo. The group reportedly used the remote property to conduct experiments with nerve agents and even attempted to mine uranium, with mysterious livestock deaths and seismic events later being linked to the site. Today, Banjawarn Station remains a remote, sparsely populated outback property shrouded in conspiracy theories and dark tourism curiosity.",
+      "answer": "Oceania",
+      "hint": "This location is not in Africa, not in Europe, and not in North America.",
+      "article": {
+        "title": "Banjawarn Station",
+        "url": "https://en.wikipedia.org/wiki/Banjawarn_Station"
+      },
+      "explanation": "Banjawarn Station is located in the remote outback of Western Australia, within the continent of Oceania."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn the mid-17th century, a European military and religious order, more commonly associated with medieval crusading and Mediterranean naval operations, briefly held territorial possessions in the Caribbean. Through a purchase arranged by one of its knights, the order acquired several islands including Saint Croix, Saint Barthélemy, Saint Martin, and parts of Saint Christopher from a bankrupt French trading company. The order administered these islands for roughly a decade and a half before selling them back to a French chartered company, ending this brief overseas colonial venture.",
+      "choices": [
+        "Teutonic colonization of the Americas",
+        "Hospitaller colonization of the Americas",
+        "Templar colonization of the Americas",
+        "Jesuit colonization of the Caribbean"
+      ],
+      "hint": "The correct answer does not involve the Templars, who were disbanded centuries before the Americas were colonized, nor the Jesuits, who are known for missions rather than purchasing islands outright.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Hospitaller colonization of the Americas",
+        "url": "https://en.wikipedia.org/wiki/Hospitaller_colonization_of_the_Americas"
+      },
+      "explanation": "The article describes the Hospitaller colonization of the Americas, in which the Knights Hospitaller (Order of Malta) purchased Caribbean islands such as Saint Croix, Saint Barthélemy, and Saint Martin from the French Compagnie des Îles de l'Amérique in the 1650s, governing them until selling the territories to the French West India Company in 1665."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "A powerline pylon with a shape reminiscent of a certain fictional rodent earned the nickname 'Mickey pylon.' In which country is this distinctively shaped pylon located?",
+      "choices": [
+        "United States",
+        "Wales",
+        "Germany",
+        "Japan"
+      ],
+      "hint": "It is not in the United States or Japan.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Mickey pylon",
+        "url": "https://en.wikipedia.org/wiki/Mickey_pylon"
+      },
+      "explanation": "The Mickey pylon, nicknamed for its resemblance to Mickey Mouse, is located in Wales."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis Italian man became internationally known for repeatedly interrupting live television broadcasts, most notably during the Tour de France, by jumping in front of cameras while scantily clad or wearing provocative costumes, often with slogans written on his body. He gained notoriety for tripping up television reporters during live outdoor segments and for his attention-seeking stunts aimed at gaining airtime on camera.",
+      "choices": [
+        "A stuntman who performed dangerous television pranks for a hidden camera show",
+        "A man famous for disrupting live broadcasts and tripping reporters on camera",
+        "A streaker who ran onto Olympic stadium fields during opening ceremonies",
+        "A political protester who hijacked radio broadcasts with coded messages"
+      ],
+      "hint": "The correct answer is not someone who used hidden cameras for entertainment purposes, nor someone whose stunts were tied specifically to the Olympics; his antics were tied to everyday news broadcasts and sporting events like cycling races.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Gabriele Paolini",
+        "url": "https://en.wikipedia.org/wiki/Gabriele_Paolini"
+      },
+      "explanation": "Gabriele Paolini is an Italian man famous for disrupting live television broadcasts, particularly during the Tour de France, by jumping in front of cameras in revealing or provocative outfits and tripping up reporters during live segments, earning him the nickname 'lo sgambettatore' (the tripper)."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a 2016 British film that consists entirely of a single continuous shot of white paint drying on a wall, lasting over 10 hours. It was created and crowdfunded as a protest against a national film classification board's fee structure, which charges filmmakers based on the length of their submission regardless of content. The film was submitted for official classification, forcing reviewers to watch it in its entirety.",
+      "choices": [
+        "A documentary about the history of wall paint",
+        "An art installation measuring the evaporation rate of water",
+        "A film showing paint drying on a wall in a single continuous shot",
+        "A silent protest film about bureaucratic censorship laws"
+      ],
+      "hint": "The correct answer is not about the history of paint, nor is it about water evaporation. It specifically involves film classification and a direct, literal visual subject.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Paint Drying",
+        "url": "https://en.wikipedia.org/wiki/Paint_Drying"
+      },
+      "explanation": "Paint Drying is a 2016 British film by Charlie Lyne that shows paint drying on a wall for over 10 hours. It was crowdfunded to protest the British Board of Film Classification's per-minute fee policy, forcing the board to watch and classify the entire film."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
