@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-02",
+  "title": "Puzzle No. 37",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.9,
+      "description": "Add a 2.9x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 1.6,
+      "description": "Add a 1.6x multiplier to the number of points earned for this question."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "In the 1970s, a series of animated educational shorts was produced to teach American children about a certain subject through catchy songs. Which of the following is the real title of this series?",
+      "choices": [
+        "The Decimal Dynamos",
+        "The Fraction Force",
+        "The Metric Marvels",
+        "The Measure Masters"
+      ],
+      "answerIndex": 2,
+      "hint": "The real series was not about fractions or decimals, but about units like length and volume used around the world.",
+      "article": {
+        "title": "The Metric Marvels",
+        "url": "https://en.wikipedia.org/wiki/The_Metric_Marvels"
+      },
+      "explanation": "As part of the 1970s campaign to encourage use of the metric system in the U.S., the creators of Schoolhouse Rock! produced these shorts to teach children about liters, meters, and most things in between."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn 1971, a federal prisoner filed a civil rights lawsuit in a United States district court, claiming that a supernatural figure had deliberately placed obstacles in his path and caused him to suffer misfortune throughout his life. The court ultimately dismissed the case, citing practical concerns such as the inability to serve legal papers on the defendant and whether the plaintiff could properly represent a class action given the uncertain number of associates involved.",
+      "choices": [
+        "A lawsuit filed by a prisoner against a prison warden for religious discrimination",
+        "A lawsuit filed by a prisoner against Satan and his assistants for civil rights violations",
+        "A lawsuit filed by a prisoner against a guardian angel for failing to protect him",
+        "A lawsuit filed by a prisoner against a fellow inmate for assault"
+      ],
+      "hint": "The case does not involve a dispute between a prisoner and prison staff, nor does it involve a physical altercation with another inmate.",
+      "answerIndex": 1,
+      "article": {
+        "title": "United States ex rel. Gerald Mayo v. Satan and His Staff",
+        "url": "https://en.wikipedia.org/wiki/United_States_ex_rel._Gerald_Mayo_v._Satan_and_His_Staff"
+      },
+      "explanation": "The article describes a 1971 case in which prisoner Gerald Mayo sued Satan and his staff, alleging they had caused him to fall into sin and ruin his life. The court dismissed the case due to practical issues like serving the defendant and class action certification."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "This phantom landmass, which was shown on Google Maps satellite view until 2012 despite not existing, was long believed to lie in which body of water?",
+      "choices": [
+        "Tasman Sea",
+        "Arafura Sea",
+        "Coral Sea",
+        "Timor Sea"
+      ],
+      "hint": "It's not the Arafura Sea or the Timor Sea, both of which are located near Australia's northern coast rather than its eastern side.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Sandy Island, New Caledonia",
+        "url": "https://en.wikipedia.org/wiki/Sandy_Island,_New_Caledonia"
+      },
+      "explanation": "Sandy Island was believed to be located in the Coral Sea, between Australia and New Caledonia, until researchers confirmed in 2012 that it did not actually exist."
+    },
+    {
+      "id": "q4",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a giant sculpture of an insect, measuring around 58 feet long, perched atop the roof of a pest control company's headquarters. The oversized creature has become a beloved roadside landmark, often decorated for holidays and local events, and is visible to travelers passing by on a major highway.",
+      "answer": "North America",
+      "hint": "The structure sits along a well traveled interstate highway system, a type of road network not found in Africa, Antarctica, or Oceania.",
+      "article": {
+        "title": "Big Blue Bug",
+        "url": "https://en.wikipedia.org/wiki/Big_Blue_Bug"
+      },
+      "explanation": "The Big Blue Bug, nicknamed Nibbles Woodaway, is a giant termite sculpture atop a pest control building in Providence, Rhode Island, in the United States, located in North America."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis area is described as the largest region on its landmass that remains free of permanent ice cover, despite being set amid an otherwise heavily glaciated environment. Strong winds and extreme dryness prevent snow from accumulating, leaving behind a stark, rocky terrain. Scientists study the area because its arid, barren landscape closely resembles conditions on Mars, making it a valuable site for testing equipment and theories about extraterrestrial life. The region also contains lakes with permanently frozen surfaces and has yielded the preserved remains of animals that wandered into the area long ago and did not survive the journey.",
+      "answer": "Antarctica",
+      "hint": "This location is not in Africa, Asia, or Europe.",
+      "article": {
+        "title": "McMurdo Dry Valleys",
+        "url": "https://en.wikipedia.org/wiki/McMurdo_Dry_Valleys"
+      },
+      "explanation": "The McMurdo Dry Valleys are a group of valleys in Antarctica that are virtually free of ice and snow, making them one of the driest places on Earth and a key site for Mars analog research."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of these is a real Wikipedia article that explores a surprisingly heated household debate over whether a common item should face one way or the other, weighing the pros and cons of each option?",
+      "choices": [
+        "Doormat orientation",
+        "Bath towel folding",
+        "Toilet paper orientation",
+        "Pillow case direction"
+      ],
+      "answerIndex": 2,
+      "hint": "This debate is not about entryway mats or bedding accessories, it is specifically about something found in the bathroom.",
+      "article": {
+        "title": "Toilet paper orientation",
+        "url": "https://en.wikipedia.org/wiki/Toilet_paper_orientation"
+      },
+      "explanation": "The article examines the long-running debate over whether toilet paper should hang over or under the roll, along with the various practical and etiquette arguments for each side."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "A narrow strip of land in Fukushima Prefecture, nicknamed for resembling a cord that connects two parts of a body, winds along a mountain ridge trail for about 8 kilometres. How wide is this strip at its narrowest point?",
+      "choices": [
+        "1.5 meters",
+        "2 meters",
+        "90 centimeters",
+        "50 centimeters"
+      ],
+      "hint": "It's not two meters wide, and it's not one and a half meters wide either.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Fukushima Prefecture salient",
+        "url": "https://en.wikipedia.org/wiki/Fukushima_Prefecture_salient"
+      },
+      "explanation": "The salient, nicknamed the 'umbilical cord,' is 8 kilometres long and narrows to just 90 centimetres (35 inches) at its tightest point, following a trail along a mountain ridge."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis individual animal became a local celebrity in a suburban American neighborhood after repeatedly confronting pedestrians, cyclists, and vehicles on the streets. Residents gave it a human name, and its bold antics drew coverage from local and national news outlets as well as a dedicated following on social media. Eventually, due to concerns about safety, authorities relocated the animal away from the area where it had become famous.",
+      "choices": [
+        "A stray dog that wandered into a courthouse",
+        "A wild turkey known for chasing cars in a New Jersey town",
+        "A goat that escaped a petting zoo and roamed a highway",
+        "A peacock that lived in a shopping mall parking lot"
+      ],
+      "hint": "The animal in question is a bird, and the incidents took place in the northeastern United States, not in a shopping center or near a courthouse.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Zelda (turkey)",
+        "url": "https://en.wikipedia.org/wiki/Zelda_(turkey)"
+      },
+      "explanation": "The article describes Zelda, a wild turkey in Teaneck, New Jersey, who became locally famous for aggressively confronting cars and pedestrians before being relocated by wildlife officials."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, unusual Wikipedia article exploring how New Testament writers used certain everyday activities as metaphors for spiritual discipline and endurance?",
+      "choices": [
+        "New Testament nautical metaphors",
+        "New Testament athletic metaphors",
+        "New Testament agricultural metaphors",
+        "New Testament culinary metaphors"
+      ],
+      "answerIndex": 1,
+      "hint": "The imagery in question has nothing to do with boats or farming, so you can rule those two out.",
+      "article": {
+        "title": "New Testament athletic metaphors",
+        "url": "https://en.wikipedia.org/wiki/New_Testament_athletic_metaphors"
+      },
+      "explanation": "The article examines how New Testament writers, especially Paul, used imagery from Greek sports like running and boxing to describe spiritual discipline and perseverance."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "A non-electronic Soviet listening device, given to a U.S. Ambassador and proudly displayed in his study, was hidden inside a carved wooden replica of what national emblem?",
+      "choices": [
+        "Seal of the United States Senate",
+        "State Department seal",
+        "Presidential Seal of the United States",
+        "Great Seal of the United States"
+      ],
+      "hint": "It was not linked to the Senate or the State Department, but rather to either the presidency or the nation as a whole.",
+      "answerIndex": 3,
+      "article": {
+        "title": "The Thing (listening device)",
+        "url": "https://en.wikipedia.org/wiki/The_Thing_(listening_device)"
+      },
+      "explanation": "The Thing was concealed inside a carved wooden Great Seal of the United States, presented to U.S. Ambassador Averell Harriman, who displayed it in his Moscow residence study until it was discovered to contain a hidden Soviet listening device."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
