@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-02",
+  "title": "Puzzle No. 37",
+  "cards": [
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 300,
+      "loss": 700,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 300 additional points on a correct answer but lose 700 on an incorrect one."
+    },
+    {
+      "id": "card3",
+      "gain": 200,
+      "loss": 950,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 200 additional points on a correct answer but lose 950 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "You ever wanted to play those minigames that mobile game ads show but are not in the actual games? Well, now you can! The game's full title is 'Yeah! You Want \"Those Games,\" Right? So Here You Go! Now, Let's See You Clear Them!' On what platform was this satirical game originally released?",
+      "choices": [
+        "PlayStation 5",
+        "Steam",
+        "Nintendo Switch",
+        "Xbox Series X"
+      ],
+      "hint": "It was not released on either Nintendo Switch or Xbox Series X.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Those Games",
+        "url": "https://en.wikipedia.org/wiki/Those_Games"
+      },
+      "explanation": "Those Games was originally released on Steam, poking fun at the misleading minigames often advertised in mobile game commercials."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an interactive online tool created by a historian of science in 2012 that allows users to simulate the detonation of nuclear weapons at any location on an online map. Users can select from a range of historical and hypothetical weapon yields and see visualized effects such as fireball radius, blast damage zones, radiation exposure, and thermal radiation, as well as estimated casualty figures. The tool became widely popular, has been used in media coverage of nuclear weapons topics, and has been cited for its educational value in helping the public understand the destructive potential of nuclear weapons.",
+      "choices": [
+        "Doomsday Clock Simulator",
+        "Ground Zero",
+        "NukeMap",
+        "Blast Radius Calculator"
+      ],
+      "hint": "The correct answer is not 'Doomsday Clock Simulator' or 'Blast Radius Calculator'.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Nukemap",
+        "url": "https://en.wikipedia.org/wiki/Nukemap"
+      },
+      "explanation": "The article describes NukeMap, an interactive mapping tool created by Alex Wellerstein in 2012 that simulates the effects of nuclear detonations at any chosen location, including blast radius, fallout, and casualty estimates."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis term, originating from carnival and circus slang, is used within a specific entertainment industry to describe the practice of presenting staged or scripted events as if they are genuine and unscripted. It involves maintaining the illusion of authenticity regarding rivalries, personas, and storylines, even outside of the performance itself, in order to protect the perceived legitimacy of the competition and preserve audience engagement.",
+      "choices": [
+        "Shoot",
+        "Heat",
+        "Kayfabe",
+        "Work"
+      ],
+      "hint": "The correct term is not used to describe an unscripted, real altercation (which would be the opposite of this concept), nor is it the word for a crowd's emotional reaction to a performer.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Kayfabe",
+        "url": "https://en.wikipedia.org/wiki/Kayfabe"
+      },
+      "explanation": "Kayfabe is the term used in professional wrestling to describe the portrayal of staged events, storylines, and rivalries as being real and unscripted, maintaining the illusion for audiences both in and out of the ring."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a satirical webcomic art style that originated on an imageboard around 2009, in which countries are portrayed as round, flag-colored characters with simple eyes. The characters typically speak in broken English with exaggerated accents and stereotypes, and the comics often poke fun at historical events, geopolitics, and national stereotypes. The style spread widely across online communities and eventually gained enough recognition to be covered by mainstream media outlets.",
+      "choices": [
+        "Rage Comics",
+        "Polandball",
+        "Pepe the Frog",
+        "Advice Animals"
+      ],
+      "hint": "The correct answer is not a meme centered around a single named character, and it does not rely on a fixed set of stock reaction faces used in panel-based comics.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Polandball",
+        "url": "https://en.wikipedia.org/wiki/Polandball"
+      },
+      "explanation": "The article describes Polandball, a webcomic style that personifies countries as ball-shaped characters with flag-based designs, using exaggerated accents and stereotypes for satirical and historical humor."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "eBART is an extension of the BART system that functions as its own railway line and is powered by unique diesel trains, yet it is officially shown as an extension of which colored BART line?",
+      "choices": [
+        "Red Line",
+        "Yellow Line",
+        "Blue Line",
+        "Green Line"
+      ],
+      "hint": "It is not the Red Line or the Blue Line.",
+      "answerIndex": 1,
+      "article": {
+        "title": "eBART",
+        "url": "https://en.wikipedia.org/wiki/EBART"
+      },
+      "explanation": "Despite running as a separate diesel-powered line, eBART is officially displayed on BART maps as an extension of the Yellow Line."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a song by an American rapper, released independently in January 2016 as a diss track aimed at a famous astrophysicist. The song promotes the idea that the Earth is flat, arguing against mainstream scientific consensus, and was created after a public social media feud between the two figures. The track features a guest verse from the rapper's nephew and became widely known more for its controversial subject matter than its musical reception.",
+      "choices": [
+        "A song claiming that the moon landing was staged",
+        "A song arguing that the Earth is flat",
+        "A song denying the existence of gravity",
+        "A song promoting a theory that dinosaurs never existed"
+      ],
+      "hint": "The song was not about space travel hoaxes or prehistoric creatures; it focused on the shape of our planet.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Flatline (B.o.B song)",
+        "url": "https://en.wikipedia.org/wiki/Flatline_(B.o.B_song)"
+      },
+      "explanation": "\"Flatline\" is a 2016 song by B.o.B that promotes flat Earth conspiracy theories, released as a diss track against astrophysicist Neil deGrasse Tyson after their public dispute over the shape of the Earth."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis was a World War II-era weapon developed by the United States military that involved attaching small, timed incendiary devices to live animals. The idea was for these animals to be released from canisters dropped by aircraft, after which they would disperse and roost in the eaves and attics of wooden structures in enemy cities. The incendiaries would then ignite, starting numerous small fires in hard-to-reach places, potentially causing widespread destruction. The project underwent extensive testing and development, including a few accidental incidents during trials, but was ultimately canceled in 1944 before ever being used in actual combat, after the military shifted its focus to the development of the atomic bomb.",
+      "choices": [
+        "Pigeon-guided missile",
+        "Bat bomb",
+        "Anti-tank dog",
+        "Exploding rat"
+      ],
+      "hint": "The correct answer does not involve dogs or rats, and it does not involve guiding a missile.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Bat bomb",
+        "url": "https://en.wikipedia.org/wiki/Bat_bomb"
+      },
+      "explanation": "The Bat Bomb was a World War II weapon concept that used Mexican free-tailed bats fitted with small incendiary devices. The plan was to release the bats over Japanese cities, where they would roost in buildings and ignite fires. Despite promising tests, the project was canceled in 1944 due to the increasing focus on atomic bomb development."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real historical concept, one so embarrassing that you know it's true because it's too embarrassing for anyone to have made it up?",
+      "choices": [
+        "Doctrine of Convenient Silence",
+        "Principle of Flattering Omission",
+        "Criterion of embarrassment",
+        "Theory of Self-Serving Narrative"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not the 'Doctrine of Convenient Silence' or the 'Theory of Self-Serving Narrative,' as these are fabricated and do not reflect an actual historical analysis method.",
+      "article": {
+        "title": "Criterion of embarrassment",
+        "url": "https://en.wikipedia.org/wiki/Criterion_of_embarrassment"
+      },
+      "explanation": "The criterion of embarrassment is a method used by historians to assess the reliability of historical accounts, suggesting that details embarrassing to the author are likely true since they would have no reason to fabricate them."
+    },
+    {
+      "id": "q9",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes Penedo, a small district known for its unusual Finnish heritage. Founded in the 1920s by Finnish immigrants seeking a utopian community, the settlement retains distinctive Nordic architecture, a sauna culture, and festivals celebrating its Scandinavian roots, making it a curious cultural enclave that attracts tourists interested in its blend of local and Finnish traditions.",
+      "answer": "South America",
+      "hint": "The region is not part of Africa, Asia, or Antarctica.",
+      "article": {
+        "title": "Penedo, Itatiaia",
+        "url": "https://en.wikipedia.org/wiki/Penedo,_Itatiaia"
+      },
+      "explanation": "Penedo is a district of Itatiaia, a municipality in the state of Rio de Janeiro, Brazil, located in South America. It was founded by Finnish immigrants in the early 20th century and retains strong Finnish cultural influences."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about specialized policies that let you protect yourself against alien abduction, losing your genitalia, or conceiving the second Christ?",
+      "choices": [
+        "Exotic underwriting",
+        "Specialty coverage plans",
+        "Niche insurance",
+        "Unconventional policy agreements"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct article's title does not include the words 'underwriting' or 'coverage'.",
+      "article": {
+        "title": "Niche insurance",
+        "url": "https://en.wikipedia.org/wiki/Niche_insurance"
+      },
+      "explanation": "Niche insurance refers to specialized insurance policies that cover unusual or highly specific risks not typically included in standard coverage."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
