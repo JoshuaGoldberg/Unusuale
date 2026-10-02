@@ -1,172 +1,205 @@
 {
   "date": "2026-10-02",
   "title": "Puzzle No. 37",
+  "cards": [
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 300,
+      "loss": 700,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 300 additional points on a correct answer but lose 700 on an incorrect one."
+    },
+    {
+      "id": "card3",
+      "gain": 200,
+      "loss": 950,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 200 additional points on a correct answer but lose 950 on an incorrect one."
+    }
+  ],
   "questions": [
     {
       "id": "q1",
       "type": "multiple",
-      "prompt": "Greebles are computer generated stimuli with hilarious names used in neuroscience studies to test expertise effects in the brain. Which brain region did researchers study using Greebles to see if it responds to expertise rather than just faces?",
+      "prompt": "You ever wanted to play those minigames that mobile game ads show but are not in the actual games? Well, now you can! The game's full title is 'Yeah! You Want \"Those Games,\" Right? So Here You Go! Now, Let's See You Clear Them!' On what platform was this satirical game originally released?",
       "choices": [
-        "The amygdala",
-        "The fusiform face area",
-        "The hippocampus",
-        "The visual cortex V1"
+        "PlayStation 5",
+        "Steam",
+        "Nintendo Switch",
+        "Xbox Series X"
       ],
-      "hint": "It's not the amygdala or the hippocampus, those regions are linked to emotion and memory, not visual object recognition expertise.",
+      "hint": "It was not released on either Nintendo Switch or Xbox Series X.",
       "answerIndex": 1,
       "article": {
-        "title": "Greeble (psychology)",
-        "url": "https://en.wikipedia.org/wiki/Greeble_(psychology)"
+        "title": "Those Games",
+        "url": "https://en.wikipedia.org/wiki/Those_Games"
       },
-      "explanation": "Researchers used Greebles to investigate the fusiform face area (FFA), finding that it becomes active for non-face objects once a person becomes an expert at distinguishing between them, suggesting the FFA is tied to expertise rather than faces specifically."
+      "explanation": "Those Games was originally released on Steam, poking fun at the misleading minigames often advertised in mobile game commercials."
     },
     {
       "id": "q2",
       "type": "multiple",
-      "prompt": "Which unusual article does the following describe?\n\nThis is a type of yokai (supernatural creature) from Japanese folklore said to appear in the night while people are sleeping. According to legend, this spirit moves or flips the pillow of a sleeping person, or even relocates the sleeper's entire body, often leaving them disoriented upon waking. It is sometimes associated with dreams, sleep paralysis, and other nocturnal phenomena, and appears in various regional folktales and ghost story collections across Japan.",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an interactive online tool created by a historian of science in 2012 that allows users to simulate the detonation of nuclear weapons at any location on an online map. Users can select from a range of historical and hypothetical weapon yields and see visualized effects such as fireball radius, blast damage zones, radiation exposure, and thermal radiation, as well as estimated casualty figures. The tool became widely popular, has been used in media coverage of nuclear weapons topics, and has been cited for its educational value in helping the public understand the destructive potential of nuclear weapons.",
       "choices": [
-        "Makuragaeshi",
-        "Kappa",
-        "Tsukumogami",
-        "Nopperabo"
+        "Doomsday Clock Simulator",
+        "Ground Zero",
+        "NukeMap",
+        "Blast Radius Calculator"
       ],
-      "hint": "The correct answer is not a water-dwelling creature known for cucumbers, nor is it a faceless ghost that terrifies travelers.",
-      "answerIndex": 0,
+      "hint": "The correct answer is not 'Doomsday Clock Simulator' or 'Blast Radius Calculator'.",
+      "answerIndex": 2,
       "article": {
-        "title": "Makuragaeshi",
-        "url": "https://en.wikipedia.org/wiki/Makuragaeshi"
+        "title": "Nukemap",
+        "url": "https://en.wikipedia.org/wiki/Nukemap"
       },
-      "explanation": "Makuragaeshi is a yokai in Japanese folklore believed to flip or move the pillows of sleeping people, sometimes repositioning their entire bodies, and is linked to dreams and sleep disturbances."
+      "explanation": "The article describes NukeMap, an interactive mapping tool created by Alex Wellerstein in 2012 that simulates the effects of nuclear detonations at any chosen location, including blast radius, fallout, and casualty estimates."
     },
     {
       "id": "q3",
       "type": "multiple",
-      "prompt": "There is an entire Wikipedia article devoted to running without shoes, partly because of famous moments in sports history, such as when this Ethiopian runner won the 1960 Rome Olympics marathon while running completely barefoot. Who was he?",
+      "prompt": "Which unusual article does the following describe?\n\nThis term, originating from carnival and circus slang, is used within a specific entertainment industry to describe the practice of presenting staged or scripted events as if they are genuine and unscripted. It involves maintaining the illusion of authenticity regarding rivalries, personas, and storylines, even outside of the performance itself, in order to protect the perceived legitimacy of the competition and preserve audience engagement.",
       "choices": [
-        "Abebe Bikila",
-        "Haile Gebrselassie",
-        "Kenenisa Bekele",
-        "Mo Farah"
+        "Shoot",
+        "Heat",
+        "Kayfabe",
+        "Work"
       ],
-      "hint": "It's not Haile Gebrselassie or Mo Farah, both of whom competed in shoes and in later decades.",
-      "answerIndex": 0,
+      "hint": "The correct term is not used to describe an unscripted, real altercation (which would be the opposite of this concept), nor is it the word for a crowd's emotional reaction to a performer.",
+      "answerIndex": 2,
       "article": {
-        "title": "Barefoot running",
-        "url": "https://en.wikipedia.org/wiki/Barefoot_running"
+        "title": "Kayfabe",
+        "url": "https://en.wikipedia.org/wiki/Kayfabe"
       },
-      "explanation": "Abebe Bikila famously won the 1960 Rome Olympics marathon running entirely barefoot, setting a world record and becoming one of the most iconic examples referenced in discussions of barefoot running."
+      "explanation": "Kayfabe is the term used in professional wrestling to describe the portrayal of staged events, storylines, and rivalries as being real and unscripted, maintaining the illusion for audiences both in and out of the ring."
     },
     {
       "id": "q4",
-      "type": "number",
-      "prompt": "In this unusual sitcom, Hitler has his own sitcom, with his Jewish neighbors, but the show was cancelled almost immediately. How many episodes of 'Heil Honey I'm Home!' were produced in total?",
-      "answer": 8,
-      "tolerance": 1,
-      "unit": "episodes",
-      "hint": "The number is somewhere between 5 and 15, but only one episode ever aired.",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a satirical webcomic art style that originated on an imageboard around 2009, in which countries are portrayed as round, flag-colored characters with simple eyes. The characters typically speak in broken English with exaggerated accents and stereotypes, and the comics often poke fun at historical events, geopolitics, and national stereotypes. The style spread widely across online communities and eventually gained enough recognition to be covered by mainstream media outlets.",
+      "choices": [
+        "Rage Comics",
+        "Polandball",
+        "Pepe the Frog",
+        "Advice Animals"
+      ],
+      "hint": "The correct answer is not a meme centered around a single named character, and it does not rely on a fixed set of stock reaction faces used in panel-based comics.",
+      "answerIndex": 1,
       "article": {
-        "title": "Heil Honey I'm Home!",
-        "url": "https://en.wikipedia.org/wiki/Heil_Honey_I%27m_Home!"
+        "title": "Polandball",
+        "url": "https://en.wikipedia.org/wiki/Polandball"
       },
-      "explanation": "Although only one episode of 'Heil Honey I'm Home!' was broadcast before cancellation, a total of eight episodes were produced for the series."
+      "explanation": "The article describes Polandball, a webcomic style that personifies countries as ball-shaped characters with flag-based designs, using exaggerated accents and stereotypes for satirical and historical humor."
     },
     {
       "id": "q5",
-      "type": "number",
-      "prompt": "Imigongo, a traditional Rwandan art made from cow dung, uses geometric patterns in a traditional color palette. How many distinct colors are traditionally used in Imigongo art?",
-      "answer": 4,
-      "tolerance": 0,
-      "unit": "colors",
-      "hint": "The number is more than 2 but fewer than 8.",
+      "type": "multiple",
+      "prompt": "eBART is an extension of the BART system that functions as its own railway line and is powered by unique diesel trains, yet it is officially shown as an extension of which colored BART line?",
+      "choices": [
+        "Red Line",
+        "Yellow Line",
+        "Blue Line",
+        "Green Line"
+      ],
+      "hint": "It is not the Red Line or the Blue Line.",
+      "answerIndex": 1,
       "article": {
-        "title": "Imigongo",
-        "url": "https://en.wikipedia.org/wiki/Imigongo"
+        "title": "eBART",
+        "url": "https://en.wikipedia.org/wiki/EBART"
       },
-      "explanation": "Traditional Imigongo art uses four colors: black, white, red (or dark red), and grey, created using natural pigments combined with cow dung to form geometric designs."
+      "explanation": "Despite running as a separate diesel-powered line, eBART is officially displayed on BART maps as an extension of the Yellow Line."
     },
     {
       "id": "q6",
-      "type": "continent",
-      "prompt": "Where is the topic of this unusual article located?\n\nBanjawarn Station is a large pastoral lease that was once used for sheep and cattle grazing, but it gained international notoriety in the 1990s when it was purchased by the Japanese doomsday cult Aum Shinrikyo. The group reportedly used the remote property to conduct experiments with nerve agents and even attempted to mine uranium, with mysterious livestock deaths and seismic events later being linked to the site. Today, Banjawarn Station remains a remote, sparsely populated outback property shrouded in conspiracy theories and dark tourism curiosity.",
-      "answer": "Oceania",
-      "hint": "This location is not in Africa, not in Europe, and not in North America.",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a song by an American rapper, released independently in January 2016 as a diss track aimed at a famous astrophysicist. The song promotes the idea that the Earth is flat, arguing against mainstream scientific consensus, and was created after a public social media feud between the two figures. The track features a guest verse from the rapper's nephew and became widely known more for its controversial subject matter than its musical reception.",
+      "choices": [
+        "A song claiming that the moon landing was staged",
+        "A song arguing that the Earth is flat",
+        "A song denying the existence of gravity",
+        "A song promoting a theory that dinosaurs never existed"
+      ],
+      "hint": "The song was not about space travel hoaxes or prehistoric creatures; it focused on the shape of our planet.",
+      "answerIndex": 1,
       "article": {
-        "title": "Banjawarn Station",
-        "url": "https://en.wikipedia.org/wiki/Banjawarn_Station"
+        "title": "Flatline (B.o.B song)",
+        "url": "https://en.wikipedia.org/wiki/Flatline_(B.o.B_song)"
       },
-      "explanation": "Banjawarn Station is located in the remote outback of Western Australia, within the continent of Oceania."
+      "explanation": "\"Flatline\" is a 2016 song by B.o.B that promotes flat Earth conspiracy theories, released as a diss track against astrophysicist Neil deGrasse Tyson after their public dispute over the shape of the Earth."
     },
     {
       "id": "q7",
       "type": "multiple",
-      "prompt": "Which unusual article does the following describe?\n\nIn the mid-17th century, a European military and religious order, more commonly associated with medieval crusading and Mediterranean naval operations, briefly held territorial possessions in the Caribbean. Through a purchase arranged by one of its knights, the order acquired several islands including Saint Croix, Saint Barthélemy, Saint Martin, and parts of Saint Christopher from a bankrupt French trading company. The order administered these islands for roughly a decade and a half before selling them back to a French chartered company, ending this brief overseas colonial venture.",
+      "prompt": "Which unusual article does the following describe?\n\nThis was a World War II-era weapon developed by the United States military that involved attaching small, timed incendiary devices to live animals. The idea was for these animals to be released from canisters dropped by aircraft, after which they would disperse and roost in the eaves and attics of wooden structures in enemy cities. The incendiaries would then ignite, starting numerous small fires in hard-to-reach places, potentially causing widespread destruction. The project underwent extensive testing and development, including a few accidental incidents during trials, but was ultimately canceled in 1944 before ever being used in actual combat, after the military shifted its focus to the development of the atomic bomb.",
       "choices": [
-        "Teutonic colonization of the Americas",
-        "Hospitaller colonization of the Americas",
-        "Templar colonization of the Americas",
-        "Jesuit colonization of the Caribbean"
+        "Pigeon-guided missile",
+        "Bat bomb",
+        "Anti-tank dog",
+        "Exploding rat"
       ],
-      "hint": "The correct answer does not involve the Templars, who were disbanded centuries before the Americas were colonized, nor the Jesuits, who are known for missions rather than purchasing islands outright.",
+      "hint": "The correct answer does not involve dogs or rats, and it does not involve guiding a missile.",
       "answerIndex": 1,
       "article": {
-        "title": "Hospitaller colonization of the Americas",
-        "url": "https://en.wikipedia.org/wiki/Hospitaller_colonization_of_the_Americas"
+        "title": "Bat bomb",
+        "url": "https://en.wikipedia.org/wiki/Bat_bomb"
       },
-      "explanation": "The article describes the Hospitaller colonization of the Americas, in which the Knights Hospitaller (Order of Malta) purchased Caribbean islands such as Saint Croix, Saint Barthélemy, and Saint Martin from the French Compagnie des Îles de l'Amérique in the 1650s, governing them until selling the territories to the French West India Company in 1665."
+      "explanation": "The Bat Bomb was a World War II weapon concept that used Mexican free-tailed bats fitted with small incendiary devices. The plan was to release the bats over Japanese cities, where they would roost in buildings and ignite fires. Despite promising tests, the project was canceled in 1944 due to the increasing focus on atomic bomb development."
     },
     {
       "id": "q8",
       "type": "multiple",
-      "prompt": "A powerline pylon with a shape reminiscent of a certain fictional rodent earned the nickname 'Mickey pylon.' In which country is this distinctively shaped pylon located?",
+      "prompt": "Which of the following is a real historical concept, one so embarrassing that you know it's true because it's too embarrassing for anyone to have made it up?",
       "choices": [
-        "United States",
-        "Wales",
-        "Germany",
-        "Japan"
+        "Doctrine of Convenient Silence",
+        "Principle of Flattering Omission",
+        "Criterion of embarrassment",
+        "Theory of Self-Serving Narrative"
       ],
-      "hint": "It is not in the United States or Japan.",
-      "answerIndex": 1,
+      "answerIndex": 2,
+      "hint": "The correct answer is not the 'Doctrine of Convenient Silence' or the 'Theory of Self-Serving Narrative,' as these are fabricated and do not reflect an actual historical analysis method.",
       "article": {
-        "title": "Mickey pylon",
-        "url": "https://en.wikipedia.org/wiki/Mickey_pylon"
+        "title": "Criterion of embarrassment",
+        "url": "https://en.wikipedia.org/wiki/Criterion_of_embarrassment"
       },
-      "explanation": "The Mickey pylon, nicknamed for its resemblance to Mickey Mouse, is located in Wales."
+      "explanation": "The criterion of embarrassment is a method used by historians to assess the reliability of historical accounts, suggesting that details embarrassing to the author are likely true since they would have no reason to fabricate them."
     },
     {
       "id": "q9",
-      "type": "multiple",
-      "prompt": "Which unusual article does the following describe?\n\nThis Italian man became internationally known for repeatedly interrupting live television broadcasts, most notably during the Tour de France, by jumping in front of cameras while scantily clad or wearing provocative costumes, often with slogans written on his body. He gained notoriety for tripping up television reporters during live outdoor segments and for his attention-seeking stunts aimed at gaining airtime on camera.",
-      "choices": [
-        "A stuntman who performed dangerous television pranks for a hidden camera show",
-        "A man famous for disrupting live broadcasts and tripping reporters on camera",
-        "A streaker who ran onto Olympic stadium fields during opening ceremonies",
-        "A political protester who hijacked radio broadcasts with coded messages"
-      ],
-      "hint": "The correct answer is not someone who used hidden cameras for entertainment purposes, nor someone whose stunts were tied specifically to the Olympics; his antics were tied to everyday news broadcasts and sporting events like cycling races.",
-      "answerIndex": 1,
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes Penedo, a small district known for its unusual Finnish heritage. Founded in the 1920s by Finnish immigrants seeking a utopian community, the settlement retains distinctive Nordic architecture, a sauna culture, and festivals celebrating its Scandinavian roots, making it a curious cultural enclave that attracts tourists interested in its blend of local and Finnish traditions.",
+      "answer": "South America",
+      "hint": "The region is not part of Africa, Asia, or Antarctica.",
       "article": {
-        "title": "Gabriele Paolini",
-        "url": "https://en.wikipedia.org/wiki/Gabriele_Paolini"
+        "title": "Penedo, Itatiaia",
+        "url": "https://en.wikipedia.org/wiki/Penedo,_Itatiaia"
       },
-      "explanation": "Gabriele Paolini is an Italian man famous for disrupting live television broadcasts, particularly during the Tour de France, by jumping in front of cameras in revealing or provocative outfits and tripping up reporters during live segments, earning him the nickname 'lo sgambettatore' (the tripper)."
+      "explanation": "Penedo is a district of Itatiaia, a municipality in the state of Rio de Janeiro, Brazil, located in South America. It was founded by Finnish immigrants in the early 20th century and retains strong Finnish cultural influences."
     },
     {
       "id": "q10",
       "type": "multiple",
-      "prompt": "Which unusual article does the following describe?\n\nThis is a 2016 British film that consists entirely of a single continuous shot of white paint drying on a wall, lasting over 10 hours. It was created and crowdfunded as a protest against a national film classification board's fee structure, which charges filmmakers based on the length of their submission regardless of content. The film was submitted for official classification, forcing reviewers to watch it in its entirety.",
+      "prompt": "Which of the following is a real unusual Wikipedia article about specialized policies that let you protect yourself against alien abduction, losing your genitalia, or conceiving the second Christ?",
       "choices": [
-        "A documentary about the history of wall paint",
-        "An art installation measuring the evaporation rate of water",
-        "A film showing paint drying on a wall in a single continuous shot",
-        "A silent protest film about bureaucratic censorship laws"
+        "Exotic underwriting",
+        "Specialty coverage plans",
+        "Niche insurance",
+        "Unconventional policy agreements"
       ],
-      "hint": "The correct answer is not about the history of paint, nor is it about water evaporation. It specifically involves film classification and a direct, literal visual subject.",
       "answerIndex": 2,
+      "hint": "The correct article's title does not include the words 'underwriting' or 'coverage'.",
       "article": {
-        "title": "Paint Drying",
-        "url": "https://en.wikipedia.org/wiki/Paint_Drying"
+        "title": "Niche insurance",
+        "url": "https://en.wikipedia.org/wiki/Niche_insurance"
       },
-      "explanation": "Paint Drying is a 2016 British film by Charlie Lyne that shows paint drying on a wall for over 10 hours. It was crowdfunded to protest the British Board of Film Classification's per-minute fee policy, forcing the board to watch and classify the entire film."
+      "explanation": "Niche insurance refers to specialized insurance policies that cover unusual or highly specific risks not typically included in standard coverage."
     }
   ],
   "_debug": {
