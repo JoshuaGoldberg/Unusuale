@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-02",
+  "title": "Puzzle No. 37",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 3.8,
+      "description": "Add a 3.8x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.6,
+      "description": "Skip the current question while still earning 0.6x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 850,
+      "loss": 800,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 850 additional points on a correct answer but lose 800 on an incorrect one."
+    },
+    {
+      "id": "card2",
+      "gain": 250,
+      "loss": 1200,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 250 additional points on a correct answer but lose 1200 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers a series of public incidents in the United States in which an official used a legitimate, centuries-old English word during official duties, and was accused of racism because the word sounds similar to a well known racial slur despite having no etymological connection to it. The controversy led to resignations, apologies, and national debate over language, context, and race relations.",
+      "choices": [
+        "A dispute over the use of a word meaning 'stingy'",
+        "A dispute over the renaming of a historic monument",
+        "A dispute over a mispronounced city name",
+        "A dispute over a textbook's description of slavery"
+      ],
+      "hint": "The correct answer does not involve renaming a monument or a disagreement about textbook content.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Controversies about the word niggardly",
+        "url": "https://en.wikipedia.org/wiki/Controversies_about_the_word_niggardly"
+      },
+      "explanation": "The article discusses several incidents where the word 'niggardly,' meaning stingy or miserly and unrelated in origin to any racial slur, caused public controversy and accusations of racism when used by officials."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is the only studio album released by a short-lived American hardcore punk band formed in the mid-1980s by a former member of another influential hardcore group. The self-titled record came out in 1987 on an independent label based in Washington, D.C., and is now regarded as an early and influential example of what would later become known as emo. The band broke up not long after the album's release.",
+      "choices": [
+        "Faith",
+        "Rites of Spring",
+        "Embrace",
+        "Ignition"
+      ],
+      "hint": "It's not the album named after a core religious belief, and it's not the one named after a season associated with religious observance.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Embrace (American band Embrace album)",
+        "url": "https://en.wikipedia.org/wiki/Embrace_(American_band_Embrace_album)"
+      },
+      "explanation": "The article describes 'Embrace,' the sole self-titled studio album by the American band Embrace, formed by former Minor Threat vocalist Ian MacKaye. Released in 1987 on Dischord Records, it is often cited as an early precursor to the emo genre."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "This English political leader's head had an interesting journey after its owner was posthumously executed, more so than the one he cut off himself. At which college was the head finally buried in 1960, decades after it had passed through many private collectors?",
+      "choices": [
+        "Trinity College",
+        "Sidney Sussex College",
+        "King's College",
+        "St John's College"
+      ],
+      "hint": "It is not Trinity College or King's College.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Oliver Cromwell's head",
+        "url": "https://en.wikipedia.org/wiki/Oliver_Cromwell%27s_head"
+      },
+      "explanation": "Oliver Cromwell's head was finally buried near the chapel at Sidney Sussex College, Cambridge, his alma mater, in 1960."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "This Black South African man worked as a lab assistant during apartheid and had no formal medical training, yet developed remarkable surgical skill. After his death, his obituaries caused controversy by claiming he had taken part in a groundbreaking first-of-its-kind organ procedure. What type of transplant was he rumored to have assisted with?",
+      "choices": [
+        "Kidney transplant",
+        "Liver transplant",
+        "Heart transplant",
+        "Lung transplant"
+      ],
+      "hint": "It was not a transplant involving an abdominal organ like the kidney or liver.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Hamilton Naki",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Naki"
+      },
+      "explanation": "Hamilton Naki's obituaries falsely claimed he had participated in the first human-to-human heart transplant performed by Christiaan Barnard in 1967, a claim that was later disputed and caused controversy."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis Wikipedia article catalogs a wide range of living species, from insects and spiders to fish and plants, whose scientific names were chosen to honor well known public figures, including musicians, actors, scientists, and politicians. The entries span many different taxonomic groups and highlight how researchers sometimes pay tribute to admired individuals when christening newly discovered life forms.",
+      "choices": [
+        "List of eponymous diseases",
+        "List of asteroids named after artists",
+        "List of organisms named after famous people",
+        "List of fictional animals named after real people"
+      ],
+      "hint": "The correct answer is not about diseases or about fictional creatures; it covers real species found across the tree of life.",
+      "answerIndex": 2,
+      "article": {
+        "title": "List of organisms named after famous people",
+        "url": "https://en.wikipedia.org/wiki/List_of_organisms_named_after_famous_people"
+      },
+      "explanation": "The article is 'List of organisms named after famous people,' a Wikipedia list detailing numerous species, such as insects, spiders, and fossils, that scientists have named in tribute to celebrities, politicians, musicians, and other notable individuals."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "A book written by a Central Asian country's eccentric former dictator was used in everything from religious worship to official testing. According to the article, passing a test on this book was required to obtain which of these?",
+      "choices": [
+        "A marriage certificate",
+        "A driving license",
+        "A university diploma",
+        "A passport"
+      ],
+      "hint": "It wasn't a document related to education or international travel.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Ruhnama",
+        "url": "https://en.wikipedia.org/wiki/Ruhnama"
+      },
+      "explanation": "The Ruhnama, written by Turkmenistan's dictator Saparmurat Niyazov, was so heavily promoted that knowledge of it was required to pass driving tests, among other uses like being read in mosques alongside the Quran."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is the real flag of a US city that was redesigned as a six-striped pride flag in order to slip around a statewide ban on flying certain flags at government buildings?",
+      "choices": [
+        "Flag of Eugene, Oregon",
+        "Flag of Bozeman, Montana",
+        "Flag of Missoula, Montana",
+        "Flag of Flagstaff, Arizona"
+      ],
+      "answerIndex": 2,
+      "hint": "The city in question is in a state that passed a law restricting which flags can fly over government buildings, which rules out the cities in Oregon and Arizona.",
+      "article": {
+        "title": "Flag of Missoula, Montana",
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Missoula,_Montana"
+      },
+      "explanation": "Missoula adopted a six-stripe pride flag as its official city flag, a clever workaround to Montana's ban on flying pride flags at government buildings."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis football club, playing in a small Eastern European nation's top division, became the center of a major scandal in the mid-2010s. Investigators released secretly recorded phone conversations in which players and club officials were heard discussing arranging the outcome of an upcoming league match in exchange for money. The resulting investigation led to numerous lengthy bans and fines across the country's football association, making the club's name synonymous with one of the sport's biggest domestic corruption cases in that region.",
+      "choices": [
+        "FC Neman Grodno",
+        "FC Slutsk",
+        "FC Gorodeya",
+        "FC Dnepr Mogilev"
+      ],
+      "hint": "The correct club is not the one named after a river city (Dnepr Mogilev) nor the one based in a town historically tied to a noble family's estate and known mainly for youth development (Gorodeya).",
+      "answerIndex": 1,
+      "article": {
+        "title": "FC Slutsk",
+        "url": "https://en.wikipedia.org/wiki/FC_Slutsk"
+      },
+      "explanation": "FC Slutsk, a Belarusian football club, was at the heart of a 2015 match-fixing scandal in which wiretapped recordings captured players and officials negotiating to fix a game, leading to widespread bans and fines in Belarusian football."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis phenomenon refers to a type of vivid, complex perceptual experience that can occur in individuals who have experienced significant vision loss or damage to the visual pathways. These experiences are thought to arise as the brain compensates for reduced sensory input, generating images that are not actually present. They can include detailed scenes, people, animals, or patterns, and the person experiencing them is often aware that what they are seeing is not real. The condition is more common in older adults with eye diseases but can also occur after certain neurological events affecting vision.",
+      "choices": [
+        "Phantom limb sensation",
+        "Visual release hallucinations",
+        "Synesthesia",
+        "Sleep paralysis"
+      ],
+      "hint": "The correct answer is not related to touch sensations from missing body parts, nor does it involve a blending of senses like hearing colors.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Visual release hallucinations",
+        "url": "https://en.wikipedia.org/wiki/Visual_release_hallucinations"
+      },
+      "explanation": "Visual release hallucinations occur when the brain, deprived of normal visual input due to vision loss or damage to visual pathways, generates vivid hallucinations such as people, animals, or patterns, often seen by individuals who are aware the images are not real."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real legendary figure, rumored to prowl the streets and countryside of England during the Victorian age, whose true identity and nature were never confirmed?",
+      "choices": [
+        "Iron-footed Harry",
+        "Spring-heeled Jack",
+        "Copper-clawed Bill",
+        "Leather-winged Tom"
+      ],
+      "answerIndex": 1,
+      "hint": "The real figure's name does not reference any metal, so you can rule out the one tied to iron and the one tied to copper.",
+      "article": {
+        "title": "Spring-heeled Jack",
+        "url": "https://en.wikipedia.org/wiki/Spring-heeled_Jack"
+      },
+      "explanation": "Spring-heeled Jack was a mysterious, folkloric figure reported to have terrified people across Victorian England with his eerie appearance and ability to leap to great heights."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
