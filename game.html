@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Daily Unusuale</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=15">
 </head>
 <body>
   <header class="site-header">
@@ -14,7 +14,21 @@
     </div>
   </header>
 
-  <div class="page">
+  <div class="page page-with-rail">
+    <!-- The rail sits first in the source so that on narrow screens, where
+         it collapses into a horizontal strip, it lands above the question
+         instead of being stranded at the bottom of the page. On wide
+         screens `order` moves it back to the right of the content. -->
+    <aside class="card-rail" id="card-rail" hidden>
+      <h2 class="card-rail-title">WikiCards</h2>
+      <p class="card-rail-note"></p>
+      <div class="card-controls">
+        <button type="button" class="card-control" id="card-spread" aria-pressed="false">Spread</button>
+        <button type="button" class="card-control" id="card-cycle">Cycle</button>
+      </div>
+      <ul class="card-list" id="card-list"></ul>
+    </aside>
+
     <main class="content" id="content">
       <h1 class="page-title" id="puzzle-title">Today's Puzzle</h1>
       <div class="tagline" id="puzzle-date">Loading&hellip;</div>
@@ -22,6 +36,7 @@
       <div class="score-tracker" id="score-tracker">
         Score: <span id="score-value">0</span>
       </div>
+      <span class="round-modifier" id="round-modifier" hidden></span>
 
       <div id="game"></div>
     </main>
@@ -29,9 +44,9 @@
 
   <!-- Load order matters: game.js uses helpers from util.js and the
        handlers in question-types.js. -->
-  <script src="util.js?v=1"></script>
+  <script src="util.js?v=2"></script>
   <script src="question-types.js?v=1"></script>
-  <script src="game.js?v=3"></script>
+  <script src="game.js?v=16"></script>
   <script src="footer.js?v=1"></script>
 </body>
 </html>

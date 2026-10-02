@@ -91,6 +91,21 @@ a.wordmark:visited {
   max-width: 46rem;
 }
 
+/* The game page puts a card rail alongside the content. The rail is first in
+   the source (so it lands above the question when the layout stacks on a
+   phone) and `order` sends it back to the right on a wide screen. */
+.page-with-rail {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+
+.page-with-rail .content {
+  order: 1;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .page-title {
   font-family: var(--serif);
   font-size: 1.8rem;
@@ -373,6 +388,308 @@ ul.choices li {
   to { opacity: 1; }
 }
 
+/* ---------- Cards ---------- */
+
+.card-rail {
+  order: 2;
+  flex: 0 0 13rem;
+  position: sticky;
+  top: 1.5rem;
+}
+
+.card-rail-title {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--border);
+}
+
+.card-rail-note {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin: 0.4rem 0 0.6rem;
+}
+
+/* The hand is drawn as real playing cards (5:7) fanned down the rail like a
+   solitaire column: each card covers all but the top strip of the one
+   before it, so only the corner index of the buried cards shows. */
+.card-list {
+  --card-w: 9.5rem;
+  --card-h: calc(var(--card-w) * 1.4);
+  --card-peek: 3.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-slot + .card-slot {
+  margin-top: calc(var(--card-peek) - var(--card-h));
+}
+
+/* Spread: the same cards laid out side by side with nothing covered. The
+   column gets too tall to stay pinned beside the question, so it scrolls
+   with the page instead. */
+.card-rail.spread {
+  position: static;
+}
+
+.card-rail.spread .card-list {
+  gap: 0.6rem;
+}
+
+.card-rail.spread .card-slot + .card-slot {
+  margin-top: 0;
+}
+
+.card-controls {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0 0 0.75rem;
+}
+
+.card-control {
+  flex: 1;
+  font: inherit;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.card-control:hover:not(:disabled) {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.card-control[aria-pressed="true"] {
+  background: var(--bg);
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.card-control:disabled {
+  color: var(--muted);
+  cursor: default;
+  opacity: 0.6;
+}
+
+.card {
+  --card-accent: var(--border);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: var(--card-w);
+  height: var(--card-h);
+  padding: 0.45rem 0.6rem;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+/* Inner frame, like the border printed on a card face. */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0.3rem;
+  border: 1px solid var(--card-accent);
+  border-radius: 0.4rem;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.card-multiplier { --card-accent: #14866d; }
+.card-skip { --card-accent: #a67c00; }
+.card-wager { --card-accent: #795cb2; }
+
+/* A wager's stake fills its corner strip on its own; there's no room for
+   the type label beside it, and the purple stake says "wager" anyway. */
+.card-wager .card-kind {
+  display: none;
+}
+
+/* Cards stay put in the stack; hovering only lifts the shadow a little. */
+.card:hover:not(:disabled) {
+  border-color: var(--card-accent);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14), 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.card:disabled {
+  cursor: default;
+}
+
+/* A spent card lies face down. The back covers the whole face: a fine
+   crosshatch in the link blue inside a white border, a monogram in the
+   middle, and the round the card went on. The corner strip of a buried card
+   shows the same pattern, so a used card reads as used even in the stack. */
+.card.spent {
+  border-color: #2a4b8d;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.card.spent::before {
+  display: none;
+}
+
+.card-back {
+  display: none;
+}
+
+.card.spent .card-back {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: calc(0.6rem - 1px);
+  border: 0.35rem solid var(--bg);
+  background-color: #3366cc;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.16) 0 2px, transparent 2px 9px),
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.16) 0 2px, transparent 2px 9px);
+  box-shadow: inset 0 0 0 1px #2a4b8d;
+}
+
+.card-back-emblem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: var(--bg);
+  color: #3366cc;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.card-back-label {
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.2rem;
+  background: var(--bg);
+  color: #2a4b8d;
+  font-size: 0.6875rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* The card armed for this round keeps its place in the hand and is ringed
+   in its accent colour, hovered or not. */
+.card.armed,
+.card.armed:hover:not(:disabled) {
+  border-color: var(--card-accent);
+  box-shadow: 0 0 0 2px var(--card-accent), 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.card-factor {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: var(--card-accent);
+}
+
+.card-kind {
+  color: var(--muted);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-name {
+  font-family: var(--serif);
+  font-size: 0.9375rem;
+  line-height: 1.2;
+}
+
+.card-pip {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The face's monogram echoes the one on the back: a ringed serif "U", in
+   the card's own colour rather than blue. */
+.card-pip-emblem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--card-accent);
+  border-radius: 50%;
+  color: var(--card-accent);
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.card-status {
+  color: var(--muted);
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Suit mark for the card's type: × multiplier, ⏭ skip, ± wager. */
+.card-corner {
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0.45rem;
+  line-height: 1;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: var(--card-accent);
+}
+
+/* Badge beside the score naming what the card in play does to this round:
+   "×2", "×0.4", "+300 / −150". Coloured like the card it came from. */
+.round-modifier {
+  margin-left: 0.4rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+/* Hidden keeps its place in the line rather than collapsing, so the badge
+   coming and going never nudges the round below. */
+.round-modifier[hidden] {
+  display: inline;
+  visibility: hidden;
+}
+
+.round-modifier.multiplier { color: #14866d; }
+.round-modifier.skip { color: #a67c00; }
+.round-modifier.wager { color: #795cb2; }
+
 /* Feedback shown after a round is answered. */
 .feedback {
   border-left: 3px solid var(--border);
@@ -396,6 +713,7 @@ ul.choices li {
 .feedback.right { border-left-color: #14866d; }
 .feedback.partial { border-left-color: #a67c00; }
 .feedback.wrong { border-left-color: #b32424; }
+.feedback.skipped { border-left-color: var(--link); }
 
 .feedback .verdict {
   margin-top: 0;
@@ -435,6 +753,7 @@ ul.choices li {
 .summary li.right { border-left: 3px solid #14866d; }
 .summary li.partial { border-left: 3px solid #a67c00; }
 .summary li.wrong { border-left: 3px solid #b32424; }
+.summary li.skipped { border-left: 3px solid var(--link); }
 
 .summary-prompt {
   display: block;
@@ -479,31 +798,154 @@ ul.choices li {
 
 .tooltip {
   position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  cursor: pointer;
 }
 
+/* A dark bubble above its trigger, centred, with a small arrow pointing
+   down at it. */
 .tooltiptext {
   visibility: hidden;
-  width: 130px;
-  background-color: black;
-  color: #ffffff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+  opacity: 0;
   position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 65%;
-  margin-left: -65px;
-  margin-bottom: 0.2em;
+  z-index: 10;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 16rem;
+  padding: 0.45rem 0.65rem;
+  background: #202122;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.45;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: normal;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: #202122;
+}
+
+.tooltip:hover .tooltiptext,
+.tooltip:focus-visible .tooltiptext {
   visibility: visible;
+  opacity: 1;
+}
+
+/* The rail's tooltip hangs to the left of the card rather than above it,
+   where there is no room next to the page edge. */
+.tooltiptext.card-tooltip {
+  bottom: auto;
+  top: 0.6rem;
+  left: auto;
+  right: calc(100% + 10px);
+  transform: none;
+  width: 14rem;
+}
+
+.tooltiptext.card-tooltip::after {
+  top: 0.6rem;
+  left: 100%;
+  margin-left: 0;
+  border-top-color: transparent;
+  border-left-color: #202122;
+}
+
+/* Hover works on a disabled button too, so a spent card still explains
+   itself when the player goes looking. */
+.card:hover .card-tooltip,
+.card:focus-visible .card-tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 .copy-button {
   margin-left: 0.5rem;
+}
+
+/* Below the width where a 13rem rail still leaves the content readable, the
+   rail collapses into a horizontal strip above the question. */
+/* Below the width where a 13rem rail still leaves the content readable, the
+   rail collapses into a strip above the question and the hand fans out
+   sideways instead of downwards. */
+@media (max-width: 54rem) {
+  .page-with-rail {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card-rail {
+    order: 0;
+    position: static;
+    flex: none;
+    width: 100%;
+  }
+
+  .card-list {
+    --card-w: 6.75rem;
+    --card-peek: 4.25rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.5rem 0 0.25rem;
+  }
+
+  .card-slot + .card-slot {
+    margin-top: 0;
+    margin-left: calc(var(--card-peek) - var(--card-w));
+  }
+
+  .card-rail.spread .card-list {
+    overflow-x: auto;
+  }
+
+  .card-rail.spread .card-slot + .card-slot {
+    margin-left: 0;
+  }
+
+  .card-controls {
+    max-width: 16rem;
+  }
+
+  .card-head {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .card-wager .card-factor {
+    font-size: 0.875rem;
+  }
+
+  .card-pip-emblem {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.3rem;
+  }
+
+  .card-name {
+    font-size: 0.8125rem;
+  }
+
+  .card-status {
+    display: none;
+  }
+
+  /* No hover to speak of here, and no room beside the card; drop the tooltip
+     and let the banner on the question explain what the card does. */
+  .card-tooltip {
+    display: none;
+  }
 }

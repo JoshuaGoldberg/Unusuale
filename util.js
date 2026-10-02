@@ -72,9 +72,13 @@ function loadSaved(date) {
   }
 }
 
-function save(date, responses, hintsUsed) {
+function save(date, responses, hintsUsed, cardsPlayed) {
   try {
-    window.localStorage.setItem(STORAGE_PREFIX + date, JSON.stringify({ responses: responses, hintsUsed: hintsUsed }));
+    window.localStorage.setItem(STORAGE_PREFIX + date, JSON.stringify({
+      responses: responses,
+      hintsUsed: hintsUsed,
+      cardsPlayed: cardsPlayed
+    }));
   } catch (err) {
     /* Private browsing, quota, etc. The game still plays; it just won't persist. */
   }
