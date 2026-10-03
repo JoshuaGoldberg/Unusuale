@@ -70,6 +70,17 @@ a:hover {
   font-size: 1.375rem;
 }
 
+/* The globe sits just left of the name, centred on the text. Inline, so the
+   wordmark keeps its text baseline and still lines up with the subtitle. */
+.wordmark-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.1rem;
+}
+
 a.wordmark,
 a.wordmark:visited {
   color: var(--text);
@@ -665,7 +676,7 @@ ul.choices li {
 }
 
 /* A spent card lies face down. The back covers the whole face: a fine
-   crosshatch in the link blue inside a white border, a monogram in the
+   crosshatch in the link blue inside a white border, the globe logo in the
    middle, and the round the card went on. The corner strip of a buried card
    shows the same pattern, so a used card reads as used even in the stack. */
 .card.spent {
@@ -699,17 +710,11 @@ ul.choices li {
 }
 
 .card-back-emblem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.6rem;
-  height: 2.6rem;
-  border-radius: 50%;
-  background: var(--bg);
-  color: #3366cc;
-  font-family: var(--serif);
-  font-size: 1.5rem;
-  line-height: 1;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  pointer-events: none;
 }
 
 .card-back-label {
@@ -774,20 +779,12 @@ ul.choices li {
   justify-content: center;
 }
 
-/* The face's monogram echoes the one on the back: a ringed serif "U", in
-   the card's own colour rather than blue. */
+/* The Unusuale globe sits in the middle of the face, matching the back. */
 .card-pip-emblem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  border: 2px solid var(--card-accent);
-  border-radius: 50%;
-  color: var(--card-accent);
-  font-family: var(--serif);
-  font-size: 1.75rem;
-  line-height: 1;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  pointer-events: none;
 }
 
 .card-status {
@@ -1070,9 +1067,8 @@ ul.choices li {
   }
 
   .card-pip-emblem {
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 1.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 
   .card-name {

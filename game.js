@@ -197,6 +197,16 @@ function setArmedCard(id) {
   if (onCardChange) onCardChange();
 }
 
+// The Unusuale globe, printed on both faces of every card. Purely
+// decorative, so it carries no alt text.
+function logoImage(className) {
+  var img = element('img', className);
+  img.src = 'assets/logo.png';
+  img.alt = '';
+  img.draggable = false;
+  return img;
+}
+
 // How the hand is laid out in the rail. Neither touches game state: the
 // spread toggle only un-stacks the cards, and the cycle offset only rotates
 // which card sits on top of the stack.
@@ -251,7 +261,7 @@ function renderCards() {
     button.setAttribute('aria-pressed', armed ? 'true' : 'false');
 
     // Laid out like a playing card: a corner index at the top (the only part
-    // left showing once the hand is stacked down the rail), the monogram in
+    // left showing once the hand is stacked down the rail), the globe logo in
     // the middle to match the back, and a suit mark for the card's type in
     // the bottom corner.
     var head = element('span', 'card-head');
@@ -260,7 +270,7 @@ function renderCards() {
     button.appendChild(head);
     button.appendChild(element('span', 'card-name', card.name || 'Card'));
     var pip = element('span', 'card-pip');
-    pip.appendChild(element('span', 'card-pip-emblem', 'U'));
+    pip.appendChild(logoImage('card-pip-emblem'));
     button.appendChild(pip);
     button.appendChild(element('span', 'card-status',
       spentOn >= 0 ? 'Played on round ' + (spentOn + 1)
@@ -274,7 +284,7 @@ function renderCards() {
     // only the round it was played on.
     if (spentOn >= 0) {
       var back = element('span', 'card-back');
-      back.appendChild(element('span', 'card-back-emblem', 'U'));
+      back.appendChild(logoImage('card-back-emblem'));
       back.appendChild(element('span', 'card-back-label', 'Round ' + (spentOn + 1)));
       button.appendChild(back);
     }
