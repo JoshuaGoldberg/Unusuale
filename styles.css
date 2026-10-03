@@ -672,7 +672,7 @@ ul.choices li {
 /* Suit mark for the card's type: × multiplier, ⏭ skip, ± wager. */
 .card-corner {
   position: absolute;
-  left: 0.6rem;
+  right: 0.6rem;
   bottom: 0.45rem;
   line-height: 1;
   font-family: var(--serif);
