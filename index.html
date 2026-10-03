@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Unusuale</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=23">
 </head>
 <body>
   <header class="site-header">
@@ -14,7 +14,16 @@
     </div>
   </header>
 
-  <div class="page">
+  <div class="page page-with-toc">
+    <!-- Contents sidebar, filled in by toc.js from the section headings. -->
+    <nav class="toc" id="toc" aria-labelledby="toc-title">
+      <div class="toc-header">
+        <span class="toc-title" id="toc-title">Contents</span>
+        <button type="button" class="toc-toggle" id="toc-toggle" aria-controls="toc-list" aria-expanded="true">hide</button>
+      </div>
+      <ol class="toc-list" id="toc-list"></ol>
+    </nav>
+
     <main class="content" id="content">
 
       <h1 class="page-title">Unusuale</h1>
@@ -77,6 +86,7 @@
     </main>
   </div>
 
+  <script src="toc.js?v=2"></script>
   <script src="footer.js?v=1"></script>
 </body>
 </html>

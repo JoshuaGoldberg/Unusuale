@@ -106,6 +106,114 @@ a.wordmark:visited {
   min-width: 0;
 }
 
+/* The front page hangs a Wikipedia-style contents list in the empty margin
+   to the left of the article. The article itself stays exactly where it
+   would be without it, lined up under the wordmark: the sidebar pulls
+   itself out to the left with a negative margin equal to its own width plus
+   the gap. Its width tracks the margin it has to fit into. */
+.page-with-toc {
+  --toc-gap: 1.5rem;
+  --toc-w: clamp(8rem, calc((100vw - var(--content-width)) / 2 - 1rem), 13rem);
+  display: flex;
+  align-items: flex-start;
+}
+
+.page-with-toc .content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.toc {
+  flex: 0 0 var(--toc-w);
+  width: var(--toc-w);
+  margin-left: calc(-1 * (var(--toc-w) + var(--toc-gap)));
+  margin-right: var(--toc-gap);
+  position: sticky;
+  top: 1.5rem;
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
+  font-size: 0.8125rem;
+}
+
+.toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.toc-title {
+  font-weight: bold;
+}
+
+.toc.collapsed .toc-list {
+  display: none;
+}
+
+.toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc-item a {
+  display: block;
+  padding: 0.25rem 0 0.25rem 0.6rem;
+  border-left: 2px solid transparent;
+  line-height: 1.35;
+  color: var(--link);
+  text-decoration: none;
+}
+
+.toc-item a:hover {
+  text-decoration: underline;
+}
+
+/* The section being read: bold black text, as on Wikipedia, with a rule
+   down its left edge. */
+.toc-item.active a {
+  color: var(--text);
+  font-weight: bold;
+  border-left-color: var(--text);
+}
+
+/* Jumping to a section leaves a little room above its heading. */
+.page-with-toc h2,
+.page-with-toc .page-title {
+  scroll-margin-top: 1rem;
+}
+
+/* Once the margin is too narrow to hold the sidebar, the contents sit in a
+   box above the article instead, the way older Wikipedia skins showed
+   them. */
+@media (max-width: 78rem) {
+  .page-with-toc {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .toc {
+    position: static;
+    flex: none;
+    width: auto;
+    max-width: 22rem;
+    margin: 0;
+    max-height: none;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-light);
+    background: var(--surface);
+  }
+
+  .toc.collapsed .toc-header {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
 .page-title {
   font-family: var(--serif);
   font-size: 1.8rem;
@@ -335,11 +443,17 @@ ul.choices li {
 }
 
 .continent-shape.selected {
-  fill: var(--link);
+  fill: #14866d;
 }
 
 .continent-shape.correct {
   fill: #14866d;
+}
+
+/* Selection and the right answer share the same green, so once the answer
+   is revealed a wrong pick turns red to tell the two apart. */
+.question.locked .continent-shape.selected:not(.correct) {
+  fill: #b32424;
 }
 
 .question.locked .continent-shape {
@@ -353,24 +467,62 @@ ul.choices li {
   color: var(--muted);
 }
 
-.button {
-  font: inherit;
-  padding: 0.4rem 1rem;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
+/* Every button on the site is Wikipedia's solid grey button: a flat grey
+   face with no visible border, small radius, bold label. It darkens a step
+   on hover and another while pressed; disabled, it keeps the grey but
+   fades its label. The border stays, transparent, so sizes never shift. */
+.button,
+.card-control,
+.toc-toggle {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.4;
+  min-height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background: #eaecf0;
+  color: #202122;
   cursor: pointer;
+  transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
 }
 
-.button:hover:not(:disabled) {
-  border-color: var(--link);
-  color: var(--link);
+.button:hover:not(:disabled),
+.card-control:hover:not(:disabled),
+.toc-toggle:hover {
+  background: #dadde3;
+  color: #202122;
 }
 
-.button:disabled {
-  color: var(--muted);
+.button:active:not(:disabled),
+.card-control:active:not(:disabled),
+.toc-toggle:active,
+.card-control[aria-pressed="true"] {
+  background: #c8ccd1;
+  color: #000;
+}
+
+.button:focus-visible,
+.card-control:focus-visible,
+.toc-toggle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #36c;
+}
+
+.button:disabled,
+.card-control:disabled {
+  background: #eaecf0;
+  color: #a2a9b1;
   cursor: default;
-  opacity: 0.6;
+}
+
+/* Smaller buttons for the card rail and the contents sidebar. */
+.card-control,
+.toc-toggle {
+  font-size: 0.75rem;
+  min-height: 1.6rem;
+  padding: 0.1rem 0.5rem;
 }
 
 .hint-button {
@@ -454,30 +606,6 @@ ul.choices li {
 
 .card-control {
   flex: 1;
-  font: inherit;
-  font-size: 0.75rem;
-  padding: 0.2rem 0.5rem;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  cursor: pointer;
-}
-
-.card-control:hover:not(:disabled) {
-  border-color: var(--link);
-  color: var(--link);
-}
-
-.card-control[aria-pressed="true"] {
-  background: var(--bg);
-  border-color: var(--link);
-  color: var(--link);
-}
-
-.card-control:disabled {
-  color: var(--muted);
-  cursor: default;
-  opacity: 0.6;
 }
 
 .card {

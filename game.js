@@ -533,7 +533,7 @@ function renderQuestion() {
 
   if (question.hint) {
     var hintButton = element('button', 'button hint-button tooltip', 'Reveal Hint');
-    var tooltiptext = element('span', 'tooltiptext','Receive a helpful hint at the cost of half credit for this round.');
+    var tooltiptext = element('span', 'tooltiptext','Receive a helpful hint at the cost of 0.5x points this round.');
     hintButton.appendChild(tooltiptext);
     hintButton.type = 'button';
     hintButton.addEventListener('click', function () {
