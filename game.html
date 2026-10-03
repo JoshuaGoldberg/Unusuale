@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Daily Unusuale</title>
   <link rel="icon" type="image/png" href="assets/logo.png">
-  <link rel="stylesheet" href="styles.css?v=25">
+  <link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
   <header class="site-header">
@@ -21,7 +21,10 @@
          instead of being stranded at the bottom of the page. On wide
          screens `order` moves it back to the right of the content. -->
     <aside class="card-rail" id="card-rail" hidden>
-      <h2 class="card-rail-title">WikiCards</h2>
+      <h2 class="card-rail-title">
+        WikiCards
+        <span class="info-tip tooltip" tabindex="0" role="button" aria-label="About WikiCards" aria-describedby="card-rail-help">?<span class="tooltiptext" id="card-rail-help" role="tooltip">Use cards to score extra points or mitigate losses. Only 1 card can be played per round, and each card can only be used once.</span></span>
+      </h2>
       <p class="card-rail-note"></p>
       <div class="card-controls">
         <button type="button" class="card-control" id="card-spread" aria-pressed="false">Spread</button>
