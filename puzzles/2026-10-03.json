@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-03",
+  "title": "Puzzle No. 38",
+  "cards": [
+    {
+      "id": "card2",
+      "gain": 150,
+      "loss": 550,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 150 additional points on a correct answer but lose 550 on an incorrect one."
+    },
+    {
+      "id": "card3",
+      "gain": 850,
+      "loss": 650,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 850 additional points on a correct answer but lose 650 on an incorrect one."
+    },
+    {
+      "id": "card1",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "This object is a historical device that encased a person's head, often fitted with a metal piece that pressed into the mouth to prevent speech. It was used as a public punishment, primarily aimed at women accused of gossiping, arguing, or speaking out against authority. Those forced to wear it were often paraded through town to be publicly shamed.",
+      "choices": [
+        "Ducking stool",
+        "Pillory",
+        "Scold's bridle",
+        "Stocks"
+      ],
+      "hint": "It is not the device used for public submersion in water, nor the one that locks the feet into a seated frame.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Scold's bridle",
+        "url": "https://en.wikipedia.org/wiki/Scold%27s_bridle"
+      },
+      "explanation": "The scold's bridle, also known as a 'brank', was a device placed over the head with a metal bit or plate that pressed down on the tongue, used historically to publicly punish and humiliate women labeled as 'scolds' or gossips."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real Wikipedia article describing a fabricated quote attributed to an American Founding Father?",
+      "choices": [
+        "Benjamin Franklin lightning rod confession hoax",
+        "John Adams secret diary hoax",
+        "Thomas Jefferson hemp smoking hoax",
+        "George Washington farewell address forgery hoax"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not about an invention-related confession or a secret personal journal, so you can rule those two out.",
+      "article": {
+        "title": "Thomas Jefferson hemp smoking hoax",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson_hemp_smoking_hoax"
+      },
+      "explanation": "A widely circulated quote claiming Thomas Jefferson smoked hemp and said 'Some of my finest hours have been spent on my back veranda, smoking hemp' was entirely fabricated."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "A creole language spoken by a group of Jamaicans during rituals involving spiritual possession draws most of its vocabulary from which West African language group?",
+      "choices": [
+        "Yoruba",
+        "Akan",
+        "Wolof",
+        "Igbo"
+      ],
+      "hint": "It's not Wolof or Igbo, those languages come from different regions of West Africa than the one associated with this creole.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Jamaican Maroon Creole",
+        "url": "https://en.wikipedia.org/wiki/Jamaican_Maroon_Creole"
+      },
+      "explanation": "Jamaican Maroon Creole, also known as Kromanti, draws its vocabulary largely from Akan and is used by Jamaican Maroons in ceremonies involving spiritual possession."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of these is a real branch of mathematics that mathematicians used successfully for over a century, even though no one could fully explain why it actually worked?",
+      "choices": [
+        "Phantom calculus",
+        "Shadow calculus",
+        "Umbral calculus",
+        "Spectral calculus"
+      ],
+      "answerIndex": 2,
+      "hint": "It is not a term borrowed from theoretical physics ghost fields, and it is not about wave or frequency analysis, so you can rule out the 'phantom' and 'spectral' options.",
+      "article": {
+        "title": "Umbral calculus",
+        "url": "https://en.wikipedia.org/wiki/Umbral_calculus"
+      },
+      "explanation": "Umbral calculus is a set of techniques involving polynomial sequences that worked reliably for over a hundred years before mathematicians developed a rigorous explanation for why it succeeded."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a non-fiction work published in the early 1970s by a political figure in East Asia, laying out an official theory for producing works of visual storytelling meant to serve as propaganda and education tools for a single-party state. The text introduces concepts such as a central creative 'seed' from which a work should grow, calls for adherence to a specific ideological outlook, and became required study material for artists and technicians working within the country's media industry.",
+      "choices": [
+        "The Seed and the Stage: Theory of Socialist Art",
+        "On the Art of the Cinema",
+        "On Dramatic Art and Its Principles",
+        "Guidelines for Revolutionary Filmmaking"
+      ],
+      "hint": "The actual work focuses specifically on one visual medium, not on theatre or on socialist art in general, so you can rule out any title referencing drama or broad artistic theory.",
+      "answerIndex": 1,
+      "article": {
+        "title": "On the Art of the Cinema",
+        "url": "https://en.wikipedia.org/wiki/On_the_Art_of_the_Cinema"
+      },
+      "explanation": "The article describes 'On the Art of the Cinema,' a 1973 treatise attributed to Kim Jong Il that outlines North Korea's official theory of filmmaking, including the 'seed theory' of artistic creation and its use as a guiding text for the state's film industry."
+    },
+    {
+      "id": "q6",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a large freshwater lake that sits on a sizable island, shaped largely by the retreat of ice age glaciers. It is noted as the largest lake located entirely on an island within its country, and it empties through a river system into a nearby bay before reaching the open sea.",
+      "answer": "North America",
+      "hint": "This lake is not found in Africa, South America, or Oceania.",
+      "article": {
+        "title": "Nettilling Lake",
+        "url": "https://en.wikipedia.org/wiki/Nettilling_Lake"
+      },
+      "explanation": "Nettilling Lake is located on Baffin Island in Nunavut, Canada, making it part of North America. It is the largest lake on an island within Canada, formed by glacial processes, and drains via the Koukdjuak River into Foxe Basin."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis was a sketch comedy television program that debuted on an American network in 1969. It was heavily promoted as an experimental, fast-paced show incorporating computer generated graphics and electronic music. However, its content and style provoked immediate and intense backlash from viewers and affiliate stations, who found it tasteless and confusing. The reaction was so severe that several stations pulled it from the air before the premiere episode had even finished broadcasting. As a result, the program became infamous as one of the shortest-lived series in television history, being cancelled after airing only a single episode in most markets.",
+      "choices": [
+        "Co-ed Fever",
+        "Supertrain",
+        "Turn-On",
+        "The Secret Empire"
+      ],
+      "hint": "The answer is not a series about college life or a train themed adventure show.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Turn-On",
+        "url": "https://en.wikipedia.org/wiki/Turn-On"
+      },
+      "explanation": "The article describes 'Turn-On', a 1969 TV series that was cancelled after just one episode due to overwhelmingly negative reactions from viewers and affiliates, making it one of the most famous flops in television history."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "A Wikipedia article summarized in one blunt line as 'Fear of dentists' states that a certain percentage of people avoid dental care altogether because of this fear. What is that percentage range?",
+      "choices": [
+        "15-20%",
+        "30-35%",
+        "5-10%",
+        "20-25%"
+      ],
+      "hint": "It's not the two higher ranges (20-25% or 30-35%); think smaller.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Dental fear",
+        "url": "https://en.wikipedia.org/wiki/Dental_fear"
+      },
+      "explanation": "The article states that an estimated 5-10% of people avoid dental care entirely due to dental fear."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a mathematical approach to a branch of geometry that avoids treating individual locations as the fundamental building blocks. Instead of starting with a collection of elements and defining which subsets are considered open, this framework takes the structure of open regions themselves (often formalized as a lattice or algebraic structure) as the primary object of study, with the notion of discrete locations becoming a secondary or even unnecessary concept. This approach has connections to order theory, category theory, and logic, and offers alternative ways to handle certain pathological cases that arise in conventional formulations.",
+      "choices": [
+        "Pointless topology",
+        "Fuzzy set theory",
+        "Non-standard analysis",
+        "Category of sets"
+      ],
+      "hint": "The answer is not a theory about vagueness or imprecise membership, and it is not a framework centered on infinitesimal numbers.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Pointless topology",
+        "url": "https://en.wikipedia.org/wiki/Pointless_topology"
+      },
+      "explanation": "The article describes pointless topology (also called point-free topology), a branch of topology that formulates topological concepts using the lattice of open sets rather than starting from a set of points."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Severe hyperinflation once forced a country to print one of the largest currency denominations in history. Which of these is the real Wikipedia article describing that banknote?",
+      "choices": [
+        "Angolan one hundred million kwanza note",
+        "Hungarian one hundred quintillion pengő note",
+        "Zimbabwean one hundred trillion dollar note",
+        "Yugoslav five hundred billion dinar note"
+      ],
+      "answerIndex": 2,
+      "hint": "The country responsible was located in southern Africa, not in Europe, which rules out two of the choices.",
+      "article": {
+        "title": "Zimbabwean one hundred trillion dollar note",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwean_one_hundred_trillion_dollar_note"
+      },
+      "explanation": "All thanks to Zimbabwe's hyperinflation, this banknote became one of the largest currency denominations ever officially issued."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
