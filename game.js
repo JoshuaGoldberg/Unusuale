@@ -729,7 +729,9 @@ function renderResults() {
   showRoundModifier(null);
   cardsPlayable = false;
   onCardChange = null;
-  renderCards();
+
+  // The hand has nothing left to do once the game is over.
+  if (cardRail) cardRail.hidden = true;
 
   mount.appendChild(element('h2', null, 'Results'));
   mount.appendChild(element('p', 'score',
