@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-04",
+  "title": "Puzzle No. 39",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 150,
+      "loss": 50,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 150 additional points on a correct answer but lose 50 on an incorrect one."
+    },
+    {
+      "id": "card2",
+      "gain": 300,
+      "loss": 700,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 300 additional points on a correct answer but lose 700 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "An Australian breakdancer whose less-than-smooth moves took the Olympics by storm also holds a doctorate. In which academic field did she earn her PhD?",
+      "choices": [
+        "Sports Science",
+        "Cultural Studies",
+        "Media Studies",
+        "Performing Arts"
+      ],
+      "hint": "Her research wasn't centered on physical training methods or theatrical production techniques.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Rachael Gunn",
+        "url": "https://en.wikipedia.org/wiki/Rachael_Gunn"
+      },
+      "explanation": "Rachael Gunn holds a PhD in Cultural Studies, with her research focusing on the cultural dynamics of breaking."
+    },
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "This motorsport race is remembered as the shortest in its championship's history, after torrential rain forced officials to red-flag it following only a couple of laps behind the safety car, with half points awarded instead of full points to the finishers.",
+      "choices": [
+        "2009 Malaysian Grand Prix",
+        "1991 Australian Grand Prix",
+        "2021 Belgian Grand Prix",
+        "2007 European Grand Prix"
+      ],
+      "hint": "This event did not take place in Asia or Oceania.",
+      "answerIndex": 2
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a conceptual, non-digital sorting method that uses a bundle of rigid rods cut to lengths representing the values to be sorted. By standing the rods upright on a flat surface and then lowering a flat surface onto their tops, the rods naturally settle into order of length, which can then be read off from tallest to shortest. The method is notable as a thought experiment illustrating how a sorting task that takes considerable time on a digital computer could, in principle, be completed almost instantly using analog, massively parallel physical processes.",
+      "choices": [
+        "Bead sort",
+        "Pancake sort",
+        "Spaghetti sort",
+        "Sorting network"
+      ],
+      "hint": "The correct answer does not involve beads falling under gravity, nor does it involve flipping a stack of items over repeatedly.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Spaghetti sort",
+        "url": "https://en.wikipedia.org/wiki/Spaghetti_sort"
+      },
+      "explanation": "The Spaghetti sort is a linear-time sorting algorithm that uses uncooked spaghetti rods cut to lengths proportional to the numbers being sorted. Standing them upright and tapping them down on a table causes them to align by height, allowing the sorted order to be read off directly, illustrating analog/parallel computation."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of these is a real unusual attraction where an entire country was turned into a giant scale model of the solar system, using a well known structure to represent the Sun while planets and other celestial bodies were placed in towns scattered across the land?",
+      "choices": [
+        "Finland Solar System",
+        "Norway Solar System",
+        "Sweden Solar System",
+        "Denmark Solar System"
+      ],
+      "answerIndex": 2,
+      "hint": "In the real version, the Sun is represented by a spherical arena, not a coastal lighthouse or a university tower, so you can rule out the Norwegian and Finnish versions.",
+      "article": {
+        "title": "Sweden Solar System",
+        "url": "https://en.wikipedia.org/wiki/Sweden_Solar_System"
+      },
+      "explanation": "It is a scale model of our solar system, with the spherical Avicii Arena representing the Sun and the planets and other objects scattered across the country."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "This mathematical concept refers to a specific type of geometric dissection problem. It involves completely dividing a shape into smaller copies of the same shape, with the added restriction that every smaller copy must be a different size, leaving no gaps or overlaps. Mathematicians have worked out the minimum number of pieces needed for such a dissection, and some special versions exist in which no smaller group of the pieces itself forms another valid copy of the larger shape.",
+      "choices": [
+        "Rep-tile",
+        "Squaring the circle",
+        "Squaring the square",
+        "Polyomino tiling"
+      ],
+      "hint": "The answer has nothing to do with circles, and it specifically requires every piece to be a unique size rather than identical unit blocks.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Squaring the square",
+        "url": "https://en.wikipedia.org/wiki/Squaring_the_square"
+      },
+      "explanation": "The article describes 'squaring the square,' the mathematical problem of tiling a square using smaller squares, all of different sizes, with 'perfect' squared squares requiring that no subset of the smaller squares itself forms a rectangle or square."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "This given name became popular in a Balkan territory as a tribute to a British leader whom locals credited with their nation's dignity. Which former Prime Minister inspired this naming trend?",
+      "choices": [
+        "Winston Churchill",
+        "Tony Blair",
+        "David Cameron",
+        "Margaret Thatcher"
+      ],
+      "hint": "It's not Churchill or Thatcher, both of whom led before Kosovo's modern conflict took place.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Tonibler",
+        "url": "https://en.wikipedia.org/wiki/Tonibler"
+      },
+      "explanation": "Tonibler is a male given name used in Kosovo, created in honor of Tony Blair, who was seen favorably for his role in the NATO intervention during the Kosovo War."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "In an article about vocal outbursts during tennis matches that have sparked controversy for allegedly distracting opponents (with mentions of stars like Serena and Venus Williams and Novak Djokovic), a former world No. 1 player publicly complained during a Wimbledon final that her opponent's loud noises were distracting her. Who made this complaint?",
+      "choices": [
+        "Chris Evert",
+        "Martina Navratilova",
+        "Billie Jean King",
+        "Steffi Graf"
+      ],
+      "hint": "It was not Chris Evert or Billie Jean King, who were not known for voicing this particular complaint.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Grunting in tennis",
+        "url": "https://en.wikipedia.org/wiki/Grunting_in_tennis"
+      },
+      "explanation": "Martina Navratilova complained during a Wimbledon final that Monica Seles's loud grunting was distracting her, an early high-profile incident that fueled debate over grunting in tennis."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of these South American primate species has an especially unusual claim to fame: its scientific name was decided through an online charity auction and ended up honoring an internet gambling website?",
+      "choices": [
+        "Tambopata titi monkey",
+        "Yungas titi monkey",
+        "Madidi titi monkey",
+        "Beni titi monkey"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not named after a river, unlike two of the other choices listed here.",
+      "article": {
+        "title": "Madidi titi monkey",
+        "url": "https://en.wikipedia.org/wiki/Madidi_titi_monkey"
+      },
+      "explanation": "The Madidi titi monkey, formally named Plecturocebus aureipalatii, was officially named after the online casino GoldenPalace.com after it won the naming rights in a charity auction."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real recurring joke figure who reimagines a famous muscle-bound warrior in an unexpected everyday occupation, popping up across movies, TV shows, comics, and fan fiction over the decades?",
+      "choices": [
+        "Conan the Accountant",
+        "Conan the Librarian",
+        "Conan the Dentist",
+        "Conan the Grocer"
+      ],
+      "answerIndex": 1,
+      "hint": "The real version is not someone who fills cavities or rings up groceries; those two professions were never the basis of this long-running parody.",
+      "article": {
+        "title": "Conan the Librarian",
+        "url": "https://en.wikipedia.org/wiki/Conan_the_Librarian"
+      },
+      "explanation": "Conan the Librarian is a perennial parody of Conan the Barbarian that has appeared in film, television, comics, and fan fiction."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "This orchestra of obsolete hardware creates music using floppy disks, hard disk drives, and flatbed scanners. How many floppy disks does the current version of this device use?",
+      "choices": [
+        "256",
+        "1024",
+        "512",
+        "128"
+      ],
+      "hint": "It's not the smallest number (128) or the largest number (1024) in the list.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Floppotron",
+        "url": "https://en.wikipedia.org/wiki/Floppotron"
+      },
+      "explanation": "The current version of the Floppotron is made up of 512 floppy disks, 16 hard disk drives, and 4 flatbed scanners, which are manipulated to produce musical tones."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
