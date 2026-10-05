@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-05",
+  "title": "Puzzle No. 40",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.4,
+      "description": "Add a 2.4x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card4",
+      "gain": 650,
+      "loss": 650,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 650 additional points on a correct answer but lose 650 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis is a pedestrian bridge that gives its name to a well known open air flea market nearby, where vendors sell antiques, old coins, vintage memorabilia, artwork, and various curiosities. The market and bridge have become a popular spot for tourists and collectors looking for unusual secondhand items.",
+      "answer": "Asia",
+      "hint": "This bridge is not located in North America, South America, or Oceania.",
+      "article": {
+        "title": "Dry Bridge",
+        "url": "https://en.wikipedia.org/wiki/Dry_Bridge"
+      },
+      "explanation": "The Dry Bridge is a pedestrian bridge in Tbilisi, Georgia, known for the flea market that takes place nearby, where vendors sell antiques, Soviet memorabilia, and other curiosities."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual 'nation' consisting of just a tiny plot of land in the American West, where a single family's property has been declared a sovereign state complete with its own currency, military, and holidays?",
+      "choices": [
+        "Grand Duchy of Westhaven",
+        "Sovereign State of Pinecrest",
+        "Republic of Molossia",
+        "Principality of Cascadia"
+      ],
+      "answerIndex": 2,
+      "hint": "Two of these were invented purely as internet jokes with no physical land or residents, so you can rule those out right away.",
+      "article": {
+        "title": "Republic of Molossia",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Molossia"
+      },
+      "explanation": "The Republic of Molossia is a 36-person micronation in Dayton, Nevada, founded by Kevin Baugh, complete with its own currency, customs checkpoint, and border patrol on his own property."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis American performance artist and photographer became briefly famous in the mid-1970s for an unauthorized nude appearance during a major live television broadcast. Afterward, he opened an art gallery in San Francisco, where he continued to court controversy through provocative exhibitions. In 1979, he was shot and killed in his gallery during what investigators believed was a robbery, a crime that was never definitively solved.",
+      "choices": [
+        "Robert Opel",
+        "Vaughn Bodé",
+        "David Best",
+        "Jerry Rubin"
+      ],
+      "hint": "The correct answer is not the comic artist known for fantasy illustrations, nor the political activist famous for Yippie protests.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Robert Opel",
+        "url": "https://en.wikipedia.org/wiki/Robert_Opel"
+      },
+      "explanation": "Robert Opel was the man who famously streaked across the stage during the 1974 Academy Awards ceremony. He later ran an art gallery in San Francisco and was murdered there in 1979 in an unsolved case."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "This 1950s historical epic starred a famous leading man in the role of a legendary foreign conqueror, a casting choice that drew criticism and is still considered one of the most unusual performances of his career. The production was filmed on location in a remote, rugged landscape far from the story's original setting. Years later, the film became notorious not for its content but for a startling health statistic: an unusually large number of its cast and crew were later diagnosed with cancer, something many have linked to the filming location's proximity to a site previously used for nuclear weapons testing.",
+      "choices": [
+        "The Conqueror (1956 film)",
+        "Ben-Hur (1959 film)",
+        "The Vikings (1958 film)",
+        "El Cid (1961 film)"
+      ],
+      "hint": "The lead actor in the correct film was known mainly for American Westerns, unlike the leading men in two of the other options, who were more closely associated with historical and biblical epics.",
+      "answerIndex": 0,
+      "article": {
+        "title": "The Conqueror (1956 film)",
+        "url": "https://en.wikipedia.org/wiki/The_Conqueror_(1956_film)"
+      },
+      "explanation": "The article describes The Conqueror (1956), in which John Wayne controversially played Genghis Khan. It was filmed near St. George, Utah, downwind from a nuclear test site, and an unusually high number of the cast and crew later developed cancer."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a quirky, graffiti-covered lamppost standing in the middle of a large open park in a university town. Locals and students have long used it as an informal meeting point, and it has acquired a symbolic nickname suggesting it marks the boundary between campus life and the outside world. Over the years it has become a minor cultural landmark, referenced in student folklore and occasionally repainted or decorated by pranksters.",
+      "answer": "Europe",
+      "hint": "The town in question is not located in Africa, South America, or Oceania.",
+      "article": {
+        "title": "Reality Checkpoint",
+        "url": "https://en.wikipedia.org/wiki/Reality_Checkpoint"
+      },
+      "explanation": "Reality Checkpoint is a lamppost on Parker's Piece in Cambridge, England, a well-known local landmark among students."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis 19th century scientist is remembered for an unusual experiment in which he arranged for a group of musicians to play a sustained note on a moving train while other musicians with trained ears listened from a stationary platform, in order to test a recently proposed theory about how sound pitch changes depending on the relative motion of a source and an observer. The experiment helped confirm the theory. Later in his career, this same person became far better known in another scientific field entirely, formulating a principle that connects the direction of large-scale atmospheric motion to patterns of air pressure. He also spent much of his career teaching and conducting research at a European university.",
+      "choices": [
+        "Christian Doppler",
+        "Léon Foucault",
+        "C. H. D. Buys Ballot",
+        "Adolphe Quetelet"
+      ],
+      "hint": "The scientist in question was Dutch, not French or Belgian.",
+      "answerIndex": 2,
+      "article": {
+        "title": "C. H. D. Buys Ballot",
+        "url": "https://en.wikipedia.org/wiki/C._H._D._Buys_Ballot"
+      },
+      "explanation": "The article describes C. H. D. Buys Ballot, a Dutch scientist who famously tested the Doppler effect in 1845 using a locomotive carrying trumpet players, and who later became renowned for Buys Ballot's law relating wind direction to atmospheric pressure."
+    },
+    {
+      "id": "q7",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a floating artificial landmass built almost entirely out of thousands of discarded plastic bottles, bound together with netting and sand to support mangroves, soil, and small structures. The project was the creation of a single eccentric artist who wanted to raise awareness about ocean plastic waste, and the structure was later rebuilt after storm damage destroyed an earlier version.",
+      "answer": "North America",
+      "hint": "It is not in Africa, not in Antarctica, and not in Europe.",
+      "article": {
+        "title": "Spiral Island",
+        "url": "https://en.wikipedia.org/wiki/Spiral_Island"
+      },
+      "explanation": "Spiral Island is an artificial island made of plastic bottles created by artist Richart Sowa near Isla Mujeres and later Puerto Aventuras, Mexico, which is in North America."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "An article that could be summarized as 'Here kids, watch these YouTube videos with Elsa and Spider-Man, I'm sure nothing inappropriate will be on them…' gets its name from a suffix that originally referred to a major U.S. political scandal. Which scandal is that?",
+      "choices": [
+        "Iran-Contra affair",
+        "Teapot Dome scandal",
+        "Watergate scandal",
+        "Lewinsky scandal"
+      ],
+      "hint": "This scandal did not involve an affair with a White House intern or secret oil lease deals.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Elsagate",
+        "url": "https://en.wikipedia.org/wiki/Elsagate"
+      },
+      "explanation": "The term 'Elsagate' combines the character name Elsa with the suffix '-gate,' which traces back to the Watergate scandal of the 1970s and has since become a common way to label controversies."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn quantum field theory, this term refers to a class of fields or states that do not correspond to physically observable particles. They often carry a negative norm or violate the usual connection between spin and statistics, and they appear mathematically in order to keep certain theories consistent, especially when quantizing gauge theories. Although they are not directly detectable, their effects can show up indirectly in calculations such as loop diagrams, helping to cancel out unphysical contributions and preserve properties like unitarity. The concept also arises in discussions of higher derivative theories and certain regularization schemes used to tame infinities in particle physics.",
+      "choices": [
+        "Soliton",
+        "Instanton",
+        "Ghost (physics)",
+        "Tachyon"
+      ],
+      "hint": "The correct answer is not a solution to classical field equations representing a stable, localized wave packet, and it is not a hypothetical particle that would travel faster than light.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Ghost (physics)",
+        "url": "https://en.wikipedia.org/wiki/Ghost_(physics)"
+      },
+      "explanation": "The article describes 'ghosts' in physics, unphysical fields or states with negative norm or wrong spin-statistics that appear in the quantization of gauge theories and other contexts, helping maintain mathematical consistency such as unitarity despite not being directly observable."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This is a single living organism that is recognized as the largest known specimen of its species in the world. Due to a genetic mutation, its branches grow outward instead of upward, and wherever they touch the ground they take root and sprout new trunks, allowing the organism to spread continuously over a massive area (reportedly covering more than 8,000 square meters). It has become a notable tourist attraction and is often cited in record-keeping publications for its extraordinary size.",
+      "choices": [
+        "The Cashew of Pirangi",
+        "The Angel Oak Tree",
+        "General Sherman Tree",
+        "The Great Banyan Tree"
+      ],
+      "hint": "The answer is not a sequoia in North America, and it is not a banyan tree located in India.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Cashew of Pirangi",
+        "url": "https://en.wikipedia.org/wiki/Cashew_of_Pirangi"
+      },
+      "explanation": "The Cashew of Pirangi, located near Natal, Brazil, is considered the largest cashew tree in the world. A genetic mutation causes its branches to spread horizontally and root wherever they touch the soil, allowing it to cover an enormous area and become a popular tourist destination."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
