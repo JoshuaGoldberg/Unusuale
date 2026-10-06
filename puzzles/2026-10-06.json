@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-06",
+  "title": "Puzzle No. 41",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 3.9,
+      "description": "Add a 3.9x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 3.6,
+      "description": "Add a 3.6x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card3",
+      "gain": 350,
+      "loss": 1100,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 350 additional points on a correct answer but lose 1100 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an elaborate, tongue-in-cheek invented name that originated in an 18th-century burlesque stage work featuring a comically pompous, overblown character. The term later took on a life of its own in British English, being used humorously as a stand-in for an unnamed or overly self-important official, especially in journalistic and satirical writing. Over time it became something of a linguistic curiosity, noted for its extreme length and absurd, tongue-twisting sound, and it even appears occasionally as an example of a very long English word.",
+      "choices": [
+        "Blanderonpuffington",
+        "Aldiborontiphoskyphorniostikos",
+        "Quibblemoresteinvale",
+        "Wibbleswickingtonshire"
+      ],
+      "hint": "The correct term ends in a distinctive Greek-sounding suffix and is not based on English place-name elements like 'shire' or 'vale', which rules out two of the choices.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Aldiborontiphoskyphorniostikos",
+        "url": "https://en.wikipedia.org/wiki/Aldiborontiphoskyphorniostikos"
+      },
+      "explanation": "Aldiborontiphoskyphorniostikos is a deliberately absurd, extended version of a nonsense name originally from Henry Carey's 1734 burlesque play 'Chrononhotonthologos.' It became a humorous way to refer to a pompous or self-important person and is noted as an unusually long invented English word."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of these is a real Wikipedia article describing a typographic technique where ordinary letters are reshaped to evoke a different, non-Latin writing system?",
+      "choices": [
+        "Mock Kanji Lettering",
+        "Faux Cyrillic",
+        "Faux Greek Typeface",
+        "Pseudo-Arabic Script"
+      ],
+      "answerIndex": 1,
+      "hint": "The real article isn't about Chinese characters or Greek letters, it's about a different alphabet entirely.",
+      "article": {
+        "title": "Faux Cyrillic",
+        "url": "https://en.wikipedia.org/wiki/Faux_Cyrillic"
+      },
+      "explanation": "Faux Cyrillic is the practice of using Cyrillic-like letters in Latin text to give it a Russian or Soviet aesthetic."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "A mysterious book found in Hungary that to this day remains unsolved has long been suspected of being the work of a notorious forger of historical documents. Who is this suspected creator?",
+      "choices": [
+        "Konstantin Simonides",
+        "Thomas Chatterton",
+        "Sámuel Literáti Nemes",
+        "Charles Dawson"
+      ],
+      "hint": "The suspect was Hungarian, not English, and was never linked to a famous archaeological hoax involving bones.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Rohonc Codex",
+        "url": "https://en.wikipedia.org/wiki/Rohonc_Codex"
+      },
+      "explanation": "Some researchers believe the Rohonc Codex may have been forged by Sámuel Literáti Nemes, a 19th-century Hungarian antiquarian known for creating and selling fake manuscripts."
+    },
+    {
+      "id": "q4",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a small indigenous town that, in 2011, rose up against illegal logging operations and organized crime groups that were devastating its surrounding forests. Residents expelled local police and political parties, set up armed community patrols, and established a self-governing council based on traditional customary law. The community continues to manage its own security, justice system, and local elections without conventional political parties, and it has become a notable example of grassroots self-determination and forest conservation led by an indigenous population.",
+      "answer": "North America",
+      "hint": "This location is not in Africa, Asia, or Oceania.",
+      "article": {
+        "title": "Cherán",
+        "url": "https://en.wikipedia.org/wiki/Cher%C3%A1n"
+      },
+      "explanation": "Cherán is a town in the state of Michoacán, Mexico, inhabited mainly by the Purépecha indigenous people. In 2011, residents rose up against illegal logging and crime, expelling officials and establishing self-government, located in North America."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "A term for a certain Russian official's quirky, often confusing verbal slips suggests that Russia can do Bushisms too - who was this former Prime Minister known for such gaffes?",
+      "choices": [
+        "Mikhail Fradkov",
+        "Sergei Kiriyenko",
+        "Viktor Chernomyrdin",
+        "Yevgeny Primakov"
+      ],
+      "hint": "The correct answer served as Prime Minister for more than five years, unlike two of the other choices who held the post for only a matter of months.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Chernomyrdinka",
+        "url": "https://en.wikipedia.org/wiki/Chernomyrdinka"
+      },
+      "explanation": "Chernomyrdinka refers to the distinctive verbal gaffes and malapropisms of Viktor Chernomyrdin, Russia's Prime Minister from 1992 to 1998, similar to how 'Bushisms' describes George W. Bush's verbal slips."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "A rare condition, often described as having a microbrewery in your digestive system, causes the body to produce its own alcohol internally through fermentation of carbohydrates. Which organism is most commonly responsible for this process?",
+      "choices": [
+        "Escherichia coli",
+        "Lactobacillus acidophilus",
+        "Saccharomyces cerevisiae",
+        "Candida albicans"
+      ],
+      "hint": "The two incorrect choices to eliminate are types of bacteria, not fungi or yeast, so they wouldn't typically cause alcoholic fermentation.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Auto-brewery syndrome",
+        "url": "https://en.wikipedia.org/wiki/Auto-brewery_syndrome"
+      },
+      "explanation": "Auto-brewery syndrome is most commonly caused by an overgrowth of Saccharomyces cerevisiae, the same yeast used in brewing and baking, which ferments sugars in the gut into ethanol."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article describes a common online phenomenon in which a person begins reading an entry on a collaborative, user edited encyclopedia and then follows a chain of internal links from topic to topic, often ending up far from where they started and losing track of time in the process. It touches on the psychological pull of curiosity driven browsing, related internet games built around linking distant topics, and how this behavior has been discussed in media and research on online reading habits.",
+      "choices": [
+        "A pattern of browsing a reference website by clicking from one linked page to the next",
+        "A debate format practiced by competitive student teams",
+        "A technique for memorizing long sequences of numbers",
+        "A subculture centered on collecting vintage maps"
+      ],
+      "hint": "The correct answer is not about memorizing long sequences of numbers or collecting vintage maps.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Wiki rabbit hole",
+        "url": "https://en.wikipedia.org/wiki/Wiki_rabbit_hole"
+      },
+      "explanation": "The article describes the 'wiki rabbit hole,' the experience of clicking through a chain of linked Wikipedia articles out of curiosity, often leading far from the original topic and consuming significant time."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "In this SNL sketch, a fictional music producer played by Christopher Walken interrupts a recording session and declares, \"I got a fever, and the only prescription... is more cowbell!\" Which real rock song was the band supposedly recording at the time?",
+      "choices": [
+        "Godzilla",
+        "Burnin' for You",
+        "(Don't Fear) The Reaper",
+        "Cities on Flame"
+      ],
+      "hint": "It's not 'Godzilla' or 'Cities on Flame', both of which are other well known songs by the same band but not the one featured in this sketch.",
+      "answerIndex": 2,
+      "article": {
+        "title": "More Cowbell",
+        "url": "https://en.wikipedia.org/wiki/More_Cowbell"
+      },
+      "explanation": "The sketch depicts a fictionalized recording session for Blue Öyster Cult's 1976 hit \"(Don't Fear) The Reaper,\" with Walken's producer character demanding more cowbell from Will Ferrell's percussionist."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article examines a classical language's vocabulary for crude and taboo terms, including words for bodily functions, sexual acts, and insults used by ordinary people and even found in graffiti and literary works from an ancient civilization. It discusses how certain terms were considered more offensive than others, and how some of this vocabulary has influenced modern languages.",
+      "choices": [
+        "A study of profane vocabulary in ancient Rome",
+        "A catalog of ancient Roman culinary terms",
+        "An overview of ancient Roman legal terminology",
+        "A guide to ancient Roman military ranks"
+      ],
+      "hint": "The correct answer is not about food or army structure; it focuses on language considered impolite or taboo rather than official systems.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Latin obscenity",
+        "url": "https://en.wikipedia.org/wiki/Latin_obscenity"
+      },
+      "explanation": "The article is about Latin obscenity, which explores the vocabulary of crude, vulgar, and taboo language used in ancient Rome, including terms found in graffiti, literature, and everyday speech."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This Wikipedia article explains that engineers added artificial background noise during digital calls because, as the article notes, sometimes silence can be too quiet and makes callers think the line went dead. Which internet standards document formally defines this noise for use in real-time audio streaming?",
+      "choices": [
+        "RFC 1035",
+        "RFC 3389",
+        "RFC 791",
+        "RFC 2616"
+      ],
+      "hint": "One option defines how domain names are resolved (DNS), and another defines the core rules of web page transfers (HTTP), neither related to audio streaming.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Comfort noise",
+        "url": "https://en.wikipedia.org/wiki/Comfort_noise"
+      },
+      "explanation": "RFC 3389 defines the Comfort Noise (CN) payload format for RTP, specifying how synthetic background noise is generated to fill silent gaps during calls, preventing the unsettling effect of total silence."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
