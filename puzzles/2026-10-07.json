@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-07",
+  "title": "Puzzle No. 42",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 350,
+      "loss": 450,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 350 additional points on a correct answer but lose 450 on an incorrect one."
+    },
+    {
+      "id": "card4",
+      "gain": 600,
+      "loss": 1000,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 600 additional points on a correct answer but lose 1000 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "During a marketing battle between Coca-Cola and Pepsi, one company dramatically reformulated its flagship soft drink in 1985, then reversed the decision within three months due to intense public backlash. What was this short-lived reformulated product called?",
+      "choices": [
+        "Pepsi Free",
+        "Coca-Cola Classic",
+        "New Coke",
+        "Crystal Pepsi"
+      ],
+      "hint": "It wasn't Crystal Pepsi or Pepsi Free, those were separate product launches from the same era.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Cola wars",
+        "url": "https://en.wikipedia.org/wiki/Cola_wars"
+      },
+      "explanation": "In 1985, Coca-Cola replaced its original formula with a sweeter version called 'New Coke.' Public outrage was so strong that the company brought back the original formula within three months, rebranding it as 'Coca-Cola Classic.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real account of a man who attempted to crucify himself with nails and a makeshift cross as an act of religious devotion, surviving for several weeks afterward before ultimately dying from his injuries?",
+      "choices": [
+        "Self-crucifixion of Paolo Bianchi",
+        "Self-crucifixion of Antonio Marchetti",
+        "Self-crucifixion of Mattio Lovat",
+        "Self-crucifixion of Giovanni Rossi"
+      ],
+      "answerIndex": 2,
+      "hint": "The real event took place in Italy in the early 1800s, which rules out the accounts set in France and Spain during other eras.",
+      "article": {
+        "title": "Self-crucifixion of Mattio Lovat",
+        "url": "https://en.wikipedia.org/wiki/Self-crucifixion_of_Mattio_Lovat"
+      },
+      "explanation": "An Italian shoemaker named Mattio Lovat nailed himself to a cross in 1805 and suspended himself from his window in an act of religious devotion. He survived the fall and lived for several weeks before dying from his injuries."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "An archaeological find from a northern Russian city included schoolwork and doodles by a boy of about seven, preserved in mud for roughly 700 years before excavation. In one of his sketches, what kind of creature did he draw himself as?",
+      "choices": [
+        "A dragon",
+        "A wild beast",
+        "A wolf",
+        "A bear"
+      ],
+      "hint": "It's not a mythical creature, and it's not the animal often associated with howling at the moon.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Onfim",
+        "url": "https://en.wikipedia.org/wiki/Onfim"
+      },
+      "explanation": "Onfim, a young boy from the Novgorod Republic, drew himself as a 'wild beast' in one of his birch bark doodles, which were preserved for centuries before being excavated."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "A famous harpsichord piece was allegedly inspired by the sounds a composer's cat made while walking along the instrument's keyboard. Which composer is traditionally credited with writing this piece?",
+      "choices": [
+        "Wolfgang Amadeus Mozart",
+        "Joseph Haydn",
+        "Domenico Scarlatti",
+        "Johann Sebastian Bach"
+      ],
+      "hint": "It was not Mozart or Bach, both of whom lived in German-speaking lands and are not linked to this particular legend.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Cat Fugue",
+        "url": "https://en.wikipedia.org/wiki/Cat_fugue"
+      },
+      "explanation": "The piece, often called the 'Cat's Fugue,' is attributed to Italian composer Domenico Scarlatti, with legend claiming his cat inspired the melody by walking across the harpsichord keys."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "A Dutch politician spent decades in his country's Senate before taking a top leadership role at an international organization based in Strasbourg, France. Which organization did he come to lead?",
+      "choices": [
+        "NATO",
+        "United Nations",
+        "Council of Europe",
+        "European Union"
+      ],
+      "hint": "It's not a military alliance, and it's not the UN.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Tiny Kox",
+        "url": "https://en.wikipedia.org/wiki/Tiny_Kox"
+      },
+      "explanation": "Tiny Kox, a Dutch politician long associated with the Socialist Party and the Dutch Senate, became President of the Parliamentary Assembly of the Council of Europe, an international organization headquartered in Strasbourg."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "In 1823, Costa Rica fought a civil war to decide whether to join a neighboring empire, unaware that the empire had already collapsed days before. Which city's victory in this conflict led to it becoming the new capital, replacing the old colonial seat of power?",
+      "choices": [
+        "Heredia",
+        "San José",
+        "Alajuela",
+        "Cartago"
+      ],
+      "hint": "It was not Heredia or Alajuela, both of which were allied with one of the two main factions but did not become the capital.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Ochomogo War",
+        "url": "https://en.wikipedia.org/wiki/Ochomogo_War"
+      },
+      "explanation": "San José's faction won the brief conflict at Ochomogo Hill, and as a result San José replaced Cartago as the capital of Costa Rica."
+    },
+    {
+      "id": "q7",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis small museum houses an extensive collection of fossilized animal droppings, including one specimen recognized as the largest of its kind ever found. The collection draws curious visitors and has been featured in various media for its quirky, one-of-a-kind exhibits dedicated entirely to prehistoric waste.",
+      "answer": "North America",
+      "hint": "The continent is not Africa, Asia, or Antarctica.",
+      "article": {
+        "title": "Poozeum",
+        "url": "https://en.wikipedia.org/wiki/Poozeum"
+      },
+      "explanation": "Poozeum is a museum dedicated to coprolites (fossilized feces) located in Williams, Arizona, United States, and holds a Guinness World Record for the largest coprolite."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real article about a world leader's animal companion who was said to have shared a mystical past life with the leader and now has a role in political guidance?",
+      "choices": [
+        "Nimbus (Narendra Modi's cat)",
+        "Baxter (Justin Trudeau's parrot)",
+        "Conan (Javier Milei's dog)",
+        "Luna (Angela Merkel's rabbit)"
+      ],
+      "answerIndex": 2,
+      "hint": "This pet was not a bird, and it was not a small caged animal either, so you can rule out the parrot and the rabbit.",
+      "article": {
+        "title": "Conan (Javier Milei's dog)",
+        "url": "https://en.wikipedia.org/wiki/Conan_(Javier_Milei%27s_dog)"
+      },
+      "explanation": "Conan was Javier Milei's beloved dog, cloned after his death to produce puppies who now act as his political advisors, and Milei has claimed that he and Conan were linked in a past life as a Roman gladiator and the lion he faced."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "A certain anatomical relic, allegedly removed from a famous historical leader after his death and later displayed at a museum in Manhattan, was described in a 1927 magazine article as resembling what?",
+      "choices": [
+        "a dried fig",
+        "a small mushroom",
+        "a shriveled eel",
+        "a leather shoelace"
+      ],
+      "hint": "It's not a fruit or a fungus mentioned in the article's description.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Napoleon's penis",
+        "url": "https://en.wikipedia.org/wiki/Napoleon%27s_penis"
+      },
+      "explanation": "A 1927 article described the relic as resembling 'a shriveled eel' when it went on display at a museum in Manhattan."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
