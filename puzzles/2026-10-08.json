@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-08",
+  "title": "Puzzle No. 43",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.2,
+      "description": "Add a 2.2x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "gain": 600,
+      "loss": 450,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 600 additional points on a correct answer but lose 450 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Some ancient cultures built entire religious practices around a single body part, believing it brought fertility and protection. Which of the following is a real historical religion centered on this kind of worship?",
+      "choices": [
+        "Shrine of Fascinus",
+        "Cult of the Sacred Mentula",
+        "Temple of Priapus",
+        "Temple of the Ithyphallic God"
+      ],
+      "answerIndex": 2,
+      "hint": "The real example traces back to Greek mythology, so you can rule out the one tied to Roman protective amulets and the one with an invented Latin name.",
+      "article": {
+        "title": "Temple of Priapus",
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Priapus"
+      },
+      "explanation": "The Temple of Priapus refers to a religious tradition centered on the worship of the phallus, honoring the Greek fertility god Priapus."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "In a 1943 wartime propaganda short that won an Academy Award for Best Animated Short Film, which Disney character was depicted as a Nazi factory worker giving a salute to Hitler?",
+      "choices": [
+        "Mickey Mouse",
+        "Goofy",
+        "Donald Duck",
+        "Pluto"
+      ],
+      "hint": "It's not Pluto or Goofy, both of whom are Disney's dog characters.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Der Fuehrer's Face",
+        "url": "https://en.wikipedia.org/wiki/Der_Fuehrer%27s_Face"
+      },
+      "explanation": "Donald Duck starred in the 1943 Disney cartoon, which won the Academy Award for Best Animated Short Film despite showing him as a Nazi worker forced to salute Hitler."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "This composer has been described as perhaps the most heard musician on the whole internet thanks to his free-to-use tracks, which he distributes through a website operating under what name?",
+      "choices": [
+        "Incompetech",
+        "SoundBible",
+        "AudioJungle",
+        "FreeMusicArchive"
+      ],
+      "hint": "It is not a site primarily known for sound effects, nor one that focuses on paid stock audio licensing.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Kevin MacLeod",
+        "url": "https://en.wikipedia.org/wiki/Kevin_MacLeod"
+      },
+      "explanation": "Kevin MacLeod distributes his royalty-free music through his website, Incompetech, making him one of the most widely heard musicians online."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "A controversial 2002 video game mixing strippers with BMX cycling had its content altered for North American release to satisfy which rating board?",
+      "choices": [
+        "PEGI",
+        "BBFC",
+        "ESRB",
+        "CERO"
+      ],
+      "hint": "It's not based in the UK or Japan.",
+      "answerIndex": 2,
+      "article": {
+        "title": "BMX XXX",
+        "url": "https://en.wikipedia.org/wiki/BMX_XXX"
+      },
+      "explanation": "BMX XXX had its nudity and content toned down for its North American release to avoid an Adults Only rating from the ESRB."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual sports article about a fan whose actions during a postseason game were blamed for his team's collapse, eerily mirroring another famous fan interference play but with the opposite outcome, and extending a long standing championship curse?",
+      "choices": [
+        "The Riverfront Fan Interference",
+        "The Comiskey Park Catch incident",
+        "Steve Bartman incident",
+        "The Fenway Park Fan Mishap"
+      ],
+      "answerIndex": 2,
+      "hint": "The real incident did not happen in Cincinnati or Boston, so you can rule out the Riverfront and Fenway Park stories.",
+      "article": {
+        "title": "Steve Bartman incident",
+        "url": "https://en.wikipedia.org/wiki/Steve_Bartman_incident"
+      },
+      "explanation": "During Game 6 of the 2003 NLCS, Cubs fan Steve Bartman reached for a foul ball and interfered with outfielder Moises Alou, an act widely blamed for the team's collapse and the continuation of the Curse of the Billy Goat."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The equation '2 + 2 = 5' is often associated with a dystopian novel in which the ruling party forces citizens to accept the statement as true as a means of psychological control. Which novel is this concept most famously tied to?",
+      "choices": [
+        "Brave New World",
+        "1984",
+        "Fahrenheit 451",
+        "The Handmaid's Tale"
+      ],
+      "hint": "It's not the one about a burning temperature or the one set in a reproductive dystopia.",
+      "answerIndex": 1,
+      "article": {
+        "title": "2 + 2 = 5",
+        "url": "https://en.wikipedia.org/wiki/2_%2B_2_%3D_5"
+      },
+      "explanation": "The phrase '2 + 2 = 5' is widely associated with George Orwell's novel '1984,' where it symbolizes the Party's ability to impose a false reality through psychological control."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a short comic vocal duet in which the entire text consists of a single repeated syllable meant to imitate the sound made by a particular animal. It is often performed by two singers in a playful, theatrical manner during classical concerts and recitals. For many years the piece was popularly credited to a famous 19th century composer, though scholars now believe it was actually arranged by a different musician using melodic material from an earlier opera. Despite its simplicity, it has become a beloved novelty item in the vocal repertoire and is frequently performed as an encore.",
+      "choices": [
+        "Serenata di due cani",
+        "Coro delle rane",
+        "Duetto buffo di due gatti",
+        "Canto degli uccelli"
+      ],
+      "hint": "The animals involved are not canines or amphibians, but creatures you might commonly encounter around a house or yard.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Duetto buffo di due gatti",
+        "url": "https://en.wikipedia.org/wiki/Duetto_buffo_di_due_gatti"
+      },
+      "explanation": "The 'Duetto buffo di due gatti' ('Humorous duet of two cats') is a comic vocal duet whose lyrics consist entirely of the word 'meow,' imitating cats. Though long attributed to Gioachino Rossini, it was likely compiled by Danish composer Robert Lucas de Pearsall using themes from an opera. It remains a popular novelty encore piece for singers."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis Wikipedia article covers a man known mainly for legally changing his surname to an unusual, attention-grabbing word reflecting a personal interest. The change attracted media coverage as an example of an eccentric legal name change, and the article discusses the motivations behind the choice as well as public reaction to it.",
+      "choices": [
+        "Henry Lizardlover",
+        "Gary Dragonrider",
+        "Michael Wolfwhisperer",
+        "Thomas Birdwatcher"
+      ],
+      "hint": "The man's new surname was not related to birds or wolves; it had to do with a creature often linked to reptiles or mythical beasts.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Henry Lizardlover",
+        "url": "https://en.wikipedia.org/wiki/Henry_Lizardlover"
+      },
+      "explanation": "The article is about a man who legally changed his name to 'Henry Lizardlover,' reflecting his fondness for lizards, which drew media attention as a notable example of an unusual legal name change."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real former major league baseball player who, despite standing just over three and a half feet tall and weighing about 65 pounds, finished his career with a perfect on-base percentage of 1.000?",
+      "choices": [
+        "Tommy Loomis",
+        "Walter Higbee",
+        "Eddie Gaedel",
+        "Frankie Dall"
+      ],
+      "answerIndex": 2,
+      "hint": "The real player's last name does not start with L or D, narrowing it down to two possibilities.",
+      "article": {
+        "title": "Eddie Gaedel",
+        "url": "https://en.wikipedia.org/wiki/Eddie_Gaedel"
+      },
+      "explanation": "Eddie Gaedel was a little person who, as a publicity stunt by the St. Louis Browns in 1951, had a single at-bat in which he drew a walk, giving him a career on-base percentage of 1.000."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "A Wikipedia article titled 'Not a Typewriter' describes a legal dispute over how to classify a certain office device for import purposes, after officials decided it technically wasn't a typewriter, prompting someone to ask 'Well, what is it, then?' What kind of device sparked this classification debate?",
+      "choices": [
+        "Dictation machine",
+        "Adding machine",
+        "Word processor",
+        "Computer terminal"
+      ],
+      "hint": "It wasn't a machine used purely for dictation or arithmetic calculations.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Not a typewriter",
+        "url": "https://en.wikipedia.org/wiki/Not_a_typewriter"
+      },
+      "explanation": "The article concerns a dispute over whether an early word processor should be legally classified as a typewriter, with officials ultimately deciding it wasn't, leading to the puzzled question of what it actually was."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
