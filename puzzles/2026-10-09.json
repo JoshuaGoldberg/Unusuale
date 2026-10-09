@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-09",
+  "title": "Puzzle No. 44",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 1.7,
+      "description": "Add a 1.7x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a two-letter internet domain suffix originally assigned to a small British overseas territory in the Indian Ocean. Despite its obscure geographic origin, it became widely popular with technology startups and software developers, partly because the letters evoke a common computing term. It also lent its name to a genre of simple, browser-based multiplayer games that became popular in the mid-2010s.",
+      "choices": [
+        ".tv",
+        ".io",
+        ".co",
+        ".me"
+      ],
+      "hint": "It is not the suffix associated with television broadcasting, nor the one commonly used as a shorthand for 'company'.",
+      "answerIndex": 1,
+      "article": {
+        "title": ".io",
+        "url": "https://en.wikipedia.org/wiki/.io"
+      },
+      "explanation": "The article describes '.io', the country code top-level domain for the British Indian Ocean Territory, which became popular with tech startups due to its resemblance to the term 'input/output' and is also used in the names of many browser-based multiplayer games."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a remote lighthouse built in the late 19th century on a small, rocky island group. The site is famous for an enduring mystery: in 1900, the three keepers stationed there vanished without a trace, leaving behind an unfinished log and no clear explanation for their disappearance. The lighthouse continued to operate for decades afterward, eventually becoming automated, and the island remains uninhabited except for occasional maintenance visits.",
+      "answer": "Europe",
+      "hint": "This location is not in Africa, not in South America, and not in Antarctica.",
+      "article": {
+        "title": "Flannan Isles Lighthouse",
+        "url": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+      },
+      "explanation": "The Flannan Isles Lighthouse is located on Eilean Mòr in the Flannan Isles, off the west coast of Scotland, which is part of Europe."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn the late 9th century, the decomposed body of a former religious leader was dug up months after burial, dressed in official robes, and propped upright on a throne to face a formal tribunal. A junior clergyman was appointed to answer questions on the corpse's behalf during the proceedings. The corpse was declared guilty, stripped of its vestments, mutilated, and cast into a river. The spectacle shocked many who heard of it and fueled further instability within the institution for years afterward.",
+      "choices": [
+        "A medieval trial of an animal accused of harming a child",
+        "A public excommunication ceremony performed on an empty throne",
+        "A posthumous ecclesiastical trial held against the remains of a former pope",
+        "A reenactment of a biblical judgment using a wax effigy of a monarch"
+      ],
+      "hint": "The event did not involve an animal defendant, and no empty throne was used; a real body was physically present and dressed for the occasion.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Cadaver Synod",
+        "url": "https://en.wikipedia.org/wiki/Cadaver_Synod"
+      },
+      "explanation": "The Cadaver Synod was the posthumous trial of Pope Formosus, held in January 897 by his successor Pope Stephen VI. Formosus's exhumed corpse was dressed in papal vestments and propped on a throne, with a deacon answering charges on its behalf. Found guilty, the corpse was stripped, mutilated, and thrown into the Tiber River, an act that scandalized contemporaries and worsened political chaos in Rome."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "That's not a giant robot looming in Bangkok; it's actually the headquarters of what type of institution, designed by architect Sumet Jumsai in the 1980s?",
+      "choices": [
+        "Telecommunications company",
+        "Insurance company",
+        "Bank",
+        "Television broadcaster"
+      ],
+      "hint": "It is not a media company, and it does not provide telecommunications services.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Robot Building",
+        "url": "https://en.wikipedia.org/wiki/Robot_Building"
+      },
+      "explanation": "The Robot Building in Bangkok was designed as the headquarters for the Bank of Asia (now United Overseas Bank) and is famous for its robot-like appearance, including bolts and antennae resembling eyes."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "In a dispute over a lucrative NASA contract, two companies got into a brat fight and sued NASA in the process, with the losing bidder taking the case to federal court. Which company actually ended up winning the contested contract?",
+      "choices": [
+        "Northrop Grumman",
+        "SpaceX",
+        "Dynetics",
+        "Boeing"
+      ],
+      "hint": "It wasn't Boeing or Northrop Grumman, both of which were part of other teams but didn't win the final award.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Blue Origin Federation, LLC v. United States",
+        "url": "https://en.wikipedia.org/wiki/Blue_Origin_Federation,_LLC_v._United_States"
+      },
+      "explanation": "NASA awarded its Human Landing System contract solely to SpaceX, prompting Blue Origin (and Dynetics) to protest and eventually sue, but the courts upheld NASA's decision."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of these is a real, documented example of an unusual formula studied in recreational mathematics?",
+      "choices": [
+        "Conway's self-replicating sequence",
+        "Tupper's self-referential formula",
+        "Mandelbrot's infinite boundary paradox",
+        "Gödel's recursive identity equation"
+      ],
+      "answerIndex": 1,
+      "hint": "It's not named after Conway or Gödel, both known for other famous mathematical contributions unrelated to this particular graphing trick.",
+      "article": {
+        "title": "Tupper's self-referential formula",
+        "url": "https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula"
+      },
+      "explanation": "It is a mathematical formula that, when plotted within a specific region, visually renders an image of the formula itself."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "In a novel where a virus makes all animal meat deadly and humanity responds by legalizing cannibalism and farming people instead of livestock, what does the book's original Spanish title literally translate to in English?",
+      "choices": [
+        "Human Harvest",
+        "Exquisite Corpse",
+        "Flesh and Bone",
+        "Tender Meat"
+      ],
+      "hint": "It's not a phrase about farming processes or body anatomy; the real term has nothing to do with raising or butchering anything.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Tender Is the Flesh",
+        "url": "https://en.wikipedia.org/wiki/Tender_Is_the_Flesh"
+      },
+      "explanation": "The novel was originally published in Spanish as 'Cadáver Exquisito,' which translates to 'Exquisite Corpse,' a reference to the surrealist collaborative drawing game."
+    },
+    {
+      "id": "q8",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a roadside shrine built around a motorcycle that crashed decades ago. According to local legend, the vehicle kept returning to the crash site even after being impounded by police, leading residents to begin worshipping it as a protective spirit. Today the shrine attracts travelers who stop to pay respects and leave offerings, believing the site grants safe passage on the road.",
+      "answer": "Asia",
+      "hint": "This location is not in Africa, not in Europe, and not in North America.",
+      "article": {
+        "title": "Om Banna",
+        "url": "https://en.wikipedia.org/wiki/Om_Banna"
+      },
+      "explanation": "Om Banna is a shrine in Rajasthan, India, built around a motorcycle associated with a local legend, making the continent Asia."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "According to a famous summation result in mathematics, adding together all positive integers to infinity yields a negative fraction. What is that fraction?",
+      "choices": [
+        "-1/6",
+        "-1/24",
+        "-1/2",
+        "-1/12"
+      ],
+      "hint": "It's not -1/6 or -1/2.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Ramanujan summation",
+        "url": "https://en.wikipedia.org/wiki/Ramanujan_summation"
+      },
+      "explanation": "Ramanujan summation assigns the value -1/12 to the divergent series 1 + 2 + 3 + 4 + ... , a result that appears in analytic continuation of the Riemann zeta function."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual online mystery, tied to a famous rock band, that first appeared on an internet discussion forum in the mid 1990s and remains unsolved to this day?",
+      "choices": [
+        "Orpheus Cipher",
+        "Meridian Puzzle",
+        "Publius Enigma",
+        "The Keeper's Riddle"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct answer is not named after a figure from mythology, and it does not reference a geographic or navigational term.",
+      "article": {
+        "title": "Publius Enigma",
+        "url": "https://en.wikipedia.org/wiki/Publius_Enigma"
+      },
+      "explanation": "The Publius Enigma is a mysterious puzzle connected to Pink Floyd that appeared on Usenet in 1994 and has never been conclusively solved."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
