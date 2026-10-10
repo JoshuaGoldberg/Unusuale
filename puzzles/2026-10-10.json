@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-10",
+  "title": "Puzzle No. 45",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.8,
+      "description": "Add a 2.8x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "gain": 300,
+      "loss": 200,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 300 additional points on a correct answer but lose 200 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a video game released in 2000 that was one of the first first-person shooters built around a religious theme. Set in ancient Rome, the player takes on the role of a new convert to a persecuted faith, navigating through catacombs and confronting Roman soldiers who have been possessed by demonic forces. Rather than killing enemies outright, the player's weapon causes these possessed foes to vanish in a flash of light, a design choice meant to avoid graphic violence while still following the conventions of the shooter genre. The game was developed by a small studio aiming to create entertainment that aligned with Christian values, and it sparked discussion at the time about whether violent game mechanics could be reconciled with religious messaging.",
+      "choices": [
+        "Catechumen",
+        "Left Behind: Eternal Forces",
+        "Bible Adventures",
+        "Ominous Horizons: A Paladin's Calling"
+      ],
+      "hint": "The correct answer is not the game based on an apocalyptic novel series, and it is not the one featuring simple platforming with biblical figures like Noah or Moses.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Catechumen (video game)",
+        "url": "https://en.wikipedia.org/wiki/Catechumen_(video_game)"
+      },
+      "explanation": "The article describes Catechumen, a 2000 first-person shooter set in ancient Rome where players fight demon-possessed Roman soldiers without graphic violence, aiming to deliver a Christian message through the shooter genre."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "One classic sweet treat is famous worldwide for having an unusually large number of racist nicknames in different countries. Which of these confections is it?",
+      "choices": [
+        "Peppermint creams",
+        "Caramel popcorn balls",
+        "Chocolate-coated marshmallow treats",
+        "Fruit flavored gumdrops"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the hard mint candy, nor the chewy fruit flavored one.",
+      "article": {
+        "title": "Chocolate-coated marshmallow treats",
+        "url": "https://en.wikipedia.org/wiki/Chocolate-coated_marshmallow_treats"
+      },
+      "explanation": "Chocolate-coated marshmallow treats are a type of confection found worldwide under many different names, some of which are notably racist."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Imagine starting on a Wikipedia article about video cameras, then drifting into science fiction, then conspiracy theories, then politics, then modern history, then languages, then ancient history, then modern history again, then urban legends, and finally landing on a Wikipedia project page feeling completely disoriented. What is the real Wikipedia term for this kind of aimless link-hopping journey?",
+      "choices": [
+        "Clickstream drift",
+        "Hyperlink cascade",
+        "Wiki rabbit hole",
+        "Digital wormhole"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct term is not 'Hyperlink cascade' or 'Digital wormhole', those are invented names meant to sound technical; the real term is a casual two-word phrase often used informally by Wikipedia editors.",
+      "explanation": "A wiki rabbit hole describes the experience of clicking through a long, unpredictable chain of linked Wikipedia articles until you end up somewhere completely unrelated to where you started."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "A small island in Japan's Ehime Prefecture is famous for having a certain animal population that vastly outnumbers its human residents. What is the approximate ratio of that animal to humans on the island, according to one estimate?",
+      "choices": [
+        "15:1",
+        "50:1",
+        "36:1",
+        "6:1"
+      ],
+      "hint": "The ratio is higher than 15:1 but lower than 50:1.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Aoshima, Ehime",
+        "url": "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
+      },
+      "explanation": "Aoshima in Ehime Prefecture is known as a 'cat island,' where cats outnumber the human population by an estimated ratio of 36 to 1."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of these is a real historical dispute where public anger over an animal memorial grew so intense that officials had to station guards to protect it?",
+      "choices": [
+        "Bronze Lion affair",
+        "Brown Dog affair",
+        "Iron Horse affair",
+        "Marble Cat affair"
+      ],
+      "answerIndex": 1,
+      "hint": "The real scandal took place in the United Kingdom and stemmed from outrage over animal experimentation, not from a war memorial or a railway landmark.",
+      "article": {
+        "title": "Brown Dog affair",
+        "url": "https://en.wikipedia.org/wiki/Brown_Dog_affair"
+      },
+      "explanation": "The Brown Dog affair was an early 20th century political controversy in England over animal vivisection that became so heated the police had to guard a statue erected in memory of the dog."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "In this 2019 puzzle-stealth game where you can bother the inhabitants of an English village as a goose, the dynamic soundtrack was built from piano pieces by which composer?",
+      "choices": [
+        "Erik Satie",
+        "Camille Saint-Saëns",
+        "Claude Debussy",
+        "Maurice Ravel"
+      ],
+      "hint": "It's not Camille Saint-Saëns or Maurice Ravel, both better known for orchestral works than solo piano pieces.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Untitled Goose Game",
+        "url": "https://en.wikipedia.org/wiki/Untitled_Goose_Game"
+      },
+      "explanation": "The game's soundtrack dynamically rearranges piano pieces from Claude Debussy's suite, adjusting tempo and intensity based on the goose's actions."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a farmer who tried to corner the market on a common food item by buying up nearly all of its futures contracts, only for the scheme to end so badly that a new law was passed to stop it from happening again?",
+      "choices": [
+        "Walter Higby",
+        "Vincent Kosuga",
+        "Edgar Doss",
+        "Harold Pruitt"
+      ],
+      "answerIndex": 1,
+      "hint": "The real figure's scheme involved a vegetable, not a grain crop, which rules out Harold Pruitt and Walter Higby, who are both associated with wheat market stories.",
+      "article": {
+        "title": "Vincent Kosuga",
+        "url": "https://en.wikipedia.org/wiki/Vincent_Kosuga"
+      },
+      "explanation": "Vincent Kosuga was an onion farmer who attempted to corner the onion futures market, an act so disruptive it led to the creation of the Onion Futures Act banning onion futures trading in the United States."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "A songwriter known for releasing thousands of songs under at least seventy different pseudonyms, including playful group names like 'Papa Razzi and the Photogs' and 'The Hungry Food Band,' also performed under a bizarre alias describing a man who sings about certain bodily functions. What was this unusual pseudonym?",
+      "choices": [
+        "The Strange Fellow Who Sings About Snot, Spit and Sneezes",
+        "The Odd Man Who Sings About Poop, Puke and Pee",
+        "The Weird Guy Who Croons About Boogers, Burps and Farts",
+        "The Peculiar Man Who Warbles About Hiccups, Coughs and Wheezes"
+      ],
+      "hint": "It's not about sneezing or coughing, those aren't correct.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Matt Farley",
+        "url": "https://en.wikipedia.org/wiki/Matt_Farley"
+      },
+      "explanation": "Matt Farley used the pseudonym 'The Odd Man Who Sings About Poop, Puke and Pee' as one of his many musical aliases."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This 1973 record by a British comedy troupe used a special pressing technique so that one side's content was different each time it was played. How many sides could actually be played on this record?",
+      "choices": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "hint": "The number is odd and not the largest option.",
+      "answerIndex": 2,
+      "article": {
+        "title": "The Monty Python Matching Tie and Handkerchief",
+        "url": "https://en.wikipedia.org/wiki/The_Monty_Python_Matching_Tie_and_Handkerchief"
+      },
+      "explanation": "The album was pressed as a three-sided LP, with two grooves on one side that would randomly play one of two different sets of content depending on where the needle landed."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
