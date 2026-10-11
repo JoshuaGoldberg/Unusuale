@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-11",
+  "title": "Puzzle No. 46",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.3,
+      "description": "Add a 2.3x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.5,
+      "description": "Skip the current question while still earning 0.5x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 900,
+      "loss": 250,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 900 additional points on a correct answer but lose 250 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "This article discusses the concept of a hypothetical hybrid creature said to result from crossbreeding between two species. It covers various claims, folklore, alleged secret experiments, and reported sightings connected to the idea, along with an examination of the scientific feasibility of such a cross and its portrayal in popular culture.",
+      "choices": [
+        "Wolpertinger",
+        "Chimera",
+        "Humanzee",
+        "Jackalope"
+      ],
+      "hint": "The creature in question is not a mythological combination of unrelated animals like a rabbit, bird, and deer, nor a legendary beast made of parts from a lion, goat, and snake.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Humanzee",
+        "url": "https://en.wikipedia.org/wiki/Humanzee"
+      },
+      "explanation": "A humanzee is a hypothetical hybrid of a human and a chimpanzee, the subject of various claims, rumors about secret experiments, and cultural references, though no verified example has ever been produced."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis early-2000s internet catchphrase combines a tongue-in-cheek moral warning with an exaggerated, humorous consequence involving a small animal. It spread rapidly across forums and chat rooms, later appearing on t-shirts, buttons, and other novelty merchandise, despite having no literal basis in fact.",
+      "choices": [
+        "All your base are belong to us",
+        "Every time you masturbate... God kills a kitten",
+        "Chuck Norris facts",
+        "Keyboard Cat"
+      ],
+      "hint": "This phrase is not a famous mistranslation from a video game, nor is it a set of exaggerated claims about a martial artist.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Every time you masturbate... God kills a kitten",
+        "url": "https://en.wikipedia.org/wiki/Every_time_you_masturbate..._God_kills_a_kitten"
+      },
+      "explanation": "The phrase originated as an internet meme that humorously warned against masturbation by claiming it caused the death of a kitten, often paired with cute kitten imagery. It became a widely recognized piece of early 2000s internet culture and even spawned merchandise like t-shirts and buttons."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "In 2021, a funeral complete with a hearse and the solemn declaration 'Ashes to ashes, crust to crust' was held in a midwestern U.S. state to lay to rest an outdated item from which fast-food pizza chain's menu?",
+      "choices": [
+        "Domino's",
+        "Pizza Hut",
+        "Little Caesars",
+        "Papa John's"
+      ],
+      "hint": "This fast-food chain is not Pizza Hut or Papa John's.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Great Michigan Pizza Funeral",
+        "url": "https://en.wikipedia.org/wiki/Great_Michigan_Pizza_Funeral"
+      },
+      "explanation": "The Great Michigan Pizza Funeral was a 2021 publicity event by Little Caesars, headquartered in Detroit, Michigan, in which the chain held a mock funeral complete with a hearse and a eulogy ending in 'Ashes to ashes, crust to crust' to mark the retirement of an old menu item."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "This is a Japanese light novel series, later adapted into manga and anime, about a man who dies and is reincarnated into a fantasy world inside an underground labyrinth. Instead of becoming a warrior or spellcaster, he finds himself transformed into an inanimate object that others come to rely on for everyday needs, and must find ways to interact with and protect his new companions despite lacking arms, legs, or a voice.",
+      "choices": [
+        "A man reincarnated as a sentient stone golem guarding a labyrinth",
+        "A man reincarnated as a vending machine wandering a dungeon",
+        "A man reincarnated as a talking sword aiding an adventurer",
+        "A man reincarnated as a magical familiar bound to a wizard"
+      ],
+      "hint": "The correct answer is not the sword or the familiar, since both of those forms are capable of speech or direct magical interaction, while the subject of this article famously cannot communicate verbally or move on its own.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
+        "url": "https://en.wikipedia.org/wiki/Reborn_as_a_Vending_Machine,_I_Now_Wander_the_Dungeon"
+      },
+      "explanation": "The article describes 'Reborn as a Vending Machine, I Now Wander the Dungeon,' a Japanese light novel series about a man reincarnated as a vending machine in a dungeon, who communicates and helps his companions despite being an immobile object."
+    },
+    {
+      "id": "q6",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a small, relatively obscure body of freshwater known mainly to local anglers and outdoor enthusiasts. It lacks major tourist infrastructure and is primarily noted for recreational fishing and its modest size compared to nearby larger lakes. The surrounding area features mixed forest and is part of a larger network of small lakes and waterways typical of a temperate wilderness region.",
+      "answer": "North America",
+      "hint": "This landform is not found in Africa, Oceania, or Antarctica.",
+      "article": {
+        "title": "Bucket Lake",
+        "url": "https://en.wikipedia.org/wiki/Bucket_Lake"
+      },
+      "explanation": "Bucket Lake is a small lake located in North America, known locally for fishing and recreation."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This article describes a scheduling practice used by American television networks in which certain programs, often those with smaller or niche audiences, are placed during a particular weekly time period known for lower overall viewership. Series placed here frequently receive low ratings and are cancelled quickly, though a number of them later develop devoted cult followings. Critics and fans sometimes use the term with a touch of dark humor to describe the pattern.",
+      "choices": [
+        "Saturday night death slot",
+        "Monday night death slot",
+        "Friday night death slot",
+        "Sunday night death slot"
+      ],
+      "hint": "This day is not the start of the work week, and it is not the final day of the weekend.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Friday night death slot",
+        "url": "https://en.wikipedia.org/wiki/Friday_night_death_slot"
+      },
+      "explanation": "The term refers to the Friday night death slot, a nickname for a television scheduling period where networks often place shows expected to underperform, since fewer viewers watch TV on Friday nights. Several shows placed in this slot, despite being cancelled early, went on to gain cult status."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis was a fabricated piece on an online encyclopedia that described a fictional scientific process in convincing, technical sounding language. It included invented terminology and pseudo-scientific explanations that mimicked real academic writing. Despite being entirely made up, it went unnoticed by editors and remained publicly viewable for several years before being discovered and removed. It later became a well known example used to illustrate how fabricated content can persist undetected on collaboratively edited platforms.",
+      "choices": [
+        "A hoax article describing an invented chemical reaction",
+        "A fabricated biography of a nonexistent historical general",
+        "An invented entry about a fictional species of beetle",
+        "A fake article about a made-up ancient civilization"
+      ],
+      "hint": "The topic is not historical in nature, and it does not involve any invented culture or civilization.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Everyday Chemistry",
+        "url": "https://en.wikipedia.org/wiki/Everyday_Chemistry"
+      },
+      "explanation": "The article describes 'Everyday Chemistry,' a hoax Wikipedia article created in 2005 that described a fictional chemical process. It remained on Wikipedia for several years, undetected, before being identified as a hoax and deleted, becoming a notable case study in Wikipedia's handling of fabricated content."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "This article discusses an intense, persistent fear of a particular physical experience that can lead sufferers to develop significant avoidance behaviors, such as avoiding certain places or situations associated with that experience. It is more common in women than men, often develops in childhood or adolescence, and can severely impact daily life, sometimes overlapping with other anxiety disorders. Treatment approaches include cognitive behavioral therapy and gradual exposure techniques.",
+      "choices": [
+        "Fear of needles",
+        "Fear of vomiting",
+        "Fear of public speaking",
+        "Fear of heights"
+      ],
+      "hint": "The correct answer is not related to a fear of sharp objects (like needles) or a fear tied to elevation (such as heights).",
+      "answerIndex": 1,
+      "article": {
+        "title": "Emetophobia",
+        "url": "https://en.wikipedia.org/wiki/Emetophobia"
+      },
+      "explanation": "Emetophobia is an intense fear of vomiting, which can cause significant avoidance behaviors and anxiety, and is more prevalent in women. It is typically treated with cognitive behavioral therapy and exposure-based methods."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This entry describes something that appeared in a major reference work for over a decade due to an editorial mistake. It was created when a notation on a card meant to indicate an alternate form of an existing entry was misread as a standalone item. It was given a description and included in print editions before an editor eventually noticed the error and had it removed.",
+      "choices": [
+        "A fictional country briefly listed in an atlas due to a mapmaker's error",
+        "A word mistakenly entered into a dictionary and later removed",
+        "A chemical element temporarily misclassified on the periodic table",
+        "A historical figure invented by a prankster that appeared in encyclopedias"
+      ],
+      "hint": "The correct answer is not about geography and does not involve a person.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Dord",
+        "url": "https://en.wikipedia.org/wiki/Dord"
+      },
+      "explanation": "The article describes 'dord,' a ghost word that appeared in Webster's New International Dictionary from 1934 to 1947 due to a misinterpreted editorial note, before being discovered and removed."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
