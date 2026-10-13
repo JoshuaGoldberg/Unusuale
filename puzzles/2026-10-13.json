@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-13",
+  "title": "Puzzle No. 48",
+  "cards": [
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.4,
+      "description": "Skip the current question while still earning 0.4x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 400,
+      "loss": 600,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 400 additional points on a correct answer but lose 600 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article discusses a form of illegal resource extraction driven by global construction demand. Perpetrators remove large quantities of a common natural material from beaches, riverbeds, and other locations, often at night or through organized criminal networks. The practice has caused significant environmental damage, including coastal erosion, habitat destruction, and the disappearance of entire beaches in some regions. Governments in various countries have struggled to regulate or stop this activity, and in some cases it has been linked to violence and corruption.",
+      "choices": [
+        "Water theft",
+        "Timber poaching",
+        "Sand theft",
+        "Coral smuggling"
+      ],
+      "hint": "The correct choice is not an organism-based resource like wood or coral, but a physical substance taken directly from the land and used in modern building materials.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Sand theft",
+        "url": "https://en.wikipedia.org/wiki/Sand_theft"
+      },
+      "explanation": "Sand theft refers to the illegal mining and removal of sand, often from beaches and riverbeds, to meet the massive global demand for sand used in concrete, glass, and construction. This illicit trade has led to severe environmental consequences such as erosion and the vanishing of beaches, and has sometimes been tied to organized crime."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of these real mathematical results proves that you can always divide several objects into two equal portions using just one perfectly placed straight cut?",
+      "choices": [
+        "Bread division principle",
+        "Pie slicing theorem",
+        "Ham sandwich theorem",
+        "Cake halving theorem"
+      ],
+      "answerIndex": 2,
+      "hint": "This theorem can divide three separate objects at once in three-dimensional space, which rules out the bread and pie based ideas here.",
+      "article": {
+        "title": "Ham sandwich theorem",
+        "url": "https://en.wikipedia.org/wiki/Ham_sandwich_theorem"
+      },
+      "explanation": "The theorem shows that given any three solid objects in space, a single flat plane can always be found that simultaneously cuts each of them exactly in half by volume."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers a short rhyming poem that became widely known in English-speaking culture during the 20th century. Though its original published version was fairly tame, it quickly inspired countless bawdy and crude variations that spread through oral tradition, magazines, and later the internet. The piece follows a traditional five-line verse structure often used for humorous or risque content, and its opening phrase became a cultural shorthand for an entire genre of off-color verse referencing a particular coastal location.",
+      "choices": [
+        "There once was a man from Nantucket",
+        "The Owl and the Pussycat",
+        "There once was a young lady from Kent",
+        "Jabberwocky"
+      ],
+      "hint": "Two of these choices are well known children's or nonsense poems with fantastical creatures or made-up words, not a bawdy verse tied to a real place name.",
+      "answerIndex": 0,
+      "article": {
+        "title": "There once was a man from Nantucket",
+        "url": "https://en.wikipedia.org/wiki/There_once_was_a_man_from_Nantucket"
+      },
+      "explanation": "The article describes the famous limerick 'There once was a man from Nantucket,' which originated as a relatively innocent verse but spawned numerous obscene variations that became a well known part of limerick humor."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "What's the best way to enjoy a hobby? Turn it into a weapon, of course! Which of these everyday items was actually turned into a working firearm?",
+      "choices": [
+        "Wallet gun",
+        "Harmonica gun",
+        "Umbrella gun",
+        "Necktie gun"
+      ],
+      "answerIndex": 1,
+      "hint": "The real item isn't something you'd wear around your neck or carry to stay dry in the rain.",
+      "article": {
+        "title": "Harmonica gun",
+        "url": "https://en.wikipedia.org/wiki/Harmonica_gun"
+      },
+      "explanation": "A harmonica gun is a small firearm disguised as a harmonica, designed to be concealable and fire a single shot."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "A low-budget 1975 horror film, a vampire movie shot entirely in American Sign Language, was created specifically for which audience to enjoy without needing translation?",
+      "choices": [
+        "Blind audiences",
+        "Film critics",
+        "Deaf audiences",
+        "Hearing audiences"
+      ],
+      "hint": "This audience could not rely on spoken dialogue or sound to follow the story, which rules out the options involving critics or those who primarily depend on hearing.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Deafula",
+        "url": "https://en.wikipedia.org/wiki/Deafula"
+      },
+      "explanation": "Deafula (1975) was a pioneering vampire film shot entirely in American Sign Language, made by and for the Deaf community."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This Wikipedia article, humorously described as 'a room with a bit of a shadow,' explores whether a mirrored room can always be fully lit by a single candle placed anywhere inside it. In 1995, mathematician George Tokarsky built a counterexample polygon with how many sides that left one spot unlit?",
+      "choices": [
+        "20",
+        "30",
+        "26",
+        "24"
+      ],
+      "hint": "The correct number is not a multiple of 10, so it isn't 20 or 30.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Illumination problem",
+        "url": "https://en.wikipedia.org/wiki/Illumination_problem"
+      },
+      "explanation": "George Tokarsky's 1995 counterexample was a 26-sided polygon containing a point that remains unilluminated by a light source placed at another specific point, even though the walls act as mirrors."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "A phrase that originated in a 1989 video game and sparked an Internet phenomenon in 2001 and 2002 came from a game belonging to which genre?",
+      "choices": [
+        "turn-based strategy",
+        "platform game",
+        "side-scrolling shooter",
+        "point-and-click adventure"
+      ],
+      "hint": "It wasn't a strategy game or an adventure game.",
+      "answerIndex": 2,
+      "article": {
+        "title": "All your base are belong to us",
+        "url": "https://en.wikipedia.org/wiki/All_your_base_are_belong_to_us"
+      },
+      "explanation": "The phrase comes from the poorly translated English version of Zero Wing, a 1989 side-scrolling shoot 'em up video game."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "On the Wikipedia page about a famous invented nonsense sentence used to demonstrate that grammatical structure alone can suggest meaning, who is credited with originally coining this example?",
+      "choices": [
+        "Andrew Ingraham",
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "Lewis Carroll"
+      ],
+      "hint": "It was not the famous linguist known for 'colorless green ideas sleep furiously', nor the author of 'Jabberwocky'.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Gostak",
+        "url": "https://en.wikipedia.org/wiki/Gostak"
+      },
+      "explanation": "The phrase was originally coined by Andrew Ingraham in his 1903 book 'Swain School Lectures' to illustrate how syntax alone can suggest meaning."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Throughout history, odd social clubs sometimes formed around members sharing a specific physical trait, creating camaraderie among people of similar builds. Which of the following is a real club that required members to meet a specific physical requirement to join?",
+      "choices": [
+        "Tall men's league",
+        "Thin women's society",
+        "Fat men's club",
+        "Strongman's alliance"
+      ],
+      "answerIndex": 2,
+      "hint": "This organization did not require unusual height or exceptional physical strength to join, so you can rule out the tall men's league and the strongman's alliance.",
+      "article": {
+        "title": "Fat men's club",
+        "url": "https://en.wikipedia.org/wiki/Fat_men%27s_club"
+      },
+      "explanation": "Fat men's clubs were social organizations in the late 19th and early 20th centuries that required members to weigh above a certain threshold, promoting fellowship among heavier men."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
