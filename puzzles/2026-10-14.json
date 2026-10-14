@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-14",
+  "title": "Puzzle No. 49",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 3.9,
+      "description": "Add a 3.9x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 1.8,
+      "description": "Add a 1.8x multiplier to the number of points earned for this question."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of these popes is remembered for doing everything he could to avoid being made pope in the first place, despite eventually taking the title?",
+      "choices": [
+        "Pope Benedict IX",
+        "Pope Urban VII",
+        "Pope Celestine V",
+        "Pope Gregory XII"
+      ],
+      "answerIndex": 2,
+      "hint": "The pope in question reigned in the 13th century, so you can rule out the pope from the 11th century and the one from the 16th century.",
+      "article": {
+        "title": "Pope Celestine V",
+        "url": "https://en.wikipedia.org/wiki/Pope_Celestine_V"
+      },
+      "explanation": "Pope Celestine V was a hermit monk who was reluctantly elected pope in 1294 and resigned just five months later, becoming one of the few popes in history to voluntarily abdicate."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a large sculpture of a human hand emerging from the ground in the middle of an arid, remote desert plain. Built by a local sculptor and completed in the 1990s, the partially buried concrete structure rises several meters into the air and has become a popular roadside attraction for travelers crossing the vast open landscape, as well as a canvas for graffiti artists and protesters over the years.",
+      "answer": "South America",
+      "hint": "This desert landmark is not found in Africa, Asia, or Europe.",
+      "article": {
+        "title": "Mano del Desierto",
+        "url": "https://en.wikipedia.org/wiki/Mano_del_Desierto"
+      },
+      "explanation": "The Mano del Desierto (Hand of the Desert) is a sculpture by Chilean artist Mario Irarrazabal located in the Atacama Desert in northern Chile, South America."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers a physical altercation between two customers inside a retail store, which was captured on video by a bystander and subsequently went viral online. The clip became a popular source of internet memes and was widely shared and remixed across social media platforms, eventually becoming a notable example of a viral incident originating from a mundane retail setting.",
+      "choices": [
+        "A dispute between two shoppers at a hardware store",
+        "A scuffle between two customers at a grocery store checkout line",
+        "A confrontation between two patrons at a fast food counter",
+        "A fight between two passengers at an airport terminal"
+      ],
+      "hint": "The incident did not take place at a food establishment or a transportation hub.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Suntukan sa Ace Hardware",
+        "url": "https://en.wikipedia.org/wiki/Suntukan_sa_Ace_Hardware"
+      },
+      "explanation": "The article describes a viral video of a physical fight that broke out between two customers at an Ace Hardware store in the Philippines, which became a widely shared internet meme."
+    },
+    {
+      "id": "q4",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a historic stone bridge that once spanned a major river in an old world capital city. As the bridge began to sink and could no longer handle modern traffic, it was dismantled piece by piece, with each stone carefully numbered. The stones were then shipped across an ocean and reassembled over an artificial waterway in a newly developed resort community, where the structure now serves as a popular tourist attraction and symbol of the town that rebuilt it.",
+      "answer": "North America",
+      "hint": "The reconstructed bridge sits in a planned desert community built around an artificial channel, not in Africa, Asia, or Antarctica.",
+      "article": {
+        "title": "London Bridge (Lake Havasu City)",
+        "url": "https://en.wikipedia.org/wiki/London_Bridge_(Lake_Havasu_City)"
+      },
+      "explanation": "The original London Bridge, once spanning the River Thames in England, was sold in the 1960s and reconstructed in Lake Havasu City, Arizona, in the United States, making its current location North America."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Shingō, Aomori is supposedly home to the tomb of Jesus, and the story behind it gets even stranger: local legend claims he escaped crucifixion by having someone else die in his place, then settled in Japan and lived out his days there. According to the tale, how old was he when he finally died?",
+      "choices": [
+        "95",
+        "106",
+        "83",
+        "120"
+      ],
+      "hint": "It wasn't 83 and it wasn't 120.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Kirisuto no Haka",
+        "url": "https://en.wikipedia.org/wiki/Kirisuto_no_Haka"
+      },
+      "explanation": "The legend tied to the grave site claims Jesus avoided crucifixion when his brother died in his place, after which he traveled to Japan, settled in Shingō, and lived to the age of 106 before passing away there."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "A certain device, used by women when needing or wanting to pee standing up, is also handy for people in a profession who need to avoid removing bulky protective gear. Which profession is this?",
+      "choices": [
+        "Firefighters",
+        "Soldiers",
+        "Pilots",
+        "Nurses"
+      ],
+      "hint": "It's not firefighters or nurses.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Female urination device",
+        "url": "https://en.wikipedia.org/wiki/Female_urination_device"
+      },
+      "explanation": "The article notes that female urination devices are useful for servicewomen, allowing them to urinate without having to remove body armor or protective suits."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article describes a geometric shape that blends the properties of two common figures, appearing visually as something between them. It has a precise mathematical definition involving an equation with an adjustable exponent, and variations of the shape can look more like one figure or the other depending on that exponent. Beyond mathematics, the shape has found practical use in design and engineering, appearing in product shapes, screen displays, app icons, and even furniture and optical lenses, prized for its smooth, continuous curvature without sharp corners.",
+      "choices": [
+        "Reuleaux triangle",
+        "Squircle",
+        "Mobius strip",
+        "Lemniscate"
+      ],
+      "hint": "The correct answer is not a shape famous for having constant width, nor one known for having only one side and one edge.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Squircle",
+        "url": "https://en.wikipedia.org/wiki/Squircle"
+      },
+      "explanation": "The article describes the squircle, a shape intermediate between a square and a circle, mathematically defined as a special case of a superellipse, and used in product design, screens, and icons for its smooth rounded-corner appearance."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers an internet phenomenon from a U.S. election year in which activists exploited how search engines ranked pages based on the text of incoming links. By coordinating many websites to use the same mocking or critical phrase when linking to a particular candidate's official biography or campaign page, they caused that page to appear as the top result when users searched for the phrase, even though the phrase itself never appeared on the page. The tactic was used by both sides of the political spectrum to embarrass rival candidates through search engine results rather than traditional campaigning.",
+      "choices": [
+        "Google bombing during the 2008 U.S. presidential campaign",
+        "Online search manipulation during the 2000 Florida recount",
+        "Political Google bombs in the 2004 U.S. presidential election",
+        "Googlebombing of the 2006 Swedish general election"
+      ],
+      "hint": "The event described took place in the United States, and it did not occur during the 2008 presidential campaign.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Political Google bombs in the 2004 U.S. presidential election",
+        "url": "https://en.wikipedia.org/wiki/Political_Google_bombs_in_the_2004_U.S._presidential_election"
+      },
+      "explanation": "The article describes how, during the 2004 U.S. presidential election, activists created 'Google bombs' so that searches for phrases like 'miserable failure' or 'waffles' would return the official pages of George W. Bush and John Kerry, respectively, exploiting search engine ranking algorithms for political mockery."
+    },
+    {
+      "id": "q9",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nIn the early 1880s, a wave of gold prospectors flocked to a remote river valley and set up a self-governing mining camp outside the control of any recognized state. The settlers drafted their own laws, elected leaders, and ran courts and a jail, effectively forming a tiny breakaway republic that functioned for a couple of years before being forcibly dismantled by soldiers from a neighboring empire.",
+      "answer": "Asia",
+      "hint": "This region was not in Africa, the Americas, or Oceania; it bordered two large neighboring empires in the eastern part of the Old World.",
+      "article": {
+        "title": "Zheltuga Republic",
+        "url": "https://en.wikipedia.org/wiki/Zheltuga_Republic"
+      },
+      "explanation": "The Zheltuga Republic was a short-lived self-governing gold-mining settlement established in the early 1880s in a border region between the Russian Empire and Qing China, in what is now part of Northeast Asia. It was destroyed by Chinese troops in 1885-86."
+    },
+    {
+      "id": "q10",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a small cast-iron bridge that was prefabricated and shipped from overseas before being assembled at its current site in the 19th century. It is notable for being one of the oldest surviving iron bridges of its kind in its region, spanning a modest river crossing in a rural town.",
+      "answer": "Africa",
+      "hint": "The bridge is not found in Europe, North America, or Oceania.",
+      "article": {
+        "title": "Vulcan Bridge",
+        "url": "https://en.wikipedia.org/wiki/Vulcan_Bridge"
+      },
+      "explanation": "The Vulcan Bridge is a historic cast-iron bridge located in Beaufort West, South Africa, and is considered one of the oldest surviving iron bridges in the country."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0
+  }
+}
