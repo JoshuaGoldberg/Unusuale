@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-15",
+  "title": "Puzzle No. 50",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.5,
+      "description": "Skip the current question while still earning 0.5x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 450,
+      "loss": 450,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 450 additional points on a correct answer but lose 450 on an incorrect one."
+    },
+    {
+      "id": "card2",
+      "gain": 800,
+      "loss": 300,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 800 additional points on a correct answer but lose 300 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "A legendary cormorant or eagle serves as the symbol of a major English city, with two statues of this creature perched atop a famous waterfront building. According to local legend, what would happen if these two statues ever flew away?",
+      "choices": [
+        "The city would sink into the river",
+        "The city would cease to exist",
+        "A great fire would destroy the city",
+        "The city would lose its harbor rights"
+      ],
+      "hint": "It's not about fire or losing legal privileges, think about the city's fate itself.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Liver bird",
+        "url": "https://en.wikipedia.org/wiki/Liver_bird"
+      },
+      "explanation": "According to legend, if the two liver bird statues atop the Royal Liver Building in Liverpool were to fly away, the city would cease to exist."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis is a sovereign entity recognized under international law that is not itself a country. It has no permanent territory of its own in the traditional sense, yet it maintains diplomatic relations with over a hundred states, issues its own passports and postage stamps, and holds permanent observer status at the United Nations. Its origins trace back nearly a thousand years to a religious and charitable order, and today it focuses on humanitarian and medical relief work around the world while operating from a pair of extraterritorial buildings that serve as its headquarters.",
+      "answer": "Europe",
+      "hint": "The headquarters buildings are located in a major city that is not in Africa, Asia, or the Americas.",
+      "article": {
+        "title": "Sovereign Military Order of Malta",
+        "url": "https://en.wikipedia.org/wiki/Sovereign_Military_Order_of_Malta"
+      },
+      "explanation": "The Sovereign Military Order of Malta is headquartered in Rome, Italy, where it occupies two buildings granted extraterritorial status, making its base of operations located in Europe."
+    },
+    {
+      "id": "q3",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis small farming town became the subject of international curiosity due to an unusually high rate of twin births among its population, especially from the mid-20th century onward. Researchers have proposed various explanations, ranging from genetic and environmental factors to local diet. The town also attracted controversial speculation linking it to a fugitive doctor who allegedly experimented on residents decades earlier, though this theory remains unproven and is widely disputed by historians and geneticists alike.",
+      "answer": "South America",
+      "hint": "This location is not in Africa, not in Asia, and not in Europe.",
+      "article": {
+        "title": "Cândido Godói",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A2ndido_God%C3%B3i"
+      },
+      "explanation": "Cândido Godói is a small municipality in the state of Rio Grande do Sul, Brazil, in South America, known for its remarkably high twin birth rate."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis Wikipedia article describes a notable memorial dedicated to an animal that became known for living in a particular spot within a town, where it was fed and looked after by local people for a long stretch of time. After the animal eventually died, a statue was later put up at that very same spot to commemorate its story and the affection the community had for it.",
+      "choices": [
+        "Greyfriars Bobby",
+        "Balto",
+        "Roundabout dog",
+        "Hachiko"
+      ],
+      "hint": "The correct answer is not a sled dog honored for a famous expedition, and it is not linked to a train station in Japan.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Roundabout dog",
+        "url": "https://en.wikipedia.org/wiki/Roundabout_dog"
+      },
+      "explanation": "The article is about the 'Roundabout dog', a stray dog that lived on a traffic roundabout where it was cared for by locals, and was later honored with a memorial statue at that same roundabout after its death."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a Wikipedia entry about a science-themed toy set released by an American manufacturer in the early 1950s. Marketed as an educational tool for children, it came packaged with genuine low-level radioactive samples, a working radiation-detecting instrument, and a booklet of suggested at-home experiments. Because of its contents, the set has since been labeled one of the most dangerous toys ever sold to the public.",
+      "choices": [
+        "Austin Magic Pistol",
+        "Mattel Thingmaker",
+        "Gilbert U-238 Atomic Energy Laboratory",
+        "Wham-O Super Ball"
+      ],
+      "hint": "It was not a rubber bouncing ball, and it was not a kit for molding plastic toys using heated metal plates.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Gilbert U-238 Atomic Energy Laboratory",
+        "url": "https://en.wikipedia.org/wiki/Gilbert_U-238_Atomic_Energy_Laboratory"
+      },
+      "explanation": "The Gilbert U-238 Atomic Energy Laboratory was a 1950s educational toy set from the A.C. Gilbert Company that included real radioactive ore samples, a Geiger counter, a spinthariscope, and experiment instructions, earning it a reputation as one of the most dangerous toys ever marketed to children."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis term describes a common online phenomenon in which a person begins reading one page out of curiosity, clicks an internal link to a related topic, then another, and another, eventually ending up on a page with no obvious connection to where they started. The behavior has been studied for what it reveals about curiosity, information-seeking habits, and the design of hyperlinked encyclopedic content. It has inspired browser tools and games built around tracking or recreating these winding chains of clicks.",
+      "choices": [
+        "A browser extension designed to block distracting websites",
+        "The experience of following linked articles on a topic until arriving at something seemingly unrelated",
+        "A policy requiring editors to cite primary sources for claims",
+        "A disagreement between contributors over how to edit a shared article"
+      ],
+      "hint": "It is not a tool for blocking websites, and it is not a policy about citing sources.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Wiki rabbit hole",
+        "url": "https://en.wikipedia.org/wiki/Wiki_rabbit_hole"
+      },
+      "explanation": "The article describes the 'wiki rabbit hole,' the experience of clicking through a series of linked Wikipedia articles out of curiosity, often ending up far from the original topic."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis describes a cartoon-style character introduced in 2024, originally designed for a religious organization's pavilion at a world exposition and later adopted as the face of a major anniversary celebration in 2025. Rendered in a Japanese manga-inspired art style, the figure wears a hooded cloak, a yellow raincoat, sturdy hiking boots, and a shell necklace, with sparkling, star-shaped eyes. The design went viral online for blending anime aesthetics with traditional religious symbolism, sparking both praise and debate.",
+      "choices": [
+        "Wenlock",
+        "Myaku-Myaku",
+        "Luce",
+        "Miraitowa"
+      ],
+      "hint": "This character was not created for the Olympic Games, which rules out two of the choices.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Luce (mascot)",
+        "url": "https://en.wikipedia.org/wiki/Luce_(mascot)"
+      },
+      "explanation": "The article describes Luce, the official mascot of the Catholic Church's 2025 Jubilee, originally created for the Holy See's pavilion at Expo 2025 in Osaka. Designed in a manga-inspired style with a blue pilgrim cloak and starry eyes, it went viral for its unusual fusion of anime art and Vatican symbolism."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual event: an unintentional virtual epidemic that broke out in an online fantasy game and ended up being studied by real world epidemiologists as a case study for disease spread?",
+      "choices": [
+        "Nightshade Plague Incident",
+        "Solar Flare Pandemic Event",
+        "Corrupted Blood incident",
+        "Ebon Fever Outbreak"
+      ],
+      "answerIndex": 2,
+      "hint": "The real event took place in a sword and sorcery style fantasy world, not a horror or science fiction setting, which rules out two of these choices.",
+      "article": {
+        "title": "Corrupted Blood incident",
+        "url": "https://en.wikipedia.org/wiki/Corrupted_Blood_incident"
+      },
+      "explanation": "The Corrupted Blood incident was a 2005 glitch in World of Warcraft that caused an unintended virtual plague, which researchers later studied as a model for real world epidemic behavior."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "In a London square famous for its empty pedestal meant for a statue that was never completed due to lack of funds, a giant blue animal sculpture stood there for a couple of years in the 2010s. What animal was it?",
+      "choices": [
+        "An elephant",
+        "A rooster",
+        "A lion",
+        "A bear"
+      ],
+      "hint": "It was not the elephant or the bear.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Fourth plinth",
+        "url": "https://en.wikipedia.org/wiki/Fourth_plinth"
+      },
+      "explanation": "Between 2013 and 2015, a 15-foot blue cockerel (rooster) sculpture called 'Hahn/Cock' occupied the Fourth Plinth in Trafalgar Square, which was originally intended for an equestrian statue but has remained without one."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
