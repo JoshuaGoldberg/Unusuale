@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-16",
+  "title": "Puzzle No. 51",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.5,
+      "description": "Add a 2.5x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 2.8,
+      "description": "Add a 2.8x multiplier to the number of points earned for this question."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis massive concrete structure, weighing over 12,000 tons, was built in the early 1940s under a European dictatorship to measure how much the ground would sink under extreme weight, as part of engineering studies for an enormous unbuilt monumental building. Too costly and difficult to demolish after the war, it still stands today, protected as a historical monument, and continues to be used occasionally for scientific measurements of soil behavior.",
+      "choices": [
+        "Flak towers used for air defense",
+        "U-boat pens at Lorient",
+        "A giant concrete block built to test soil load-bearing capacity",
+        "A test track built for the Reichsautobahn"
+      ],
+      "hint": "It is not one of the wartime submarine shelters, nor the anti-aircraft towers used to defend cities from bombing raids.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Schwerbelastungskörper",
+        "url": "https://en.wikipedia.org/wiki/Schwerbelastungsk%C3%B6rper"
+      },
+      "explanation": "The Schwerbelastungskörper ('heavy load-bearing body') is a huge cylindrical concrete block built in Berlin in 1941 to test the soil's capacity to support a planned triumphal arch, part of Albert Speer's never-realized Germania redesign of the city. Since it could not be economically demolished, it remains standing today as a protected monument and is still occasionally used for geotechnical research."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis entry describes an irrational and persistent fear centered on a particular form of facial grooming choice seen in men. It covers possible origins of the aversion, including negative associations formed in childhood or cultural attitudes toward the style, as well as how the fear can manifest in avoidance behavior or anxiety when encountering people who have it. The subject has also appeared as a passing reference in popular culture and online discussions about unusual phobias.",
+      "choices": [
+        "Fear of clowns",
+        "Fear of beards",
+        "Fear of mirrors",
+        "Fear of buttons"
+      ],
+      "hint": "The fear is not related to a performer's costume or makeup, and it has nothing to do with reflective household objects.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Pogonophobia",
+        "url": "https://en.wikipedia.org/wiki/Pogonophobia"
+      },
+      "explanation": "The article describes pogonophobia, the fear of beards."
+    },
+    {
+      "id": "q3",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a government office building that houses an agency dedicated to the development and promotion of a nation's fishing and aquaculture industries. The structure serves as the administrative headquarters for officials who coordinate fisheries policy, funding, and research programs across the country.",
+      "answer": "Asia",
+      "hint": "This building is not located in Africa, Europe, or North America.",
+      "article": {
+        "title": "National Fisheries Development Board building",
+        "url": "https://en.wikipedia.org/wiki/National_Fisheries_Development_Board_building"
+      },
+      "explanation": "The National Fisheries Development Board building is located in Hyderabad, India, which is in Asia."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real early 20th century author whose prose was so gloriously overwrought that two famous fantasy novelists once held contests to see who could read her work the longest without laughing?",
+      "choices": [
+        "Clara Wentworth",
+        "Eleanor Fairfax",
+        "Amanda McKittrick Ros",
+        "Margaret Ashcroft"
+      ],
+      "answerIndex": 2,
+      "hint": "The correct writer was Irish and active in the early 1900s, while one choice was a Scottish novelist and another lived a century earlier, so those two can be ruled out.",
+      "article": {
+        "title": "Amanda McKittrick Ros",
+        "url": "https://en.wikipedia.org/wiki/Amanda_McKittrick_Ros"
+      },
+      "explanation": "Amanda McKittrick Ros was an Irish novelist and poet whose florid, melodramatic prose became so notorious that literary figures like J. R. R. Tolkien and C. S. Lewis would compete to see who could read her writing longest without laughing."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real write-in choice that Swedish voters have jokingly scrawled onto parliamentary ballots so often that it has, on occasion, placed among the top ten parties in the count, despite not being an actual registered party?",
+      "choices": [
+        "Mickey Mouse Party",
+        "Donald Duck Party",
+        "Santa Claus Party",
+        "Spider-Man Party"
+      ],
+      "answerIndex": 1,
+      "hint": "It is not the one named after Santa Claus, and it is not the one named after Spider-Man.",
+      "article": {
+        "title": "Donald Duck Party",
+        "url": "https://en.wikipedia.org/wiki/Donald_Duck_Party"
+      },
+      "explanation": "The Donald Duck Party is a non-existent political party that Swedish voters have written in as a protest or joke vote, occasionally ranking among the top ten parties in parliamentary elections."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a supposed cartoon character that the page insists is actually your favorite, even though you have no idea who it is?",
+      "choices": [
+        "Blibber Wiggum",
+        "Graggle Simpson",
+        "Noodle Burns",
+        "Squiggly Flanders"
+      ],
+      "answerIndex": 1,
+      "hint": "The real article is not about a background Simpsons character with a surname like Wiggum or Flanders, who are well known recurring families on the show.",
+      "article": {
+        "title": "Graggle Simpson",
+        "url": "https://en.wikipedia.org/wiki/Graggle_Simpson"
+      },
+      "explanation": "Graggle Simpson is a bizarre, meme-like Wikipedia article that humorously insists the reader already knows and loves this supposed Simpsons character, despite no such character existing in the actual show."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "In 1987, a teenager undertook a daring unauthorized journey across a heavily guarded border, evading an extensive defense network, before arriving in a major capital city. The event caused significant international attention and embarrassment for the country's military, leading to the dismissal of several high-ranking officials.",
+      "choices": [
+        "A stowaway who hid aboard a cargo ship to slip across an international border undetected",
+        "A young pilot who evaded restricted airspace and landed a small aircraft within a major city",
+        "A hiker who crossed a heavily militarized border completely unnoticed",
+        "A cyclist who passed through a restricted military zone during a public demonstration"
+      ],
+      "hint": "This mode of transport was not a bicycle or a ship.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Mathias Rust",
+        "url": "https://en.wikipedia.org/wiki/Mathias_Rust"
+      },
+      "explanation": "The article describes Mathias Rust, a West German teenager who in 1987 flew a Cessna 172 from Finland through Soviet airspace and landed in Red Square, Moscow, exposing major flaws in Soviet air defenses and leading to the dismissal of top military officials."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "During a national campaign to redesign a country's flag, members of the public were invited to submit their own designs. One irreverent entry quickly became a surprise internet sensation and gathered a large grassroots following online, even though it was never an official finalist in the government-run selection process. Despite missing out on formal consideration, it continued to be printed on merchandise and flown informally as a tongue-in-cheek symbol of national pride.",
+      "choices": [
+        "Laser Kiwi flag",
+        "Flying Spaghetti Monster flag",
+        "Bonnie Blue Flag meme",
+        "Pineapple Flag of Hawaii"
+      ],
+      "hint": "The correct answer is not a flag associated with a religious parody movement, and it is not tied to 19th century American history.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Laser Kiwi flag",
+        "url": "https://en.wikipedia.org/wiki/Laser_Kiwi_flag"
+      },
+      "explanation": "The Laser Kiwi flag was a satirical, crowd-sourced design featuring a kiwi bird shooting a laser from its eyes, submitted during New Zealand's 2015-2016 flag referendum. Although it was not selected as an official finalist, it became a viral favorite and symbol of humorous national pride."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This blind American musician and composer spent decades living on the streets of a major city, often dressed in distinctive homemade robes and a horned helmet. Despite this unconventional lifestyle, the figure composed and performed original music, gained a cult following, and later influenced several prominent musicians and composers. Eventually, the individual moved to Europe, where they continued creating music until their death.",
+      "choices": [
+        "Sundog",
+        "Moondog",
+        "Skyman",
+        "Starchild"
+      ],
+      "hint": "The answer is not associated with the sun, and does not reference a child.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Moondog",
+        "url": "https://en.wikipedia.org/wiki/Moondog"
+      },
+      "explanation": "The article describes Moondog, a blind American composer and musician who lived for years on the streets of New York City dressed in Viking-inspired attire, earning him the nickname 'The Viking of 6th Avenue.' He influenced many musicians before moving to Germany, where he continued composing until his death."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
