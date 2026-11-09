@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-09",
+  "title": "Puzzle No. 75",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.8,
+      "description": "Skip the current question while still earning 0.8x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.3,
+      "description": "Skip the current question while still earning 0.3x the points"
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 200,
+      "loss": 1150,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 200 additional points on a correct answer but lose 1150 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article on Oomoto, a Japanese new religious movement founded in the late 19th century, describes how the faith venerates an unusual array of spirits, or kami. One of these figures was a 19th-century European credited with devising a constructed language intended for international communication. According to the article, who is this European figure venerated as a kami by Oomoto?",
+      "choices": [
+        "Otto Jespersen",
+        "L. L. Zamenhof",
+        "Charles K. Ogden",
+        "Charles Bliss"
+      ],
+      "hint": "He was a Polish Jewish ophthalmologist, not a British or Danish linguist.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Oomoto",
+        "url": "https://en.wikipedia.org/wiki/Oomoto"
+      },
+      "explanation": "Oomoto venerates L. L. Zamenhof, the creator of Esperanto, as a kami, reflecting the religion's strong historical support for the language as a tool for universal communication."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This organization was a satirical political movement founded in a North American country in the 1960s. It ran candidates in national elections for decades, campaigning on deliberately absurd and joke promises, such as repealing the law of gravity or declaring war on another country and then surrendering immediately so as to receive foreign aid. Despite never winning seats, it attracted a loyal following for poking fun at the political establishment, and it was eventually revived in a later decade after a period of dormancy.",
+      "choices": [
+        "Natural Law Party",
+        "Rhinoceros Party",
+        "Official Monster Raving Loony Party",
+        "Legalize Cannabis Party"
+      ],
+      "hint": "The correct answer is not a party focused on meditation-based policies, nor one centered specifically on drug law reform.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Rhinoceros Party",
+        "url": "https://en.wikipedia.org/wiki/Rhinoceros_Party"
+      },
+      "explanation": "The article describes the Rhinoceros Party, a satirical Canadian political party founded in 1963 known for absurd campaign promises, which was dissolved in 1993 and later revived."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article explores a particular animal body part that is prepared and eaten in many cuisines around the world. It describes how the ingredient is commonly fried, grilled, or stewed in various regional dishes, and notes that the food is often known by several euphemistic nicknames and is sometimes believed by some cultures to have special health or vitality-related properties.",
+      "choices": [
+        "Organ meat as food",
+        "Animal brains as food",
+        "Testicles as food",
+        "Bone marrow as food"
+      ],
+      "hint": "The food discussed is not derived from the brain or from bone marrow.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Testicles as food",
+        "url": "https://en.wikipedia.org/wiki/Testicles_as_food"
+      },
+      "explanation": "The article is about testicles as food, covering how testicles from animals like bulls, rams, and turkeys are prepared and eaten in various cultures, often under names like 'mountain oysters,' 'animelles,' or 'criadillas,' and sometimes regarded as a delicacy or aphrodisiac."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Yuri Knorozov\" describes the Soviet linguist who cracked the Maya hieroglyphic code and had a beloved feline companion that appeared alongside him in many photographs, even posed near his research papers. What was the name of this famous cat?",
+      "choices": [
+        "Aspid",
+        "Boris",
+        "Kuzya",
+        "Murka"
+      ],
+      "hint": "It's not the two more generic-sounding Russian pet names 'Kuzya' or 'Murka'.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Yuri Knorozov",
+        "url": "https://en.wikipedia.org/wiki/Yuri_Knorozov"
+      },
+      "explanation": "Knorozov's Siamese cat, named Aspid, was a constant companion and famously photographed with him, becoming part of his public image."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Cosmic latte\" describes the average colour of all the light in the observable universe, a soft creamy white. But astronomers Karl Glazebrook and Ivan Baldry first announced a different hue entirely due to a software error in how they translated the light spectrum into a visible color, before issuing a correction. What color did they originally report the universe to be?",
+      "choices": [
+        "Crimson",
+        "Turquoise",
+        "Chartreuse",
+        "Lavender"
+      ],
+      "hint": "It's not the reddish option or the yellow-green option; it's a shade associated with blue-green seas.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Cosmic latte",
+        "url": "https://en.wikipedia.org/wiki/Cosmic_latte"
+      },
+      "explanation": "Due to a bug in the software used to convert the averaged spectrum into an RGB color, the researchers initially announced the universe's average color as turquoise, later correcting it to the creamy white now called 'cosmic latte'."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "One of these screenplays has a bizarre curse attached to it: every actor attached to star in it died before production could begin, and the film was never made. Which cursed script is real?",
+      "choices": [
+        "Vandor",
+        "Atuk",
+        "Marrick",
+        "Soltair"
+      ],
+      "answerIndex": 1,
+      "hint": "The real answer is a short, single-word title that sounds like a name, and it is not the one starting with V or the one starting with S.",
+      "article": {
+        "title": "Atuk",
+        "url": "https://en.wikipedia.org/wiki/Atuk"
+      },
+      "explanation": "Atuk is a comedy screenplay that was never filmed because several actors attached to star in it, including John Belushi, Sam Kinison, John Candy, and Chris Farley, died before production began."
+    },
+    {
+      "id": "q7",
+      "type": "continent",
+      "prompt": "The Wikipedia article \"Vinicunca\" describes a mountain famous for its striking striped surface, with bands of red, yellow, pink, and other colors formed by different mineral deposits laid down over millions of years. For most of its history these colorful layers were hidden beneath snow and ice, and they only became fully visible and turned into a major hiking destination within the past couple of decades as the ice retreated. Reaching the site requires a demanding trek at very high altitude.",
+      "answer": "South America",
+      "hint": "This location is not in Africa, Europe, or Antarctica.",
+      "article": {
+        "title": "Vinicunca",
+        "url": "https://en.wikipedia.org/wiki/Vinicunca"
+      },
+      "explanation": "Vinicunca, also known as Rainbow Mountain, is located in the Andes of Peru, in South America."
+    },
+    {
+      "id": "q8",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Wikipedia article \"Whip-Ma-Whop-Ma-Gate\" describes a street so short that it is often cited as having one of the oddest and most memorable names for a public roadway. It measures only a few dozen metres in length, yet it has become a minor tourist curiosity purely because of its tongue-twisting title. Local lore ties the name to old punishments once carried out along its length, though the exact origin remains debated by historians.",
+      "answer": "Europe",
+      "hint": "This place is not found in Africa, not in Oceania, and not in Antarctica.",
+      "article": {
+        "title": "Whip-Ma-Whop-Ma-Gate",
+        "url": "https://en.wikipedia.org/wiki/Whip-Ma-Whop-Ma-Gate"
+      },
+      "explanation": "Whip-Ma-Whop-Ma-Gate is a short street in York, England, located in Europe."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Zone of Death (Yellowstone)\" covers the sliver of Yellowstone National Park lying in Idaho, where a quirk in the Constitution's jury requirements means a person could theoretically commit a crime without fear of conviction. This legal loophole inspired a novelist to write a thriller built around the idea. Who wrote that novel?",
+      "choices": [
+        "C.J. Box",
+        "Michael Crichton",
+        "John Grisham",
+        "Craig Johnson"
+      ],
+      "hint": "It's not Michael Crichton or John Grisham.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Zone of Death (Yellowstone)",
+        "url": "https://en.wikipedia.org/wiki/Zone_of_Death_(Yellowstone)"
+      },
+      "explanation": "Author C.J. Box wrote the novel 'Free Fire,' which is based on the legal loophole in Yellowstone's Zone of Death."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Antikythera mechanism\" describes an analog computer built in Ancient Greece and recovered from a shipwreck, its bronze gears capable of predicting eclipses and tracking planetary motions. Surprisingly, one of its dials was dedicated not to astronomy but to tracking the four-year cycle of a recurring event. What was it?",
+      "choices": [
+        "The Athenian festival of Panathenaea",
+        "Spartan military conscription cycles",
+        "The ancient Olympic Games",
+        "Delphic oracle consultation schedules"
+      ],
+      "hint": "It was neither a religious consultation schedule nor a military draft cycle, but something tied to athletic competition.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Antikythera mechanism",
+        "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+      },
+      "explanation": "The mechanism included a dial that tracked the four-year cycle of Panhellenic games, including the ancient Olympic Games."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
