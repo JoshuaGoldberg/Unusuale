@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-08",
+  "title": "Puzzle No. 74",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 2.6,
+      "description": "Add a 2.6x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "gain": 350,
+      "loss": 100,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 350 additional points on a correct answer but lose 100 on an incorrect one."
+    },
+    {
+      "id": "card1",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    },
+    {
+      "id": "card4",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis individual trained and worked as an architect before entering politics, winning a single term in the U.S. House of Representatives for a New England district in the early 1990s. After losing re-election, he was appointed by a Democratic president to serve as U.S. ambassador to a Scandinavian country. He later led a nonprofit foundation but resigned from that post amid a personal scandal involving online communications with a minor.",
+      "choices": [
+        "Bill Zeliff",
+        "Richard N. Swett",
+        "Charles Bass",
+        "Judd Gregg"
+      ],
+      "hint": "Two of these politicians were Republicans who served multiple terms in Congress and never held an ambassadorship, which rules them out.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Richard N. Swett",
+        "url": "https://en.wikipedia.org/wiki/Richard_N._Swett"
+      },
+      "explanation": "The article describes Richard N. Swett, an architect who served one term as a Democratic U.S. Representative from New Hampshire (1991-1995), was later appointed U.S. Ambassador to Denmark by President Clinton, and subsequently resigned as head of a nonprofit foundation following a scandal involving inappropriate online communication with a minor."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article describes an amateur association football team representing a very small, self-governing island known for banning motor cars and relying on horse-drawn carriages and bicycles for transport. Despite having a population of only a few hundred people, the island has occasionally fielded a team for informal international matches against teams from neighboring islands, drawing attention for being one of the smallest communities in the world to have its own football side.",
+      "choices": [
+        "Herm football team",
+        "Sark football team",
+        "Lundy football team",
+        "Alderney football team"
+      ],
+      "hint": "The correct answer is not the island that is the largest of the Channel Islands' smaller dependencies, nor the one located in the Bristol Channel rather than the English Channel.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Sark football team",
+        "url": "https://en.wikipedia.org/wiki/Sark_football_team"
+      },
+      "explanation": "The article is about the Sark football team, representing the tiny Channel Island of Sark, famous for having no cars and a population of only a few hundred, yet occasionally fielding a team for friendly international-style matches."
+    },
+    {
+      "id": "q3",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis is a low-lying coastal municipality whose economy is built almost entirely around fish farming and fishing ponds carved out of what was once mangrove forest. Decades of pond conversion and land subsidence have left much of the town's territory submerged or prone to severe flooding, forcing many residents to adapt their homes and daily life to rising water. The community also carries a centuries-old name that was later shortened and respelled.",
+      "answer": "Asia",
+      "hint": "This place is not in Africa, not in Europe, and not in South America.",
+      "article": {
+        "title": "Sasmuan",
+        "url": "https://en.wikipedia.org/wiki/Sasmuan"
+      },
+      "explanation": "Sasmuan is a municipality in Pampanga province, Philippines, known for its extensive fish ponds and significant land subsidence causing flooding."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "A small forest in Poland contains about 400 pine trees that all curve sharply near their base before straightening out and growing normally upward, forming a strange pattern whose cause remains unexplained. In which direction do the bent bases of these trees point?",
+      "choices": [
+        "South",
+        "West",
+        "North",
+        "East"
+      ],
+      "hint": "It's not a direction associated with the rising or setting sun, so it isn't East or West.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Crooked Forest",
+        "url": "https://en.wikipedia.org/wiki/Crooked_Forest"
+      },
+      "explanation": "The pine trees in the Crooked Forest all bend sharply toward the north near their base before curving back upward and growing straight, and the reason for this uniform bend is still unknown."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis term refers to a genre of fan-created sexually explicit artwork based on a popular animated franchise aimed primarily at children. The genre emerged alongside a dedicated adult fandom that formed around the show after it was rebooted in the early 2010s, and the term is thought to have originated as slang used within this fandom. The content has been a subject of discussion regarding fan community norms, content moderation on art-sharing platforms, and the broader phenomenon of adult fans creating explicit material based on media intended for children.",
+      "choices": [
+        "Rule 34",
+        "Clop (erotic fan art)",
+        "Yaoi fandom",
+        "Furry fandom art"
+      ],
+      "hint": "The correct answer is not the general internet rule about adult content existing for everything, and it is not the fandom genre centered on male-male romantic pairings.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Clop (erotic fan art)",
+        "url": "https://en.wikipedia.org/wiki/Clop_(erotic_fan_art)"
+      },
+      "explanation": "The article describes 'clop,' a term for erotic fan art based on My Little Pony: Friendship is Magic, popularized within the 'Brony' fandom that grew after the show's 2010 reboot."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an informal, somewhat satirical term used to describe an alleged phenomenon in which unusually cold weather, snowstorms, or other wintry conditions seem to coincide with public appearances, conferences, or speeches focused on raising awareness about climate change. The term is frequently used, often mockingly, by skeptics of global warming to highlight what they see as an ironic coincidence between such weather events and climate advocacy efforts.",
+      "choices": [
+        "Streisand Effect",
+        "Mandela Effect",
+        "Gore Effect",
+        "Butterfly Effect"
+      ],
+      "hint": "This phenomenon has nothing to do with collective false memories of events that never happened, nor with backlash caused by attempts to suppress information.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Gore effect",
+        "url": "https://en.wikipedia.org/wiki/Gore_effect"
+      },
+      "explanation": "The Gore effect is a term popularized by global warming skeptics to describe the supposed tendency for unusually cold weather or snowstorms to occur during public events or speeches about climate change, often referencing appearances by Al Gore."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This bottom-dwelling shark found on coral reefs in the Indo-Pacific is known for having an unusually fierce reputation among its relatives, with several documented accounts of it attacking people without obvious provocation. The species also has a distinctive fringe of branching skin flaps surrounding its mouth and head. What is the main function of these fringed flaps?",
+      "choices": [
+        "They help the shark blend into its surroundings to ambush prey",
+        "They act as sensory organs to detect electrical signals from prey",
+        "They filter plankton out of the water as the shark swims",
+        "They are used to attract mates during courtship displays"
+      ],
+      "hint": "The flaps are not used for feeding on tiny organisms, and this shark does not rely on filter feeding or electroreception for its main hunting strategy.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Tasselled wobbegong",
+        "url": "https://en.wikipedia.org/wiki/Tasselled_wobbegong"
+      },
+      "explanation": "The tasselled wobbegong's branching skin flaps break up its outline, camouflaging it among coral and algae so it can ambush unsuspecting prey that swim too close."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "This article describes an unusual phobia, an irrational fear of a specific kind of facial feature on men's faces. The term for this phobia comes from a Greek word used as its first part. What does that Greek root word mean?",
+      "choices": [
+        "Beard",
+        "Fear",
+        "Face",
+        "Hair"
+      ],
+      "hint": "It is not the word that describes the emotion itself, and it is not a general term for body hair.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Pogonophobia",
+        "url": "https://en.wikipedia.org/wiki/Pogonophobia"
+      },
+      "explanation": "Pogonophobia is derived from the Greek word 'pogon,' meaning beard, combined with 'phobos,' meaning fear."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "This 2000 Tamil film became internationally famous in 2007 when a clip of one of its songs was uploaded online with humorous captions based on how the lyrics sounded in English, turning it into a viral meme. What is the actual Tamil title of the song featured in that viral clip?",
+      "choices": [
+        "Kalluri Vaanil",
+        "Mannil Intha Kadhal",
+        "Oru Naal Koothu",
+        "Vaseegara"
+      ],
+      "hint": "It's not 'Oru Naal Koothu' or 'Vaseegara', those are songs from other well-known Tamil films.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Pennin Manathai Thottu",
+        "url": "https://en.wikipedia.org/wiki/Pennin_Manathai_Thottu"
+      },
+      "explanation": "The song 'Kalluri Vaanil' from Pennin Manathai Thottu (2000) became an internet sensation in 2007 when a user uploaded a version with mock English captions based on the song's phonetic sounds, popularly known online as 'Benny Lava'."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Have you heard about the telescope that got shot? Contrary to initial reports, the harm from the bullets was extraordinarily small. Which of the following is the real observatory telescope behind this story?",
+      "choices": [
+        "Gerard P. Kuiper Telescope",
+        "Charles T. Yerkes Telescope",
+        "Harlan J. Smith Telescope",
+        "Lawrence E. Hargrave Telescope"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not named after the planetary scientist famous for Kuiper Belt studies, nor after the aviation pioneer known for box kites.",
+      "article": {
+        "title": "Harlan J. Smith Telescope",
+        "url": "https://en.wikipedia.org/wiki/Harlan_J._Smith_Telescope"
+      },
+      "explanation": "The Harlan J. Smith Telescope is a large reflecting telescope at McDonald Observatory in Texas that was once struck by gunfire yet suffered only minor damage."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
