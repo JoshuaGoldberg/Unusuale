@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-09",
+  "title": "Puzzle No. 75",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "Featured Article",
+      "name": "Score Multiplier",
+      "multiplier": 3.1,
+      "description": "Add a 3.1x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "gain": 250,
+      "loss": 300,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 250 additional points on a correct answer but lose 300 on an incorrect one."
+    },
+    {
+      "id": "card3",
+      "gain": 900,
+      "loss": 500,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 900 additional points on a correct answer but lose 500 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis seaside park was built around a local legend involving a young woman who drowned after being stranded on a rock during a storm. According to folklore, her unresolved grief angered the sea and caused the local fish catch to disappear. Villagers began installing carved sculptures along the coast in hopes of appeasing her spirit and restoring the fishing yields. Over time, the park expanded into a larger outdoor collection of these sculptures, alongside walking trails and coastal viewpoints, and it has since become a notable, if unconventional, tourist attraction.",
+      "choices": [
+        "A coastal park featuring hundreds of carved phallic statues",
+        "A seaside park dedicated to miniature lighthouse replicas",
+        "A coastal park known for its collection of stone animal statues",
+        "A seaside memorial park featuring carved wooden totems of local spirits"
+      ],
+      "hint": "The correct answer does not involve miniature lighthouse replicas or stone animal statues.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Haesindang Park",
+        "url": "https://en.wikipedia.org/wiki/Haesindang_Park"
+      },
+      "explanation": "Haesindang Park, located in South Korea, is famous for its many phallic sculptures, which were erected based on a folk legend about a maiden who died tragically at sea, after which local fishermen believed such carvings would calm her spirit and bring back the fish."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "A Eurodance rendition of a famous puzzle video game's theme music was based on a traditional folk tune. From which country does that original folk tune originate?",
+      "choices": [
+        "Russia",
+        "Finland",
+        "Hungary",
+        "Poland"
+      ],
+      "hint": "The country is not Finland, and it is not Hungary either.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Tetris (Doctor Spin song)",
+        "url": "https://en.wikipedia.org/wiki/Tetris_(Doctor_Spin_song)"
+      },
+      "explanation": "Doctor Spin's 'Tetris' is a Eurodance adaptation of the Tetris theme, which is based on 'Korobeiniki,' a traditional Russian folk song."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of these is a real children's picture book once promoted as 'the perfect picture book for your little conservative'?",
+      "choices": [
+        "Yikes! Dad! There's a Senator in the Garage",
+        "Uh Oh! Sis! There's a Socialist in My Closet",
+        "Help! Mom! There Are Liberals Under My Bed",
+        "Watch Out! Grandma! The Government's at the Door"
+      ],
+      "answerIndex": 2,
+      "hint": "The real title involves a parent tucking a child into bed at night, not a garage mishap or someone knocking at the front door.",
+      "article": {
+        "title": "Help! Mom! There Are Liberals Under My Bed!",
+        "url": "https://en.wikipedia.org/wiki/Help!_Mom!_There_Are_Liberals_Under_My_Bed"
+      },
+      "explanation": "The book is a satirical 2005 children's picture book that pokes fun at liberal politics from a conservative viewpoint."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes an odd protrusion in a regional administrative boundary, where a strip of territory juts out from one administrative division into a neighboring one, creating an unusual bulge on the map that has drawn curiosity from geography enthusiasts.",
+      "answer": "Asia",
+      "hint": "This landmass is not in Africa, not in South America, and not in Oceania.",
+      "article": {
+        "title": "Fukushima Prefecture salient",
+        "url": "https://en.wikipedia.org/wiki/Fukushima_Prefecture_salient"
+      },
+      "explanation": "The Fukushima Prefecture salient refers to a protruding section of Fukushima Prefecture's boundary in Japan, which is located in Asia."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real restaurant, one whose owner, a vocal supporter of a political figure, ended up ironically being arrested by immigration authorities in 2025?",
+      "choices": [
+        "Liberty Burger Shack",
+        "Trump Burger",
+        "Patriot Grill House",
+        "MAGA Munchies Diner"
+      ],
+      "answerIndex": 1,
+      "hint": "Two of these restaurant names are generic patriotic-sounding phrases that don't correspond to any real business.",
+      "article": {
+        "title": "Trump Burger",
+        "url": "https://en.wikipedia.org/wiki/Trump_Burger"
+      },
+      "explanation": "Trump Burger is a Texas-based fast food chain themed around former President Donald Trump, whose owner was arrested by ICE in 2025."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This Australian competitor, whose less-than-smooth moves took the 2024 Olympics by storm, also works as a university lecturer in her day job. In what academic field does she teach?",
+      "choices": [
+        "Kinesiology",
+        "Physical Education",
+        "Cultural Studies",
+        "Dance Performance"
+      ],
+      "hint": "Her field is not directly tied to physical movement or sport, ruling out two of the choices related to exercise and physical training.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Rachael Gunn",
+        "url": "https://en.wikipedia.org/wiki/Rachael_Gunn"
+      },
+      "explanation": "Rachael Gunn, known as 'Raygun,' is a senior lecturer in cultural studies at Macquarie University, where her academic research focuses on breaking culture and gender."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Vatican practice, where a pope can secretly name someone to a high church office, sometimes without even that person knowing it happened?",
+      "choices": [
+        "Sub silentio",
+        "In pectore",
+        "Ad arcanum",
+        "In secreto"
+      ],
+      "answerIndex": 1,
+      "hint": "The real term is not 'Sub silentio' or 'Ad arcanum', those are invented variations.",
+      "article": {
+        "title": "In pectore",
+        "url": "https://en.wikipedia.org/wiki/In_pectore"
+      },
+      "explanation": "In pectore is the practice by which a pope can appoint a cardinal in secret, withholding the person's name even from the cardinal himself until it is later revealed."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "A man recorded in an English legal document bore a surname that sounds crude today, but according to Wikipedia, his surname probably didn't mean what you think it might mean, unlike the later Roger Fuckebythenavele, whose name did mean that. In which century was this man's name recorded?",
+      "choices": [
+        "15th century",
+        "16th century",
+        "13th century",
+        "14th century"
+      ],
+      "hint": "It wasn't during the Tudor era (16th century) or the century right before it (15th century).",
+      "answerIndex": 2,
+      "article": {
+        "title": "John le Fucker",
+        "url": "https://en.wikipedia.org/wiki/John_le_Fucker"
+      },
+      "explanation": "John le Fucker appears in a 13th-century English record, with his surname likely deriving from an occupational or descriptive term unrelated to the modern vulgar meaning."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "One author's devoted fanbase has led to so many things being named in their honor that even skimming the list makes you think, 'Wow, that surely is a lot.' Which of the following is the real Wikipedia list of things named after a particular author and their works?",
+      "choices": [
+        "List of things named after Charles Dickens and his works",
+        "List of things named after Mark Twain and his works",
+        "List of things named after J. R. R. Tolkien and his works",
+        "List of things named after Jane Austen and her works"
+      ],
+      "answerIndex": 2,
+      "hint": "The honored author was not American and was not a woman, so you can rule out the writer known for satire and the beloved novelist of romantic fiction.",
+      "article": {
+        "title": "List of things named after J. R. R. Tolkien and his works",
+        "url": "https://en.wikipedia.org/wiki/List_of_things_named_after_J._R._R._Tolkien_and_his_works"
+      },
+      "explanation": "The article catalogs the many asteroids, species, places, and other items that have been named in honor of J. R. R. Tolkien and his Middle-earth writings."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 9,
+    "failedCount": 1
+  }
+}
