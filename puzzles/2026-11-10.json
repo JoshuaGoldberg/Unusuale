@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-10",
+  "title": "Puzzle No. 76",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 3.7,
+      "description": "Add a 3.7x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 1.8,
+      "description": "Add a 1.8x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card3",
+      "gain": 550,
+      "loss": 700,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 550 additional points on a correct answer but lose 700 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Lists of incidents at Disney parks\" catalogs guest injuries and deaths that occurred across the various attractions over the decades. One grim entry describes a visitor who snuck into a park after closing time and was killed when he became trapped beneath a moving mechanism at a well known attraction. What crushed him?",
+      "choices": [
+        "The castle drawbridge",
+        "The monorail track switch",
+        "A parade float wheel",
+        "An escalator step"
+      ],
+      "hint": "It wasn't a vehicle used for transportation around the park, nor was it part of a nighttime parade.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Lists of incidents at Disney parks",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_incidents_at_Disney_parks"
+      },
+      "explanation": "A man who snuck into the park overnight was fatally crushed by the drawbridge mechanism at Cinderella Castle."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual article about a sonar discovery so odd that one description joked it looks like someone left their Millennium Falcon underwater?",
+      "choices": [
+        "Celebes Sea Formation",
+        "Aegean Sea Object",
+        "Baltic Sea anomaly",
+        "Tasman Sea Structure"
+      ],
+      "answerIndex": 2,
+      "hint": "The real discovery lies in a sea in Europe, not in Southeast Asia or near Australia.",
+      "article": {
+        "title": "Baltic Sea anomaly",
+        "url": "https://en.wikipedia.org/wiki/Baltic_Sea_anomaly"
+      },
+      "explanation": "The Baltic Sea anomaly is a circular rock-like formation discovered on the seabed by treasure hunters in 2011 that sparked speculation about its origin before being explained as a natural geological feature."
+    },
+    {
+      "id": "q3",
+      "type": "continent",
+      "prompt": "The Wikipedia article \"Stratford International station\" describes a railway station built as part of a high speed rail line, designed with facilities intended for cross-border passenger trains. Despite its name suggesting international service, no such trains have ever stopped there, and it instead serves only domestic high speed and local services.",
+      "answer": "Europe",
+      "hint": "This location is not in Africa, South America, or Oceania.",
+      "article": {
+        "title": "Stratford International station",
+        "url": "https://en.wikipedia.org/wiki/Stratford_International_station"
+      },
+      "explanation": "Stratford International station is located in London, England, part of Europe, and despite its name has never hosted international Eurostar services."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Space selfie\" describes a NASA web tool that let users combine their own photo with a real photograph taken during one of its missions, creating a composite image people could share online. Which NASA spacecraft captured the photograph used as the background for these composite selfies?",
+      "choices": [
+        "Juno",
+        "New Horizons",
+        "Parker Solar Probe",
+        "Cassini"
+      ],
+      "hint": "It wasn't the mission that studied Jupiter's atmosphere, nor the one famous for Saturn's rings.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Space selfie",
+        "url": "https://en.wikipedia.org/wiki/Space_selfie"
+      },
+      "explanation": "The tool used a real image of the Sun captured by NASA's Parker Solar Probe as the backdrop for user-submitted selfies."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis Wikipedia article describes a tiny incorporated village with an official population of exactly one resident. That single inhabitant serves simultaneously as the mayor, librarian, and keeper of the local tavern, paying taxes to herself to keep the village's status intact. The settlement once had a few hundred residents and businesses, but decades of decline left just one person maintaining its existence.",
+      "answer": "North America",
+      "hint": "The continent is not Africa, Asia, or Antarctica.",
+      "article": {
+        "title": "Monowi, Nebraska",
+        "url": "https://en.wikipedia.org/wiki/Monowi,_Nebraska"
+      },
+      "explanation": "Monowi is a village in the U.S. state of Nebraska, which is part of North America."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis early 20th-century military engagement saw a numerically superior invading force suffer an embarrassing defeat against a much smaller group of defenders. The chaos of the fighting was reportedly worsened when a swarm of insects attacked both sides, stinging soldiers and animals alike and adding to the disorder. The invaders were ultimately forced to retreat, leaving behind large quantities of military equipment and supplies.",
+      "choices": [
+        "Pig War",
+        "Battle of Tanga",
+        "War of the Stray Dog",
+        "Battle of Karansebes"
+      ],
+      "hint": "The correct answer did not involve troops from the same side mistakenly fighting each other, and it was not sparked by a dispute over an animal being killed.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Battle of Tanga",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tanga"
+      },
+      "explanation": "The Battle of Tanga (1914) was a disastrous British attempt to invade German East Africa. Despite vastly outnumbering the German defenders, the British force was routed, partly due to chaos caused by swarms of disturbed bees stinging both sides. The British retreated, abandoning large amounts of weapons and supplies, leading to the engagement's nickname, the 'Battle of the Bees.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis ongoing conceptual art project centers on a forest planted in 2014, whose wood is intended to be harvested in 2114 to print a special anthology. Each year, a contemporary author contributes a new piece of writing, which is kept sealed and unread by anyone, including the author themselves, until the harvest takes place. The manuscripts are stored in a dedicated room within a public building, and contributors so far have included several internationally known novelists.",
+      "choices": [
+        "The Crypt of Civilization",
+        "KEO (satellite time capsule)",
+        "Future Library",
+        "Svalbard Global Seed Vault"
+      ],
+      "hint": "The correct answer is not a satellite-based time capsule, nor a facility built to preserve seeds for agricultural emergencies.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Future Library project",
+        "url": "https://en.wikipedia.org/wiki/Future_Library_project"
+      },
+      "explanation": "The Future Library project, created by artist Katie Paterson, involves a forest planted in Norway in 2014 whose trees will be used in 2114 to print an anthology of texts contributed yearly by different authors, each manuscript kept unread until then."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Le Pétomane\" describes a French performer who built a sensational Victorian-era stage act around his remarkable bodily control, drawing huge crowds to the Moulin Rouge. He reportedly earned more per performance than one of the most celebrated stage actresses of the era. Which famous actress did he out-earn?",
+      "choices": [
+        "Lillie Langtry",
+        "Sarah Bernhardt",
+        "Jenny Lind",
+        "Lola Montez"
+      ],
+      "hint": "It's not Jenny Lind or Lola Montez, both of whom were singers/dancers rather than stage actresses of that specific Paris theater scene.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Le Pétomane",
+        "url": "https://en.wikipedia.org/wiki/Le_P%C3%A9tomane"
+      },
+      "explanation": "Le Pétomane (Joseph Pujol) was reportedly paid more per show at the Moulin Rouge than the legendary French actress Sarah Bernhardt."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual structure built in a European capital for a single strange engineering purpose, with no practical use beyond testing something about the ground beneath it?",
+      "choices": [
+        "Lastverteilungsturm",
+        "Betonstützpfeilerwerk",
+        "Schwerbelastungskörper",
+        "Druckmessungsgebäude"
+      ],
+      "answerIndex": 2,
+      "hint": "The real structure is not a tower and it is not named for being a 'support work', so you can rule those two out.",
+      "article": {
+        "title": "Schwerbelastungskörper",
+        "url": "https://en.wikipedia.org/wiki/Schwerbelastungsk%C3%B6rper"
+      },
+      "explanation": "The Schwerbelastungskörper is a massive concrete cylinder built in Berlin under Nazi rule solely to test how much weight the local soil could support for future monumental construction."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers a U.S. Senate election in which the sitting incumbent lost their party's primary to a challenger, but the incumbent went on to win the general election anyway by mounting a write-in campaign, one of the few times in American history that a write-in candidate has won a Senate seat.",
+      "choices": [
+        "2010 United States Senate election in Alaska",
+        "2006 United States Senate election in Connecticut",
+        "2002 United States Senate election in New Jersey",
+        "1998 United States Senate election in Georgia"
+      ],
+      "hint": "The answer is not the New Jersey race or the Georgia race; those elections did not involve a successful write-in campaign by an incumbent who lost a primary.",
+      "answerIndex": 0,
+      "article": {
+        "title": "2010 United States Senate election in Alaska",
+        "url": "https://en.wikipedia.org/wiki/2010_United_States_Senate_election_in_Alaska"
+      },
+      "explanation": "In the 2010 Alaska Senate race, incumbent Lisa Murkowski lost the Republican primary to Joe Miller but won the general election as a write-in candidate, a rare feat in U.S. Senate history."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
