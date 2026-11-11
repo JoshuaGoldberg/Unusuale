@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-11",
+  "title": "Puzzle No. 77",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.6,
+      "description": "Skip the current question while still earning 0.6x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 150,
+      "loss": 1000,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 150 additional points on a correct answer but lose 1000 on an incorrect one."
+    },
+    {
+      "id": "card4",
+      "gain": 650,
+      "loss": 1250,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 650 additional points on a correct answer but lose 1250 on an incorrect one."
+    },
+    {
+      "id": "card5",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual border story: a lawyer with no prior knowledge of the region was given just five weeks to draw a dividing line that still fuels tension between two neighboring countries today?",
+      "choices": [
+        "Durand Line",
+        "Radcliffe Line",
+        "McMahon Line",
+        "Mannerheim Line"
+      ],
+      "answerIndex": 1,
+      "hint": "It's not the line named after a Finnish military leader, and it's not the one separating Afghanistan from Pakistan along tribal regions.",
+      "article": {
+        "title": "Radcliffe Line",
+        "url": "https://en.wikipedia.org/wiki/Radcliffe_Line"
+      },
+      "explanation": "The Radcliffe Line was the border demarcation line drawn by Cyril Radcliffe in 1947 to partition British India into India and Pakistan, despite him having no prior experience with the region and only five weeks to complete the task."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis small roadside memorial commemorates an alleged close encounter with a landed flying saucer, reportedly witnessed by a local man in the late 1940s. Decades later, a monument including a stone marker and informational plaque was erected at the site to mark the supposed event, making it one of the few permanent memorials dedicated to a UFO sighting anywhere in the world.",
+      "answer": "Europe",
+      "hint": "The memorial is not located in Africa, Antarctica, or South America.",
+      "article": {
+        "title": "Ängelholm UFO memorial",
+        "url": "https://en.wikipedia.org/wiki/%C3%84ngelholm_UFO_memorial"
+      },
+      "explanation": "The Ängelholm UFO memorial is located in Ängelholm, Sweden, which is in Europe."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis subject became an internet sensation after a photograph captured it in a particularly memorable position near a city street. The image went viral worldwide and was widely shared and turned into memes. After its death, a statue was erected in a city to commemorate it, becoming a small local landmark and tourist attraction.",
+      "choices": [
+        "A street cat known for its relaxed lounging pose",
+        "A stray dog recognized for guarding a train station for years",
+        "A pigeon famous for a peculiar strutting walk in a city square",
+        "A turtle noted for basking near a fountain in a park"
+      ],
+      "hint": "The incorrect choices are not the dog known for guarding a transit station, nor the turtle linked to a fountain in a park.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Tombili",
+        "url": "https://en.wikipedia.org/wiki/Tombili"
+      },
+      "explanation": "The article describes Tombili, a cat from Istanbul who became famous for a photo of him leaning against a curb. After his death, a statue was built in his honor in the Ziverbey neighborhood."
+    },
+    {
+      "id": "q4",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis narrow urban passage holds the record for being the tightest public street in the world, with a width that narrows to just under 31 centimeters at its slimmest point. Originally built in 1727 as a gap between buildings rather than an intentional roadway, it has since become a quirky tourist attraction, and its width has actually decreased over the centuries due to the settling of the surrounding structures.",
+      "answer": "Europe",
+      "hint": "This location is not in Asia, Africa, or South America.",
+      "article": {
+        "title": "Spreuerhofstraße",
+        "url": "https://en.wikipedia.org/wiki/Spreuerhofstra%C3%9Fe"
+      },
+      "explanation": "Spreuerhofstraße is a street in Reutlingen, Germany, recognized by Guinness World Records as the narrowest street in the world, located in Europe."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Bambi Meets Godzilla\" describes a short animated film where things unfold about as badly as the title suggests. Despite being barely more than a minute long, the film was later honored in the book 'The 50 Greatest Cartoons', a ranking voted on by animation professionals. What rank did it receive on that list?",
+      "choices": [
+        "12",
+        "38",
+        "45",
+        "25"
+      ],
+      "hint": "It was not in the top 20, and it was not dead last either, it landed firmly in the latter half of the list.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Bambi Meets Godzilla",
+        "url": "https://en.wikipedia.org/wiki/Bambi_Meets_Godzilla"
+      },
+      "explanation": "The film was ranked number 38 on the list of the 50 greatest cartoons of all time, as voted by members of the animation field for the book 'The 50 Greatest Cartoons'."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Friendly Floatees spill\" describes rubber ducks and their bath-toy companions who embarked on an unplanned, years-long ocean voyage after spilling from a cargo ship in 1992. Their journey across the world's oceans later inspired a famous children's author to write a picture book. Which author was it?",
+      "choices": [
+        "Dr. Seuss",
+        "Maurice Sendak",
+        "Eric Carle",
+        "Shel Silverstein"
+      ],
+      "hint": "It wasn't the author known for rhyming nonsense verse, nor the one famous for 'Where the Wild Things Are'.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Friendly Floatees spill",
+        "url": "https://en.wikipedia.org/wiki/Friendly_Floatees_spill"
+      },
+      "explanation": "The spill inspired Eric Carle, author of 'The Very Hungry Caterpillar,' to write the children's book '10 Little Rubber Ducks.'"
+    },
+    {
+      "id": "q7",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article describes a short alternate alignment of a numbered highway that runs through a city's downtown area rather than following the main route around it. Such truck routes are typically created to guide larger vehicles along city streets when the primary highway bypasses the urban core or has restrictions unsuitable for heavy trucks. This particular route is notable for its relatively short length and the specific sequence of urban streets and bridges it follows through the city center.",
+      "answer": "North America",
+      "hint": "This continent is not Africa, Asia, or Antarctica.",
+      "article": {
+        "title": "U.S. Route 19 Truck (Pittsburgh)",
+        "url": "https://en.wikipedia.org/wiki/U.S._Route_19_Truck_(Pittsburgh)"
+      },
+      "explanation": "The article describes a truck route variant of U.S. Route 19 through downtown Pittsburgh, Pennsylvania, which is located in the United States, North America."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis performer was the youngest member of a famous comedy troupe, appearing in several of their early films before leaving show business altogether. He went on to found an engineering company, and is credited with developing a specialized clamp later used in a critical component of an early nuclear weapon, as well as inventing a wearable device for monitoring heart rate that influenced medical technology.",
+      "choices": [
+        "Groucho Marx",
+        "Chico Marx",
+        "Zeppo Marx",
+        "Harpo Marx"
+      ],
+      "hint": "The correct answer is not the brother known for his painted-on mustache and cigar-wielding wit, nor the one known for his piano-playing con-artist characters.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Zeppo Marx",
+        "url": "https://en.wikipedia.org/wiki/Zeppo_Marx"
+      },
+      "explanation": "The article describes Zeppo Marx, the youngest of the Marx Brothers, who left acting to pursue engineering. He co-founded a company that developed the Marman clamp, used in the atomic bomb 'Fat Man,' and he also patented a heart rate monitoring device."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"1964 Illinois House of Representatives election\" describes a bizarre election where more than 525 million votes were tallied in a state with only about 10 million residents at the time. What unusual electoral arrangement led to this massive vote total?",
+      "choices": [
+        "All 177 House seats were elected statewide at-large using cumulative voting after redistricting failed",
+        "Newly installed voting machines accidentally recorded each ballot multiple times",
+        "A court order required every registered voter to cast ballots in every district",
+        "Illinois temporarily merged its House and Senate elections into a single combined vote"
+      ],
+      "hint": "It was not a technical malfunction or a court mandate; it involved how candidates were chosen across the entire state rather than by district.",
+      "answerIndex": 0,
+      "article": {
+        "title": "1964 Illinois House of Representatives election",
+        "url": "https://en.wikipedia.org/wiki/1964_Illinois_House_of_Representatives_election"
+      },
+      "explanation": "Because the legislature failed to pass a redistricting plan, all 177 seats in the Illinois House were elected at-large statewide using cumulative voting, producing the so-called 'bedsheet ballot' and hundreds of millions of total votes cast."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Argumentum ad crumenam\" explains that even if money can't buy you happiness, it (or a lack thereof) might win you an argument. The article notes a related fallacy that flips this logic, arguing that poverty instead makes someone's claims more credible. This opposite fallacy is named after which biblical figure?",
+      "choices": [
+        "Job",
+        "Lazarus",
+        "Moses",
+        "Solomon"
+      ],
+      "hint": "He was not a king famed for his wisdom, nor a prophet who led his people out of bondage.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Argumentum ad crumenam",
+        "url": "https://en.wikipedia.org/wiki/Argumentum_ad_crumenam"
+      },
+      "explanation": "The related fallacy is called 'argumentum ad Lazarum,' named after the poor beggar Lazarus from the biblical parable, and it holds that poverty implies greater moral or factual correctness."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
