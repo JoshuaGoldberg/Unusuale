@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-12",
+  "title": "Puzzle No. 78",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 2.6,
+      "description": "Add a 2.6x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.4,
+      "description": "Skip the current question while still earning 0.4x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.8,
+      "description": "Skip the current question while still earning 0.8x the points"
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Microsoft acquisition hoax\" describes a 1994 chain email claiming that Microsoft was secretly negotiating to purchase the Roman Catholic Church. The fake press release bragged that, thanks to new technology, believers would soon be able to receive one core religious sacrament remotely through their home computers instead of in person at church. Which sacrament did the hoax claim could now be delivered electronically?",
+      "choices": [
+        "Confession",
+        "Baptism",
+        "Last Rites",
+        "Communion"
+      ],
+      "hint": "It wasn't the sacrament given to infants, and it wasn't the one given to the dying.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Microsoft acquisition hoax",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_acquisition_hoax"
+      },
+      "explanation": "The hoax press release joked that the merger would let the Catholic Church offer an 'online Eucharist,' allowing Communion to be received via computer."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This subject refers to an animal that was elected to serve as the honorary leader of a small town, as part of a charity fundraising election benefiting a local animal rescue organization. The animal succeeded an earlier office holder who had passed away, continuing a quirky civic tradition where residents could cast votes by making donations.",
+      "choices": [
+        "A goat elected as honorary sheriff of a small Texas town",
+        "A dog elected as honorary mayor of a small California town",
+        "A cat elected as honorary governor of a small Oregon town",
+        "A parrot elected as honorary councilman of a small Florida town"
+      ],
+      "hint": "The correct answer is not a cat and not a parrot.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Mayor Max II",
+        "url": "https://en.wikipedia.org/wiki/Mayor_Max_II"
+      },
+      "explanation": "Mayor Max II is a dog who was elected honorary mayor of Idyllwild, California, succeeding the original Mayor Max, through a fundraising election supporting local animal welfare efforts."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual linguistic term for a word that can mean two opposite things, as in how sometimes you need oversight to prevent oversight?",
+      "choices": [
+        "Capitonym",
+        "Contronym",
+        "Heteronym",
+        "Retronym"
+      ],
+      "answerIndex": 1,
+      "hint": "It's not the term for a word that changes meaning when capitalized, and it's not the term for words spelled the same but pronounced differently with different meanings.",
+      "article": {
+        "title": "Contronym",
+        "url": "https://en.wikipedia.org/wiki/Contronym"
+      },
+      "explanation": "A contronym is a word that has two opposite or contradictory meanings depending on context."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "One bizarre traffic accident has been called a truly once-in-a-lifetime crash, pairing two vehicles that have no business sharing the same stretch of road. Which of these is the real incident?",
+      "choices": [
+        "Collision between a bus and a blimp",
+        "Collision between a bicycle and a hot air balloon",
+        "Collision between a car and a submarine",
+        "Collision between a train and a tractor"
+      ],
+      "answerIndex": 2,
+      "hint": "The real incident did not involve anything that flies, so you can rule out any choice mentioning a balloon or airship.",
+      "article": {
+        "title": "Collision between a car and a submarine",
+        "url": "https://en.wikipedia.org/wiki/Collision_between_a_car_and_a_submarine"
+      },
+      "explanation": "The article describes a rare accident in which a car collided with a submarine on a public road."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "An unusual Wikipedia article describes a massive concrete sculpture of a political leader's head, carved into a mountainside in the 1980s as a monument and tourist attraction. It was deliberately damaged by explosives in 2002, reportedly by rebels opposed to the leader's legacy, leaving much of the structure in ruins. The partially destroyed landmark still draws curious visitors today.",
+      "answer": "Asia",
+      "hint": "This bust is not found in Europe, Africa, or North America.",
+      "article": {
+        "title": "Bust of Ferdinand Marcos",
+        "url": "https://en.wikipedia.org/wiki/Bust_of_Ferdinand_Marcos"
+      },
+      "explanation": "The bust is located in the Philippines, in Asia, where it was built as a monument to President Ferdinand Marcos and later partially destroyed by rebel bombers in 2002."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real Wikipedia article about a legendary medicinal substance from Arabia, said to be preserved in honey for centuries before use?",
+      "choices": [
+        "Tarred sailor",
+        "Salted monk",
+        "Mellified man",
+        "Pickled pilgrim"
+      ],
+      "answerIndex": 2,
+      "hint": "The real substance was known for its sweetness rather than its saltiness or smokiness, so you can rule out the salted monk and the tarred sailor.",
+      "article": {
+        "title": "Mellified man",
+        "url": "https://en.wikipedia.org/wiki/Mellified_man"
+      },
+      "explanation": "A mellified man was a legendary medicinal confection supposedly made by immersing a human body in honey for decades to create a healing substance."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article covers a British folk superstition holding that performing a certain everyday action with a common household item inside the home will bring bad luck, often associated with death. Various explanations trace its origins to mourning customs in industrial communities such as coal mining towns, while others link it to theatrical or sporting traditions and even football dressing-room rituals.",
+      "choices": [
+        "Leaving a pair of scissors open",
+        "Opening an umbrella while indoors",
+        "Placing a hat on a bed",
+        "Putting new shoes on a table"
+      ],
+      "hint": "The correct superstition does not involve scissors or umbrellas, those are unrelated folk beliefs about bad luck from sharp objects and rain gear.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Shoes on a table",
+        "url": "https://en.wikipedia.org/wiki/Shoes_on_a_table"
+      },
+      "explanation": "The article describes the British superstition that placing new shoes on a table brings bad luck or death, often traced to mining communities where a dead miner's boots were placed on the table as a sign of mourning, as well as theatrical and sporting variations of the belief."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Rod (optical phenomenon), the name given to strange streaking shapes that some believers claim are unknown flying creatures or tiny UFOs caught on camera, has a much more down-to-earth explanation according to skeptics and researchers. What do most investigators say is actually being captured on film?",
+      "choices": [
+        "Insects flying past the camera, blurred by the recording's frame rate",
+        "Birds captured mid-flap in low light conditions",
+        "Dust particles drifting close to the lens and catching sunlight",
+        "Digital compression artifacts from older video camera sensors"
+      ],
+      "hint": "It's not a technical glitch and it's not something drifting slowly through the air, it's a living creature moving quickly.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Rod (optical phenomenon)",
+        "url": "https://en.wikipedia.org/wiki/Rod_(optical_phenomenon)"
+      },
+      "explanation": "Researchers and skeptics have demonstrated that these 'rods' are typically ordinary flying insects whose wing motion is blurred by a camera's frame rate, creating the illusion of a solid, elongated body with undulating fins."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of these Civil War clashes is a real, unusual battle: one where attacking troops set off a huge underground explosion but then made the baffling choice to advance straight into the blast site, only to become trapped there and picked off with ease?",
+      "choices": [
+        "Battle of Marsh Hollow",
+        "Battle of Blackwater Gap",
+        "Battle of the Crater",
+        "Battle of the Sinkhole"
+      ],
+      "answerIndex": 2,
+      "hint": "This engagement took place in Virginia during 1864, which rules out the Tennessee battle and the Mississippi battle among these choices.",
+      "article": {
+        "title": "Battle of the Crater",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Crater"
+      },
+      "explanation": "During the Siege of Petersburg, Union forces detonated a massive mine beneath Confederate lines but then bungled the follow-up attack by advancing into the resulting crater, where they were slaughtered by regrouped Confederate troops."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Gothabilly\" describes a music style often summed up as what rockabilly icon Buddy Holly might sound like if he embraced goth culture. The article lists several notable bands associated with this genre. Which of the following bands is specifically named in the article as a key example of gothabilly?",
+      "choices": [
+        "Mad Sin",
+        "Nekromantix",
+        "Tiger Army",
+        "Demented Are Go"
+      ],
+      "hint": "It's not the band known for a classic pompadour-and-leather rockabilly look, and it's not the one most associated with straightforward psychobilly rather than goth imagery, so rule out Mad Sin and Tiger Army.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Gothabilly",
+        "url": "https://en.wikipedia.org/wiki/Gothabilly"
+      },
+      "explanation": "Nekromantix is cited in the article as one of the defining bands of the gothabilly/psychobilly crossover sound, blending horror imagery with rockabilly energy."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
