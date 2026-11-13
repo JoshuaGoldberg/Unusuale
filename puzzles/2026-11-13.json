@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-13",
+  "title": "Puzzle No. 79",
+  "cards": [
+    {
+      "id": "card4",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 1.7,
+      "description": "Add a 1.7x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 1,
+      "description": "Skip the current question while still earning 1x the points"
+    },
+    {
+      "id": "card5",
+      "gain": 1050,
+      "loss": 250,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 1050 additional points on a correct answer but lose 250 on an incorrect one."
+    },
+    {
+      "id": "card1",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis describes a preserved wild animal that made headlines in the mid-1980s after it consumed a large quantity of an illegal stimulant that had been dropped during a drug-smuggling operation. The animal died shortly afterward, and its remains were later preserved through taxidermy. Over the following decades the mount was displayed in several locations, including a shopping mall, before eventually inspiring a major Hollywood film released in 2023.",
+      "choices": [
+        "A taxidermied alligator that swallowed a bag of methamphetamine in a Florida swamp",
+        "A preserved owl found dead after consuming heroin pellets near an airport runway",
+        "A stuffed black bear that died after ingesting cocaine in the Appalachian wilderness",
+        "A mounted wolf that overdosed on a veterinary tranquilizer in rural Montana"
+      ],
+      "hint": "The drug involved was a stimulant, not an opioid or a sedative, which rules out the owl and the wolf.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Cocaine Bear (bear)",
+        "url": "https://en.wikipedia.org/wiki/Cocaine_Bear_(bear)"
+      },
+      "explanation": "The article is about a real black bear nicknamed 'Pablo Escobear' that died in the Georgia wilderness in 1985 after consuming cocaine from a smuggler's dropped parcel. Its taxidermied body was later displayed in various places, including a mall in Kentucky, and it inspired the 2023 film 'Cocaine Bear.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"A Kitten for Hitler\" covers a short film that director Ken Russell made after being challenged to create something so tasteless he himself would want it banned, resulting in widespread controversy over its premise. According to the article, what was used to depict the kitten of the title in the film?",
+      "choices": [
+        "A trained kitten actor",
+        "A live kitten filmed only briefly",
+        "A toy or puppet kitten",
+        "A borrowed kitten from a local shelter"
+      ],
+      "hint": "It was not a trained professional animal actor, and it was not borrowed from a shelter.",
+      "answerIndex": 2,
+      "article": {
+        "title": "A Kitten for Hitler",
+        "url": "https://en.wikipedia.org/wiki/A_Kitten_for_Hitler"
+      },
+      "explanation": "To avoid actual animal cruelty, the filmmakers used a toy/puppet kitten rather than a real one for the film's provocative scenes."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real, mostly abandoned desert tourist attraction that was named after a well known legendary figure?",
+      "choices": [
+        "Jack Frost, Colorado",
+        "Uncle Sam, Nevada",
+        "Santa Claus, Arizona",
+        "Easter Bunny, Texas"
+      ],
+      "answerIndex": 2,
+      "hint": "The real place isn't tied to a patriotic icon or to wintry weather imagery, so you can rule out the one named for a founding father figure and the one evoking icy conditions.",
+      "article": {
+        "title": "Santa Claus, Arizona",
+        "url": "https://en.wikipedia.org/wiki/Santa_Claus,_Arizona"
+      },
+      "explanation": "Santa Claus, Arizona is a nearly deserted community in Mohave County built in the 1930s as a holiday themed roadside attraction, and locals joke that its namesake still lingers there."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an annual outdoor music festival in France dedicated to a particularly intense and aggressive style of rock and its many offshoots. It takes place over several days each summer in a small town, drawing a mix of local and international bands as well as fans from across Europe. Though smaller in scale than some of the continent's larger gatherings of this kind, it has built a loyal following since its founding in the mid 2000s and continues to host club nights after the main festival stage closes.",
+      "choices": [
+        "Hellfest",
+        "Wacken Open Air",
+        "Graspop Metal Meeting",
+        "Metal Open Air"
+      ],
+      "hint": "The festival is not the large German event known for its massive attendance, nor is it the one held in Belgium that shares a name referencing grass.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Metal Open Air",
+        "url": "https://en.wikipedia.org/wiki/Metal_Open_Air"
+      },
+      "explanation": "The article describes Metal Open Air, a heavy metal music festival held annually in France."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about writing systems? When a script includes thousands of symbols, it turns out a few may end up coming out of nowhere, with no clear origin or meaning.",
+      "choices": [
+        "Phantom syllables",
+        "Ghost characters",
+        "Shadow radicals",
+        "Orphan glyphs"
+      ],
+      "answerIndex": 1,
+      "hint": "The real article is not about radicals used in dictionaries, and it does not involve syllables found in spoken language; it specifically concerns written symbols that appear in encoding standards by mistake.",
+      "article": {
+        "title": "Ghost characters",
+        "url": "https://en.wikipedia.org/wiki/Ghost_characters"
+      },
+      "explanation": "Ghost characters are Japanese kanji that appeared in character encoding standards due to clerical errors, despite having no known meaning, pronunciation, or origin."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nIn the late 1980s, a U.S. state legislature created a short-lived administrative county for essentially a single purpose: to allow a nearby county to capture tax revenue from a proposed large infrastructure project without that project's host state having to share funds with other jurisdictions. The new county had virtually no residents, no real government infrastructure, and existed mostly as a legal and political maneuver. It was dissolved just two years later after a court ruled the arrangement unconstitutional.",
+      "choices": [
+        "A parish in Louisiana created temporarily for redistricting purposes",
+        "A borough in Alaska created to manage a mining dispute",
+        "A county in Nevada created to tax a nuclear waste repository",
+        "A county in New York created to resolve a land ownership dispute"
+      ],
+      "hint": "The correct answer is not located in Alaska or Louisiana.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Bullfrog County, Nevada",
+        "url": "https://en.wikipedia.org/wiki/Bullfrog_County,_Nevada"
+      },
+      "explanation": "Bullfrog County, Nevada was created in 1987 by the Nevada Legislature solely to allow taxation of the proposed Yucca Mountain nuclear waste repository, bypassing Nye County. It had almost no population and was abolished in 1989 after being ruled unconstitutional."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Dendera light\" covers a carved relief in an Egyptian temple that some fringe theorists claim depicts a modern electric lightbulb powered by ancient technology, rather than a scene from a creation myth as most Egyptologists believe. Which author and popularizer of ancient astronaut theories is credited with spreading this electric lightbulb interpretation?",
+      "choices": [
+        "Zecharia Sitchin",
+        "Erich von Däniken",
+        "Graham Hancock",
+        "Giorgio Tsoukalos"
+      ],
+      "hint": "It's not the TV personality known for hosting Ancient Aliens, nor the one famous for proposing Nibiru and the Anunnaki.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Dendera light",
+        "url": "https://en.wikipedia.org/wiki/Dendera_light"
+      },
+      "explanation": "Erich von Däniken, known for his ancient astronaut theories, popularized the idea that the Dendera relief depicted an electric lightbulb, though Egyptologists identify it as a depiction of a lotus flower and serpent tied to Egyptian creation mythology."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "This is a video game created by a small, largely unknown developer, originally intended to tie in with a major real-world political event happening around the time of its release. It later became infamous for its extremely crude graphics, broken gameplay, bizarre storyline, and content widely criticized as offensive. It is frequently cited among the worst video games ever made and has become a cult internet meme, with clips and screenshots circulating widely online.",
+      "choices": [
+        "Hong Kong 97",
+        "Action 52",
+        "E.T. the Extra-Terrestrial",
+        "Desert Bus"
+      ],
+      "hint": "The correct answer is not the compilation cartridge packed with dozens of unfinished games, and it is not the simulation game known for its deliberately tedious, endless bus-driving gameplay.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Hong Kong 97",
+        "url": "https://en.wikipedia.org/wiki/Hong_Kong_97"
+      },
+      "explanation": "The article describes Hong Kong 97, a notoriously bad 1997 Super Famicom game made to coincide with the handover of Hong Kong to China, infamous for its crude visuals, broken mechanics, and offensive content."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a subgenre of heavy metal music that draws its lyrical and visual themes from seafaring outlaws of centuries past. Bands associated with this style often sing about shipwrecks, plundering, and life on the high seas, sometimes performing in period costumes and incorporating folk instruments like accordions and fiddles into otherwise heavy, guitar driven arrangements. It emerged largely from the broader folk metal movement in the 1990s and 2000s, with certain bands becoming especially known for blending comedic, theatrical stage shows with their sound.",
+      "choices": [
+        "Viking metal",
+        "Gothic metal",
+        "Pirate metal",
+        "Folk metal"
+      ],
+      "hint": "The correct answer is not themed around medieval Scandinavian warriors, nor does it focus on dark romantic and macabre aesthetics.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Pirate metal",
+        "url": "https://en.wikipedia.org/wiki/Pirate_metal"
+      },
+      "explanation": "The article describes pirate metal, a subgenre of heavy metal music that features lyrical themes and imagery related to pirates, often fused with folk metal elements, as popularized by bands like Alestorm and Running Wild."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "This small town in the United States was once a thriving coal-mining community with over a thousand residents. In the early 1960s, an underground fire ignited beneath the town and has continued to burn ever since, making the ground unstable and releasing smoke and toxic gases through cracks in the earth. Over the following decades, most residents were relocated and buildings were demolished, leaving only a handful of people still living there. The town's eerie, abandoned atmosphere has made it a subject of documentaries and has inspired various works of fiction.",
+      "choices": [
+        "Picher, Oklahoma",
+        "Wittenoom, Australia",
+        "Centralia, Pennsylvania",
+        "Kolmanskop, Namibia"
+      ],
+      "hint": "The correct answer is located in the United States; two of the other choices are towns outside North America.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Centralia, Pennsylvania",
+        "url": "https://en.wikipedia.org/wiki/Centralia,_Pennsylvania"
+      },
+      "explanation": "Centralia, Pennsylvania, is a near-ghost town that was abandoned after an underground coal mine fire began burning beneath it in 1962, a fire that continues to burn to this day."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
