@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-14",
+  "title": "Puzzle No. 80",
+  "cards": [
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 400,
+      "loss": 650,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 400 additional points on a correct answer but lose 650 on an incorrect one."
+    },
+    {
+      "id": "card3",
+      "gain": 550,
+      "loss": 1000,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 550 additional points on a correct answer but lose 1000 on an incorrect one."
+    },
+    {
+      "id": "card5",
+      "gain": 700,
+      "loss": 500,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 700 additional points on a correct answer but lose 500 on an incorrect one."
+    },
+    {
+      "id": "card1",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"The Dawn of the Black Hearts\" covers a notorious bootleg live album whose cover shows a staged photo of a bandmate's body after his death by suicide. The photographer behind that image reportedly destroyed it, yet it still ended up on the album's cover years later, after the photographer himself had died. Who took this photograph?",
+      "choices": [
+        "Varg Vikernes",
+        "Necrobutcher",
+        "Euronymous",
+        "Dead"
+      ],
+      "hint": "It wasn't the bassist nicknamed Necrobutcher, and it wasn't the deceased musician pictured in the photo himself.",
+      "answerIndex": 2,
+      "article": {
+        "title": "The Dawn of the Black Hearts",
+        "url": "https://en.wikipedia.org/wiki/The_Dawn_of_the_Black_Hearts"
+      },
+      "explanation": "Mayhem guitarist Euronymous staged and photographed the scene of vocalist Dead's 1991 suicide. He reportedly destroyed the photo, but it resurfaced and was used as the album's cover after Euronymous was murdered by Varg Vikernes in 1993."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Hyper Text Coffee Pot Control Protocol\" describes a tongue-in-cheek internet protocol for controlling and monitoring coffee pots, complete with its own official error response if you try to brew coffee using a device that is actually a teapot. Buried in the technical details is a numerical coincidence: the protocol was officially assigned a specific TCP port number by IANA. What port number is it?",
+      "choices": [
+        "443",
+        "8080",
+        "2324",
+        "80"
+      ],
+      "hint": "It's not the standard HTTP port (80) or the standard HTTPS port (443).",
+      "answerIndex": 2,
+      "article": {
+        "title": "Hyper Text Coffee Pot Control Protocol",
+        "url": "https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol"
+      },
+      "explanation": "IANA officially assigned TCP port 2324 to the protocol, which deliberately matches the number of the RFC (RFC 2324) that defines it."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual museum built entirely around displays of a single type of prehistoric remains?",
+      "choices": [
+        "The Fossil Discovery Center",
+        "The Petrified Forest Museum",
+        "Poozeum",
+        "The Mineral Treasures Museum"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the one named after an ancient forest, and it's not the one focused on minerals.",
+      "article": {
+        "title": "Poozeum",
+        "url": "https://en.wikipedia.org/wiki/Poozeum"
+      },
+      "explanation": "The Poozeum is a museum dedicated entirely to coprolites, the scientific term for fossilized feces."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Hell house\" describes a type of Christian haunted-house event designed to scare visitors, especially teenagers, into living more righteously by depicting graphic scenes of sin and damnation. One pastor turned his hell house into a packaged franchise, selling a detailed script and staging kit to churches across the country. Roughly how much did this 'Hell House Outreach Kit' cost?",
+      "choices": [
+        "$99",
+        "$499",
+        "$199",
+        "$299"
+      ],
+      "hint": "It wasn't the cheapest option ($99) or the priciest ($499) listed.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Hell house",
+        "url": "https://en.wikipedia.org/wiki/Hell_house"
+      },
+      "explanation": "Pastor Keenan Roberts created and sold a 'Hell House Outreach Kit' for about $299, which included scripts and instructions used by churches nationwide and abroad."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "This article explores a well-documented tradition within a specific American immigrant and religious community, especially concentrated in major cities, where members developed a notable fondness for a particular cuisine associated with a different immigrant group. Various explanations have been proposed for this enduring preference, including certain compatibilities with traditional dietary customs, parallel experiences of adapting to American life, and the convenience of these restaurants remaining open during periods when many other eateries, run by yet another cultural group, closed for their own holidays. The phenomenon is frequently cited in discussions of unexpected culinary crossover in American culture.",
+      "choices": [
+        "Jewish-American patronage of Chinese restaurants",
+        "Italian-American influence on American pizza chains",
+        "Irish-American adoption of corned beef traditions",
+        "German-American brewing customs in the Midwest"
+      ],
+      "hint": "The correct answer involves two immigrant groups from very different parts of the world, and it is not about brewing or pizza.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Jewish-American patronage of Chinese restaurants",
+        "url": "https://en.wikipedia.org/wiki/Jewish-American_patronage_of_Chinese_restaurants"
+      },
+      "explanation": "The article describes the documented tradition of Jewish Americans, especially in cities like New York, frequently dining at Chinese restaurants, a practice linked to shared immigrant history, the absence of overt dairy-meat mixing, and the availability of these restaurants on Christmas Day and other holidays."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"1997 Liberian general election\" covers a vote that followed years of brutal civil war, where one candidate won the presidency in a landslide despite having led a notorious rebel faction blamed for widespread atrocities. Supporters even campaigned for him with the slogan \"He killed my ma, he killed my pa, but I will vote for him.\" Who was this warlord turned president?",
+      "choices": [
+        "Prince Johnson",
+        "Samuel Doe",
+        "Charles Taylor",
+        "George Weah"
+      ],
+      "hint": "Eliminate Samuel Doe, who was killed before this election, and George Weah, who became president decades later in a different election.",
+      "answerIndex": 2,
+      "article": {
+        "title": "1997 Liberian general election",
+        "url": "https://en.wikipedia.org/wiki/1997_Liberian_general_election"
+      },
+      "explanation": "Charles Taylor, leader of the National Patriotic Front of Liberia during the civil war, won the 1997 election by a landslide amid voter fear and intimidation."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "In 2005, scientists discovered a new South American primate and decided to auction off its scientific naming rights to raise money for conservation. An online casino placed the winning bid, permanently linking its brand to the species' name. Which of these is the real primate that resulted from this unusual deal?",
+      "choices": [
+        "Tambopata saki monkey",
+        "Vaupés capuchin monkey",
+        "Madidi titi monkey",
+        "Ñeembucú howler monkey"
+      ],
+      "answerIndex": 2,
+      "hint": "The real species was discovered in Bolivia, not Peru or Colombia.",
+      "article": {
+        "title": "Madidi titi monkey",
+        "url": "https://en.wikipedia.org/wiki/Madidi_titi_monkey"
+      },
+      "explanation": "The Madidi titi monkey is a species of monkey found in Bolivia that was officially named after the GoldenPalace.com online casino after it won a conservation fundraising auction."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis Wikipedia list catalogs individuals throughout history and across various cultures who have been regarded, either by themselves or by their followers, as fulfilling an important, long-awaited religious role. Entries span ancient times to the modern era and include founders of new religious movements, political leaders, and figures from numerous faith traditions linked to this belief.",
+      "choices": [
+        "List of self-proclaimed prophets",
+        "List of people who have claimed to be God",
+        "List of messiah claimants",
+        "List of antichrist claimants"
+      ],
+      "hint": "The list is about figures believed to fulfill a foretold religious role, not simply about prophecy, and it is not focused on antagonistic or evil figures, so you can rule out the 'prophets' and 'antichrist' options.",
+      "answerIndex": 2,
+      "article": {
+        "title": "List of messiah claimants",
+        "url": "https://en.wikipedia.org/wiki/List_of_messiah_claimants"
+      },
+      "explanation": "The article is a Wikipedia list cataloguing historical and modern individuals who have been identified, by themselves or others, as a messiah or savior figure across different religions and cultures."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Goat throwing\" describes an annual festival in a Spanish town where, to honor Saint Vincent of Saragossa, a goat was hurled from a church bell tower while villagers below tried to catch it in a stretched sheet. After international outrage forced officials to stop using a live animal, what did the town substitute for the goat instead?",
+      "choices": [
+        "A costumed volunteer dressed as a goat",
+        "An inflatable goat balloon",
+        "A stuffed toy goat",
+        "A papier-mâché goat effigy"
+      ],
+      "hint": "It wasn't a person in costume, and it wasn't an inflatable balloon.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Goat throwing",
+        "url": "https://en.wikipedia.org/wiki/Goat_throwing"
+      },
+      "explanation": "After public backlash over the cruelty of tossing a live goat from the church tower, the town of Manganeses de la Polvorosa began using a stuffed toy goat in place of a real animal."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis entry describes a roadside curiosity in the United States: a tree that over time became covered in a particular type of discarded clothing left by passersby. It belongs to a broader category of folk traditions in which travelers decorate trees or fences with items of clothing, turning them into local landmarks and photo stops. Similar customs elsewhere involve different garments draped over branches or wire, and such sites often attract curious visitors and media attention despite having no official explanation for how the tradition began.",
+      "choices": [
+        "Shoe tree",
+        "Bra fence",
+        "Panty tree",
+        "Sock tree"
+      ],
+      "hint": "The correct answer is not the one involving footwear, nor the one involving a fence rather than a tree.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Panty tree",
+        "url": "https://en.wikipedia.org/wiki/Panty_tree"
+      },
+      "explanation": "The article describes a 'panty tree,' a tree decorated with women's underwear left by passersby, similar in spirit to other roadside oddities like shoe trees and bra fences."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
