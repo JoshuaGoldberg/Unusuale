@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-15",
+  "title": "Puzzle No. 81",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 2.8,
+      "description": "Add a 2.8x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card2",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 1.9,
+      "description": "Add a 1.9x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.5,
+      "description": "Skip the current question while still earning 0.5x the points"
+    },
+    {
+      "id": "card3",
+      "gain": 550,
+      "loss": 1100,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 550 additional points on a correct answer but lose 1100 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Cultural history of the buttocks\" takes a cheeky look at how rear ends have been viewed across history and cultures. One section recounts the story of a 19th century South African woman who was paraded around European exhibition halls because audiences were fascinated by the size and shape of her buttocks. What stage name was she given during these exhibitions?",
+      "choices": [
+        "Ebony Goddess",
+        "Hottentot Venus",
+        "African Pearl",
+        "Nubian Queen"
+      ],
+      "hint": "It's not 'Ebony Goddess' or 'Nubian Queen' - those phrases were never actually used as her historical exhibition name.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Cultural history of the buttocks",
+        "url": "https://en.wikipedia.org/wiki/Cultural_history_of_the_buttocks"
+      },
+      "explanation": "Sarah Baartman, a Khoikhoi woman, was exhibited in early 19th century England and France under the name 'Hottentot Venus' because of public fascination with her body, particularly her large buttocks (a trait known as steatopygia)."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This is a grassroots organization formed in India after a person discovered that relatives had manipulated government records to alter his legal status, allowing them to seize his land and property. He found that many others across the region faced similar bureaucratic nightmares, unable to get banks, courts, or officials to correct the records. The founder adopted a new identifier reflecting his situation, and the group even ran candidates in elections to draw attention to the issue, campaigning for reforms to prevent such fraudulent record changes.",
+      "choices": [
+        "Society for citizens denied official birth certificates",
+        "Union of farmers wrongfully listed as missing persons",
+        "Association of people falsely declared dead in India",
+        "League of people stripped of national citizenship"
+      ],
+      "hint": "The group's struggle had nothing to do with citizenship status or being listed as missing; it was about a different kind of false legal record entirely.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Uttar Pradesh Association of Dead People",
+        "url": "https://en.wikipedia.org/wiki/Uttar_Pradesh_Association_of_Dead_People"
+      },
+      "explanation": "The article describes the Uttar Pradesh Association of Dead People (Mritak Sangh), founded by Lal Bihari after he discovered he had been declared legally dead by relatives seeking his land. The organization helps others wrongly declared dead prove they are alive and has run candidates in elections to highlight the issue."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of these is a real unofficial holiday that some joke about as a male-oriented alternative to Valentine's Day, paired with a day for women to return the favor?",
+      "choices": [
+        "Burgers and Backrub Day",
+        "Wings and High-Five Day",
+        "Steak and Blowjob Day",
+        "Bacon and Fist Bump Day"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not the one involving wings, nor the one involving bacon and fist bumps.",
+      "article": {
+        "title": "Steak and Blowjob Day",
+        "url": "https://en.wikipedia.org/wiki/Steak_and_Blowjob_Day"
+      },
+      "explanation": "Steak and Blowjob Day, observed on March 14, is a satirical holiday meant as a male counterpart to Valentine's Day, where women are expected to treat men to a steak dinner and sexual favors."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real term for a dramatic courtroom turn, like a lawyer asking a defendant, 'Mr. Menendez, did you know Big 5 stopped selling pistols in 1986?'",
+      "choices": [
+        "Matlock maneuver",
+        "Columbo confession",
+        "Perry Mason moment",
+        "Ironside gambit"
+      ],
+      "answerIndex": 2,
+      "hint": "The real term honors a fictional defense attorney, not a detective, which rules out two of these choices.",
+      "article": {
+        "title": "Perry Mason moment",
+        "url": "https://en.wikipedia.org/wiki/Perry_Mason_moment"
+      },
+      "explanation": "A Perry Mason moment describes a dramatic point in a trial where unexpected testimony or evidence suddenly destroys one side's case, named after the fictional defense attorney Perry Mason."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Wikipedia article \"Other World Kingdom\" covers a self-declared micronation that operated inside a castle and centered on a female-led dominance theme, complete with its own currency, stamps, and a resident \"queen\" who ruled over male subjects. Founded in the mid-1990s, it functioned as both a tourist attraction and a lifestyle community before eventually closing down in the 2000s. Visitors could even arrange to be legally married within its themed ceremonies.",
+      "answer": "Europe",
+      "hint": "This location is not in Africa, not in Oceania, and not in South America.",
+      "article": {
+        "title": "Other World Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Other_World_Kingdom"
+      },
+      "explanation": "The Other World Kingdom was a BDSM-themed micronation based in a castle in Germany, making its continent Europe."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Which of the following is a real institution dedicated to the collection, preservation, and exhibition of truly awful artwork?",
+      "choices": [
+        "Hall of Regrettable Canvases",
+        "Gallery of Terrible Masterpieces",
+        "Museum of Bad Art",
+        "Institute of Unfortunate Paintings"
+      ],
+      "answerIndex": 2,
+      "hint": "The real institution's name is shorter and more straightforward than two of the other options, which use more elaborate descriptive phrasing.",
+      "article": {
+        "title": "Museum of Bad Art",
+        "url": "https://en.wikipedia.org/wiki/Museum_of_Bad_Art"
+      },
+      "explanation": "The Museum of Bad Art is a private institution that collects and displays genuinely poor quality artwork for comedic and educational enjoyment."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Vortech Meg-2XH Strap-On\" covers a discontinued helicopter kit meant to be built by hobbyists at home rather than professional manufacturers. Unlike most helicopters, it had no enclosed cabin or fuselage at all, just an exposed frame the pilot sat on. What type of engine powered this bare-bones aircraft?",
+      "choices": [
+        "A modified automobile engine",
+        "A small jet turbine",
+        "A converted lawnmower engine",
+        "A steam-powered engine"
+      ],
+      "hint": "It was neither a jet turbine nor a steam engine; builders needed something affordable and easy to source for a homemade aircraft.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Vortech Meg-2XH Strap-On",
+        "url": "https://en.wikipedia.org/wiki/Vortech_Meg-2XH_Strap-On"
+      },
+      "explanation": "The Vortech Meg-2XH Strap-On used a modified automobile engine, a common and affordable choice for amateur-built ultralight helicopters of its era."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Beaver-engineered dam in the Czech Republic\" describes how a colony of beavers unintentionally saved officials roughly $1.2 million by rebuilding a wetland that humans had been trying to restore for years. What had been holding up the official human-led restoration project before the beavers stepped in?",
+      "choices": [
+        "The site was a former military training ground requiring special clearance",
+        "Local farmers refused to sell the needed land",
+        "The project ran out of funding midway through construction",
+        "Engineers disagreed over which dam design to use"
+      ],
+      "hint": "It wasn't about money running out or disagreements over design, it had to do with restricted access to the land.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Beaver-engineered dam in the Czech Republic",
+        "url": "https://en.wikipedia.org/wiki/Beaver-engineered_dam_in_the_Czech_Republic"
+      },
+      "explanation": "The land was part of a former military training area, so officials faced lengthy delays getting clearance to build the wetland restoration project, until beavers built their own dam there in just a couple of days."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a solid mass formed from melted nuclear reactor fuel mixed with sand, concrete, and other materials that fused together during a catastrophic nuclear accident. It formed in the basement areas of the damaged facility as molten material flowed downward and cooled into a hardened, lava-like substance. For years it remained one of the most radioactive objects on Earth, so dangerous that early photographs of it were taken using cameras on timers or wheeled robots, with exposure causing severe radiation sickness within minutes of close proximity. Over time, its radioactivity has decreased somewhat, though it remains hazardous and continues to be studied by scientists interested in the long-term behavior of nuclear materials.",
+      "choices": [
+        "Trinitite",
+        "Elephant's Foot (Chernobyl)",
+        "Demon core",
+        "Fukushima Daiichi fuel debris"
+      ],
+      "hint": "The correct answer is not the glassy substance created by the heat of an atomic bomb test, and it is not the small sphere of plutonium involved in two fatal lab accidents in the 1940s.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Elephant's Foot (Chernobyl)",
+        "url": "https://en.wikipedia.org/wiki/Elephant%27s_Foot_(Chernobyl)"
+      },
+      "explanation": "The Elephant's Foot is a mass of solidified corium located in the basement of the Chernobyl Nuclear Power Plant's Reactor No. 4, formed during the 1986 disaster. It was once so radioactive that it could deliver a lethal dose of radiation within minutes, though its radioactivity has decreased significantly over the decades."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis outdoor space in a major European capital serves as an open air display area where numerous large statues and monuments, many removed from public squares after a change in political system, were relocated and now stand together. Visitors can walk among sculptures that once represented former political leaders and ideological figures, now recontextualized as historical artifacts in a landscaped setting that also hosts art installations and cultural events.",
+      "choices": [
+        "Gorky Central Park of Culture and Leisure",
+        "Muzeon Park of Arts",
+        "Grutas Park",
+        "Memento Park"
+      ],
+      "hint": "The correct answer is located in Russia's capital city, eliminating the options associated with Lithuania and Hungary.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Muzeon Park of Arts",
+        "url": "https://en.wikipedia.org/wiki/Muzeon_Park_of_Arts"
+      },
+      "explanation": "Muzeon Park of Arts in Moscow is a sculpture park that became known for housing numerous Soviet era statues, including monuments to Stalin and other communist figures, which were removed from public spaces after the collapse of the Soviet Union and relocated there."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
