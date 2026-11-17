@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-17",
+  "title": "Puzzle No. 83",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.8,
+      "description": "Skip the current question while still earning 0.8x the points"
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.8,
+      "description": "Skip the current question while still earning 0.8x the points"
+    },
+    {
+      "id": "card2",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    },
+    {
+      "id": "card3",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article 'List of organisms named after famous people' catalogs species that scientists named after celebrities, often inspired by some trait or behavior associated with that person. One parasitic wasp species was named after a pop star because of a distinctive effect its larvae have on the host caterpillar's body. Which pop star inspired this wasp's name?",
+      "choices": [
+        "Madonna",
+        "Shakira",
+        "Beyoncé",
+        "Rihanna"
+      ],
+      "hint": "One of the other options actually has a horse fly named after her instead, and another option isn't mentioned anywhere in the article.",
+      "answerIndex": 1,
+      "article": {
+        "title": "List of organisms named after famous people",
+        "url": "https://en.wikipedia.org/wiki/List_of_organisms_named_after_famous_people"
+      },
+      "explanation": "The wasp Aleiodes shakirae was named after Shakira because its larvae cause the host caterpillar to writhe its abdomen in a motion reminiscent of her famous belly dancing."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is an esoteric programming language notable for its extreme minimalism, relying on only a handful of single-character commands to manipulate a simple memory tape. It was created in the early 1990s with the goal of designing a language that could be compiled with the smallest possible compiler, and it has since inspired numerous derivative languages and a dedicated community of enthusiasts who write programs in it purely as an intellectual challenge.",
+      "choices": [
+        "Malbolge",
+        "Brainfuck",
+        "LOLCODE",
+        "Whitespace"
+      ],
+      "hint": "The correct answer was created before the year 2000, which rules out two of these languages that were developed in the 2000s.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Brainfuck",
+        "url": "https://en.wikipedia.org/wiki/Brainfuck"
+      },
+      "explanation": "Brainfuck is an esoteric programming language created in 1993 by Urban Muller. It uses only eight simple commands to manipulate a memory tape and pointer, and was designed to be implemented with an extremely small compiler, making it popular among enthusiasts of minimalist and unusual programming languages."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis entry describes a place that appeared on a major online mapping service and in several business directories, complete with local weather forecasts and even job listings, despite there being no actual settlement at the location. It was reportedly situated in a rural area, and its existence was eventually traced to an error introduced by a mapping data provider rather than any real community.",
+      "choices": [
+        "Agloe, New York",
+        "Null Island",
+        "Beatosu, Ohio",
+        "Argleton"
+      ],
+      "hint": "The correct answer is not located in the United States, so you can rule out the two American entries.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Argleton",
+        "url": "https://en.wikipedia.org/wiki/Argleton"
+      },
+      "explanation": "Argleton was a nonexistent village that appeared on Google Maps in West Lancashire, England, complete with listings for businesses, weather, and jobs, despite having no physical presence. It is believed to have originated from an error by the mapping data supplier Tele Atlas."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Toilet papering\" explores whether this backyard prank of draping a house or yard in toilet paper is playful art or costly vandalism, and it notes that different parts of the U.S. have their own slang for the act. What nickname is used for this prank in parts of the American South?",
+      "choices": [
+        "Sugaring",
+        "Cottonballing",
+        "Ribboning",
+        "Snowballing"
+      ],
+      "hint": "The article does not use 'Sugaring' or 'Ribboning' to describe this prank in the American South.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Toilet papering",
+        "url": "https://en.wikipedia.org/wiki/Toilet_papering"
+      },
+      "explanation": "The article notes that in parts of the American South, toilet papering is sometimes called 'cottonballing,' likening the strewn toilet paper to tufts of cotton."
+    },
+    {
+      "id": "q5",
+      "type": "continent",
+      "prompt": "The Wikipedia article \"Sasmuan\" covers a municipality that has become famous for literally sinking. Decades of land subsidence, worsened by the conversion of farmland into fish ponds and rising sea levels, have left much of the town hall, streets, and homes permanently submerged in water. Residents now travel through their own town by boat, and local government offices operate out of structures built on stilts above the floodwaters.",
+      "answer": "Asia",
+      "hint": "This is not in Africa, Europe, or North America.",
+      "article": {
+        "title": "Sasmuan",
+        "url": "https://en.wikipedia.org/wiki/Sasmuan"
+      },
+      "explanation": "Sasmuan is a municipality in Pampanga province, Philippines, which is located in Asia. It is notable for extensive flooding and land subsidence that has submerged much of the town."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "One of these is a real academic journal article that became famous for being entirely blank, with the empty pages themselves serving as the author's demonstration of the condition being studied. Which article is it?",
+      "choices": [
+        "The Partial Self-Correction of a Case of \"Stage Fright\"",
+        "The Incomplete Self-Analysis of a Case of \"Social Anxiety\"",
+        "The Unsuccessful Self-Treatment of a Case of \"Writer's Block\"",
+        "The Inconclusive Self-Diagnosis of a Case of \"Chronic Procrastination\""
+      ],
+      "answerIndex": 2,
+      "hint": "The real article appeared in a behavioral psychology journal in the 1970s and has nothing to do with stage fright or social anxiety.",
+      "article": {
+        "title": "The Unsuccessful Self-Treatment of a Case of \"Writer's Block\"",
+        "url": "https://en.wikipedia.org/wiki/The_Unsuccessful_Self-Treatment_of_a_Case_of_%22Writer%27s_Block%22"
+      },
+      "explanation": "This is a 1974 paper by psychologist Dennis Upper that was published as a completely blank page, humorously demonstrating his own writer's block."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "This concept involves placing objects or displays in Earth's orbit so they could be seen from the ground, often at night. Various proposals over the decades have included reflective satellites arranged to spell out logos or slogans, inflatable billboards, and laser projections onto the sky. Concerns about light pollution, cultural impact, and safety led some countries, including the United States, to pass legislation restricting or banning such schemes before any were ever fully realized.",
+      "choices": [
+        "Space burial",
+        "Orbital mirrors",
+        "Space advertising",
+        "Space tourism"
+      ],
+      "hint": "This is not about sending human remains into orbit, nor about paying tourists to travel to space stations.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Space advertising",
+        "url": "https://en.wikipedia.org/wiki/Space_advertising"
+      },
+      "explanation": "The article describes space advertising, the idea of using satellites or other orbital structures to display commercial messages visible from Earth. Although several designs were proposed, including reflective arrays and billboard satellites, concerns over light pollution and public backlash led to bans such as the US Space Advertising Prohibition Act."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a privately owned outdoor museum and theme park located near a spa town, created in the early 2000s by a local businessman. It brings together dozens of monumental statues and busts of communist-era leaders and symbols that were taken down from public squares and streets after the country regained independence. Visitors walk along wooden paths resembling those once used to transport prisoners, passing exhibits of propaganda art, old photographs, and a small zoo, while loudspeakers occasionally play Soviet-era songs. The site has drawn both tourists and controversy, with critics debating whether it trivializes a painful historical period or serves as an important educational memorial. International media gave it an informal nickname referencing a famous Soviet dictator.",
+      "choices": [
+        "Grūtas Park",
+        "Memento Park",
+        "Fallen Monument Park",
+        "Spomenik Park"
+      ],
+      "hint": "The correct answer is not located in Hungary, and it is not the park on the outskirts of Moscow where decommissioned Soviet monuments were relocated.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Grūtas Park",
+        "url": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+      },
+      "explanation": "The article describes Grūtas Park, a sculpture park in Lithuania near Druskininkai that displays Soviet-era statues removed after independence. It is sometimes nicknamed 'Stalin's World' by foreign media."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Which of the following is a real Wikipedia article about a genre of graffiti often found scratched onto the walls of public restrooms, sometimes described as the sage and insightful scribblings on your local public bathroom wall?",
+      "choices": [
+        "Stallography",
+        "Privywriting",
+        "Latrinalia",
+        "Cubiculography"
+      ],
+      "answerIndex": 2,
+      "hint": "Two of these options share a '-graphy' suffix meaning 'writing about', which isn't the actual term used for this genre, so you can rule those two out.",
+      "article": {
+        "title": "Latrinalia",
+        "url": "https://en.wikipedia.org/wiki/Latrinalia"
+      },
+      "explanation": "Latrinalia refers to the graffiti, often humorous, political, or philosophical, found written on the walls of public restrooms."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article discusses various documented and anecdotal cases of non-human animals seeking out and consuming substances that alter their mental states, sometimes repeatedly despite no apparent nutritional benefit. Examples include mammals and birds that have been observed deliberately eating fermented fruits, chewing on certain plants, or interacting with other organisms in ways that appear to produce intoxicating effects. The article explores scientific debate over whether these behaviors represent genuine intentional substance-seeking similar to human drug use, or whether they can be explained by other factors like accidental ingestion, disease-carrying insects, or misinterpretation of normal foraging and play behavior. It also touches on how observations of these behaviors have influenced cultural myths and informed human drug discovery.",
+      "choices": [
+        "Self-medication behavior in wild animals",
+        "Recreational drug use in animals",
+        "Zoopharmacognosy in primates",
+        "Caffeine consumption in insects"
+      ],
+      "hint": "The answer is not about animals treating illnesses with plants, nor about insects deliberately seeking stimulants for energy.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Recreational drug use in animals",
+        "url": "https://en.wikipedia.org/wiki/Recreational_drug_use_in_animals"
+      },
+      "explanation": "The article 'Recreational drug use in animals' examines reports and scientific analysis of animals intentionally consuming intoxicating substances, such as fermented fruit, certain plants, or toxins from other animals, and discusses whether this constitutes true recreational drug-seeking behavior."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
