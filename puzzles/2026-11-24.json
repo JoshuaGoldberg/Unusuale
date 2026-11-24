@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-24",
+  "title": "Puzzle No. 90",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.5,
+      "description": "Skip the current question while still earning 0.5x the points"
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.7,
+      "description": "Skip the current question while still earning 0.7x the points"
+    },
+    {
+      "id": "card3",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.9,
+      "description": "Skip the current question while still earning 0.9x the points"
+    },
+    {
+      "id": "card4",
+      "gain": 1000,
+      "loss": 600,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 1000 additional points on a correct answer but lose 600 on an incorrect one."
+    },
+    {
+      "id": "card5",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Future Library project\" describes an initiative that invites a different celebrated author every year to contribute a new work that will stay completely unread and unpublished until the year 2114. Which world famous novelist was chosen to write the very first contribution back in 2014?",
+      "choices": [
+        "David Mitchell",
+        "Haruki Murakami",
+        "Margaret Atwood",
+        "Zadie Smith"
+      ],
+      "hint": "The author is not British.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Future Library project",
+        "url": "https://en.wikipedia.org/wiki/Future_Library_project"
+      },
+      "explanation": "Margaret Atwood was the first author selected for the Future Library project, submitting her manuscript titled 'Scribbler Moon' in 2014."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This is a traditional ritual practiced on a South Pacific island, performed by men and boys as part of a yearly harvest ceremony. Participants climb a tall wooden tower built from local materials, attach long elastic cords made from plant fibers to their ankles, and leap headfirst toward the ground, with the cords meant to stop them just before impact. The custom is tied to beliefs about ensuring a good crop and demonstrating bravery, and it is often cited as an inspiration for a popular modern extreme sport.",
+      "choices": [
+        "Pole flying ceremony (Danza de los Voladores)",
+        "Minoan bull-leaping",
+        "Vanuatu vine jumping ritual",
+        "La Quebrada cliff diving"
+      ],
+      "hint": "The correct answer does not involve the use of an animal, nor does it involve diving into a body of water.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Land diving",
+        "url": "https://en.wikipedia.org/wiki/Land_diving"
+      },
+      "explanation": "The article describes land diving, a ritual from Pentecost Island in Vanuatu where men dive from wooden towers with vines tied to their ankles as part of a yam harvest ceremony, widely considered a precursor to modern bungee jumping."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Chernomyrdinka\" explains that Russia has its own version of Bushisms, built from the tangled sayings of a prominent politician. One of his lines became so widely repeated that it turned into a common Russian saying about good intentions gone wrong. What does this famous phrase roughly translate to?",
+      "choices": [
+        "We live in a country, not a theory",
+        "We wanted the best, but it turned out as always",
+        "The future is behind us",
+        "Money is money, but reform is reform"
+      ],
+      "hint": "It's not about theory or money, it's about intentions versus outcomes.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Chernomyrdinka",
+        "url": "https://en.wikipedia.org/wiki/Chernomyrdinka"
+      },
+      "explanation": "Viktor Chernomyrdin's phrase \"We wanted the best, but it turned out as always\" became one of his most famous and widely quoted sayings, entering common Russian usage."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Bernie Sanders' Dank Meme Stash\" covers a Facebook group built around internet jokes referencing American politician Bernie Sanders during his 2016 presidential run. The group grew explosively in a short time, becoming one of the largest political meme communities online at the time. Roughly how many members did it reach at its peak?",
+      "choices": [
+        "10,000",
+        "500,000",
+        "50,000",
+        "5 million"
+      ],
+      "hint": "It was not a small niche group, but it also did not reach the millions-of-members scale of a mainstream platform community.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Bernie Sanders' Dank Meme Stash",
+        "url": "https://en.wikipedia.org/wiki/Bernie_Sanders%27_Dank_Meme_Stash"
+      },
+      "explanation": "The group reportedly grew to over 500,000 members during the 2016 primary season, making it one of the largest pro-Sanders meme communities online."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"PewDiePie vs T-Series\" covers a rivalry between two YouTube channels competing to be the most subscribed on the platform. The phrase \"subscribe to PewDiePie,\" born from this rivalry, took a dark turn when a gunman referenced it right before livestreaming a real-world terrorist attack. Which attack was preceded by the gunman saying this phrase?",
+      "choices": [
+        "Las Vegas shooting",
+        "Pittsburgh synagogue shooting",
+        "Christchurch mosque shootings",
+        "Charlottesville car attack"
+      ],
+      "hint": "It was not the Las Vegas shooting or the Pittsburgh synagogue shooting.",
+      "answerIndex": 2,
+      "article": {
+        "title": "PewDiePie vs T-Series",
+        "url": "https://en.wikipedia.org/wiki/PewDiePie_vs_T-Series"
+      },
+      "explanation": "Before carrying out the 2019 Christchurch mosque shootings in New Zealand, the gunman said 'Remember lads, subscribe to PewDiePie' during his livestream, prompting PewDiePie to publicly distance himself from the meme."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "Economists sometimes nickname certain quirky price comparison tools after playful puns, and one of them tracks the cost of a specific fast food item across different countries to gauge currency value. Which of the following is the real version of this playful economic measure?",
+      "choices": [
+        "Pizza Slice Parity Index",
+        "Big Mac Index",
+        "Latte Line Index",
+        "Cola Can Comparator"
+      ],
+      "answerIndex": 1,
+      "hint": "The real measure isn't based on coffee drinks or canned soda, it's tied to a hamburger chain's menu item.",
+      "article": {
+        "title": "Big Mac Index",
+        "url": "https://en.wikipedia.org/wiki/Big_Mac_Index"
+      },
+      "explanation": "The Big Mac Index is an informal economic measure created by The Economist that uses the price of a Big Mac in different countries to assess whether currencies are over or undervalued relative to purchasing power parity."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "Safety coffin, the Victorian-era device built in case its occupant turned out to not actually be dead, is often connected in folklore to several common phrases still used today. According to the Wikipedia article, one of these phrases is popularly but mistakenly believed to have originated with safety coffins, when its true origin lies elsewhere entirely. Which phrase is it?",
+      "choices": [
+        "Saved by the bell",
+        "Dead ringer",
+        "Graveyard shift",
+        "Dodge a bullet"
+      ],
+      "hint": "It isn't the phrase involving a bell, and it isn't the one about working late-night hours.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Safety coffin",
+        "url": "https://en.wikipedia.org/wiki/Safety_coffin"
+      },
+      "explanation": "The article notes that 'dead ringer' is often wrongly credited to safety coffin bell mechanisms, but it actually originates from horse racing, where a lookalike horse ('ringer') was substituted to cheat in a race."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Which of these real by-elections happened after a sitting MP quit his seat just so he could run for it again, only to discover his most talked-about challenger wasn't actually campaigning seriously?",
+      "choices": [
+        "2025 Rochdale by-election",
+        "2024 Mid Bedfordshire by-election",
+        "2026 Clacton by-election",
+        "2026 Hartlepool by-election"
+      ],
+      "answerIndex": 2,
+      "hint": "This by-election took place in 2026, not 2024 or 2025.",
+      "article": {
+        "title": "2026 Clacton by-election",
+        "url": "https://en.wikipedia.org/wiki/2026_Clacton_by-election"
+      },
+      "explanation": "Nigel Farage resigned his Clacton seat to trigger a by-election and seek re-election, facing no serious opposition except a joke candidate."
+    },
+    {
+      "id": "q9",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Wikipedia article \"National Raisin Reserve\" describes a government program that required raisin growers to set aside a portion of their annual crop into a centrally managed reserve, ostensibly to stabilize market prices. The policy, which originated during a period of agricultural crisis in the mid-20th century, was unusual for essentially treating a common food crop as a strategic commodity, with inspectors sometimes confiscating crops from farmers who refused to comply. It eventually became the subject of a prolonged legal battle over whether such mandatory seizures amounted to unlawful confiscation of private property without fair compensation.",
+      "answer": "North America",
+      "hint": "This agricultural program was not located in Africa, Europe, or Oceania.",
+      "article": {
+        "title": "National Raisin Reserve",
+        "url": "https://en.wikipedia.org/wiki/National_Raisin_Reserve"
+      },
+      "explanation": "The National Raisin Reserve was a program administered under a US Department of Agriculture marketing order, requiring American raisin farmers to surrender a portion of their crop, making it a North American program."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Unknown French boy\" describes a young substitute coxswain who was pulled in at the last minute to steer a Dutch pair to victory in rowing at the 1900 Paris Olympics, then vanished from history without ever being identified. Historians believe he may have been remarkably young at the time. Roughly how old do experts estimate he was?",
+      "choices": [
+        "Between 7 and 10 years old",
+        "Between 12 and 14 years old",
+        "Between 16 and 18 years old",
+        "Between 20 and 22 years old"
+      ],
+      "hint": "He was younger than a high schooler and much younger than a young adult in his twenties.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Unknown French boy",
+        "url": "https://en.wikipedia.org/wiki/Unknown_French_boy"
+      },
+      "explanation": "The boy is estimated to have been between 7 and 10 years old, which would make him possibly the youngest participant in Olympic history."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
