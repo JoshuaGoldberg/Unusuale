@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-25",
+  "title": "Puzzle No. 91",
+  "cards": [
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.6,
+      "description": "Skip the current question while still earning 0.6x the points"
+    },
+    {
+      "id": "card2",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.4,
+      "description": "Skip the current question while still earning 0.4x the points"
+    },
+    {
+      "id": "card3",
+      "gain": 650,
+      "loss": 100,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 650 additional points on a correct answer but lose 100 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis underground transit stop is part of a city's rapid transit network and opened in the late 1970s during an early phase of the system's expansion. It is notable for an unusual design, a single large vaulted hall structure rather than separate platforms for each travel direction, a layout shared by only a handful of stations in the network. It also sits beneath a busy public square near several academic and cultural institutions.",
+      "answer": "Europe",
+      "hint": "This location is not in Africa, not in Oceania, and not in Antarctica.",
+      "article": {
+        "title": "Piața Romană metro station",
+        "url": "https://en.wikipedia.org/wiki/Pia%C8%9Ba_Roman%C4%83_metro_station"
+      },
+      "explanation": "Piața Romană metro station is located in Bucharest, Romania, which is in Europe."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This article chronicles a long-standing practice, beginning in the late 1940s, of launching various biological specimens beyond Earth's atmosphere aboard early research rockets and later spacecraft. These missions were often conducted before human spaceflight attempts, in order to study how exposure to conditions such as weightlessness and radiation might affect a living body. Over the decades, test subjects ranged from small insects to larger mammals, with some missions ending successfully and others ending in tragedy.",
+      "choices": [
+        "History of rocket propulsion",
+        "Plants grown in orbit",
+        "Animals in space",
+        "Astronaut training programs"
+      ],
+      "hint": "It's not about mechanical engineering topics like rocket engines, nor about how astronauts are prepared for missions.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Animals in space",
+        "url": "https://en.wikipedia.org/wiki/Animals_in_space"
+      },
+      "explanation": "The article describes the history of sending animals such as fruit flies, dogs (like Laika), monkeys, and other creatures into space, mostly for scientific research before human spaceflight was attempted."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Kanchō, the Wikipedia article describing a sneaky trick kids play by poking an unsuspecting friend from behind with clasped fingers, is widespread across East Asia and even shows up in anime and manga. The article notes that a very similar prank goes by a different name in South Korea. What is that Korean name for the same prank?",
+      "choices": [
+        "Ttokchim",
+        "Ddongchim",
+        "Ggomchi",
+        "Ssoonchim"
+      ],
+      "hint": "The real Korean term combines words meaning 'feces' and 'needle', and it does NOT start with 'Tt' or 'Gg'.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Kanchō",
+        "url": "https://en.wikipedia.org/wiki/Kanch%C5%8D"
+      },
+      "explanation": "In South Korea, the same prank is called 'ddongchim,' combining the words for 'poop' and 'needle/injection.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Bliss (photograph)\" discusses what is often called the most viewed photograph in history, showing a rolling green hill, a blue sky, and white clouds. The image has become so iconic as a default computer wallpaper that many people have wondered and speculated about where it was actually taken. According to the article, where was this photograph taken?",
+      "choices": [
+        "Ireland",
+        "New Zealand",
+        "Sonoma County, California",
+        "Switzerland"
+      ],
+      "hint": "It wasn't New Zealand or Switzerland, even though the lush green hills might remind you of those landscapes.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Bliss (photograph)",
+        "url": "https://en.wikipedia.org/wiki/Bliss_(photograph)"
+      },
+      "explanation": "The photo was taken by Charles O'Rear in January 1996 in Sonoma County, California, along a road in wine country, not in Ireland, New Zealand, or Switzerland as many assume."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis refers to a social media phenomenon that emerged in the 2010s, built around a term that playfully inverts a traditional concept tied to religious and national migration. It began as a satirical online group highlighting frustrations with economic conditions, cost of living, and social pressures in a home country, encouraging people to instead relocate to a specific European city known for its affordability and vibrant culture. The movement gained significant media attention, sparking public debate about identity, belonging, and economic hardship, and was seen by some as a form of protest rather than a literal emigration campaign.",
+      "choices": [
+        "A viral hashtag campaign promoting return migration to rural hometowns",
+        "A satirical movement encouraging emigration to a European capital as a protest over living costs",
+        "An online forum for expatriates discussing citizenship requirements",
+        "A government-sponsored tourism initiative targeting young professionals"
+      ],
+      "hint": "It's not a tourism initiative and it's not focused on rural hometowns, this was an internet-driven movement with political undertones.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Olim L'Berlin",
+        "url": "https://en.wikipedia.org/wiki/Olim_L%27Berlin"
+      },
+      "explanation": "Olim L'Berlin was a satirical Facebook movement that encouraged Israelis to emigrate to Berlin, inverting the Hebrew term for immigration to Israel (Aliyah) as a form of protest against the high cost of living in Israel."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Disconnection (Scientology)\" describes a practice where followers are pressured to sever all ties with friends or family members who are deemed to be interfering with their relationship to the church. Critics and scholars studying high-control groups often note that this isn't unique to Scientology, pointing to a strikingly similar shunning practice used by another well-known religious group. Which group is it?",
+      "choices": [
+        "Seventh-day Adventists",
+        "Amish",
+        "Jehovah's Witnesses",
+        "Mormons (LDS)"
+      ],
+      "hint": "It's not the Amish or the Mormons (LDS) — both are known for insular communities but aren't the comparison drawn in the article.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Disconnection (Scientology)",
+        "url": "https://en.wikipedia.org/wiki/Disconnection_(Scientology)"
+      },
+      "explanation": "The article notes that Scientology's disconnection policy is frequently compared to the practice of shunning used by Jehovah's Witnesses against disfellowshipped or former members."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Miss Russian Army\" describes a pageant for female Russian soldiers that skips the swimsuit round but keeps a militarized skill test instead. What specific timed task do contestants have to complete during the competition?",
+      "choices": [
+        "Reciting the Russian national anthem",
+        "Performing a traditional folk dance",
+        "Disassembling and reassembling an AK-47 rifle",
+        "Completing a parachute jump"
+      ],
+      "hint": "It's not a performing arts routine, and it doesn't involve leaving the ground.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Miss Russian Army",
+        "url": "https://en.wikipedia.org/wiki/Miss_Russian_Army"
+      },
+      "explanation": "Contestants in the Miss Russian Army pageant are judged on military skills, including disassembling and reassembling an AK-47 rifle against the clock, alongside more traditional beauty pageant elements."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "This event occurred in a massively multiplayer online game when a debuff meant to affect only players in a specific high level area began spreading uncontrollably to the wider virtual world. Because the effect could be transmitted between characters and even by non player creatures and pets, it caused widespread in game deaths, particularly among lower level characters in major cities. The developers eventually had to intervene to stop the spread. The incident later drew interest from real world epidemiologists and public health researchers who saw it as a possible model for studying how diseases spread through populations and how people react during outbreaks.",
+      "choices": [
+        "A virtual plague event in an MMORPG",
+        "A server wide in game economic collapse in an MMORPG",
+        "A massive player organized protest within an online game",
+        "A coordinated hacking exploit in an online game economy"
+      ],
+      "hint": "The correct answer is not about a hacking exploit or a player organized protest.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Corrupted Blood incident",
+        "url": "https://en.wikipedia.org/wiki/Corrupted_Blood_incident"
+      },
+      "explanation": "The Corrupted Blood incident was a virtual plague that spread unexpectedly throughout World of Warcraft in 2005, causing widespread in game deaths and later being studied by epidemiologists as a model for real world disease outbreaks."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Lesbian vampire\" discusses examples of the genre, including Vampyros Lesbos and Daughters of Darkness, and notes that these films often deviate from traditional vampire lore in how the vampire feeds. Instead of sinking fangs into the usual spot, which body part do these vampires often bite?",
+      "choices": [
+        "Wrist",
+        "Shoulder",
+        "Breast",
+        "Ankle"
+      ],
+      "hint": "It's not the wrist or the ankle.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Lesbian vampire",
+        "url": "https://en.wikipedia.org/wiki/Lesbian_vampire"
+      },
+      "explanation": "The article notes that lesbian vampire films frequently replace the traditional neck bite with a bite to the breast, emphasizing the trope's eroticized imagery."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article 'List of chemical compounds with unusual names' catalogs odd compound names that arose either from their origins or from chemists with a sense of humor. One of these compounds, an anticoagulant with a whimsical name, is found in the saliva of which blood-feeding animal?",
+      "choices": [
+        "Leech",
+        "Vampire bat",
+        "Mosquito",
+        "Tick"
+      ],
+      "hint": "It's not the leech or the tick, both of which are also blood-feeders but aren't the source of this particular compound.",
+      "answerIndex": 1,
+      "article": {
+        "title": "List of chemical compounds with unusual names",
+        "url": "https://en.wikipedia.org/wiki/List_of_chemical_compounds_with_unusual_names"
+      },
+      "explanation": "The compound 'draculin' is an anticoagulant found in vampire bat saliva, named after Dracula due to its blood-related origin and function."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
