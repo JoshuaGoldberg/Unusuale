@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-26",
+  "title": "Puzzle No. 92",
+  "cards": [
+    {
+      "id": "card5",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 1.3,
+      "description": "Add a 1.3x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.6,
+      "description": "Skip the current question while still earning 0.6x the points"
+    },
+    {
+      "id": "card2",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    },
+    {
+      "id": "card3",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    },
+    {
+      "id": "card4",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about an extreme record involving the English language?",
+      "choices": [
+        "Longest palindrome in English",
+        "Most repeated letter in a single English word",
+        "Longest word in English",
+        "Longest sentence ever written in English"
+      ],
+      "answerIndex": 2,
+      "hint": "It's not about repeated letters or extremely long sentences, but something else tied to word length itself.",
+      "article": {
+        "title": "Longest word in English",
+        "url": "https://en.wikipedia.org/wiki/Longest_word_in_English"
+      },
+      "explanation": "The article explains that there is no single agreed-upon longest word in English, since the title depends on whether coined, technical, or chemical terms are allowed."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Arctic ground squirrel\" describes a rodent that survives brutal winters by supercooling its body during hibernation, keeping its blood and organs from actually freezing even though its core temperature dips into negative territory. What is the lowest body temperature ever recorded in this animal during hibernation?",
+      "choices": [
+        "-1°C",
+        "-2.9°C",
+        "-5°C",
+        "-10°C"
+      ],
+      "hint": "It's colder than -1°C, but not as extreme as -10°C.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Arctic ground squirrel",
+        "url": "https://en.wikipedia.org/wiki/Arctic_ground_squirrel"
+      },
+      "explanation": "Arctic ground squirrels can supercool their bodies to about -2.9°C during hibernation, the lowest body temperature ever recorded in a mammal, without their tissues actually freezing."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Barra Airport is an airport that only operates when the tide allows, since its runways are nothing more than a stretch of sand left uncovered twice a day. Before every landing, ground staff still have to get the beach ready for an incoming plane. What do they actually do to prepare the runway?",
+      "choices": [
+        "Paint temporary lines onto the sand",
+        "Lay down portable asphalt mats",
+        "Drag a tractor across the sand",
+        "Plant flags along the runway edges"
+      ],
+      "hint": "The method involves ordinary farm machinery, not paint or temporary paving materials.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Barra Airport",
+        "url": "https://en.wikipedia.org/wiki/Barra_Airport"
+      },
+      "explanation": "Staff drag a tractor across the beach to flatten the sand and leave tracks that mark out the runway for pilots, since the surface is simply exposed sand rather than a paved strip."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"AKB48 Group\" notes that the name refers both to a single idol group and to an entire sprawling franchise of affiliated units across Japan and Asia. It turns out the group's officially designated rival shares this same double identity, being both one specific idol group and the name of its own growing family of sister acts. Which group is this official rival?",
+      "choices": [
+        "SKE48",
+        "Hello! Project",
+        "Nogizaka46",
+        "Morning Musume"
+      ],
+      "hint": "It's not Hello! Project, which is a separate idol conglomerate with its own history, or SKE48, which is actually one of AKB48's own sister groups rather than a rival.",
+      "answerIndex": 2,
+      "article": {
+        "title": "AKB48 Group",
+        "url": "https://en.wikipedia.org/wiki/AKB48_Group"
+      },
+      "explanation": "Nogizaka46 was created in 2011 by producer Yasushi Akimoto as the official rival to AKB48. Like AKB48, it grew beyond a single group into a franchise, spawning sister units such as Keyakizaka46 (now Sakurazaka46) and Hinatazaka46."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Whipping boy\" describes a historical practice where a boy received corporal punishment for the misdeeds of a young royal, while also sharing in some of that royal's privileges. One such boy grew into a close, trusted friend and companion of the ruler he had once been punished for, even carrying out diplomatic errands for him later in life. Which young monarch did this particular whipping boy grow up alongside and later serve?",
+      "choices": [
+        "Louis XIV of France",
+        "Edward VI of England",
+        "James I of Scotland",
+        "Charles I of England"
+      ],
+      "hint": "Eliminate the French king and the Scottish king; the answer is one of the two English monarchs listed.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Whipping boy",
+        "url": "https://en.wikipedia.org/wiki/Whipping_boy"
+      },
+      "explanation": "Barnaby Fitzpatrick served as the whipping boy for King Edward VI of England, and the two grew close, with Fitzpatrick later undertaking diplomatic missions for the king."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"List of people imprisoned for editing Wikipedia\" documents real cases of people jailed over their edits to the site, yes, this has actually happened. One especially unsettling case involved two volunteer Wikipedia administrators who were themselves accused of secretly acting as intelligence assets for a foreign government, allegedly using their access to help unmask anonymous editors who were later arrested and imprisoned. Which country's government were these administrators accused of working for?",
+      "choices": [
+        "China",
+        "Russia",
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "hint": "It wasn't China or Russia - it's a Middle Eastern country known for strict controls on online speech.",
+      "answerIndex": 2,
+      "article": {
+        "title": "List of people imprisoned for editing Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_people_imprisoned_for_editing_Wikipedia"
+      },
+      "explanation": "Two Wikipedia administrators were revealed to have allegedly acted as Saudi intelligence operatives, using their administrative access to help identify anonymous Arabic Wikipedia editors critical of the Saudi government, some of whom were subsequently arrested and imprisoned."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "During a tense postseason baseball game in the 1990s, a young fan sitting in the stands reached over the outfield wall and interfered with a ball in play. An umpire ruled the play in favor of the batting team despite the interference, sparking major controversy and complaints from the opposing team's management. The call stood, and the team that benefited went on to win the game and eventually the series. The young fan briefly became a celebrity, appearing on talk shows and receiving public praise from local officials, while the incident remains a famous moment of fan interference in professional sports history.",
+      "choices": [
+        "The Pine Tar Incident",
+        "The Bartman Incident",
+        "The Jeffrey Maier Incident",
+        "The Ten Cent Beer Night Incident"
+      ],
+      "hint": "It is not the incident involving a sticky bat substance, and it is not the one involving cheap beer promotions gone wrong.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Jeffrey Maier incident",
+        "url": "https://en.wikipedia.org/wiki/Jeffrey_Maier_incident"
+      },
+      "explanation": "The article describes the 1996 ALCS incident where 12-year-old Jeffrey Maier reached over the right-field wall at Yankee Stadium and caught a ball hit by Derek Jeter, which umpire Rich Garcia ruled a home run despite fan interference, helping the Yankees win the game and series."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "This 19th century American man owned a property that became the site of an early major battle in a prolonged conflict, after which he relocated his family to a different town to escape further fighting. Years later, the conflict he had tried to avoid effectively concluded inside the parlor of his new home, when opposing commanders met there to formalize its end. As a result, he is remembered for a peculiar claim to historical significance tied to both the beginning and the end of the same conflict.",
+      "choices": [
+        "A merchant who owned the warehouse where the first shots of a revolution were fired",
+        "A farmer whose properties bookended the start and finish of a civil war",
+        "A sea captain whose ship was present at both the first and last naval battles of a conflict",
+        "A judge who presided over the opening and closing trials of a political movement"
+      ],
+      "hint": "The correct answer does not involve a legal institution or a trade-related building; think about ownership tied to land or vessels instead.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Wilmer McLean",
+        "url": "https://en.wikipedia.org/wiki/Wilmer_McLean"
+      },
+      "explanation": "Wilmer McLean's farm near Manassas, Virginia was the site of the First Battle of Bull Run. He later moved to Appomattox Court House to escape the war, only for General Lee's surrender to Grant to take place in his parlor, effectively ending the Civil War. He is famously said to have seen the war begin in his front yard and end in his front parlor."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Jackie (dog)\" describes a Dalmatian whose owner trained him in the 1930s to raise a paw in a gesture mocking a political salute, years before a similar stunt made headlines involving Count Dankula. What happened as a direct result of Jackie's trick, according to the article?",
+      "choices": [
+        "Jackie was awarded a medal by the RSPCA",
+        "The circus troupe moved to another country",
+        "The German Embassy filed an official complaint",
+        "The dog was banned from a BBC broadcast"
+      ],
+      "hint": "It wasn't related to animal welfare recognition or broadcasting restrictions, it involved tension between two governments.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Jackie (dog)",
+        "url": "https://en.wikipedia.org/wiki/Jackie_(dog)"
+      },
+      "explanation": "The article notes that the German Embassy in London lodged a formal complaint over Jackie's salute trick, viewing it as an insult to Hitler."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Ulam Spiral\" describes how mathematician Stanisław Ulam stumbled onto a striking numerical pattern while idly sketching numbers during a tedious scientific meeting in 1963. What type of numbers did Ulam notice clustering along diagonal lines in his doodle?",
+      "choices": [
+        "Perfect squares",
+        "Prime numbers",
+        "Fibonacci numbers",
+        "Triangular numbers"
+      ],
+      "hint": "It's not a sequence built by adding previous terms, and it's not numbers formed by multiplying a number by itself.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Ulam spiral",
+        "url": "https://en.wikipedia.org/wiki/Ulam_spiral"
+      },
+      "explanation": "Ulam noticed that when natural numbers are arranged in a spiral, prime numbers unexpectedly align along diagonal lines, a pattern later confirmed with computer visualizations."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
