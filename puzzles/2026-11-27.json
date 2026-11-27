@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-27",
+  "title": "Puzzle No. 93",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 3.1,
+      "description": "Add a 3.1x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.4,
+      "description": "Skip the current question while still earning 0.4x the points"
+    },
+    {
+      "id": "card1",
+      "gain": 950,
+      "loss": 1050,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 950 additional points on a correct answer but lose 1050 on an incorrect one."
+    },
+    {
+      "id": "card2",
+      "type": "hint",
+      "name": "Fact Check",
+      "description": "Reveal the hint to the current question without any penalty."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Fakemon\" covers fan-made creatures designed in the style of Pokémon. One fan game built around original fakemon designs became an internet sensation, racking up an enormous number of downloads in just its first week before Nintendo stepped in with a legal takedown. About how many downloads did it reach in that first week?",
+      "choices": [
+        "100,000",
+        "3 million",
+        "500,000",
+        "1.5 million"
+      ],
+      "hint": "It's not the smallest number listed, and it's not the largest number listed either.",
+      "answerIndex": 3,
+      "article": {
+        "title": "Fakemon",
+        "url": "https://en.wikipedia.org/wiki/Fakemon"
+      },
+      "explanation": "The fan game Pokémon Uranium, featuring original fakemon creatures, was downloaded around 1.5 million times in its first week before Nintendo issued a cease and desist."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "prompt": "This communication system arose spontaneously within a community of deaf individuals who, before interacting with one another, had no exposure to any established language. Over successive generations of its young users, it developed increasingly complex grammatical structures, becoming a landmark case study for linguists exploring how languages can emerge without being passed down from an older one. Researchers have cited it as key evidence in debates about innate human capacities for language creation.",
+      "choices": [
+        "Al-Sayyid Bedouin Sign Language",
+        "Yucatec Maya Sign Language",
+        "Nicaraguan Sign Language",
+        "Martha's Vineyard Sign Language"
+      ],
+      "hint": "The correct answer is not the Bedouin village sign language that developed in the Middle East, nor the sign language that arose within a small, isolated hereditary deaf community on an island.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Nicaraguan Sign Language",
+        "url": "https://en.wikipedia.org/wiki/Nicaraguan_Sign_Language"
+      },
+      "explanation": "The article describes Nicaraguan Sign Language, which emerged spontaneously in the late 1970s and 1980s among deaf children at schools in Nicaragua, becoming a famous example of language genesis studied by linguists."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "Which of the following describes a real unusual YouTube video series in which a person holds a simple pose on camera for hours, slowly unraveling as time drags on?",
+      "choices": [
+        "Standing and Humming",
+        "Sitting and Smiling",
+        "Kneeling and Whistling",
+        "Staring and Laughing"
+      ],
+      "answerIndex": 1,
+      "hint": "The real series is centered on a seated position, so you can rule out the options that involve standing or kneeling.",
+      "article": {
+        "title": "Sitting and Smiling",
+        "url": "https://en.wikipedia.org/wiki/Sitting_and_Smiling"
+      },
+      "explanation": "The article describes a YouTube series in which a man sits and smiles for four hours, documenting his gradual descent into madness."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a common bodily habit? How disgusting!",
+      "choices": [
+        "Toe tapping",
+        "Nose picking",
+        "Earlobe tugging",
+        "Elbow licking"
+      ],
+      "answerIndex": 1,
+      "hint": "It's not about tapping your foot or tugging on your ear.",
+      "article": {
+        "title": "Nose picking",
+        "url": "https://en.wikipedia.org/wiki/Nose_picking"
+      },
+      "explanation": "Nose picking, also called rhinotillexis, is the act of extracting dried nasal mucus using one's finger."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which of the following is a real unusual Wikipedia article about a pair of sisters known for an extraordinary physical condition?",
+      "choices": [
+        "Lucy and Clara Hendrickson",
+        "Abby and Brittany Hensel",
+        "Tanya and Tara Whitfield",
+        "Ellen and Grace Sutton"
+      ],
+      "answerIndex": 1,
+      "hint": "The real article is not about the Hendrickson sisters or the Sutton sisters, who are both entirely fictional names.",
+      "article": {
+        "title": "Abby and Brittany Hensel",
+        "url": "https://en.wikipedia.org/wiki/Abby_and_Brittany_Hensel"
+      },
+      "explanation": "Abby and Brittany Hensel are American conjoined twins who have separate heads but share one body."
+    },
+    {
+      "id": "q6",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThe Wikipedia article describes a national park famous for its vast field of tall, white sand dunes that stretch for miles along a coastline. Despite looking like a desert, seasonal rains collect between the dunes to form thousands of clear, often turquoise lagoons that are at their fullest and most scenic for several months each year. The park has become a popular destination for visitors who come specifically to swim in these temporary pools before they dry up later in the year.",
+      "answer": "South America",
+      "hint": "This landscape is not found in Europe, Asia, or Antarctica.",
+      "article": {
+        "title": "Lençóis Maranhenses National Park",
+        "url": "https://en.wikipedia.org/wiki/Len%C3%A7%C3%B3is_Maranhenses_National_Park"
+      },
+      "explanation": "Lençóis Maranhenses National Park is located in Maranhão, Brazil, on the South American continent."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "In the early 2000s, several restaurant chains and a government cafeteria in the United States temporarily renamed a popular side dish made from potatoes as a form of political protest against a European ally's opposition to a military conflict. The renaming became a widely cited symbol of a broader wave of nationalistic sentiment at the time, though the original name was eventually restored a few years later.",
+      "choices": [
+        "Liberty cabbage",
+        "Victory sandwiches",
+        "Freedom fries",
+        "Patriot toast"
+      ],
+      "hint": "The term did not involve sandwiches, and it was not coined during World War I era patriotic renamings.",
+      "answerIndex": 2,
+      "article": {
+        "title": "Freedom fries",
+        "url": "https://en.wikipedia.org/wiki/Freedom_fries"
+      },
+      "explanation": "The article describes 'Freedom fries,' the renaming of french fries by some U.S. restaurants and the House of Representatives cafeteria in 2003 as a protest against France's opposition to the Iraq War."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "Dr. Octagonecologyst, a 1996 hip-hop album by Dr. Octagon, is about a homicidal, time-traveling alien surgeon with a bizarre medical specialty, narrated through surreal skits and horrorcore lyrics. Its iconic skull-and-scalpel cover art was designed by a well-known illustrator. Who created the cover art?",
+      "choices": [
+        "Shepard Fairey",
+        "Art Chantry",
+        "Pushead",
+        "Jim Phillips"
+      ],
+      "hint": "It's not Shepard Fairey (known for the Obey Giant/Obama 'Hope' poster) or Jim Phillips (famous for Santa Cruz Skateboards' screaming hand logo).",
+      "answerIndex": 2,
+      "article": {
+        "title": "Dr. Octagonecologyst",
+        "url": "https://en.wikipedia.org/wiki/Dr._Octagonecologyst"
+      },
+      "explanation": "The album's distinctive cover art was created by Pushead (Brian Schroeder), an artist well known for his skateboard graphics and work with bands such as Metallica."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Described as a gold mine of strangeness, which of these real Wikipedia lists sets the record straight on a wide range of popular but false ideas, from science to history?",
+      "choices": [
+        "List of urban legends",
+        "List of popular folk myths",
+        "List of common misconceptions",
+        "List of debunked old wives' tales"
+      ],
+      "answerIndex": 2,
+      "hint": "It isn't the list focused on unverified stories passed down through generations, nor the one centered on traditional sayings about health and daily life.",
+      "article": {
+        "title": "List of common misconceptions",
+        "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+      },
+      "explanation": "This Wikipedia article compiles and corrects widely believed but false ideas spanning science, history, law, and everyday life."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"1876 United States presidential election\" describes the most razor-thin presidential contest in American history, one so close that a special commission had to settle disputed results from several states just before inauguration day. In the end, by how many electoral votes did the winning candidate prevail?",
+      "choices": [
+        "1",
+        "3",
+        "5",
+        "10"
+      ],
+      "hint": "The margin was nowhere near as wide as 5 or 10 electoral votes, so the true answer is one of the two smallest options listed.",
+      "answerIndex": 0,
+      "article": {
+        "title": "1876 United States presidential election",
+        "url": "https://en.wikipedia.org/wiki/1876_United_States_presidential_election"
+      },
+      "explanation": "Rutherford B. Hayes won the Electoral College by a single vote, 185 to 184, after the disputed returns were awarded to him by the Electoral Commission."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
