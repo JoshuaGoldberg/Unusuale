@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-28",
+  "title": "Puzzle No. 94",
+  "cards": [
+    {
+      "id": "card3",
+      "type": "multiplier",
+      "name": "Featured Article",
+      "multiplier": 1.9,
+      "description": "Add a 1.9x multiplier to the number of points earned for this question."
+    },
+    {
+      "id": "card1",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 0.3,
+      "description": "Skip the current question while still earning 0.3x the points"
+    },
+    {
+      "id": "card4",
+      "type": "skip",
+      "name": "Citation Needed",
+      "multiplier": 1,
+      "description": "Skip the current question while still earning 1x the points"
+    },
+    {
+      "id": "card2",
+      "gain": 750,
+      "loss": 250,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 750 additional points on a correct answer but lose 250 on an incorrect one."
+    },
+    {
+      "id": "card5",
+      "gain": 700,
+      "loss": 800,
+      "type": "wager",
+      "name": "Good Article",
+      "description": "Earn 700 additional points on a correct answer but lose 800 on an incorrect one."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis article discusses a congealed mass that forms in urban sewer systems when cooking oil, grease, and non-biodegradable items like wet wipes and diapers combine and solidify over time. These masses can grow to enormous sizes, sometimes weighing many tons and stretching the length of several football fields, causing severe blockages that require specialized crews to remove. One particularly large example found beneath a major city gained international media attention, and a piece of it was later put on public display in a museum exhibit.",
+      "choices": [
+        "Greaseberg",
+        "Fatberg",
+        "Slimeberg",
+        "Muckberg"
+      ],
+      "hint": "The correct term does not refer to general waste sludge or decomposing muck, but specifically to a substance linked to cooking residue.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Fatberg",
+        "url": "https://en.wikipedia.org/wiki/Fatberg"
+      },
+      "explanation": "A fatberg is a mass formed in sewer systems from congealed fat combined with non-biodegradable solid waste such as wet wipes and diapers. The famous 2017 Whitechapel fatberg in London weighed around 130 tonnes, and a portion of it was displayed at the Museum of London."
+    },
+    {
+      "id": "q2",
+      "type": "continent",
+      "prompt": "Where is the topic of this unusual article located?\n\nThis article covers a small farming village situated inside a heavily fortified buffer strip that separates two rival nations. Residents are granted unusual privileges, such as exemption from certain taxes and military service, but must observe strict curfews and population caps to maintain their special status. The village maintains a population through residency requirements tied to ancestry, and it is often cited as an example of civilian life persisting in an active conflict zone.",
+      "answer": "Asia",
+      "hint": "This place is not in Africa, Europe, or the Americas.",
+      "article": {
+        "title": "Daeseong-dong",
+        "url": "https://en.wikipedia.org/wiki/Daeseong-dong"
+      },
+      "explanation": "Daeseong-dong is a village located within the Korean Demilitarized Zone, which lies between North and South Korea on the Korean Peninsula in Asia."
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Brites de Almeida\" describes a legendary Portuguese heroine said to have had twelve fingers and to have baked a band of hiding Castilian soldiers inside her oven during the fight for Portuguese independence. According to the legend, how many soldiers did she dispatch with her baker's shovel in this famous episode?",
+      "choices": [
+        "Three",
+        "Seven",
+        "Five",
+        "Ten"
+      ],
+      "hint": "The number is odd, and it is neither the smallest nor the largest option listed.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Brites de Almeida",
+        "url": "https://en.wikipedia.org/wiki/Brites_de_Almeida"
+      },
+      "explanation": "Legend holds that Brites de Almeida, the 'Padeira de Aljubarrota,' killed seven Castilian soldiers who were hiding in her oven, using her baker's shovel."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nConstruction on this urban rail transit system began in the early 1990s in a mid-sized regional city. Despite decades of work and significant investment, the project stalled due to funding shortages following political and economic upheaval. Remarkably, one station was fully built and finished, complete with platforms and decor, yet the system never opened to carry a single paying passenger. The incomplete project remains a notable example of ambitious infrastructure left unfinished.",
+      "choices": [
+        "Omsk Metro",
+        "Kharkiv Metro",
+        "Volgograd Metrotram",
+        "Yerevan Metro"
+      ],
+      "hint": "Eliminate the two networks that are major, fully operational metro systems in Ukraine and Armenia.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Omsk Metro",
+        "url": "https://en.wikipedia.org/wiki/Omsk_Metro"
+      },
+      "explanation": "The Omsk Metro in Russia began construction in 1992 but was never completed due to lack of funding. One station, Bibliotechnaya, was fully built but never opened to the public, making the system a famous example of unfinished infrastructure."
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "prompt": "Which unusual article does the following describe?\n\nThis is a small commemorative marker that was secretly installed in a major U.S. city without official permission, honoring a person who supposedly died in a car accident there in the late 1920s. The text contained several playful clues suggesting the whole thing was fabricated, yet city officials failed to notice for years. When the hoax was finally discovered, authorities debated removing it but ultimately decided to let it stay because of the public affection it had gained.",
+      "choices": [
+        "Captain Jeremiah Blackwood marker",
+        "Fr. Pat Noise plaque",
+        "Elmwood Founders plaque",
+        "Widow's Watch memorial plaque"
+      ],
+      "hint": "The hoax is not about a ship's captain or a group of town founders.",
+      "answerIndex": 1,
+      "article": {
+        "title": "Fr. Pat Noise plaque",
+        "url": "https://en.wikipedia.org/wiki/Fr._Pat_Noise_plaque"
+      },
+      "explanation": "The Fr. Pat Noise plaque is a hoax historical marker installed near Dealey Plaza in Dallas, Texas, commemorating a fictional Irish priest said to have died in a 1929 car crash. It went unnoticed as a fake for years and, once discovered, the city chose to keep it due to its popularity."
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Werner Goldberg\" describes how Goldberg's face appeared on a German military recruitment poster that hailed him as the perfect example of a soldier, even though his family background made this propaganda use deeply ironic. What was true about his father?",
+      "choices": [
+        "He was a Jewish man",
+        "He was a Romani man",
+        "He was a practicing Protestant pastor",
+        "He was an ethnic Russian immigrant"
+      ],
+      "hint": "The irony relates to religion, not nationality or Christian denomination.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Werner Goldberg",
+        "url": "https://en.wikipedia.org/wiki/Werner_Goldberg"
+      },
+      "explanation": "Werner Goldberg was featured in Nazi propaganda as 'the ideal German soldier,' despite having a Jewish father, making him one of several individuals ironically used as Aryan icons while being partially Jewish themselves."
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Anchorage White Raven\" describes a pale-feathered bird in Alaska famous for snacking on fast food scraps, squabbling with other birds over frozen treats, and even pulling apart streetlight fixtures. According to the article, how did this local celebrity bird ultimately meet its end?",
+      "choices": [
+        "It was struck and killed by a vehicle",
+        "It was captured and relocated to a wildlife sanctuary",
+        "It died of natural causes in old age",
+        "It was shot by a local hunter"
+      ],
+      "hint": "It was not taken into captivity, and it did not simply pass away from age alone.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Anchorage White Raven",
+        "url": "https://en.wikipedia.org/wiki/Anchorage_White_Raven"
+      },
+      "explanation": "The raven, known for its unusual leucistic coloring and quirky food-stealing antics around Anchorage, was eventually killed after being struck by a vehicle."
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "prompt": "One of these Japanese islands is famous for having a feline population that vastly outnumbers its human residents, making it one of several so-called 'cat islands' scattered across the country (alongside the better known Tashirojima). Which island is it?",
+      "choices": [
+        "Taketomi, Okinawa",
+        "Aoshima, Ehime",
+        "Kashiwazaki, Niigata",
+        "Shishijima, Yamaguchi"
+      ],
+      "answerIndex": 1,
+      "hint": "It is not located in Okinawa or Niigata.",
+      "article": {
+        "title": "Aoshima, Ehime",
+        "url": "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
+      },
+      "explanation": "Aoshima is a small Japanese island in Ehime Prefecture known for its large population of stray cats that vastly outnumber its human inhabitants."
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "prompt": "Sometimes a song written with one political message ends up adored by the very people it was aimed against. Which of the following is a real Wikipedia article title describing such an unexpected musical turn?",
+      "choices": [
+        "Startle Spain's Stability",
+        "Rattle Russia's Resolve",
+        "Shock Israel's Security",
+        "Scare France's Safety"
+      ],
+      "answerIndex": 2,
+      "hint": "The real article has nothing to do with Spain or Russia, so you can rule those two out right away.",
+      "article": {
+        "title": "Shock Israel's Security",
+        "url": "https://en.wikipedia.org/wiki/Shock_Israel%27s_Security"
+      },
+      "explanation": "A song originally created in support of Hamas unexpectedly became a popular hit among Israeli audiences."
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "prompt": "The Wikipedia article \"Jerusalem syndrome\" describes a psychiatric phenomenon where visitors to the city become consumed by religious delusions. For some people, a visit there is just too much, and sufferers have been known to grab an item from their hotel room and fashion it into a toga-like robe to look like a biblical figure. What item do they typically use for this makeshift costume?",
+      "choices": [
+        "Bedsheets",
+        "Window curtains",
+        "Bath towels",
+        "Pillowcases"
+      ],
+      "hint": "It's a large piece of white fabric, not something small like a pillowcase or hung on a window like a curtain.",
+      "answerIndex": 0,
+      "article": {
+        "title": "Jerusalem syndrome",
+        "url": "https://en.wikipedia.org/wiki/Jerusalem_syndrome"
+      },
+      "explanation": "Sufferers of Jerusalem syndrome often tear hotel bedsheets to create white, toga-like robes as part of their delusion of being a biblical figure."
+    }
+  ],
+  "_debug": {
+    "totalInputItems": 10,
+    "successfullyParsed": 10,
+    "failedCount": 0,
+    "fallbackCount": 0,
+    "fallbackIds": []
+  }
+}
